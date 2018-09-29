@@ -101,7 +101,10 @@ zone4 = Front Living room windows
 
 ## Add virtual devices to App
 1.  From the SmartThings App, go to  **Marketplace -> SmartApps -> My Apps -> ST_Anything DSC Alarm Multiplexer** 
-2. Pick a zone1 (For the next sen3. Select the 
+2. Pick a `Zone 1` (For the next sensor pick `Zone 2` etc..
+3. Select the `1st Floor Doors`
+4. For all other zones select the `Arduino ThingShield`
+   *all zo
 Continue [here](http://www.kendrickcoleman.com/index.php/Tech-Blog/total-noob-guide-to-move-your-old-wired-security-system-to-smartthings.html)
 # Need to 
 Create virtual devices for each 
@@ -110,8 +113,8 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODQxMTkzMywxMDM4NTY3MTI0LDI4NT
-A1NjUxNSwtMTIyNjk4MTc1NywxMTM4NTE5NzgxLC0xMjU4NDg0
-MzUxLC05NzMzNDgxMTAsMTczODc3Mjc2MCwtMTg1ODM2NTAxOF
-19
+eyJoaXN0b3J5IjpbNzgxNzkzMTAwLDEwMzg1NjcxMjQsMjg1MD
+U2NTE1LC0xMjI2OTgxNzU3LDExMzg1MTk3ODEsLTEyNTg0ODQz
+NTEsLTk3MzM0ODExMCwxNzM4NzcyNzYwLC0xODU4MzY1MDE4XX
+0=
 -->
