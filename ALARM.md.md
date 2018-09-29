@@ -60,6 +60,7 @@ Table
 pirzone3 = Upstairs PIR
 pirzone2 = Downstairs PIR
 zone5 = Front bedroom windows
+zone4 = Front Living room windows
 
 # Setup the multiplexer (Breaks out the sensors under the shield into separate virtual ones)
 1. In the API
@@ -102,7 +103,7 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjgxMjk0OCwtMTIyNjk4MTc1NywxMT
-M4NTE5NzgxLC0xMjU4NDg0MzUxLC05NzMzNDgxMTAsMTczODc3
-Mjc2MCwtMTg1ODM2NTAxOF19
+eyJoaXN0b3J5IjpbMjg1MDU2NTE1LC0xMjI2OTgxNzU3LDExMz
+g1MTk3ODEsLTEyNTg0ODQzNTEsLTk3MzM0ODExMCwxNzM4Nzcy
+NzYwLC0xODU4MzY1MDE4XX0=
 -->
