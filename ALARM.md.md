@@ -50,11 +50,13 @@
 1. Re-login to app on phone
 1. Click on the "Arduino ThingShield" thing
    You should now see a bunch of tiles
+   *try a couple of doors/windows/pir sensors*
+   If all the tiles say open/motion you probably 
 1. Serial Monitor in Arduino should say joined now
 # Verify that everything is working
 1. Open up the Arduino serial monitor
    You should see a bunch of "Sending" events.  If not check the jumpers from 2/3 to 14/15
-2. Every even corresponds to a switch or montion sensor
+2. Every even corresponds to a switch or motion sensor
 
 Table
 pirzone3 = Upstairs PIR
@@ -104,7 +106,7 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5MjM1NTIwLDI4NTA1NjUxNSwtMTIyNj
-k4MTc1NywxMTM4NTE5NzgxLC0xMjU4NDg0MzUxLC05NzMzNDgx
-MTAsMTczODc3Mjc2MCwtMTg1ODM2NTAxOF19
+eyJoaXN0b3J5IjpbLTI3ODc2MTE0MSwyODUwNTY1MTUsLTEyMj
+Y5ODE3NTcsMTEzODUxOTc4MSwtMTI1ODQ4NDM1MSwtOTczMzQ4
+MTEwLDE3Mzg3NzI3NjAsLTE4NTgzNjUwMThdfQ==
 -->
