@@ -82,7 +82,11 @@
 1. got to `my devices` in the api
 2. Click on new device
 3. Give it a unique name (Front Door etc...)
-4. Give it a random but unique
+4. Give it a random but unique device id
+5. "Type*" to "Virtual Contact Sensor"
+6. . Set "Location" to main house
+7. Set Hub to "main hub"
+8.  to your local hub and click on **Create**. Do this for each device! If you have 13 devices, then make 13.
 Continue [here](http://www.kendrickcoleman.com/index.php/Tech-Blog/total-noob-guide-to-move-your-old-wired-security-system-to-smartthings.html)
 # Need to 
 Create virtual devices for each 
@@ -91,7 +95,7 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2OTcyMTM1LDExMzg1MTk3ODEsLTEyNT
-g0ODQzNTEsLTk3MzM0ODExMCwxNzM4NzcyNzYwLC0xODU4MzY1
-MDE4XX0=
+eyJoaXN0b3J5IjpbLTM4MTQ0NTkxMywxMTM4NTE5NzgxLC0xMj
+U4NDg0MzUxLC05NzMzNDgxMTAsMTczODc3Mjc2MCwtMTg1ODM2
+NTAxOF19
 -->
