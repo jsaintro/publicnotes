@@ -57,7 +57,8 @@
 2. Every even corresponds to a switch or montion sensor
 
 Table
-pirzone3
+pirzone3 = Upstairs PIR
+pirzone2 = Downstairs PIR
 
 # Setup the multiplexer (Breaks out the sensors under the shield into separate virtual ones)
 1. In the API
@@ -100,7 +101,7 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjMwOTY4OTYsLTEyMjY5ODE3NTcsMT
-EzODUxOTc4MSwtMTI1ODQ4NDM1MSwtOTczMzQ4MTEwLDE3Mzg3
-NzI3NjAsLTE4NTgzNjUwMThdfQ==
+eyJoaXN0b3J5IjpbMTY4NzM3ODg0MCwtMTIyNjk4MTc1NywxMT
+M4NTE5NzgxLC0xMjU4NDg0MzUxLC05NzMzNDgxMTAsMTczODc3
+Mjc2MCwtMTg1ODM2NTAxOF19
 -->
