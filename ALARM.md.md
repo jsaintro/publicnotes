@@ -37,18 +37,18 @@
 1. Click on "My Device Handlers"
 1. Click on "+ New Device Handler"
 1. Select "From Code" Tab
-1. Paste code from Groovy/ST_Anything_DSC_Alarm.groovy file in the repo
+1. Paste code from Groovy/ST_Anything_DSC_Alarm.device.groovy file in the repo
 1. Click on "Create"
 1. Click on "Save"
-1. Click on "Publich" -> "For Me"
+1. Click on "Public" -> "For Me"
 1. Click on "My Devices"
 1. Select your "Arduino ThingShield"
 1. Click on Edit 
-1. Change type to "St_Anything"
+1. Change type to "St_Anything_"
    Note: It's at the bottom of the list
 1. Click on Update button
 1. Relogin to app on phone
-1. Click on the "Arduino thingShield" thing
+1. Click on the "Arduino ThingShield" thing
    You should now see a bunch of tiles
 
 # Verify that everything is working
@@ -88,6 +88,6 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM1NDI4MzQsLTk3MzM0ODExMCwxNz
-M4NzcyNzYwLC0xODU4MzY1MDE4XX0=
+eyJoaXN0b3J5IjpbMzk5NjU2NDExLC05NzMzNDgxMTAsMTczOD
+c3Mjc2MCwtMTg1ODM2NTAxOF19
 -->
