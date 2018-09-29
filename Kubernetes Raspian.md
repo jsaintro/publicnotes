@@ -1,5 +1,3 @@
-# HERE
-
 ## Steps for All Nodes
 1.  Install Latest release of Docker
 
@@ -163,5 +161,5 @@ raspberrypi-13   Ready     <none>    22h       v1.10.5
 raspberrypi-7    Ready     master    23h       v1.10.5  
 raspberrypi-8    Ready     <none>    23h       v1.9.1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDQyOTIyN119
+eyJoaXN0b3J5IjpbLTczMTc5NjUyLDE0NzA0MjkyMjddfQ==
 -->
