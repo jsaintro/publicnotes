@@ -52,7 +52,7 @@
    You should now see a bunch of tiles
 
 # Verify that everything is working
-1. Open up the arduino serial monitor
+1. Open up the Arduino serial monitor
    You should see a bunch of "Sending" events.  If not check the jumpers from 2/3 to 14/15
 
 # Setup the multiplexer (Breaks out the sensors under the shield into separate virtual ones)
@@ -88,6 +88,6 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTYxNDMxNDQsLTEyNTg0ODQzNTEsLT
-k3MzM0ODExMCwxNzM4NzcyNzYwLC0xODU4MzY1MDE4XX0=
+eyJoaXN0b3J5IjpbLTE2OTIwMTk5MiwtMTI1ODQ4NDM1MSwtOT
+czMzQ4MTEwLDE3Mzg3NzI3NjAsLTE4NTgzNjUwMThdfQ==
 -->
