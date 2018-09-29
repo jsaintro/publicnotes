@@ -17,14 +17,15 @@
 
 2. Copy the Sketches and Libraries folders from the project in the Arduino directory
 
-3. Open the Arduino App and load the ST_Anything Sketch
-   Arduino/Sketches/ST_Anything_Doors_Windows/ST_Anything_Doors_Windows.ino
-4. complile the sketch
+3. Open the Arduino App and load the ST_Anything_DSC_Alarm Sketch
+
+        Arduino/Sketches/ST_Anything_DSC_Alarm/ST_Anything_DSC_Alarm.ino
+5. Compile the sketch
    (The check icon)
-5. Upload the compiled sketch to the arduino
+6. Upload the compiled sketch to the arduino
 
 # Pairing smartthings shield with hub
-1. Power on the arduion with sheild attached
+1. Power on the rduion with sheild attached
 1. In the App go into pairing mode looking for a device
 1. Hit the "switch" button on the St sheild
 1. Should pair as an Arduion ThingSheild
@@ -86,6 +87,5 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjc1ODUzMzYsLTE4NTgzNjUwMThdfQ
-==
+eyJoaXN0b3J5IjpbMjA0MjY2NTYwNiwtMTg1ODM2NTAxOF19
 -->
