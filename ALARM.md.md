@@ -93,11 +93,13 @@ zone4 = Front Living room windows
 2. Click on new device
 3. Give it a unique name (Front Door etc...)
 4. Give it a random but unique device id
-5. "Type*" to "Virtual Contact Sensor"
+5. "Type*" to "Virtual Contact Sensor" for the switches and Virtual PIM Sensor for the motion detectors
 6. . Set "Location" to Main House
 7. Set Hub to "Main House Hub"
 8.  click on **Create**
-9. . Do this for each device! If you have 13 devices, then make 13.
+9. Do this for each device! See above table for which and how many
+
+## Add vi 
 Continue [here](http://www.kendrickcoleman.com/index.php/Tech-Blog/total-noob-guide-to-move-your-old-wired-security-system-to-smartthings.html)
 # Need to 
 Create virtual devices for each 
@@ -106,7 +108,8 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODU2NzEyNCwyODUwNTY1MTUsLTEyMj
-Y5ODE3NTcsMTEzODUxOTc4MSwtMTI1ODQ4NDM1MSwtOTczMzQ4
-MTEwLDE3Mzg3NzI3NjAsLTE4NTgzNjUwMThdfQ==
+eyJoaXN0b3J5IjpbODUzOTQ1MjcsMTAzODU2NzEyNCwyODUwNT
+Y1MTUsLTEyMjY5ODE3NTcsMTEzODUxOTc4MSwtMTI1ODQ4NDM1
+MSwtOTczMzQ4MTEwLDE3Mzg3NzI3NjAsLTE4NTgzNjUwMThdfQ
+==
 -->
