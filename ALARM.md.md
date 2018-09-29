@@ -22,13 +22,15 @@
         Arduino/Sketches/ST_Anything_DSC_Alarm/ST_Anything_DSC_Alarm.ino
 5. Compile the sketch
    (The check icon)
-6. Upload the compiled sketch to the arduino
+6. Upload the compiled sketch to the Arduino
 
-# Pairing smartthings shield with hub
+# Pairing SmartThings shield with hub
 1. Power on the Arduino with shield attached
-1. In the App go into pairing mode looking for a device
-1. Hit the "switch" button on the shield
-1. Should pair as an Arduion ThingSheild
+2. Put it into pairing mode (If it's been paired before)
+    Hold the `switch` button for 6 seconds (Red light should come on)
+4. In the App go into pairing mode looking for a device
+5. Hit the "switch" button on the shield
+6. Should pair as an Arduion ThingSheild
 
 # Setup the Device Handler
 1. Login to the smarthings api
@@ -87,5 +89,6 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODc3Mjc2MCwtMTg1ODM2NTAxOF19
+eyJoaXN0b3J5IjpbLTEwOTA1OTUxOTYsMTczODc3Mjc2MCwtMT
+g1ODM2NTAxOF19
 -->
