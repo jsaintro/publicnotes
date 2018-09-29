@@ -105,6 +105,7 @@ zone4 = Front Living room windows
 3. Select the `1st Floor Doors`
 4. For all other zones select the `Arduino ThingShield`
    *all zones have to be set to something*
+ 5. For the device select "Arduino ThingShield`
 Continue [here](http://www.kendrickcoleman.com/index.php/Tech-Blog/total-noob-guide-to-move-your-old-wired-security-system-to-smartthings.html)
 # Need to 
 Create virtual devices for each 
@@ -113,8 +114,8 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzNjgxMTQzLDEwMzg1NjcxMjQsMjg1MD
-U2NTE1LC0xMjI2OTgxNzU3LDExMzg1MTk3ODEsLTEyNTg0ODQz
-NTEsLTk3MzM0ODExMCwxNzM4NzcyNzYwLC0xODU4MzY1MDE4XX
-0=
+eyJoaXN0b3J5IjpbLTE2NDc3MzMzNTMsMTAzODU2NzEyNCwyOD
+UwNTY1MTUsLTEyMjY5ODE3NTcsMTEzODUxOTc4MSwtMTI1ODQ4
+NDM1MSwtOTczMzQ4MTEwLDE3Mzg3NzI3NjAsLTE4NTgzNjUwMT
+hdfQ==
 -->
