@@ -51,7 +51,7 @@
 1. Click on the "Arduino ThingShield" thing
    You should now see a bunch of tiles
    *try a couple of doors/windows/pir sensors*
-   If all the tiles say open/motion you probably 
+   If all the tiles say open/motion you probably didn't successfully pair the ThingShield
 1. Serial Monitor in Arduino should say joined now
 # Verify that everything is working
 1. Open up the Arduino serial monitor
@@ -106,7 +106,7 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODc2MTE0MSwyODUwNTY1MTUsLTEyMj
+eyJoaXN0b3J5IjpbMTAzODU2NzEyNCwyODUwNTY1MTUsLTEyMj
 Y5ODE3NTcsMTEzODUxOTc4MSwtMTI1ODQ4NDM1MSwtOTczMzQ4
 MTEwLDE3Mzg3NzI3NjAsLTE4NTgzNjUwMThdfQ==
 -->
