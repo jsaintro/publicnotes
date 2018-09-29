@@ -80,7 +80,7 @@
 ## Create a device for each contact switch (You will be using)
 Type is 
 
-Continue here www.kindrickcoleman.com/index.php/Tech-Blog/total-noob-guide-to-move-your-old-wired-security-system-to-smartthings.html
+Continue [here](http://www.kendrickcoleman.com/index.php/Tech-Blog/total-noob-guide-to-move-your-old-wired-security-system-to-smartthings.html) www.kindrickcoleman.com/index.php/Tech-Blog/total-noob-guide-to-move-your-old-wired-security-system-to-smartthings.html
 # Need to 
 Create virtual devices for each 
 
@@ -88,6 +88,6 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTIwMTk5MiwtMTI1ODQ4NDM1MSwtOT
-czMzQ4MTEwLDE3Mzg3NzI3NjAsLTE4NTgzNjUwMThdfQ==
+eyJoaXN0b3J5IjpbNjEzNjM5MDMwLC0xMjU4NDg0MzUxLC05Nz
+MzNDgxMTAsMTczODc3Mjc2MCwtMTg1ODM2NTAxOF19
 -->
