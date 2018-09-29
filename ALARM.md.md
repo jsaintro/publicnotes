@@ -55,7 +55,7 @@
 1. Open up the arduino serial monitor
    You should see a bunch of "Sending" events.  If not check the jumpers from 2/3 to 14/15
 
-# Setup the multiplexer (Breaks out the sensors under the sheild into sepearate virtual ones)
+# Setup the multiplexer (Breaks out the sensors under the shield into separate virtual ones)
 1. In the API
 1. select "MySmartApps
 1. Select "+New SmartApp
@@ -88,6 +88,6 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5MDc3NTY4LC05NzMzNDgxMTAsMTczOD
-c3Mjc2MCwtMTg1ODM2NTAxOF19
+eyJoaXN0b3J5IjpbLTEyNTg0ODQzNTEsLTk3MzM0ODExMCwxNz
+M4NzcyNzYwLC0xODU4MzY1MDE4XX0=
 -->
