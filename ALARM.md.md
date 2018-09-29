@@ -15,13 +15,13 @@
 
         git@github.com:jsaintrocc/ST_Anything.git
 
-2. Copy the Sketces and Libraries folders from the project in the Arduino directory
+2. Copy the Sketches and Libraries folders from the project in the Arduino directory
 
-4. Open the Arduino App and load the ST_Anything Sketch
+3. Open the Arduino App and load the ST_Anything Sketch
    Arduino/Sketches/ST_Anything_Doors_Windows/ST_Anything_Doors_Windows.ino
-5. complile the sketch
+4. complile the sketch
    (The check icon)
-6. Upload the compiled sketch to the arduino
+5. Upload the compiled sketch to the arduino
 
 # Pairing smartthings shield with hub
 1. Power on the arduion with sheild attached
@@ -86,5 +86,6 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTg1OTc1MywtMTg1ODM2NTAxOF19
+eyJoaXN0b3J5IjpbLTEyMjc1ODUzMzYsLTE4NTgzNjUwMThdfQ
+==
 -->
