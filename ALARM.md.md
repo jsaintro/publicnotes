@@ -25,9 +25,9 @@
 6. Upload the compiled sketch to the arduino
 
 # Pairing smartthings shield with hub
-1. Power on the rduion with sheild attached
+1. Power on the Arduino with shield attached
 1. In the App go into pairing mode looking for a device
-1. Hit the "switch" button on the St sheild
+1. Hit the "switch" button on the shield
 1. Should pair as an Arduion ThingSheild
 
 # Setup the Device Handler
@@ -87,5 +87,5 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjY2NTYwNiwtMTg1ODM2NTAxOF19
+eyJoaXN0b3J5IjpbMTczODc3Mjc2MCwtMTg1ODM2NTAxOF19
 -->
