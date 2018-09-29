@@ -59,6 +59,7 @@
 Table
 pirzone3 = Upstairs PIR
 pirzone2 = Downstairs PIR
+zo
 zone5 = Front bedroom windows
 zone4 = Front Living room windows
 
@@ -103,7 +104,7 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1MDU2NTE1LC0xMjI2OTgxNzU3LDExMz
-g1MTk3ODEsLTEyNTg0ODQzNTEsLTk3MzM0ODExMCwxNzM4Nzcy
-NzYwLC0xODU4MzY1MDE4XX0=
+eyJoaXN0b3J5IjpbLTE2NDA2NjgzODgsMjg1MDU2NTE1LC0xMj
+I2OTgxNzU3LDExMzg1MTk3ODEsLTEyNTg0ODQzNTEsLTk3MzM0
+ODExMCwxNzM4NzcyNzYwLC0xODU4MzY1MDE4XX0=
 -->
