@@ -44,10 +44,10 @@
 1. Click on "My Devices"
 1. Select your "Arduino ThingShield"
 1. Click on Edit 
-1. Change type to "St_Anything_"
-   Note: It's at the bottom of the list
+1. Change type to "St_Anything_DSC_Alarm"
+   *It's at the bottom of the list*
 1. Click on Update button
-1. Relogin to app on phone
+1. Re-login to app on phone
 1. Click on the "Arduino ThingShield" thing
    You should now see a bunch of tiles
 
@@ -88,6 +88,6 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5NjU2NDExLC05NzMzNDgxMTAsMTczOD
+eyJoaXN0b3J5IjpbMjY5MDc3NTY4LC05NzMzNDgxMTAsMTczOD
 c3Mjc2MCwtMTg1ODM2NTAxOF19
 -->
