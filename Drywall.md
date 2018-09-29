@@ -12,6 +12,8 @@ Prefer Paper over mesh tape
 
 
 Instead of sanding use a wet sponge and smooth it out
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjQ0MDE4Nl19
+eyJoaXN0b3J5IjpbMTQwMzY1OTIyMiwxODQyNDQwMTg2XX0=
 -->
