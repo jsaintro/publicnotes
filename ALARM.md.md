@@ -33,12 +33,11 @@
 6. Should pair as an Arduino ThingShield
 
 # Setup the Device Handler
-1. Login to the smarthings api
-  https://graph.api.smartthings.com/login/auth
+1. Login to the [smarthings api](https://graph.api.smartthings.com/login/auth)
 1. Click on "My Device Handlers"
 1. Click on "+ New Device Handler"
 1. Select "From Code" Tab
-1. Paste code from Groovy/ST_Anything_Doors_Windows.groovy file in the repo
+1. Paste code from Groovy/ST_Anything_DSC_Alarm.groovy file in the repo
 1. Click on "Create"
 1. Click on "Save"
 1. Click on "Publich" -> "For Me"
@@ -89,6 +88,6 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzM0ODExMCwxNzM4NzcyNzYwLC0xOD
-U4MzY1MDE4XX0=
+eyJoaXN0b3J5IjpbLTEwNjM1NDI4MzQsLTk3MzM0ODExMCwxNz
+M4NzcyNzYwLC0xODU4MzY1MDE4XX0=
 -->
