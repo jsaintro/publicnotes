@@ -11,9 +11,10 @@ Prefer Paper over mesh tape
 3nd coat normal strength
 
 
-Instead of sanding use a wet sponge and smooth it out
+Do initial smoothing using a wet sponge and smooth it out
+Do sanding to blend in with wall
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzY1OTIyMl19
+eyJoaXN0b3J5IjpbLTM0MTc3NDldfQ==
 -->
