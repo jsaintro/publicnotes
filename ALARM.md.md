@@ -60,7 +60,7 @@
 1. select "MySmartApps
 1. Select "+New SmartApp
 1. Click on Code tab
-1. Paste the Groovy/ST_Anything_Doors_Windows/ST_Anything_doors_Windows_Multiplexer.smartapp.groovy
+1. Paste the Groovy/ST_Anything_DSC_Alarm/SmartApps/ST_Anything_Doors_Windows_Multiplexer.smartapp.groovy
 1. Click on "Create"
 1. Click on "Save"
 1. Click on "Public" -> "For Me"
@@ -88,6 +88,6 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTg0ODQzNTEsLTk3MzM0ODExMCwxNz
-M4NzcyNzYwLC0xODU4MzY1MDE4XX0=
+eyJoaXN0b3J5IjpbLTEyNTYxNDMxNDQsLTEyNTg0ODQzNTEsLT
+k3MzM0ODExMCwxNzM4NzcyNzYwLC0xODU4MzY1MDE4XX0=
 -->
