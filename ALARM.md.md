@@ -50,10 +50,14 @@
 1. Re-login to app on phone
 1. Click on the "Arduino ThingShield" thing
    You should now see a bunch of tiles
-
+1. Serial Monitor in Arduino should say joined now
 # Verify that everything is working
 1. Open up the Arduino serial monitor
    You should see a bunch of "Sending" events.  If not check the jumpers from 2/3 to 14/15
+2. Every even corresponds to a switch or montion sensor
+
+Table
+pirzone3
 
 # Setup the multiplexer (Breaks out the sensors under the shield into separate virtual ones)
 1. In the API
@@ -96,7 +100,7 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjY5ODE3NTcsMTEzODUxOTc4MSwtMT
-I1ODQ4NDM1MSwtOTczMzQ4MTEwLDE3Mzg3NzI3NjAsLTE4NTgz
-NjUwMThdfQ==
+eyJoaXN0b3J5IjpbLTE5NjMwOTY4OTYsLTEyMjY5ODE3NTcsMT
+EzODUxOTc4MSwtMTI1ODQ4NDM1MSwtOTczMzQ4MTEwLDE3Mzg3
+NzI3NjAsLTE4NTgzNjUwMThdfQ==
 -->
