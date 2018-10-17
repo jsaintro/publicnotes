@@ -8,14 +8,12 @@
     
         kubectl run hello-world --replicas=5 --labels="run=load-balancer-example" --image=jsaintrocc/arm32v6-hello-app:latest  --port=8080
 
-    Note: Yeah will take a while on pi's
-    
 2.  Display information about the Deployment:
 
         kubectl get deployments hello-world
         kubectl describe deployments hello-world
-    
-    ```
+
+    Note: Yeah will take a while on pi's
     
 3.  Display information about your ReplicaSet objects:
     
@@ -131,6 +129,6 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzQxODYxMSwyMDE2MTQ4OTI2LDg4NT
+eyJoaXN0b3J5IjpbLTk2NzAyODAxNywyMDE2MTQ4OTI2LDg4NT
 g1NjY5NywtMTU2MTA4ODEzMV19
 -->
