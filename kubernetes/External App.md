@@ -55,20 +55,17 @@
         >  Volumes:        <none>
         >Events:
         >  Type    Reason            Age   From                   Message
-          ----    ------            ----  ----                   -------
-          Normal  SuccessfulCreate  15m   replicaset-controller  Created pod: hello-world-664687dd5d-zp45t
+        >  ----    ------            ----  ----                   -------
+        >  Normal  SuccessfulCreate  15m   replicaset-controller  Created pod: hello-world-664687dd5d-zp45t
     
 5.  Create a Service object that exposes the deployment:
-    
-    ```
-    kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
-    
-    ```
-    
+
+        kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
+        >service/my-service exposed 
+
 6.  Display information about the Service:
-    
-    ```
-    kubectl get services my-service
+
+ kubectl get services my-service
     
     ```
     
@@ -164,6 +161,6 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTE1OTI1OSwxNTI4MTczMDQ0LDIwMT
-YxNDg5MjYsODg1ODU2Njk3LC0xNTYxMDg4MTMxXX0=
+eyJoaXN0b3J5IjpbNDQxNjI4NDU1LDE1MjgxNzMwNDQsMjAxNj
+E0ODkyNiw4ODU4NTY2OTcsLTE1NjEwODgxMzFdfQ==
 -->
