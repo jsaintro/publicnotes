@@ -11,12 +11,12 @@
 2.  Wait for the pods to come up
 
         kubectl get pods
-        NAME                           READY     STATUS    RESTARTS   AGE
-        hello-world-664687dd5d-dssfx   1/1       Running   0          13m
-        hello-world-664687dd5d-kfd7p   1/1       Running   0          12m
-        hello-world-664687dd5d-l2wnl   1/1       Running   0          12m
-        hello-world-664687dd5d-r8b8x   1/1       Running   0          12m
-        hello-world-664687dd5d-zp45t   1/1       Running   0          12m
+        >NAME                           READY     STATUS    RESTARTS   AGE
+        >hello-world-664687dd5d-dssfx   1/1       Running   0          13m
+        >hello-world-664687dd5d-kfd7p   1/1       Running   0          12m
+        >hello-world-664687dd5d-l2wnl   1/1       Running   0          12m
+        >hello-world-664687dd5d-r8b8x   1/1       Running   0          12m
+        >hello-world-664687dd5d-zp45t   1/1       Running   0          12m
 
     Note: Yeah... takes a while on the pi's
     
@@ -28,7 +28,8 @@
 4.  Display information about your ReplicaSet objects:
 
         kubectl get replicasets
-        
+        >NAME                     DESIRED   CURRENT   READY     AGE
+        >hello-world-664687dd5d   5         5         5         15m
         kubectl describe replicasets
     
 5.  Create a Service object that exposes the deployment:
@@ -137,6 +138,6 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTUwNjIxOCwyMDE2MTQ4OTI2LDg4NT
+eyJoaXN0b3J5IjpbMTUyODE3MzA0NCwyMDE2MTQ4OTI2LDg4NT
 g1NjY5NywtMTU2MTA4ODEzMV19
 -->
