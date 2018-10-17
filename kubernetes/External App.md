@@ -93,6 +93,7 @@
 https://www.infralovers.com/en/articles/2017/04/22/kubernetes-and-traefik-on-raspberry/
 https://blog.hypriot.com/post/setup-kubernetes-raspberry-pi-cluster/
 https://docs.traefik.io/user-guide/kubernetes/
+https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberry-pis-d0330effea9a
 
         kubectl expose deployment hello-world --type=Node --name=my-service
         kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
@@ -196,7 +197,8 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTA3MDUyOTEsMjE2MTUzNzYwLDkyOT
-Q2NjE5LDg5NTcyNjg0NCwtMTEwMTQ2MzI1MywxNTI4MTczMDQ0
-LDIwMTYxNDg5MjYsODg1ODU2Njk3LC0xNTYxMDg4MTMxXX0=
+eyJoaXN0b3J5IjpbMTM1MDE1Mzg2OCwtMTc5MDcwNTI5MSwyMT
+YxNTM3NjAsOTI5NDY2MTksODk1NzI2ODQ0LC0xMTAxNDYzMjUz
+LDE1MjgxNzMwNDQsMjAxNjE0ODkyNiw4ODU4NTY2OTcsLTE1Nj
+EwODgxMzFdfQ==
 -->
