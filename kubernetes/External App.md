@@ -65,9 +65,9 @@
 
 6.  Display information about the Service:
 
- kubectl get services my-service
-    
-    ```
+        kubectl get services my-service
+        >NAME         TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+        >my-service   LoadBalancer   10.111.90.169   <pending>     8080:31055/TCP   1m
     
     The output is similar to this:
     
@@ -161,6 +161,6 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxNjI4NDU1LDE1MjgxNzMwNDQsMjAxNj
-E0ODkyNiw4ODU4NTY2OTcsLTE1NjEwODgxMzFdfQ==
+eyJoaXN0b3J5IjpbLTExMDE0NjMyNTMsMTUyODE3MzA0NCwyMD
+E2MTQ4OTI2LDg4NTg1NjY5NywtMTU2MTA4ODEzMV19
 -->
