@@ -23,6 +23,8 @@
 3.  Display information about the Deployment:
 
         kubectl get deployments hello-world
+        >NAME          DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
+        >hello-world   5         5         5            5           1h
         kubectl describe deployments hello-world
 
 4.  Display information about your ReplicaSet objects:
@@ -162,7 +164,7 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1NzI2ODQ0LC0xMTAxNDYzMjUzLDE1Mj
-gxNzMwNDQsMjAxNjE0ODkyNiw4ODU4NTY2OTcsLTE1NjEwODgx
-MzFdfQ==
+eyJoaXN0b3J5IjpbMjExMTg5Mzc1Miw4OTU3MjY4NDQsLTExMD
+E0NjMyNTMsMTUyODE3MzA0NCwyMDE2MTQ4OTI2LDg4NTg1NjY5
+NywtMTU2MTA4ODEzMV19
 -->
