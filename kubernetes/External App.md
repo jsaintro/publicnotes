@@ -61,6 +61,7 @@
 5.  Create a Service object that exposes the deployment:
 
         kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
+        kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
         >service/my-service exposed 
 
 6.  Display information about the Service:
@@ -161,6 +162,7 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDE0NjMyNTMsMTUyODE3MzA0NCwyMD
-E2MTQ4OTI2LDg4NTg1NjY5NywtMTU2MTA4ODEzMV19
+eyJoaXN0b3J5IjpbODk1NzI2ODQ0LC0xMTAxNDYzMjUzLDE1Mj
+gxNzMwNDQsMjAxNjE0ODkyNiw4ODU4NTY2OTcsLTE1NjEwODgx
+MzFdfQ==
 -->
