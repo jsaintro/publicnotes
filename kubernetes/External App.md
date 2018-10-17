@@ -7,7 +7,7 @@
 1.  Run a Hello World application in your cluster:
     
     ```
-    kubectl run hello-world --replicas=5 --labels="run=load-balancer-example" --image=gcr.io/google-samples/node-hello:1.0  --port=8080
+    kubectl run hello-world --replicas=5 --labels="run=load-balancer-example" --image=docker pull jsaintrocc/arm32v6-hello-app:latest  --port=8080
     ```
     
     The preceding command creates a  [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)  object and an associated  [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)  object. The ReplicaSet has five  [Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/), each of which runs the Hello World application.
@@ -134,5 +134,5 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjEwODgxMzFdfQ==
+eyJoaXN0b3J5IjpbODg1ODU2Njk3LC0xNTYxMDg4MTMxXX0=
 -->
