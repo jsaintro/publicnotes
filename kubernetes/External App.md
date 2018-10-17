@@ -32,29 +32,29 @@
         >hello-world-664687dd5d   5         5         5         15m
         kubectl describe replicasets
         >Name:           hello-world-664687dd5d
-Namespace:      default
-Selector:       pod-template-hash=2202438818,run=load-balancer-example
-Labels:         pod-template-hash=2202438818
-                run=load-balancer-example
-Annotations:    deployment.kubernetes.io/desired-replicas=5
-                deployment.kubernetes.io/max-replicas=7
-                deployment.kubernetes.io/revision=1
-Controlled By:  Deployment/hello-world
-Replicas:       5 current / 5 desired
-Pods Status:    5 Running / 0 Waiting / 0 Succeeded / 0 Failed
-Pod Template:
-  Labels:  pod-template-hash=2202438818
-           run=load-balancer-example
-  Containers:
-   hello-world:
-    Image:        jsaintrocc/arm32v6-hello-app:latest
-    Port:         8080/TCP
-    Host Port:    0/TCP
-    Environment:  <none>
-    Mounts:       <none>
-  Volumes:        <none>
-Events:
-  Type    Reason            Age   From                   Message
+        Namespace:      default
+        Selector:       pod-template-hash=2202438818,run=load-balancer-example
+        Labels:         pod-template-hash=2202438818
+                        run=load-balancer-example
+        Annotations:    deployment.kubernetes.io/desired-replicas=5
+                        deployment.kubernetes.io/max-replicas=7
+                        deployment.kubernetes.io/revision=1
+        Controlled By:  Deployment/hello-world
+        Replicas:       5 current / 5 desired
+        Pods Status:    5 Running / 0 Waiting / 0 Succeeded / 0 Failed
+        Pod Template:
+          Labels:  pod-template-hash=2202438818
+                   run=load-balancer-example
+          Containers:
+           hello-world:
+            Image:        jsaintrocc/arm32v6-hello-app:latest
+            Port:         8080/TCP
+            Host Port:    0/TCP
+            Environment:  <none>
+            Mounts:       <none>
+          Volumes:        <none>
+        Events:
+          Type    Reason            Age   From                   Message
   ----    ------            ----  ----                   -------
   Normal  SuccessfulCreate  15m   replicaset-controller  Created pod: hello-world-664687dd5d-zp45t
     
@@ -164,6 +164,6 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDU0NDcsMTUyODE3MzA0NCwyMDE2MT
-Q4OTI2LDg4NTg1NjY5NywtMTU2MTA4ODEzMV19
+eyJoaXN0b3J5IjpbODAyMTYxNDQ3LDE1MjgxNzMwNDQsMjAxNj
+E0ODkyNiw4ODU4NTY2OTcsLTE1NjEwODgxMzFdfQ==
 -->
