@@ -8,14 +8,24 @@
     
         kubectl run hello-world --replicas=5 --labels="run=load-balancer-example" --image=jsaintrocc/arm32v6-hello-app:latest  --port=8080
 
-2.  Display information about the Deployment:
+2.  Wait for the pods to come up
+
+        kubectl get pods
+        NAME                           READY     STATUS    RESTARTS   AGE
+        hello-world-664687dd5d-dssfx   1/1       Running   0          13m
+        hello-world-664687dd5d-kfd7p   1/1       Running   0          12m
+        hello-world-664687dd5d-l2wnl   1/1       Running   0          12m
+        hello-world-664687dd5d-r8b8x   1/1       Running   0          12m
+        hello-world-664687dd5d-zp45t   1/1       Running   0          12m
+
+3.  Display information about the Deployment:
 
         kubectl get deployments hello-world
         kubectl describe deployments hello-world
 
     Note: Yeah will take a while on pi's
     
-3.  Display information about your ReplicaSet objects:
+4.  Display information about your ReplicaSet objects:
     
     ```
     kubectl get replicasets
@@ -23,14 +33,14 @@
     
     ```
     
-4.  Create a Service object that exposes the deployment:
+5.  Create a Service object that exposes the deployment:
     
     ```
     kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
     
     ```
     
-5.  Display information about the Service:
+6.  Display information about the Service:
     
     ```
     kubectl get services my-service
@@ -47,7 +57,7 @@
     
     Note: If the external IP address is shown as <pending>, wait for a minute and enter the same command again.
     
-6.  Display detailed information about the Service:
+7.  Display detailed information about the Service:
     
     ```
     kubectl describe services my-service
@@ -75,7 +85,7 @@
     
     Make a note of the external IP address (`LoadBalancer Ingress`) exposed by your service. In this example, the external IP address is 104.198.205.71. Also note the value of  `Port`  and  `NodePort`. In this example, the  `Port`  is 8080 and the  `NodePort`  is 32377.
     
-7.  In the preceding output, you can see that the service has several endpoints: 10.0.0.6:8080,10.0.1.6:8080,10.0.1.7:8080 + 2 more. These are internal addresses of the pods that are running the Hello World application. To verify these are pod addresses, enter this command:
+8.  In the preceding output, you can see that the service has several endpoints: 10.0.0.6:8080,10.0.1.6:8080,10.0.1.7:8080 + 2 more. These are internal addresses of the pods that are running the Hello World application. To verify these are pod addresses, enter this command:
     
     ```
     kubectl get pods --output=wide
@@ -94,7 +104,7 @@
     
     ```
     
-8.  Use the external IP address (`LoadBalancer Ingress`) to access the Hello World application:
+9.  Use the external IP address (`LoadBalancer Ingress`) to access the Hello World application:
     
     ```
     curl http://<external-ip>:<port>
@@ -129,6 +139,6 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzAyODAxNywyMDE2MTQ4OTI2LDg4NT
-g1NjY5NywtMTU2MTA4ODEzMV19
+eyJoaXN0b3J5IjpbOTczNjYxODM4LDIwMTYxNDg5MjYsODg1OD
+U2Njk3LC0xNTYxMDg4MTMxXX0=
 -->
