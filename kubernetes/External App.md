@@ -1,33 +1,13 @@
 # Exposing an External IP Address to Access an Application in a Cluster
 
-Thi[Original Tutorial](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/)
--   [Before you begin](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/#before-you-begin)
--   [Creating a service for an application running in five pods](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/#creating-a-service-for-an-application-running-in-five-pods)
--   [Cleaning up](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/#cleaning-up)
--   [What's next](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/#what-s-next)
+[Original Tutorial](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/)
 
-## Objectives[](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/#objectives)
-
--   Run five instances of a Hello World application.
--   Create a Service object that exposes an external IP address.
--   Use the Service object to access the running application.
-
-## Before you begin[](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/#before-you-begin)
-
--   Install  [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/).
-    
--   Use a cloud provider like Google Kubernetes Engine or Amazon Web Services to create a Kubernetes cluster. This tutorial creates an[external load balancer](https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/), which requires a cloud provider.
-    
--   Configure  `kubectl`  to communicate with your Kubernetes API server. For instructions, see the documentation for your cloud provider.
-    
-
-## Creating a service for an application running in five pods[](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/#creating-a-service-for-an-application-running-in-five-pods)
+## Creating a service for an application running in five pods
 
 1.  Run a Hello World application in your cluster:
     
     ```
     kubectl run hello-world --replicas=5 --labels="run=load-balancer-example" --image=gcr.io/google-samples/node-hello:1.0  --port=8080
-    
     ```
     
     The preceding command creates a  [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)  object and an associated  [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)  object. The ReplicaSet has five  [Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/), each of which runs the Hello World application.
@@ -154,5 +134,5 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI3MjAyNDddfQ==
+eyJoaXN0b3J5IjpbLTE1NjEwODgxMzFdfQ==
 -->
