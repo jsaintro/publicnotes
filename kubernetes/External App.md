@@ -26,6 +26,34 @@
         >NAME          DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
         >hello-world   5         5         5            5           1h
         kubectl describe deployments hello-world
+        >Name:                   hello-world
+        >Namespace:              default
+        >CreationTimestamp:      Wed, 17 Oct 2018 04:25:42 +0000
+  Labels:                 run=load-balancer-example
+Annotations:            deployment.kubernetes.io/revision=1
+Selector:               run=load-balancer-example
+Replicas:               5 desired | 5 updated | 5 total | 5 available | 0 unavailable
+StrategyType:           RollingUpdate
+MinReadySeconds:        0
+RollingUpdateStrategy:  25% max unavailable, 25% max surge
+Pod Template:
+  Labels:  run=load-balancer-example
+  Containers:
+   hello-world:
+    Image:        jsaintrocc/arm32v6-hello-app:latest
+    Port:         8080/TCP
+    Host Port:    0/TCP
+    Environment:  <none>
+    Mounts:       <none>
+  Volumes:        <none>
+Conditions:
+  Type           Status  Reason
+  ----           ------  ------
+  Available      True    MinimumReplicasAvailable
+  Progressing    True    NewReplicaSetAvailable
+OldReplicaSets:  <none>
+NewReplicaSet:   hello-world-664687dd5d (5/5 replicas created)
+Events:          <none>
 
 4.  Display information about your ReplicaSet objects:
 
@@ -164,7 +192,7 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTg5Mzc1Miw4OTU3MjY4NDQsLTExMD
-E0NjMyNTMsMTUyODE3MzA0NCwyMDE2MTQ4OTI2LDg4NTg1NjY5
-NywtMTU2MTA4ODEzMV19
+eyJoaXN0b3J5IjpbLTE1NTk2NTQ5NDksODk1NzI2ODQ0LC0xMT
+AxNDYzMjUzLDE1MjgxNzMwNDQsMjAxNjE0ODkyNiw4ODU4NTY2
+OTcsLTE1NjEwODgxMzFdfQ==
 -->
