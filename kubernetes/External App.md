@@ -90,7 +90,9 @@
     
 5.  Create a Service object that exposes the deployment:
 
-        kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
+https://www.infralovers.com/en/articles/2017/04/22/kubernetes-and-traefik-on-raspberry/
+
+        kubectl expose deployment hello-world --type=Node --name=my-service
         kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
         >service/my-service exposed 
 
@@ -192,7 +194,7 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 
 ## What's next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5NDY2MTksODk1NzI2ODQ0LC0xMTAxND
-YzMjUzLDE1MjgxNzMwNDQsMjAxNjE0ODkyNiw4ODU4NTY2OTcs
-LTE1NjEwODgxMzFdfQ==
+eyJoaXN0b3J5IjpbMjE2MTUzNzYwLDkyOTQ2NjE5LDg5NTcyNj
+g0NCwtMTEwMTQ2MzI1MywxNTI4MTczMDQ0LDIwMTYxNDg5MjYs
+ODg1ODU2Njk3LC0xNTYxMDg4MTMxXX0=
 -->
