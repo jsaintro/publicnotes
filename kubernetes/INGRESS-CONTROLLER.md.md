@@ -12,11 +12,11 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
 ## Setup RBAC
 
 1. Determine if you're configured for RBAC
-	1. Get the api server hostname
+    1. Get the api server hostname
 
             kubectl get pods --namespace=kube-system | grep api | awk {'print $1'}
-kube-apiserver-pi1.ax.saint-rossy.net
+            >kube-apiserver-pi1.ax.saint-rossy.net
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzAwOTQzNywtMTI1Mjg3NDcwNSwtMT
+eyJoaXN0b3J5IjpbLTk1NDMwMTQ5MywtMTI1Mjg3NDcwNSwtMT
 g4MjcwNTY0NV19
 -->
