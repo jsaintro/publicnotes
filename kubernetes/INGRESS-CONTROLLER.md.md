@@ -76,18 +76,18 @@ Note: You can do a regular deployment or a daemonset.  By default the suggest da
         kubectl logs traefik-ingress-controller-7lp49 --namespace=kube-system
         >time="2018-10-18T04:37:02Z" level=info msg="Traefik version v1.7.3 built on 2018-10-15_10:13:00AM"
         >time="2018-10-18T04:37:02Z" level=info msg="\nStats collection is disabled.\nHelp us improve Traefik by turning this feature on :)\nMore details on: https://docs.traefik.io/basics/#collected-data\n"
-time="2018-10-18T04:37:02Z" level=info msg="Preparing server traefik &{Address::8080 TLS:<nil> Redirect:<nil> Auth:<nil> WhitelistSourceRange:[] WhiteList:<nil> Compress:false ProxyProtocol:<nil> ForwardedHeaders:0x496e040} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s"
-time="2018-10-18T04:37:02Z" level=info msg="Preparing server http &{Address::80 TLS:<nil> Redirect:<nil> Auth:<nil> WhitelistSourceRange:[] WhiteList:<nil> Compress:false ProxyProtocol:<nil> ForwardedHeaders:0x496e030} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s"
-time="2018-10-18T04:37:02Z" level=info msg="Starting server on :8080"
-time="2018-10-18T04:37:02Z" level=info msg="Starting server on :80"
-time="2018-10-18T04:37:02Z" level=info msg="Starting provider configuration.ProviderAggregator {}"
-time="2018-10-18T04:37:02Z" level=info msg="Starting provider *kubernetes.Provider {\"Watch\":true,\"Filename\":\"\",\"Constraints\":[],\"Trace\":false,\"TemplateVersion\":0,\"DebugLogGeneratedTemplate\":false,\"Endpoint\":\"\",\"Token\":\"\",\"CertAuthFilePath\":\"\",\"DisablePassHostHeaders\":false,\"EnablePassTLSCert\":false,\"Namespaces\":null,\"LabelSelector\":\"\",\"IngressClass\":\"\",\"IngressEndpoint\":null}"
-time="2018-10-18T04:37:02Z" level=info msg="ingress label selector is: \"\""
-time="2018-10-18T04:37:02Z" level=info msg="Creating in-cluster Provider client"
-time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
-time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
+        >time="2018-10-18T04:37:02Z" level=info msg="Preparing server traefik &{Address::8080 TLS:<nil> Redirect:<nil> Auth:<nil> WhitelistSourceRange:[] WhiteList:<nil> Compress:false ProxyProtocol:<nil> ForwardedHeaders:0x496e040} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s"
+        >time="2018-10-18T04:37:02Z" level=info msg="Preparing server http &{Address::80 TLS:<nil> Redirect:<nil> Auth:<nil> WhitelistSourceRange:[] WhiteList:<nil> Compress:false ProxyProtocol:<nil> ForwardedHeaders:0x496e030} with readTimeout=0s writeTimeout=0s idleTimeout=3m0s"
+        >time="2018-10-18T04:37:02Z" level=info msg="Starting server on :8080"
+        >time="2018-10-18T04:37:02Z" level=info msg="Starting server on :80"
+        >time="2018-10-18T04:37:02Z" level=info msg="Starting provider configuration.ProviderAggregator {}"
+        >time="2018-10-18T04:37:02Z" level=info msg="Starting provider *kubernetes.Provider {\"Watch\":true,\"Filename\":\"\",\"Constraints\":[],\"Trace\":false,\"TemplateVersion\":0,\"DebugLogGeneratedTemplate\":false,\"Endpoint\":\"\",\"Token\":\"\",\"CertAuthFilePath\":\"\",\"DisablePassHostHeaders\":false,\"EnablePassTLSCert\":false,\"Namespaces\":null,\"LabelSelector\":\"\",\"IngressClass\":\"\",\"IngressEndpoint\":null}"
+        >time="2018-10-18T04:37:02Z" level=info msg="ingress label selector is: \"\""
+        >time="2018-10-18T04:37:02Z" level=info msg="Creating in-cluster Provider client"
+        >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
+        >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzkzMTg1NTAsMTc0NjYyMTQwOSwtNj
+eyJoaXN0b3J5IjpbLTE3ODUzNTk0NjgsMTc0NjYyMTQwOSwtNj
 YxNjUxNTc0LDUzNjExMjI5MywxMTU4NTU3NjUzLC0xMDgxOTMy
 MzY2LC05NTQzMDE0OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MDU2ND
 VdfQ==
