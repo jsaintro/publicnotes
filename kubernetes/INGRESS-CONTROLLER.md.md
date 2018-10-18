@@ -51,6 +51,7 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
 
 Note: You can do a regular deployment or a daemonset.  By default the suggest daemonset
 
+### NEED TO MODIFY THE yaml to create a service bound to an external IP ###
 1. Apply the traefik provided yaml for the daemonset
 
     Note: The traefik docker image on docker hub supports arm processors and will automatically download the right arch.
@@ -87,8 +88,8 @@ Note: You can do a regular deployment or a daemonset.  By default the suggest da
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODUzNTk0NjgsMTc0NjYyMTQwOSwtNj
-YxNjUxNTc0LDUzNjExMjI5MywxMTU4NTU3NjUzLC0xMDgxOTMy
-MzY2LC05NTQzMDE0OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MDU2ND
-VdfQ==
+eyJoaXN0b3J5IjpbLTg0NTgyNDAxNiwtMTc4NTM1OTQ2OCwxNz
+Q2NjIxNDA5LC02NjE2NTE1NzQsNTM2MTEyMjkzLDExNTg1NTc2
+NTMsLTEwODE5MzIzNjYsLTk1NDMwMTQ5MywtMTI1Mjg3NDcwNS
+wtMTg4MjcwNTY0NV19
 -->
