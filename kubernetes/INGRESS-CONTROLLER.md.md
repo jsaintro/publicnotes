@@ -56,8 +56,11 @@ Note: You can do a regular deployment or a daemonset.  By default the suggest da
     Note: The traefik docker image on docker hub supports arm processors and will automatically download the right arch.
         
         kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-ds.yaml
+        >serviceaccount/traefik-ingress-controller created
+        >daemonset.extensions/traefik-ingress-controller created
+        >service/traefik-ingress-service created
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDQ0NDYzNjEsLTY2MTY1MTU3NCw1Mz
-YxMTIyOTMsMTE1ODU1NzY1MywtMTA4MTkzMjM2NiwtOTU0MzAx
-NDkzLC0xMjUyODc0NzA1LC0xODgyNzA1NjQ1XX0=
+eyJoaXN0b3J5IjpbMTcxMTYxODY1NSwtNjYxNjUxNTc0LDUzNj
+ExMjI5MywxMTU4NTU3NjUzLC0xMDgxOTMyMzY2LC05NTQzMDE0
+OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MDU2NDVdfQ==
 -->
