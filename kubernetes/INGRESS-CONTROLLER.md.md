@@ -52,9 +52,10 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
 Note: You can do a regular deployment or a daemonset.  By default the suggest daemonset
 
 1. Download the daemonset template (We need to modify it to work with the arm architecture
- wget
+
+        wget 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3MjMyNzYzLDUzNjExMjI5MywxMTU4NT
+eyJoaXN0b3J5IjpbNzE0MDY4MDc1LDUzNjExMjI5MywxMTU4NT
 U3NjUzLC0xMDgxOTMyMzY2LC05NTQzMDE0OTMsLTEyNTI4NzQ3
 MDUsLTE4ODI3MDU2NDVdfQ==
 -->
