@@ -54,9 +54,10 @@ Note: You can do a regular deployment or a daemonset.  By default the suggest da
 1. Apply the traefik provided yaml for the daemonset
 
     Note: The traefik docker image on docker hub supports arm processors and will automatically download the right arch.
+        
         wget https://github.com/containous/traefik/tree/master/examples/k8s/traefik-ds.yaml
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjYxMjQ1MTgsLTY2MTY1MTU3NCw1Mz
-YxMTIyOTMsMTE1ODU1NzY1MywtMTA4MTkzMjM2NiwtOTU0MzAx
-NDkzLC0xMjUyODc0NzA1LC0xODgyNzA1NjQ1XX0=
+eyJoaXN0b3J5IjpbLTg2MjAyNzk4OCwtNjYxNjUxNTc0LDUzNj
+ExMjI5MywxMTU4NTU3NjUzLC0xMDgxOTMyMzY2LC05NTQzMDE0
+OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MDU2NDVdfQ==
 -->
