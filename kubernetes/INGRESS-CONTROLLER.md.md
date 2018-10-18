@@ -57,9 +57,9 @@ https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingres
 
     Note: The traefik docker image on docker hub supports arm processors and will automatically download the right arch.
         
-        kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-ds.yaml
+        kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-deployment.yaml
         >serviceaccount/traefik-ingress-controller created
-        >daemonset.extensions/traefik-ingress-controller created
+        >deployment.extensions/traefik-ingress-controller created
         >service/traefik-ingress-service created
 
 2. Monitor the ds creation
@@ -89,9 +89,9 @@ https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingres
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDEwMzA2MDEsMTE1NzgxMjE3NywtOD
-Q1ODI0MDE2LC0xNzg1MzU5NDY4LDE3NDY2MjE0MDksLTY2MTY1
-MTU3NCw1MzYxMTIyOTMsMTE1ODU1NzY1MywtMTA4MTkzMjM2Ni
-wtOTU0MzAxNDkzLC0xMjUyODc0NzA1LC0xODgyNzA1NjQ1XX0=
-
+eyJoaXN0b3J5IjpbLTIwMzE5NTIxODgsLTIwMDEwMzA2MDEsMT
+E1NzgxMjE3NywtODQ1ODI0MDE2LC0xNzg1MzU5NDY4LDE3NDY2
+MjE0MDksLTY2MTY1MTU3NCw1MzYxMTIyOTMsMTE1ODU1NzY1My
+wtMTA4MTkzMjM2NiwtOTU0MzAxNDkzLC0xMjUyODc0NzA1LC0x
+ODgyNzA1NjQ1XX0=
 -->
