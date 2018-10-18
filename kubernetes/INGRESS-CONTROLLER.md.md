@@ -56,15 +56,15 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
         >deployment.extensions/traefik-ingress-controller created
         >service/traefik-ingress-service created
 
-4. Monitor the ds creation
+4. Monitor the deployment creation
 
         kubectl get deployment traefik-ingress-controller --namespace=kube-system
         >NAME                         DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
-traefik-ingress-controller   1         1         1            1           1h
+        >traefik-ingress-controller   1         1         1            1           1h
         kubectl get pods --namespace=kube-system -o wide | egrep "NAME|traefik"
-        >NAME                                             READY     STATUS              RESTARTS   AGE       IP              NODE
-        >traefik-ingress-controller-7lp49                 0/1       ContainerCreating   0          5m        <none>          pi2.ax.saint-rossy.net
-        >traefik-ingress-controller-z846x                 0/1       ContainerCreating   0          5m        <none>          pi3.ax.saint-rossy.net
+        >NAME                                             READY     STATUS    RESTARTS   AGE       IP              NODE
+        >traefik-ingress-controller-6f6d87769d-22tm9      1/1       Running   0          1h        10.32.0.5       pi3.ax.saint-rossy.net
+
     This will take about 5 minutes cause ... raspberry pi
 
 5. Check the logs of one of the pods to make sure it's running properly
@@ -86,7 +86,7 @@ traefik-ingress-controller   1         1         1            1           1h
 ## Appendix: Daemonset Notes
 In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDMzMTk5NTMsMTA0MTcyNzk3NCw0OT
+eyJoaXN0b3J5IjpbLTE4NjUzMDYxNDIsMTA0MTcyNzk3NCw0OT
 I3MDk4ODQsLTIwMzE5NTIxODgsLTIwMDEwMzA2MDEsMTE1Nzgx
 MjE3NywtODQ1ODI0MDE2LC0xNzg1MzU5NDY4LDE3NDY2MjE0MD
 ksLTY2MTY1MTU3NCw1MzYxMTIyOTMsMTE1ODU1NzY1MywtMTA4
