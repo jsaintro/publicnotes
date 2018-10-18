@@ -85,14 +85,18 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
 
 4. Get the dynamically assigned NodePorts
 
+        kubectl get service traefik-ingress-service --namespace=kube-system
+        >NAME                      TYPE       CLUSTER-IP       EXTERNAL-IP   PORT(S)                       AGE
+        >traefik-ingress-service   NodePort   10.102.147.142   <none>        80:32285/TCP,8080:30600/TCP   2h
 
+    Here we see 80 has been assigned 32285 and 8080 (
 ## Appendix: Daemonset Notes
 In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTYxMTYyMiwxMDQxNzI3OTc0LDQ5Mj
-cwOTg4NCwtMjAzMTk1MjE4OCwtMjAwMTAzMDYwMSwxMTU3ODEy
-MTc3LC04NDU4MjQwMTYsLTE3ODUzNTk0NjgsMTc0NjYyMTQwOS
-wtNjYxNjUxNTc0LDUzNjExMjI5MywxMTU4NTU3NjUzLC0xMDgx
-OTMyMzY2LC05NTQzMDE0OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MD
-U2NDVdfQ==
+eyJoaXN0b3J5IjpbLTExNjk5MzI2MDcsMTA0MTcyNzk3NCw0OT
+I3MDk4ODQsLTIwMzE5NTIxODgsLTIwMDEwMzA2MDEsMTE1Nzgx
+MjE3NywtODQ1ODI0MDE2LC0xNzg1MzU5NDY4LDE3NDY2MjE0MD
+ksLTY2MTY1MTU3NCw1MzYxMTIyOTMsMTE1ODU1NzY1MywtMTA4
+MTkzMjM2NiwtOTU0MzAxNDkzLC0xMjUyODc0NzA1LC0xODgyNz
+A1NjQ1XX0=
 -->
