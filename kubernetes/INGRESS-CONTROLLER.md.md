@@ -47,9 +47,11 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
         >  ----            ----                        ---------
         >  ServiceAccount  traefik-ingress-controller  kube-system
 
-##
+## Install the Daemonset
+
+Note: You can do a regular d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2MTEyMjkzLDExNTg1NTc2NTMsLTEwOD
-E5MzIzNjYsLTk1NDMwMTQ5MywtMTI1Mjg3NDcwNSwtMTg4Mjcw
-NTY0NV19
+eyJoaXN0b3J5IjpbNDgwMzY1NzYyLDUzNjExMjI5MywxMTU4NT
+U3NjUzLC0xMDgxOTMyMzY2LC05NTQzMDE0OTMsLTEyNTI4NzQ3
+MDUsLTE4ODI3MDU2NDVdfQ==
 -->
