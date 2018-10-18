@@ -48,10 +48,10 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
         >  ServiceAccount  traefik-ingress-controller  kube-system
 
 ## Install the Deployment
-Chose to go with deployment vs daemon set as it's lighter weight and requires less hacking to get it workingNote: Need to modify the daemon set to get it to use an external IP
-https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingress-deployed-as-a-demonset-listening-on-port-80
+Chose to go with deployment vs daemon set as it's lighter weight and requires less hacking to get it working
+1. Apply the deployment yaml
 
-1. Download the example yaml
+        kubectl apply -f Download the example yaml
 
         wget https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-ds.yaml
         or wget
@@ -101,8 +101,11 @@ https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingres
         >time="2018-10-18T04:37:02Z" level=info msg="Creating in-cluster Provider client"
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
+
+## Appendix: Daemonset Notes
+In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDM3ODc4MSwxMDQxNzI3OTc0LDQ5Mj
+eyJoaXN0b3J5IjpbLTEwNDEyMTUxNywxMDQxNzI3OTc0LDQ5Mj
 cwOTg4NCwtMjAzMTk1MjE4OCwtMjAwMTAzMDYwMSwxMTU3ODEy
 MTc3LC04NDU4MjQwMTYsLTE3ODUzNTk0NjgsMTc0NjYyMTQwOS
 wtNjYxNjUxNTc0LDUzNjExMjI5MywxMTU4NTU3NjUzLC0xMDgx
