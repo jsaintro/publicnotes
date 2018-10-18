@@ -52,11 +52,11 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
 1. Apply the deployment yaml
 
         kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-deployment.yaml
-      >serviceaccount/traefik-ingress-controller created
+        >serviceaccount/traefik-ingress-controller created
         >deployment.extensions/traefik-ingress-controller created
         >service/traefik-ingress-service created
 
-4. Monitor the deployment creation
+2. Monitor the deployment creation
 
         kubectl get deployment traefik-ingress-controller --namespace=kube-system
         >NAME                         DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
@@ -83,11 +83,13 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
 
-6. 
+4. Get the dynamically assigned NodePorts
+
+
 ## Appendix: Daemonset Notes
 In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjAwNTMxOCwxMDQxNzI3OTc0LDQ5Mj
+eyJoaXN0b3J5IjpbLTMwOTYxMTYyMiwxMDQxNzI3OTc0LDQ5Mj
 cwOTg4NCwtMjAzMTk1MjE4OCwtMjAwMTAzMDYwMSwxMTU3ODEy
 MTc3LC04NDU4MjQwMTYsLTE3ODUzNTk0NjgsMTc0NjYyMTQwOS
 wtNjYxNjUxNTc0LDUzNjExMjI5MywxMTU4NTU3NjUzLC0xMDgx
