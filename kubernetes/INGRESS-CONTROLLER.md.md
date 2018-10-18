@@ -52,7 +52,10 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
 Note: Need to modify the daemon set to get it to use an external IP
 https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingress-deployed-as-a-demonset-listening-on-port-80
 
-O1. Apply the traefik provided yaml for the daemonset
+1. Download the example yaml
+
+        wget https://github.com/containous/traefik/tree/master/examples/k8s/traefik-ds.yaml
+2. Apply the traefik provided yaml for the daemonset
 
     Note: The traefik docker image on docker hub supports arm processors and will automatically download the right arch.
         
@@ -61,7 +64,7 @@ O1. Apply the traefik provided yaml for the daemonset
         >deployment.extensions/traefik-ingress-controller created
         >service/traefik-ingress-service created
 
-2. Monitor the ds creation
+3. Monitor the ds creation
 
         kubectl get ds traefik-ingress-controller --namespace=kube-system
         >NAME                         DESIRED   CURRENT   READY     UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE
@@ -72,7 +75,7 @@ O1. Apply the traefik provided yaml for the daemonset
         >traefik-ingress-controller-z846x                 0/1       ContainerCreating   0          5m        <none>          pi3.ax.saint-rossy.net
     This will take about 5 minutes cause ... raspberry pi
 
-3. Check the logs of one of the pods to make sure it's running properly
+4. Check the logs of one of the pods to make sure it's running properly
 
         kubectl logs traefik-ingress-controller-7lp49 --namespace=kube-system
         >time="2018-10-18T04:37:02Z" level=info msg="Traefik version v1.7.3 built on 2018-10-15_10:13:00AM"
@@ -88,9 +91,9 @@ O1. Apply the traefik provided yaml for the daemonset
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzgzODg3NywtMjAzMTk1MjE4OCwtMj
-AwMTAzMDYwMSwxMTU3ODEyMTc3LC04NDU4MjQwMTYsLTE3ODUz
-NTk0NjgsMTc0NjYyMTQwOSwtNjYxNjUxNTc0LDUzNjExMjI5My
-wxMTU4NTU3NjUzLC0xMDgxOTMyMzY2LC05NTQzMDE0OTMsLTEy
-NTI4NzQ3MDUsLTE4ODI3MDU2NDVdfQ==
+eyJoaXN0b3J5IjpbLTE1ODE4MjQ2MzgsLTIwMzE5NTIxODgsLT
+IwMDEwMzA2MDEsMTE1NzgxMjE3NywtODQ1ODI0MDE2LC0xNzg1
+MzU5NDY4LDE3NDY2MjE0MDksLTY2MTY1MTU3NCw1MzYxMTIyOT
+MsMTE1ODU1NzY1MywtMTA4MTkzMjM2NiwtOTU0MzAxNDkzLC0x
+MjUyODc0NzA1LC0xODgyNzA1NjQ1XX0=
 -->
