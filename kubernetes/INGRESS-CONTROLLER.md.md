@@ -16,7 +16,16 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
 
             kubectl get pods --namespace=kube-system | grep api | awk {'print $1'}
             >kube-apiserver-pi1.ax.saint-rossy.net
+
+     2. Check if the api server was started with the RBAC switch
+
+            kubectl describe pod kube-apiserver-pi1.ax.saint-rossy.net --namespace=kube-system | grep authorization-mode
+            >--authorization-mode=Node,RBAC
+
+        If you see `RBAC` the RBAC is enabled
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDMwMTQ5MywtMTI1Mjg3NDcwNSwtMT
-g4MjcwNTY0NV19
+eyJoaXN0b3J5IjpbLTEwODE5MzIzNjYsLTk1NDMwMTQ5MywtMT
+I1Mjg3NDcwNSwtMTg4MjcwNTY0NV19
 -->
