@@ -89,14 +89,16 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
         >NAME                      TYPE       CLUSTER-IP       EXTERNAL-IP   PORT(S)                       AGE
         >traefik-ingress-service   NodePort   10.102.147.142   <none>        80:32285/TCP,8080:30600/TCP   2h
 
-    Here we see 80 has been assigned 32285 and 8080 (
+    Here we see 80 has been assigned 32285 and 8080 (admin port) has been assigned 30600.  These ports are available on each node in the cluster.
+
+5. Configure your external gateway to map port 80 -> port 32285 on any of the 
 ## Appendix: Daemonset Notes
 In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk5MzI2MDcsMTA0MTcyNzk3NCw0OT
-I3MDk4ODQsLTIwMzE5NTIxODgsLTIwMDEwMzA2MDEsMTE1Nzgx
-MjE3NywtODQ1ODI0MDE2LC0xNzg1MzU5NDY4LDE3NDY2MjE0MD
-ksLTY2MTY1MTU3NCw1MzYxMTIyOTMsMTE1ODU1NzY1MywtMTA4
-MTkzMjM2NiwtOTU0MzAxNDkzLC0xMjUyODc0NzA1LC0xODgyNz
-A1NjQ1XX0=
+eyJoaXN0b3J5IjpbNzQ0ODQwNjc1LDEwNDE3Mjc5NzQsNDkyNz
+A5ODg0LC0yMDMxOTUyMTg4LC0yMDAxMDMwNjAxLDExNTc4MTIx
+NzcsLTg0NTgyNDAxNiwtMTc4NTM1OTQ2OCwxNzQ2NjIxNDA5LC
+02NjE2NTE1NzQsNTM2MTEyMjkzLDExNTg1NTc2NTMsLTEwODE5
+MzIzNjYsLTk1NDMwMTQ5MywtMTI1Mjg3NDcwNSwtMTg4MjcwNT
+Y0NV19
 -->
