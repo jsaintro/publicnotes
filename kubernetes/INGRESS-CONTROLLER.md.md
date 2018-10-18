@@ -9,7 +9,7 @@ https://blog.hypriot.com/post/setup-kubernetes-raspberry-pi-cluster/
 https://docs.traefik.io/user-guide/kubernetes/
 https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberry-pis-d0330effea9a
 
-## Setup RBAC
+## Setup RBAC Permissions for Traefik
 
 ### Verify RBAC is enabled
 1. Determine if you're configured for RBAC
@@ -45,9 +45,11 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
         >Subjects:
         >  Kind            Name                        Namespace
         >  ----            ----                        ---------
-  ServiceAccount  traefik-ingress-controller  kube-system
+        >  ServiceAccount  traefik-ingress-controller  kube-system
+
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTUwODMyMDIsMTE1ODU1NzY1MywtMT
-A4MTkzMjM2NiwtOTU0MzAxNDkzLC0xMjUyODc0NzA1LC0xODgy
-NzA1NjQ1XX0=
+eyJoaXN0b3J5IjpbNTM2MTEyMjkzLDExNTg1NTc2NTMsLTEwOD
+E5MzIzNjYsLTk1NDMwMTQ5MywtMTI1Mjg3NDcwNSwtMTg4Mjcw
+NTY0NV19
 -->
