@@ -93,6 +93,9 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
 
 ## External Setup
 1. Configure your internet gateway to map port 80 outside -> port 32285 on any of the nodes in the cluster
+2. Add a wild card DNS.  Either CNAME (If you're doing dynamic DNS or A record)
+
+    Example: 
 
 
 ## Examples
@@ -114,7 +117,7 @@ spec:
 ## Appendix: Daemonset Notes
 In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTA3OTQ0NywxMDQxNzI3OTc0LDQ5Mj
+eyJoaXN0b3J5IjpbLTEyNjU1OTg0NiwxMDQxNzI3OTc0LDQ5Mj
 cwOTg4NCwtMjAzMTk1MjE4OCwtMjAwMTAzMDYwMSwxMTU3ODEy
 MTc3LC04NDU4MjQwMTYsLTE3ODUzNTk0NjgsMTc0NjYyMTQwOS
 wtNjYxNjUxNTc0LDUzNjExMjI5MywxMTU4NTU3NjUzLC0xMDgx
