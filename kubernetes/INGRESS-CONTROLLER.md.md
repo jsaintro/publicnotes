@@ -53,9 +53,9 @@ Note: You can do a regular deployment or a daemonset.  By default the suggest da
 
 1. Download the daemonset template (We need to modify it to work with the arm architecture
 
-        wget 
+        wget https://github.com/containous/traefik/tree/master/examples/k8s/traefik-ds.yaml
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0MDY4MDc1LDUzNjExMjI5MywxMTU4NT
-U3NjUzLC0xMDgxOTMyMzY2LC05NTQzMDE0OTMsLTEyNTI4NzQ3
-MDUsLTE4ODI3MDU2NDVdfQ==
+eyJoaXN0b3J5IjpbLTY2MTY1MTU3NCw1MzYxMTIyOTMsMTE1OD
+U1NzY1MywtMTA4MTkzMjM2NiwtOTU0MzAxNDkzLC0xMjUyODc0
+NzA1LC0xODgyNzA1NjQ1XX0=
 -->
