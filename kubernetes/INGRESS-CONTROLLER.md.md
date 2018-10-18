@@ -67,10 +67,10 @@ Note: You can do a regular deployment or a daemonset.  By default the suggest da
         >traefik-ingress-controller   2         2         0         2            0           <none>          2m
         kubectl get pods --namespace=kube-system -o wide | egrep "NAME|traefik"
         >NAME                                             READY     STATUS              RESTARTS   AGE       IP              NODE
-        >traefik-ingress-controller-7lp49                 0/1        ContainerCreating   0          5m        <none>          pi2.ax.saint-rossy.net
+        >traefik-ingress-controller-7lp49                 0/1       ContainerCreating   0          5m        <none>          pi2.ax.saint-rossy.net
         >traefik-ingress-controller-z846x                 0/1       ContainerCreating   0          5m        <none>          pi3.ax.saint-rossy.net
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzE2NjM3MCwxNzQ2NjIxNDA5LC02Nj
+eyJoaXN0b3J5IjpbLTU3NDQ2MTIwNCwxNzQ2NjIxNDA5LC02Nj
 E2NTE1NzQsNTM2MTEyMjkzLDExNTg1NTc2NTMsLTEwODE5MzIz
 NjYsLTk1NDMwMTQ5MywtMTI1Mjg3NDcwNSwtMTg4MjcwNTY0NV
 19
