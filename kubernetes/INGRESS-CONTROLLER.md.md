@@ -93,11 +93,27 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
 
 5. Configure your external gateway to map port 80 -> port 32285 on any of the nodes in the cluster.
 
-## Simple example 
+
+## Examples
+### Route all traffic to one application
+```
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: hello-world
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /
+        backend:
+          serviceName: hello-world
+          servicePort: 8080
+```
 ## Appendix: Daemonset Notes
 In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODYxNjU2NjgsMTA0MTcyNzk3NCw0OT
+eyJoaXN0b3J5IjpbLTEzMjQ2OTAzNzYsMTA0MTcyNzk3NCw0OT
 I3MDk4ODQsLTIwMzE5NTIxODgsLTIwMDEwMzA2MDEsMTE1Nzgx
 MjE3NywtODQ1ODI0MDE2LC0xNzg1MzU5NDY4LDE3NDY2MjE0MD
 ksLTY2MTY1MTU3NCw1MzYxMTIyOTMsMTE1ODU1NzY1MywtMTA4
