@@ -120,14 +120,30 @@ spec:
 ```
 
 ### Route traffic to application based on DNS hostname
+```
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: hello-world
+spec:
+  rules:
+  - host: hello.kube.saint-rossy.net
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: hello-world
+          servicePort: 8080
+```
+### Route traffic to application based on path
 
 ## Appendix: Daemonset Notes
 In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjY5MzczOSwtMTI2NTU5ODQ2LDEwND
-E3Mjc5NzQsNDkyNzA5ODg0LC0yMDMxOTUyMTg4LC0yMDAxMDMw
-NjAxLDExNTc4MTIxNzcsLTg0NTgyNDAxNiwtMTc4NTM1OTQ2OC
-wxNzQ2NjIxNDA5LC02NjE2NTE1NzQsNTM2MTEyMjkzLDExNTg1
-NTc2NTMsLTEwODE5MzIzNjYsLTk1NDMwMTQ5MywtMTI1Mjg3ND
-cwNSwtMTg4MjcwNTY0NV19
+eyJoaXN0b3J5IjpbNzQ5MDQ1OTEyLC0xMjY1NTk4NDYsMTA0MT
+cyNzk3NCw0OTI3MDk4ODQsLTIwMzE5NTIxODgsLTIwMDEwMzA2
+MDEsMTE1NzgxMjE3NywtODQ1ODI0MDE2LC0xNzg1MzU5NDY4LD
+E3NDY2MjE0MDksLTY2MTY1MTU3NCw1MzYxMTIyOTMsMTE1ODU1
+NzY1MywtMTA4MTkzMjM2NiwtOTU0MzAxNDkzLC0xMjUyODc0Nz
+A1LC0xODgyNzA1NjQ1XX0=
 -->
