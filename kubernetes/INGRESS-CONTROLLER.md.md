@@ -96,6 +96,10 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
 2. Add a wild card DNS.  Either CNAME (If you're doing dynamic DNS or A record)
 
     Example: 
+      Record Type: CNAME
+      Name: *.kube.saint-rossy.net
+      Destination: axlab.ddns.net
+      TTL: 1 Hour
 
 
 ## Examples
@@ -114,13 +118,16 @@ spec:
           serviceName: hello-world
           servicePort: 8080
 ```
+
+### Route traffic to application based on DNS hostname
+
 ## Appendix: Daemonset Notes
 In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjU1OTg0NiwxMDQxNzI3OTc0LDQ5Mj
-cwOTg4NCwtMjAzMTk1MjE4OCwtMjAwMTAzMDYwMSwxMTU3ODEy
-MTc3LC04NDU4MjQwMTYsLTE3ODUzNTk0NjgsMTc0NjYyMTQwOS
-wtNjYxNjUxNTc0LDUzNjExMjI5MywxMTU4NTU3NjUzLC0xMDgx
-OTMyMzY2LC05NTQzMDE0OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MD
-U2NDVdfQ==
+eyJoaXN0b3J5IjpbMTYyNjY5MzczOSwtMTI2NTU5ODQ2LDEwND
+E3Mjc5NzQsNDkyNzA5ODg0LC0yMDMxOTUyMTg4LC0yMDAxMDMw
+NjAxLDExNTc4MTIxNzcsLTg0NTgyNDAxNiwtMTc4NTM1OTQ2OC
+wxNzQ2NjIxNDA5LC02NjE2NTE1NzQsNTM2MTEyMjkzLDExNTg1
+NTc2NTMsLTEwODE5MzIzNjYsLTk1NDMwMTQ5MywtMTI1Mjg3ND
+cwNSwtMTg4MjcwNTY0NV19
 -->
