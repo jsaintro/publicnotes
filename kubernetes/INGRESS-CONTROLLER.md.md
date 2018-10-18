@@ -55,6 +55,8 @@ https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingres
 1. Download the example yaml
 
         wget https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-ds.yaml
+        or wget
+        
 
 2. Edit the example yaml with some fixups to allow the hosts external IP to be used instead of ClusterIP
 
@@ -101,9 +103,9 @@ https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingres
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyNzA5ODg0LC0yMDMxOTUyMTg4LC0yMD
-AxMDMwNjAxLDExNTc4MTIxNzcsLTg0NTgyNDAxNiwtMTc4NTM1
-OTQ2OCwxNzQ2NjIxNDA5LC02NjE2NTE1NzQsNTM2MTEyMjkzLD
-ExNTg1NTc2NTMsLTEwODE5MzIzNjYsLTk1NDMwMTQ5MywtMTI1
-Mjg3NDcwNSwtMTg4MjcwNTY0NV19
+eyJoaXN0b3J5IjpbMTA0MTcyNzk3NCw0OTI3MDk4ODQsLTIwMz
+E5NTIxODgsLTIwMDEwMzA2MDEsMTE1NzgxMjE3NywtODQ1ODI0
+MDE2LC0xNzg1MzU5NDY4LDE3NDY2MjE0MDksLTY2MTY1MTU3NC
+w1MzYxMTIyOTMsMTE1ODU1NzY1MywtMTA4MTkzMjM2NiwtOTU0
+MzAxNDkzLC0xMjUyODc0NzA1LC0xODgyNzA1NjQ1XX0=
 -->
