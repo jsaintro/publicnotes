@@ -60,9 +60,13 @@ Note: You can do a regular deployment or a daemonset.  By default the suggest da
         >daemonset.extensions/traefik-ingress-controller created
         >service/traefik-ingress-service created
 
-1. Monitor the deploy
+2. Monitor the ds creation
+
+        kubectl get ds traefik-ingress-controller --namespace=kube-system
+        >NAME                         DESIRED   CURRENT   READY     UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE
+        >traefik-ingress-controller   2         2         0         2            0           <none>          2m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTczMDc5NDIsLTY2MTY1MTU3NCw1Mz
-YxMTIyOTMsMTE1ODU1NzY1MywtMTA4MTkzMjM2NiwtOTU0MzAx
-NDkzLC0xMjUyODc0NzA1LC0xODgyNzA1NjQ1XX0=
+eyJoaXN0b3J5IjpbMTc0NjYyMTQwOSwtNjYxNjUxNTc0LDUzNj
+ExMjI5MywxMTU4NTU3NjUzLC0xMDgxOTMyMzY2LC05NTQzMDE0
+OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MDU2NDVdfQ==
 -->
