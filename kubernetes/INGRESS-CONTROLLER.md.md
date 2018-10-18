@@ -53,14 +53,14 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
 
         kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-deployment.yaml
       >serviceaccount/traefik-ingress-controller created
-        >deaemonset.extensions/traefik-ingress-controller created
+        >deployment.extensions/traefik-ingress-controller created
         >service/traefik-ingress-service created
 
 4. Monitor the ds creation
 
-        kubectl get ds traefik-ingress-controller --namespace=kube-system
-        >NAME                         DESIRED   CURRENT   READY     UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE
-        >traefik-ingress-controller   2         2         0         2            0           <none>          2m
+        kubectl get deployment traefik-ingress-controller --namespace=kube-system
+        >NAME                         DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
+traefik-ingress-controller   1         1         1            1           1h
         kubectl get pods --namespace=kube-system -o wide | egrep "NAME|traefik"
         >NAME                                             READY     STATUS              RESTARTS   AGE       IP              NODE
         >traefik-ingress-controller-7lp49                 0/1       ContainerCreating   0          5m        <none>          pi2.ax.saint-rossy.net
@@ -86,10 +86,10 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
 ## Appendix: Daemonset Notes
 In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzczNDMxLDEwNDE3Mjc5NzQsNDkyNz
-A5ODg0LC0yMDMxOTUyMTg4LC0yMDAxMDMwNjAxLDExNTc4MTIx
-NzcsLTg0NTgyNDAxNiwtMTc4NTM1OTQ2OCwxNzQ2NjIxNDA5LC
-02NjE2NTE1NzQsNTM2MTEyMjkzLDExNTg1NTc2NTMsLTEwODE5
-MzIzNjYsLTk1NDMwMTQ5MywtMTI1Mjg3NDcwNSwtMTg4MjcwNT
-Y0NV19
+eyJoaXN0b3J5IjpbLTE1MDMzMTk5NTMsMTA0MTcyNzk3NCw0OT
+I3MDk4ODQsLTIwMzE5NTIxODgsLTIwMDEwMzA2MDEsMTE1Nzgx
+MjE3NywtODQ1ODI0MDE2LC0xNzg1MzU5NDY4LDE3NDY2MjE0MD
+ksLTY2MTY1MTU3NCw1MzYxMTIyOTMsMTE1ODU1NzY1MywtMTA4
+MTkzMjM2NiwtOTU0MzAxNDkzLC0xMjUyODc0NzA1LC0xODgyNz
+A1NjQ1XX0=
 -->
