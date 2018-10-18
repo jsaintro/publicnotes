@@ -67,7 +67,7 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
 
     This will take about 5 minutes cause ... raspberry pi
 
-5. Check the logs of one of the pods to make sure it's running properly
+3. Check the logs of one of the pods to make sure it's running properly
 
         kubectl logs traefik-ingress-controller-7lp49 --namespace=kube-system
         >time="2018-10-18T04:37:02Z" level=info msg="Traefik version v1.7.3 built on 2018-10-15_10:13:00AM"
@@ -83,13 +83,14 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
 
+6. 
 ## Appendix: Daemonset Notes
 In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjUzMDYxNDIsMTA0MTcyNzk3NCw0OT
-I3MDk4ODQsLTIwMzE5NTIxODgsLTIwMDEwMzA2MDEsMTE1Nzgx
-MjE3NywtODQ1ODI0MDE2LC0xNzg1MzU5NDY4LDE3NDY2MjE0MD
-ksLTY2MTY1MTU3NCw1MzYxMTIyOTMsMTE1ODU1NzY1MywtMTA4
-MTkzMjM2NiwtOTU0MzAxNDkzLC0xMjUyODc0NzA1LC0xODgyNz
-A1NjQ1XX0=
+eyJoaXN0b3J5IjpbLTIzMjAwNTMxOCwxMDQxNzI3OTc0LDQ5Mj
+cwOTg4NCwtMjAzMTk1MjE4OCwtMjAwMTAzMDYwMSwxMTU3ODEy
+MTc3LC04NDU4MjQwMTYsLTE3ODUzNTk0NjgsMTc0NjYyMTQwOS
+wtNjYxNjUxNTc0LDUzNjExMjI5MywxMTU4NTU3NjUzLC0xMDgx
+OTMyMzY2LC05NTQzMDE0OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MD
+U2NDVdfQ==
 -->
