@@ -25,8 +25,10 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
 
         If you see `RBAC` the RBAC is enabled
 
+### Bind Traefik to the ClusterRole
 
+1.  Use the Treefik 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNDE4MjI1LC0xMDgxOTMyMzY2LC05NT
+eyJoaXN0b3J5IjpbMTg0MjUwNzkyLC0xMDgxOTMyMzY2LC05NT
 QzMDE0OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MDU2NDVdfQ==
 -->
