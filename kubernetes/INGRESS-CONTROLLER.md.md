@@ -59,9 +59,8 @@ https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingres
 2. Edit the example yaml with some fixups to allow the hosts external IP to be used instead of ClusterIP
 
          vi traefik-ds.yaml
-         ...
-           terminationGracePeriodSeconds: 60
-           hostNetwork: true
+         Under `spec` section of template
+         hostNetwork: true
          ...
          Under `spec` section of the service add
          type: ClusterIP
@@ -102,7 +101,7 @@ https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingres
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDQxNDY1NywtMjAzMTk1MjE4OCwtMj
+eyJoaXN0b3J5IjpbLTMxNDU4NDExMCwtMjAzMTk1MjE4OCwtMj
 AwMTAzMDYwMSwxMTU3ODEyMTc3LC04NDU4MjQwMTYsLTE3ODUz
 NTk0NjgsMTc0NjYyMTQwOSwtNjYxNjUxNTc0LDUzNjExMjI5My
 wxMTU4NTU3NjUzLC0xMDgxOTMyMzY2LC05NTQzMDE0OTMsLTEy
