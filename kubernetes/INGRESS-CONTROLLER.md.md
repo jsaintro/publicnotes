@@ -11,6 +11,7 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
 
 ## Setup RBAC
 
+### Verify RBAC is enabled
 1. Determine if you're configured for RBAC
     1. Get the api server hostname
 
@@ -26,6 +27,6 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODE5MzIzNjYsLTk1NDMwMTQ5MywtMT
-I1Mjg3NDcwNSwtMTg4MjcwNTY0NV19
+eyJoaXN0b3J5IjpbMzExNDE4MjI1LC0xMDgxOTMyMzY2LC05NT
+QzMDE0OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MDU2NDVdfQ==
 -->
