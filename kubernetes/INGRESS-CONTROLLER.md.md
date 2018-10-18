@@ -136,14 +136,27 @@ spec:
           servicePort: 8080
 ```
 ### Route traffic to application based on path
-
+```
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: hello-world
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /hello
+        backend:
+          serviceName: hello-world
+          servicePort: 8080
+```
 ## Appendix: Daemonset Notes
 In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5MDQ1OTEyLC0xMjY1NTk4NDYsMTA0MT
-cyNzk3NCw0OTI3MDk4ODQsLTIwMzE5NTIxODgsLTIwMDEwMzA2
-MDEsMTE1NzgxMjE3NywtODQ1ODI0MDE2LC0xNzg1MzU5NDY4LD
-E3NDY2MjE0MDksLTY2MTY1MTU3NCw1MzYxMTIyOTMsMTE1ODU1
-NzY1MywtMTA4MTkzMjM2NiwtOTU0MzAxNDkzLC0xMjUyODc0Nz
-A1LC0xODgyNzA1NjQ1XX0=
+eyJoaXN0b3J5IjpbLTE2ODU0NjkwODIsLTEyNjU1OTg0NiwxMD
+QxNzI3OTc0LDQ5MjcwOTg4NCwtMjAzMTk1MjE4OCwtMjAwMTAz
+MDYwMSwxMTU3ODEyMTc3LC04NDU4MjQwMTYsLTE3ODUzNTk0Nj
+gsMTc0NjYyMTQwOSwtNjYxNjUxNTc0LDUzNjExMjI5MywxMTU4
+NTU3NjUzLC0xMDgxOTMyMzY2LC05NTQzMDE0OTMsLTEyNTI4Nz
+Q3MDUsLTE4ODI3MDU2NDVdfQ==
 -->
