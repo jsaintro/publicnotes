@@ -65,8 +65,13 @@ Note: You can do a regular deployment or a daemonset.  By default the suggest da
         kubectl get ds traefik-ingress-controller --namespace=kube-system
         >NAME                         DESIRED   CURRENT   READY     UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE
         >traefik-ingress-controller   2         2         0         2            0           <none>          2m
+        kubectl get pods --namespace=kube-system -o wide | egrep "NAME|traefik"
+        >NAME                                             READY     STATUS              RESTARTS   AGE       IP              NODE
+        >traefik-ingress-controller-7lp49                 0/1        ContainerCreating   0          5m        <none>          pi2.ax.saint-rossy.net
+        >traefik-ingress-controller-z846x                 0/1       ContainerCreating   0          5m        <none>          pi3.ax.saint-rossy.net
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjYyMTQwOSwtNjYxNjUxNTc0LDUzNj
-ExMjI5MywxMTU4NTU3NjUzLC0xMDgxOTMyMzY2LC05NTQzMDE0
-OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MDU2NDVdfQ==
+eyJoaXN0b3J5IjpbMjA2NzE2NjM3MCwxNzQ2NjIxNDA5LC02Nj
+E2NTE1NzQsNTM2MTEyMjkzLDExNTg1NTc2NTMsLTEwODE5MzIz
+NjYsLTk1NDMwMTQ5MywtMTI1Mjg3NDcwNSwtMTg4MjcwNTY0NV
+19
 -->
