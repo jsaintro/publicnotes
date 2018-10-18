@@ -51,28 +51,9 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
 Chose to go with deployment vs daemon set as it's lighter weight and requires less hacking to get it working
 1. Apply the deployment yaml
 
-        kubectl apply -f Download the example yaml
-
-        wget https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-ds.yaml
-        or wget
-        
-
-2. Edit the example yaml with some fixups to allow the hosts external IP to be used instead of ClusterIP
-
-         vi traefik-ds.yaml
-         Under `spec` section of template
-         hostNetwork: true
-         ...
-         Under `spec` section of the service add
-         type: ClusterIP
-
-3. Apply the traefik provided yaml for the daemonset
-
-    Note: The traefik docker image on docker hub supports arm processors and will automatically download the right arch.
-        
-        kubectl apply -f traefik-ds.yaml
-        >serviceaccount/traefik-ingress-controller created
-        >daemonset.extensions/traefik-ingress-controller created
+        kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-deployment.yaml
+      >serviceaccount/traefik-ingress-controller created
+        >deaemonset.extensions/traefik-ingress-controller created
         >service/traefik-ingress-service created
 
 4. Monitor the ds creation
@@ -105,10 +86,10 @@ Chose to go with deployment vs daemon set as it's lighter weight and requires le
 ## Appendix: Daemonset Notes
 In order to get the deamon set to work correctly you need to do this guys workarounds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDEyMTUxNywxMDQxNzI3OTc0LDQ5Mj
-cwOTg4NCwtMjAzMTk1MjE4OCwtMjAwMTAzMDYwMSwxMTU3ODEy
-MTc3LC04NDU4MjQwMTYsLTE3ODUzNTk0NjgsMTc0NjYyMTQwOS
-wtNjYxNjUxNTc0LDUzNjExMjI5MywxMTU4NTU3NjUzLC0xMDgx
-OTMyMzY2LC05NTQzMDE0OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MD
-U2NDVdfQ==
+eyJoaXN0b3J5IjpbLTk3MzczNDMxLDEwNDE3Mjc5NzQsNDkyNz
+A5ODg0LC0yMDMxOTUyMTg4LC0yMDAxMDMwNjAxLDExNTc4MTIx
+NzcsLTg0NTgyNDAxNiwtMTc4NTM1OTQ2OCwxNzQ2NjIxNDA5LC
+02NjE2NTE1NzQsNTM2MTEyMjkzLDExNTg1NTc2NTMsLTEwODE5
+MzIzNjYsLTk1NDMwMTQ5MywtMTI1Mjg3NDcwNSwtMTg4MjcwNT
+Y0NV19
 -->
