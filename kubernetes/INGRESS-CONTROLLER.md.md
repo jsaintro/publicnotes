@@ -27,8 +27,12 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
 
 ### Bind Traefik to the ClusterRole
 
-1.  Use the Treefik 
+1.  Apply the Traefik provided yaml to our Kubernetes cluster
+
+        kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-rbac.yaml
+        clusterrole.rbac.authorization.k8s.io/traefik-ingress-controller created
+        clusterrolebinding.rbac.authorization.k8s.io/traefik-ingress-controller created
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjUwNzkyLC0xMDgxOTMyMzY2LC05NT
-QzMDE0OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MDU2NDVdfQ==
+eyJoaXN0b3J5IjpbMTE1ODU1NzY1MywtMTA4MTkzMjM2NiwtOT
+U0MzAxNDkzLC0xMjUyODc0NzA1LC0xODgyNzA1NjQ1XX0=
 -->
