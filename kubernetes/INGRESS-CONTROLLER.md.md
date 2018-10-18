@@ -49,11 +49,10 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
 
 ## Install the Daemonset
 
-Note: You can do a regular deployment or a daemonset.  daemonset is still dependent on an external LB and uses more resources so we'll do the deployment instead
-
+Note: Need to modify the daemon set to get it to use an external IP
 https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingress-deployed-as-a-demonset-listening-on-port-80
 
-1. Apply the traefik provided yaml for the daemonset
+O1. Apply the traefik provided yaml for the daemonset
 
     Note: The traefik docker image on docker hub supports arm processors and will automatically download the right arch.
         
@@ -89,9 +88,9 @@ https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingres
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzE5NTIxODgsLTIwMDEwMzA2MDEsMT
-E1NzgxMjE3NywtODQ1ODI0MDE2LC0xNzg1MzU5NDY4LDE3NDY2
-MjE0MDksLTY2MTY1MTU3NCw1MzYxMTIyOTMsMTE1ODU1NzY1My
-wtMTA4MTkzMjM2NiwtOTU0MzAxNDkzLC0xMjUyODc0NzA1LC0x
-ODgyNzA1NjQ1XX0=
+eyJoaXN0b3J5IjpbLTU4NzgzODg3NywtMjAzMTk1MjE4OCwtMj
+AwMTAzMDYwMSwxMTU3ODEyMTc3LC04NDU4MjQwMTYsLTE3ODUz
+NTk0NjgsMTc0NjYyMTQwOSwtNjYxNjUxNTc0LDUzNjExMjI5My
+wxMTU4NTU3NjUzLC0xMDgxOTMyMzY2LC05NTQzMDE0OTMsLTEy
+NTI4NzQ3MDUsLTE4ODI3MDU2NDVdfQ==
 -->
