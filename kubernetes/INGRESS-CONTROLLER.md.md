@@ -1,7 +1,7 @@
 
 # Ingress Controller Setup
 
-This is requred for standalone K8s installations to allow Ingress loadbalancing.
+This is required for standalone K8s installations to allow Ingress loadbalancing.
 
 ## Based on 
 https://www.infralovers.com/en/articles/2017/04/22/kubernetes-and-traefik-on-raspberry/
@@ -47,9 +47,8 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
         >  ----            ----                        ---------
         >  ServiceAccount  traefik-ingress-controller  kube-system
 
-## Install the Daemonset
-
-Note: Need to modify the daemon set to get it to use an external IP
+## Install the Deployment
+Chose to go with deployment vs daemon set as it's lighter weight and requires less hacking to get it workingNote: Need to modify the daemon set to get it to use an external IP
 https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingress-deployed-as-a-demonset-listening-on-port-80
 
 1. Download the example yaml
@@ -103,9 +102,10 @@ https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingres
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTcyNzk3NCw0OTI3MDk4ODQsLTIwMz
-E5NTIxODgsLTIwMDEwMzA2MDEsMTE1NzgxMjE3NywtODQ1ODI0
-MDE2LC0xNzg1MzU5NDY4LDE3NDY2MjE0MDksLTY2MTY1MTU3NC
-w1MzYxMTIyOTMsMTE1ODU1NzY1MywtMTA4MTkzMjM2NiwtOTU0
-MzAxNDkzLC0xMjUyODc0NzA1LC0xODgyNzA1NjQ1XX0=
+eyJoaXN0b3J5IjpbMTc3MDM3ODc4MSwxMDQxNzI3OTc0LDQ5Mj
+cwOTg4NCwtMjAzMTk1MjE4OCwtMjAwMTAzMDYwMSwxMTU3ODEy
+MTc3LC04NDU4MjQwMTYsLTE3ODUzNTk0NjgsMTc0NjYyMTQwOS
+wtNjYxNjUxNTc0LDUzNjExMjI5MywxMTU4NTU3NjUzLC0xMDgx
+OTMyMzY2LC05NTQzMDE0OTMsLTEyNTI4NzQ3MDUsLTE4ODI3MD
+U2NDVdfQ==
 -->
