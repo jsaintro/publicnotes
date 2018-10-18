@@ -58,7 +58,12 @@ https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingres
 
 2. Edit the example yaml with some fixups to allow the hosts external IP to be used instead of ClusterIP
 
-  
+         vi traefik-ds.yaml
+         ...
+           terminationGracePeriodSeconds: 60
+           hostNetwork: true
+         ...
+         
 3. Apply the traefik provided yaml for the daemonset
 
     Note: The traefik docker image on docker hub supports arm processors and will automatically download the right arch.
@@ -95,9 +100,9 @@ https://stackoverflow.com/questions/52066340/what-is-necessary-to-make-an-ingres
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :8080"
         >time="2018-10-18T04:37:04Z" level=info msg="Server configuration reloaded on :80"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzQ2Mzc5MCwtMjAzMTk1MjE4OCwtMj
-AwMTAzMDYwMSwxMTU3ODEyMTc3LC04NDU4MjQwMTYsLTE3ODUz
-NTk0NjgsMTc0NjYyMTQwOSwtNjYxNjUxNTc0LDUzNjExMjI5My
-wxMTU4NTU3NjUzLC0xMDgxOTMyMzY2LC05NTQzMDE0OTMsLTEy
-NTI4NzQ3MDUsLTE4ODI3MDU2NDVdfQ==
+eyJoaXN0b3J5IjpbLTE1MDQzODM0LC0yMDMxOTUyMTg4LC0yMD
+AxMDMwNjAxLDExNTc4MTIxNzcsLTg0NTgyNDAxNiwtMTc4NTM1
+OTQ2OCwxNzQ2NjIxNDA5LC02NjE2NTE1NzQsNTM2MTEyMjkzLD
+ExNTg1NTc2NTMsLTEwODE5MzIzNjYsLTk1NDMwMTQ5MywtMTI1
+Mjg3NDcwNSwtMTg4MjcwNTY0NV19
 -->
