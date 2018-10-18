@@ -32,7 +32,22 @@ https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberr
         kubectl apply -f https://raw.githubusercontent.com/containous/traefik/master/examples/k8s/traefik-rbac.yaml
         clusterrole.rbac.authorization.k8s.io/traefik-ingress-controller created
         clusterrolebinding.rbac.authorization.k8s.io/traefik-ingress-controller created
+
+2. Verify the binding
+
+        kubectl describe clusterrolebinding.rbac traefik-ingress-controller
+        >Name:         traefik-ingress-controller
+        >Labels:       <none>
+        >Annotations:  kubectl.kubernetes.io/last-applied-configuration={"apiVersion":"rbac.authorization.k8s.io/v1beta1","kind":"ClusterRoleBinding","metadata":{"annotations":{},"name":"traefik-ingress-controller","namespa...
+        >Role:
+        >  Kind:  ClusterRole
+        >  Name:  traefik-ingress-controller
+        >Subjects:
+        >  Kind            Name                        Namespace
+        >  ----            ----                        ---------
+  ServiceAccount  traefik-ingress-controller  kube-system
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODU1NzY1MywtMTA4MTkzMjM2NiwtOT
-U0MzAxNDkzLC0xMjUyODc0NzA1LC0xODgyNzA1NjQ1XX0=
+eyJoaXN0b3J5IjpbLTEyMTUwODMyMDIsMTE1ODU1NzY1MywtMT
+A4MTkzMjM2NiwtOTU0MzAxNDkzLC0xMjUyODc0NzA1LC0xODgy
+NzA1NjQ1XX0=
 -->
