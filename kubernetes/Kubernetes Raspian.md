@@ -124,7 +124,7 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 8.  Install the CNI network plugin (Required to get things working)
   1. sysctl net.bridge.bridge-nf-call-iptables=1
   2. Run the weave network cni plugin pod
-    ```
+   
 kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"
 ```
 Note if kube-controller-manager is in CrashLoopBackOff may need to restart and reapply the above.  Note 
@@ -132,6 +132,7 @@ What for cluster to come up with `kubectl get pods --all-namespaces` takes a whi
 
 https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/#pod-network
 9.  Lets see whats running
+  
 ```
 jsaintrocc@pi1:~ $ kubectl get pods --namespace kube-system
 NAME                                             READY     STATUS             RESTARTS   AGE
@@ -143,23 +144,24 @@ kube-controller-manager-pi1.ax.saint-rossy.net   0/1       CrashLoopBackOff   6 
 kube-proxy-pncpz                                 1/1       Running            0          12m
 kube-scheduler-pi1.ax.saint-rossy.net            1/1       Running            0          11m
 ```
-10. Join the workers nodes (On each worker node)
+
+11. Join the workers nodes (On each worker node)
 sudo kubeadm join 192.168.86.11:6443 --token XXXXXX --discovery-token-ca-cert-hash sha256:YYYYY
 
 
 	[WARNING RequiredIPVSKernelModulesAvailable]: the IPVS proxier will not be used, because the following required kernel modules are not loaded: [ip_vs_sh ip_vs ip_vs_rr ip_vs_wrr] or no builtin kernel ipvs support: map[ip_vs:{} ip_vs_rr:{} ip_vs_wrr:{} ip_vs_sh:{} nf_conntrack_ipv4:{}]
 you can solve this problem with following methods:
  1. Run 'modprobe -- ' to load missing kernel modules;
-11. Provide the missing builtin kernel ipvs support
+12. Provide the missing builtin kernel ipvs support
 
 
-9. Run the  `sudo kubeadm join xx`  command in workers. Validate:
+13. Run the  `sudo kubeadm join xx`  command in workers. Validate:
 
-$root@raspberrypi-7:~# kubectl get nodes  
-NAME             STATUS    ROLES     AGE       VERSION  
+        $root@raspberrypi-7:~# kubectl get nodes  
+        NAME             STATUS    ROLES     AGE       VERSION  
 raspberrypi-13   Ready     <none>    22h       v1.10.5  
 raspberrypi-7    Ready     master    23h       v1.10.5  
 raspberrypi-8    Ready     <none>    23h       v1.9.1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTc5NjUyXX0=
+eyJoaXN0b3J5IjpbLTkxMTk3NjU3OSwtNzMxNzk2NTJdfQ==
 -->
