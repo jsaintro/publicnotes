@@ -24,9 +24,13 @@ serviceaccount "dashboard" created
 kubectl create clusterrolebinding dashboard-admin -n default \  
   --clusterrole=cluster-admin \  
   --serviceaccount=default:dashboard
+  clusterrolebinding.rbac.authorization.k8s.io "dashboard-admin" created
+
+1. Generate a signin token
+kubectl get secret $(kubectl get serviceaccount dashboard -o jsonpath="{.secrets[0].name}") -o jsonpath="{.data.token}" | base64 --decode
 
    Note: you'll need to be vpned into one of the nodes or use kubectl proxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Mjk2MTIwLC0yMDQ5NjYzMzQ1LC0xNz
-AwOTYwMDIwXX0=
+eyJoaXN0b3J5IjpbMTk3Njc5NjYyMywtMjA0OTY2MzM0NSwtMT
+cwMDk2MDAyMF19
 -->
