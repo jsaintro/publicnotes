@@ -29,8 +29,9 @@ kubectl create clusterrolebinding dashboard-admin -n default \
 1. Generate a signin token
 kubectl get secret $(kubectl get serviceaccount dashboard -o jsonpath="{.secrets[0].name}") -o jsonpath="{.data.token}" | base64 --decode
 
+create a bridg
    Note: you'll need to be vpned into one of the nodes or use kubectl proxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Njc5NjYyMywtMjA0OTY2MzM0NSwtMT
+eyJoaXN0b3J5IjpbLTM1Mjc0NjAyMiwtMjA0OTY2MzM0NSwtMT
 cwMDk2MDAyMF19
 -->
