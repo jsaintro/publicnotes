@@ -15,6 +15,11 @@
         kubectl get services kubernetes-dashboard --namespace=kube-system
         >NAME                   TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
         >kubernetes-dashboard   ClusterIP   10.104.195.122   <none>        443/TCP   9m
+
+4. Access via a web browser
+
+   Note: you'll need to be vpned into one of the nodes or use kubectl proxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTAyODg2MCwtMTcwMDk2MDAyMF19
+eyJoaXN0b3J5IjpbLTIwNDk2NjMzNDUsLTE3MDA5NjAwMjBdfQ
+==
 -->
