@@ -125,22 +125,21 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
   1. sysctl net.bridge.bridge-nf-call-iptables=1
   2. Run the weave network cni plugin pod
    
-kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"
-```
-Note if kube-controller-manager is in CrashLoopBackOff may need to restart and reapply the above.  Note 
+            kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"
+
+        Note if kube-controller-manager is in CrashLoopBackOff may need to restart and reapply the above.  Note 
 What for cluster to come up with `kubectl get pods --all-namespaces` takes a while like 5 min
 
 https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/#pod-network
 9.  Lets see whats running
   
-```
-jsaintrocc@pi1:~ $ kubectl get pods --namespace kube-system
-NAME                                             READY     STATUS             RESTARTS   AGE
-coredns-78fcdf6894-h9n7c                         0/1       Pending            0          12m
-coredns-78fcdf6894-rgngd                         0/1       Pending            0          12m
-etcd-pi1.ax.saint-rossy.net                      1/1       Running            0          11m
-kube-apiserver-pi1.ax.saint-rossy.net            1/1       Running            0          11m
-kube-controller-manager-pi1.ax.saint-rossy.net   0/1       CrashLoopBackOff   6          12m
+        jsaintrocc@pi1:~ $ kubectl get pods --namespace kube-system
+        >NAME                                             READY     STATUS             RESTARTS   AGE
+        >coredns-78fcdf6894-h9n7c                         0/1       Pending            0          12m
+        >coredns-78fcdf6894-rgngd                         0/1       Pending            0          12m
+        >etcd-pi1.ax.saint-rossy.net                      1/1       Running            0          11m
+        >kube-apiserver-pi1.ax.saint-rossy.net            1/1       Running            0          11m
+        >kube-controller-manager-pi1.ax.saint-rossy.net   0/1       CrashLoopBackOff   6          12m
 kube-proxy-pncpz                                 1/1       Running            0          12m
 kube-scheduler-pi1.ax.saint-rossy.net            1/1       Running            0          11m
 ```
@@ -163,5 +162,5 @@ raspberrypi-13   Ready     <none>    22h       v1.10.5
 raspberrypi-7    Ready     master    23h       v1.10.5  
 raspberrypi-8    Ready     <none>    23h       v1.9.1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTk3NjU3OSwtNzMxNzk2NTJdfQ==
+eyJoaXN0b3J5IjpbLTQ5NTY1MzIwMywtNzMxNzk2NTJdfQ==
 -->
