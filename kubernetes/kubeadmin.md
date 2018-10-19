@@ -12,7 +12,9 @@
 
 3. Find the ClusterIP/port
 
-      kubectl get service 
+        kubectl get services kubernetes-dashboard --namespace=kube-system
+        >NAME                   TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
+        >kubernetes-dashboard   ClusterIP   10.104.195.122   <none>        443/TCP   9m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTE1NDY5MCwtMTcwMDk2MDAyMF19
+eyJoaXN0b3J5IjpbMTI0OTAyODg2MCwtMTcwMDk2MDAyMF19
 -->
