@@ -140,9 +140,8 @@ https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/#pod-network
         >etcd-pi1.ax.saint-rossy.net                      1/1       Running            0          11m
         >kube-apiserver-pi1.ax.saint-rossy.net            1/1       Running            0          11m
         >kube-controller-manager-pi1.ax.saint-rossy.net   0/1       CrashLoopBackOff   6          12m
-kube-proxy-pncpz                                 1/1       Running            0          12m
-kube-scheduler-pi1.ax.saint-rossy.net            1/1       Running            0          11m
-```
+        >kube-proxy-pncpz                                 1/1       Running            0          12m
+        >kube-scheduler-pi1.ax.saint-rossy.net            1/1       Running            0          11m
 
 11. Join the workers nodes (On each worker node)
 sudo kubeadm join 192.168.86.11:6443 --token XXXXXX --discovery-token-ca-cert-hash sha256:YYYYY
@@ -157,10 +156,10 @@ you can solve this problem with following methods:
 13. Run the  `sudo kubeadm join xx`  command in workers. Validate:
 
         $root@raspberrypi-7:~# kubectl get nodes  
-        NAME             STATUS    ROLES     AGE       VERSION  
-raspberrypi-13   Ready     <none>    22h       v1.10.5  
-raspberrypi-7    Ready     master    23h       v1.10.5  
-raspberrypi-8    Ready     <none>    23h       v1.9.1
+        >NAME             STATUS    ROLES     AGE       VERSION  
+        >raspberrypi-13   Ready     <none>    22h       v1.10.5  
+        >raspberrypi-7    Ready     master    23h       v1.10.5  
+        >raspberrypi-8    Ready     <none>    23h       v1.9.1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTY1MzIwMywtNzMxNzk2NTJdfQ==
+eyJoaXN0b3J5IjpbNjgwNTI2NTgxLC03MzE3OTY1Ml19
 -->
