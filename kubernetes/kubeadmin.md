@@ -18,8 +18,15 @@
 
 4. Access via a web browser
 
+5. Create a user with permissions
+kubectl create serviceaccount dashboard -n default
+serviceaccount "dashboard" created
+kubectl create clusterrolebinding dashboard-admin -n default \  
+  --clusterrole=cluster-admin \  
+  --serviceaccount=default:dashboard
+
    Note: you'll need to be vpned into one of the nodes or use kubectl proxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk2NjMzNDUsLTE3MDA5NjAwMjBdfQ
-==
+eyJoaXN0b3J5IjpbLTM1Mjk2MTIwLC0yMDQ5NjYzMzQ1LC0xNz
+AwOTYwMDIwXX0=
 -->
