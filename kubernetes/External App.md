@@ -150,18 +150,18 @@
 1. To delete the Service, enter this command:
 
         kubectl delete services my-service
+        >service "my-service" deleted
 
-To delete the Deployment, the ReplicaSet, and the Pods that are running the Hello World application, enter this command:
+1. To delete the Deployment, the ReplicaSet, and the Pods that are running the Hello World application, enter this command:
 
-```
-    kubectl delete deployment hello-world
+        kubectl delete deployment hello-world
+        >deployment.extensions "hello-world" deleted
 
-```
 
 ## What's next
 http://www.pivpn.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDc3MDIxMCwtMTM2ODg1MjMxNywxMj
+eyJoaXN0b3J5IjpbLTI4NzU4ODgyNiwtMTM2ODg1MjMxNywxMj
 EzODkxOTcsMTM1MDE1Mzg2OCwtMTc5MDcwNTI5MSwyMTYxNTM3
 NjAsOTI5NDY2MTksODk1NzI2ODQ0LC0xMTAxNDYzMjUzLDE1Mj
 gxNzMwNDQsMjAxNjE0ODkyNiw4ODU4NTY2OTcsLTE1NjEwODgx
