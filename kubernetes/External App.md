@@ -103,24 +103,26 @@
         >NAME         TYPE           CLUSTER-IP     EXTERNAL-IP      PORT(S)          AGE
         >my-service   LoadBalancer   10.98.13.135   192.168.86.101   8080:30674/TCP   20h
     
-    Note: IF 
-    The output is similar to this:
-    
-    ```
-    NAME         TYPE        CLUSTER-IP     EXTERNAL-IP      PORT(S)    AGE
-    my-service   ClusterIP   10.3.245.137   104.198.205.71   8080/TCP   54s
-    
-    ```
-    
-    Note: If the external IP address is shown as <pending>, wait for a minute and enter the same command again.
+    Note: If EXTERNAL-IP is stuck in pending check to make sure you installed metallb correctly
     
 7.  Display detailed information about the Service:
     
-    ```
-    kubectl describe services my-service
-    
-    ```
-    
+        kubectl describe services my-service
+        >Name:                     my-service
+Namespace:                default
+Labels:                   run=load-balancer-example
+Annotations:              <none>
+Selector:                 run=load-balancer-example
+Type:                     LoadBalancer
+IP:                       10.98.13.135
+LoadBalancer Ingress:     192.168.86.101
+Port:                     <unset>  8080/TCP
+TargetPort:               8080/TCP
+NodePort:                 <unset>  30674/TCP
+Endpoints:                10.38.0.12:8080,10.38.0.13:8080,10.38.0.14:8080 + 2 more...
+Session Affinity:         None
+External Traffic Policy:  Cluster
+Events:                   <none>    
     The output is similar to this:
     
     ```
@@ -197,9 +199,9 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 ## What's next
 http://www.pivpn.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjk1NjQ5LC0xMzY4ODUyMzE3LDEyMT
-M4OTE5NywxMzUwMTUzODY4LC0xNzkwNzA1MjkxLDIxNjE1Mzc2
-MCw5Mjk0NjYxOSw4OTU3MjY4NDQsLTExMDE0NjMyNTMsMTUyOD
-E3MzA0NCwyMDE2MTQ4OTI2LDg4NTg1NjY5NywtMTU2MTA4ODEz
-MV19
+eyJoaXN0b3J5IjpbLTIxMjUxMzU2NTYsLTEzNjg4NTIzMTcsMT
+IxMzg5MTk3LDEzNTAxNTM4NjgsLTE3OTA3MDUyOTEsMjE2MTUz
+NzYwLDkyOTQ2NjE5LDg5NTcyNjg0NCwtMTEwMTQ2MzI1MywxNT
+I4MTczMDQ0LDIwMTYxNDg5MjYsODg1ODU2Njk3LC0xNTYxMDg4
+MTMxXX0=
 -->
