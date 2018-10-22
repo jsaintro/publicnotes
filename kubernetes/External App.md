@@ -94,16 +94,16 @@
     
 5.  Create a Service object that exposes the deployment:
 
-        kubectl expose deployment hello-world --type=Node --name=my-service
         kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
         >service/my-service exposed 
 
 6.  Display information about the Service:
 
         kubectl get services my-service
-        >NAME         TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
-        >my-service   LoadBalancer   10.111.90.169   <pending>     8080:31055/TCP   1m
+        >NAME         TYPE           CLUSTER-IP     EXTERNAL-IP      PORT(S)          AGE
+        >my-service   LoadBalancer   10.98.13.135   192.168.86.101   8080:30674/TCP   20h
     
+    Note: IF 
     The output is similar to this:
     
     ```
@@ -197,9 +197,9 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 ## What's next
 http://www.pivpn.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTM0Mzk4NSwtMTM2ODg1MjMxNywxMj
-EzODkxOTcsMTM1MDE1Mzg2OCwtMTc5MDcwNTI5MSwyMTYxNTM3
-NjAsOTI5NDY2MTksODk1NzI2ODQ0LC0xMTAxNDYzMjUzLDE1Mj
-gxNzMwNDQsMjAxNjE0ODkyNiw4ODU4NTY2OTcsLTE1NjEwODgx
-MzFdfQ==
+eyJoaXN0b3J5IjpbLTUzNjk1NjQ5LC0xMzY4ODUyMzE3LDEyMT
+M4OTE5NywxMzUwMTUzODY4LC0xNzkwNzA1MjkxLDIxNjE1Mzc2
+MCw5Mjk0NjYxOSw4OTU3MjY4NDQsLTExMDE0NjMyNTMsMTUyOD
+E3MzA0NCwyMDE2MTQ4OTI2LDg4NTg1NjY5NywtMTU2MTA4ODEz
+MV19
 -->
