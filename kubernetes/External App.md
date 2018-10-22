@@ -4,7 +4,7 @@
 
 ## Requirements
 * rpi Kubernetes cluster
-* Metallb-rpi
+* Metallb-rpi (To simulate cloud LB)
 
 ## Creating a service for an application running in five pods
 
@@ -202,8 +202,9 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 ## What's next
 http://www.pivpn.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg4NTIzMTcsMTIxMzg5MTk3LDEzNT
-AxNTM4NjgsLTE3OTA3MDUyOTEsMjE2MTUzNzYwLDkyOTQ2NjE5
-LDg5NTcyNjg0NCwtMTEwMTQ2MzI1MywxNTI4MTczMDQ0LDIwMT
-YxNDg5MjYsODg1ODU2Njk3LC0xNTYxMDg4MTMxXX0=
+eyJoaXN0b3J5IjpbMzM2NTU0MjI4LC0xMzY4ODUyMzE3LDEyMT
+M4OTE5NywxMzUwMTUzODY4LC0xNzkwNzA1MjkxLDIxNjE1Mzc2
+MCw5Mjk0NjYxOSw4OTU3MjY4NDQsLTExMDE0NjMyNTMsMTUyOD
+E3MzA0NCwyMDE2MTQ4OTI2LDg4NTg1NjY5NywtMTU2MTA4ODEz
+MV19
 -->
