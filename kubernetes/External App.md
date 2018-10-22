@@ -94,11 +94,6 @@
     
 5.  Create a Service object that exposes the deployment:
 
-https://www.infralovers.com/en/articles/2017/04/22/kubernetes-and-traefik-on-raspberry/
-https://blog.hypriot.com/post/setup-kubernetes-raspberry-pi-cluster/
-https://docs.traefik.io/user-guide/kubernetes/
-https://medium.com/@evnsio/managing-my-home-with-kubernetes-traefik-and-raspberry-pis-d0330effea9a
-
         kubectl expose deployment hello-world --type=Node --name=my-service
         kubectl expose deployment hello-world --type=LoadBalancer --name=my-service
         >service/my-service exposed 
@@ -202,9 +197,9 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 ## What's next
 http://www.pivpn.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2NTU0MjI4LC0xMzY4ODUyMzE3LDEyMT
-M4OTE5NywxMzUwMTUzODY4LC0xNzkwNzA1MjkxLDIxNjE1Mzc2
-MCw5Mjk0NjYxOSw4OTU3MjY4NDQsLTExMDE0NjMyNTMsMTUyOD
-E3MzA0NCwyMDE2MTQ4OTI2LDg4NTg1NjY5NywtMTU2MTA4ODEz
-MV19
+eyJoaXN0b3J5IjpbLTI5MTM0Mzk4NSwtMTM2ODg1MjMxNywxMj
+EzODkxOTcsMTM1MDE1Mzg2OCwtMTc5MDcwNTI5MSwyMTYxNTM3
+NjAsOTI5NDY2MTksODk1NzI2ODQ0LC0xMTAxNDYzMjUzLDE1Mj
+gxNzMwNDQsMjAxNjE0ODkyNiw4ODU4NTY2OTcsLTE1NjEwODgx
+MzFdfQ==
 -->
