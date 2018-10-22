@@ -2,6 +2,10 @@
 
 [Original Tutorial](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/)
 
+## Requirements
+* rpi Kubernetes cluster
+* Metallb-rpi
+
 ## Creating a service for an application running in five pods
 
 1.  Run a Hello World application in your cluster:
@@ -198,8 +202,8 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 ## What's next
 http://www.pivpn.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzg5MTk3LDEzNTAxNTM4NjgsLTE3OT
-A3MDUyOTEsMjE2MTUzNzYwLDkyOTQ2NjE5LDg5NTcyNjg0NCwt
-MTEwMTQ2MzI1MywxNTI4MTczMDQ0LDIwMTYxNDg5MjYsODg1OD
-U2Njk3LC0xNTYxMDg4MTMxXX0=
+eyJoaXN0b3J5IjpbLTEzNjg4NTIzMTcsMTIxMzg5MTk3LDEzNT
+AxNTM4NjgsLTE3OTA3MDUyOTEsMjE2MTUzNzYwLDkyOTQ2NjE5
+LDg5NTcyNjg0NCwtMTEwMTQ2MzI1MywxNTI4MTczMDQ0LDIwMT
+YxNDg5MjYsODg1ODU2Njk3LC0xNTYxMDg4MTMxXX0=
 -->
