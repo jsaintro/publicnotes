@@ -109,23 +109,20 @@
     
         kubectl describe services my-service
         >Name:                     my-service
-Namespace:                default
-Labels:                   run=load-balancer-example
-Annotations:              <none>
-Selector:                 run=load-balancer-example
-Type:                     LoadBalancer
-IP:                       10.98.13.135
-LoadBalancer Ingress:     192.168.86.101
-Port:                     <unset>  8080/TCP
-TargetPort:               8080/TCP
-NodePort:                 <unset>  30674/TCP
-Endpoints:                10.38.0.12:8080,10.38.0.13:8080,10.38.0.14:8080 + 2 more...
-Session Affinity:         None
-External Traffic Policy:  Cluster
-Events:                   <none>    
-    The output is similar to this:
-    
-    ```
+        >Namespace:                default
+        >Labels:                   run=load-balancer-example
+        >Annotations:              <none>
+        >Selector:                 run=load-balancer-example
+        >Type:                     LoadBalancer
+        >IP:                       10.98.13.135
+        >LoadBalancer Ingress:     192.168.86.101
+        >Port:                     <unset>  8080/TCP
+        >TargetPort:               8080/TCP
+        >NodePort:                 <unset>  30674/TCP
+        >Endpoints:                10.38.0.12:8080,10.38.0.13:8080,10.38.0.14:8080 + 2 more...
+        >Session Affinity:         None
+        >External Traffic Policy:  Cluster
+        >Events:                   <none>    
     Name:           my-service
     Namespace:      default
     Labels:         run=load-balancer-example
@@ -199,9 +196,9 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 ## What's next
 http://www.pivpn.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjUxMzU2NTYsLTEzNjg4NTIzMTcsMT
-IxMzg5MTk3LDEzNTAxNTM4NjgsLTE3OTA3MDUyOTEsMjE2MTUz
-NzYwLDkyOTQ2NjE5LDg5NTcyNjg0NCwtMTEwMTQ2MzI1MywxNT
-I4MTczMDQ0LDIwMTYxNDg5MjYsODg1ODU2Njk3LC0xNTYxMDg4
-MTMxXX0=
+eyJoaXN0b3J5IjpbMTI1NjEwOTI3MCwtMTM2ODg1MjMxNywxMj
+EzODkxOTcsMTM1MDE1Mzg2OCwtMTc5MDcwNTI5MSwyMTYxNTM3
+NjAsOTI5NDY2MTksODk1NzI2ODQ0LC0xMTAxNDYzMjUzLDE1Mj
+gxNzMwNDQsMjAxNjE0ODkyNiw4ODU4NTY2OTcsLTE1NjEwODgx
+MzFdfQ==
 -->
