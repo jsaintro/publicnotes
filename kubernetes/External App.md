@@ -139,25 +139,17 @@
 9.  Use the external IP address (`LoadBalancer Ingress`) to access the Hello World application:
     
         curl http://<external-ip>:<port>
+        >Hello, world!
+        >Version: 1.0.0
+        >Hostname: hello-world-664687dd5d-px6bk
     
-    where  `<external-ip>`  is the external IP address (`LoadBalancer Ingress`) of your Service, and  `<port>`  is the value of  `Port`  in your Service description. If you are using minikube, typing  `minikube service my-service`  will automatically open the Hello World application in a browser.
-    
-    The response to a successful request is a hello message:
-    
-    ```
-    Hello Kubernetes!
-    
-    ```
-    
+    where  `<external-ip>`  is the external IP address (`LoadBalancer Ingress`) of your Service, and  `<port>`  is the value of  `Port`  in your Service description.
 
-## Cleaning up[](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/#cleaning-up)
+## Cleaning up
 
-To delete the Service, enter this command:
+1. To delete the Service, enter this command:
 
-```
-    kubectl delete services my-service
-
-```
+        kubectl delete services my-service
 
 To delete the Deployment, the ReplicaSet, and the Pods that are running the Hello World application, enter this command:
 
@@ -169,9 +161,9 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 ## What's next
 http://www.pivpn.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4NTEyOTExLC0xMzY4ODUyMzE3LDEyMT
-M4OTE5NywxMzUwMTUzODY4LC0xNzkwNzA1MjkxLDIxNjE1Mzc2
-MCw5Mjk0NjYxOSw4OTU3MjY4NDQsLTExMDE0NjMyNTMsMTUyOD
-E3MzA0NCwyMDE2MTQ4OTI2LDg4NTg1NjY5NywtMTU2MTA4ODEz
-MV19
+eyJoaXN0b3J5IjpbLTgyMDc3MDIxMCwtMTM2ODg1MjMxNywxMj
+EzODkxOTcsMTM1MDE1Mzg2OCwtMTc5MDcwNTI5MSwyMTYxNTM3
+NjAsOTI5NDY2MTksODk1NzI2ODQ0LC0xMTAxNDYzMjUzLDE1Mj
+gxNzMwNDQsMjAxNjE0ODkyNiw4ODU4NTY2OTcsLTE1NjEwODgx
+MzFdfQ==
 -->
