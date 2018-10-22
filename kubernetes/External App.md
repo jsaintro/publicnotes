@@ -123,28 +123,12 @@
         >Session Affinity:         None
         >External Traffic Policy:  Cluster
         >Events:                   <none>    
-    Name:           my-service
-    Namespace:      default
-    Labels:         run=load-balancer-example
-    Annotations:    <none>
-    Selector:       run=load-balancer-example
-    Type:           LoadBalancer
-    IP:             10.3.245.137
-    LoadBalancer Ingress:   104.198.205.71
-    Port:           <unset> 8080/TCP
-    NodePort:       <unset> 32377/TCP
-    Endpoints:      10.0.0.6:8080,10.0.1.6:8080,10.0.1.7:8080 + 2 more...
-    Session Affinity:   None
-    Events:         <none>
     
-    ```
+    Note of the external IP address (`LoadBalancer Ingress`) exposed by your service. In this example, the external IP address is 192.168.86.101. Also note the value of  `Port`  and  `NodePort`. In this example, the  `Port`  is 8080 and the  `NodePort`  is 30674.
     
-    Make a note of the external IP address (`LoadBalancer Ingress`) exposed by your service. In this example, the external IP address is 104.198.205.71. Also note the value of  `Port`  and  `NodePort`. In this example, the  `Port`  is 8080 and the  `NodePort`  is 32377.
+8.  In the preceding output, you can see that the service has several endpoints: 10.38.0.12:8080,10.38.0.13:8080,10.38.0.14:8080 + 2 more. These are internal addresses of the pods that are running the Hello World application. To verify these are pod addresses, enter this command:
     
-8.  In the preceding output, you can see that the service has several endpoints: 10.0.0.6:8080,10.0.1.6:8080,10.0.1.7:8080 + 2 more. These are internal addresses of the pods that are running the Hello World application. To verify these are pod addresses, enter this command:
-    
-    ```
-    kubectl get pods --output=wide
+        kubectl get pods --output=wide
     
     ```
     
@@ -196,7 +180,7 @@ To delete the Deployment, the ReplicaSet, and the Pods that are running the Hell
 ## What's next
 http://www.pivpn.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjEwOTI3MCwtMTM2ODg1MjMxNywxMj
+eyJoaXN0b3J5IjpbMTU2Njg2MTEyNiwtMTM2ODg1MjMxNywxMj
 EzODkxOTcsMTM1MDE1Mzg2OCwtMTc5MDcwNTI5MSwyMTYxNTM3
 NjAsOTI5NDY2MTksODk1NzI2ODQ0LC0xMTAxNDYzMjUzLDE1Mj
 gxNzMwNDQsMjAxNjE0ODkyNiw4ODU4NTY2OTcsLTE1NjEwODgx
