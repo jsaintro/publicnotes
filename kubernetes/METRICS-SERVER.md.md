@@ -19,8 +19,11 @@ https://github.com/kubernetes-incubator/metrics-server/issues/73
 
 > Written with [StackEdit](https://stackedit.io/).
 
+## Nuke it
+https://raw.githubusercontent.com/kubernetes-incubator/metrics-server/master/deploy/1.8%2B/resource-reader.yaml
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3NzE3NzI0LDY5NTcxMTc5MCwtNDcwNz
+eyJoaXN0b3J5IjpbNDQ1NjE1NDgyLDY5NTcxMTc5MCwtNDcwNz
 E2MDAyLDQyNDEyODA2MSw1NjI3MjIzNzcsMTMzODMxMDc0LDc1
 NDA0NTc2MF19
 -->
