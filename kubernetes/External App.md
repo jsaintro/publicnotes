@@ -10,7 +10,7 @@
 
 1.  Run a Hello World application in your cluster:
     
-        kubectl create hello-world --replicas=5 --labels="run=load-balancer-example" --image=jsaintrocc/arm32v6-hello-app:latest  --port=8080
+        kubectl run hello-world --replicas=5 --labels="run=load-balancer-example" --image=jsaintrocc/arm32v6-hello-app:latest  --port=8080
 
 2.  Wait for the pods to come up
 
@@ -167,9 +167,9 @@
         >No resources found.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzM3OTQ2NywtMTk3MzgzMDY3NCwtMT
-M2ODg1MjMxNywxMjEzODkxOTcsMTM1MDE1Mzg2OCwtMTc5MDcw
-NTI5MSwyMTYxNTM3NjAsOTI5NDY2MTksODk1NzI2ODQ0LC0xMT
-AxNDYzMjUzLDE1MjgxNzMwNDQsMjAxNjE0ODkyNiw4ODU4NTY2
-OTcsLTE1NjEwODgxMzFdfQ==
+eyJoaXN0b3J5IjpbLTE5NzM4MzA2NzQsMjEwNzM3OTQ2NywtMT
+k3MzgzMDY3NCwtMTM2ODg1MjMxNywxMjEzODkxOTcsMTM1MDE1
+Mzg2OCwtMTc5MDcwNTI5MSwyMTYxNTM3NjAsOTI5NDY2MTksOD
+k1NzI2ODQ0LC0xMTAxNDYzMjUzLDE1MjgxNzMwNDQsMjAxNjE0
+ODkyNiw4ODU4NTY2OTcsLTE1NjEwODgxMzFdfQ==
 -->
