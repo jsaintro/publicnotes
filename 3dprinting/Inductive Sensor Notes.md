@@ -9,7 +9,10 @@
 
 ### Testing with Multi-Meter
 
-
+1.  On sensor hook up Brown to +5V
+2.  On sensor hook up Blue to -5V
+3. On sensor hook up Black to Postive Multi-Meter Lead
+4. On Multi-Meter hook up Black to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ0MjkwNTRdfQ==
+eyJoaXN0b3J5IjpbLTE0NjEwNjY3NDJdfQ==
 -->
