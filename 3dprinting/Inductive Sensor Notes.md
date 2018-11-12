@@ -2,7 +2,6 @@
 
 * Sensing distance ~ 1 mm for ALU
 * Voltage 5V
-* 
 ### Color Codes
 * Brown = Pos(+)
 * Blue = Neg(-)
@@ -19,5 +18,6 @@
 7. Sensor should read 5V on MM when not triggred
 8. When triggered voltage should got to ~0V
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ1NjAwNzhdfQ==
+eyJoaXN0b3J5IjpbLTEwMzg5MzEzNTAsLTExNzQ1NjAwNzhdfQ
+==
 -->
