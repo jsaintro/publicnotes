@@ -2,6 +2,7 @@
 
 * Sensing distance ~ 1 mm for ALU
 * Voltage 5V
+* 
 ### Color Codes
 * Brown = Pos(+)
 * Blue = Neg(-)
@@ -15,7 +16,8 @@
 4. On Multi-Meter hook up Black to -(GND)
 5. Set Multi-Meter to DC Volts
 6. Power up
-7. Sensor should read 5V when not 
+7. Sensor should read 5V on MM when not triggred
+8. When triggered voltage should got to ~0V
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzNTE4ODI2XX0=
+eyJoaXN0b3J5IjpbLTExNzQ1NjAwNzhdfQ==
 -->
