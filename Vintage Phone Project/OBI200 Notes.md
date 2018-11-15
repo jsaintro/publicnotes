@@ -45,6 +45,10 @@ The wizards just completely screw it up
 {([1-9]x?*(Mpli)):pp},{(<##:>):li},{(<**70:>(Mli)):li},{(<**82:>(Mbt2)):bt2},{(<**81:>(Mbt)):bt},{(<**8:>(Mbt)):bt},{**0:aa},{***:aa2},{(<**1:>(Msp1)):sp1},{(<**2:>(Msp2)):sp2},{(<**3:>(Msp3)):sp3},{(<**4:>(Msp4)):sp4},{(<**9:>(Mpp)):pp},{(Mbt):bt}
 ```
 6. Hit save and wait for the reboot
+
+### Getting the ip address from a touch tone phone
+Picking up the connected handset and dialing *** and then dialing 1
+
 {([1-9]x?*(Mpli)):pp},
 {(<##:>):li},
 {(<**70:>(Mli)):li},
@@ -78,8 +82,9 @@ DigitMap: ([1-9]xxxxxxxxxxx)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwMjc4NzQ0LDE3NDE5NDkzMjYsNTE1Nz
-Q1NDUwLC0xODYxMTA4MjMxLDY4NDA3NDIwOCw1ODM0MjYxMTEs
-LTM4MzUzNDQ1NCwtMTg5NDYwMzIwNywtMTg5MjEwNzcwOSwtMT
-Q1MTE2NzgxMywxNzE5NzMxMjEzLC0xNTI0NDU4MTUyXX0=
+eyJoaXN0b3J5IjpbLTExMjM3MzUxMTQsMjYwMjc4NzQ0LDE3ND
+E5NDkzMjYsNTE1NzQ1NDUwLC0xODYxMTA4MjMxLDY4NDA3NDIw
+OCw1ODM0MjYxMTEsLTM4MzUzNDQ1NCwtMTg5NDYwMzIwNywtMT
+g5MjEwNzcwOSwtMTQ1MTE2NzgxMywxNzE5NzMxMjEzLC0xNTI0
+NDU4MTUyXX0=
 -->
