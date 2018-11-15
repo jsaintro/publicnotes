@@ -27,10 +27,16 @@ Latest is http://fw.obihai.com/OBi202-3-2-2-5921EX-332148940.fw
 Cant force it just have to wait for FW to update automatically
 In the XML you'll see what the next firmware will be
 
+```
+{([1-9]x?*(Mpli)):pp},{(<##:>):li},{(<**70:>(Mli)):li},{(<**82:>(Mbt2)):bt2},{(<**81:>(Mbt)):bt},{(<**8:>(Mbt)):bt},{**0:aa},{***:aa2},{(<**1:>(Msp1)):sp1},{(<**2:>(Msp2)):sp2},{(<**3:>(Msp3)):sp3},{(<**4:>(Msp4)):sp4},{(<**9:>(Mpp)):pp},{(Mpli):pli}
+```
 
+```
+{([1-9]x?*(Mbt)):bt},{(<##:>):li},{(<**70:>(Mli)):li},{(<**82:>(Mbt2)):bt2},{(<**81:>(Mbt)):bt},{(<**8:>(Mbt)):bt},{**0:aa},{***:aa2},{(<**1:>(Msp1)):sp1},{(<**2:>(Msp2)):sp2},{(<**3:>(Msp3)):sp3},{(<**4:>(Msp4)):sp4},{(<**9:>(Mpp)):pp},{(Mpli):pli}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MzUzNDQ1NCwtMTg5NDYwMzIwNywtMT
-g5MjEwNzcwOSwtMTQ1MTE2NzgxMywxNzE5NzMxMjEzLC0xNTI0
-NDU4MTUyXX0=
+eyJoaXN0b3J5IjpbNTgzNDI2MTExLC0zODM1MzQ0NTQsLTE4OT
+Q2MDMyMDcsLTE4OTIxMDc3MDksLTE0NTExNjc4MTMsMTcxOTcz
+MTIxMywtMTUyNDQ1ODE1Ml19
 -->
