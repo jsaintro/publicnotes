@@ -22,10 +22,10 @@ You want OBi2 & OBi3 Series Universal Adapters
 
 Current FW is 3.2.2 (Build: 5898EX)
 
-Latest is 
+Latest is http://fw.obihai.com/OBi202-3-2-2-5921EX-332148940.fw
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1OTUyMzQzLC0xODkyMTA3NzA5LC0xND
-UxMTY3ODEzLDE3MTk3MzEyMTMsLTE1MjQ0NTgxNTJdfQ==
+eyJoaXN0b3J5IjpbLTE4OTQ2MDMyMDcsLTE4OTIxMDc3MDksLT
+E0NTExNjc4MTMsMTcxOTczMTIxMywtMTUyNDQ1ODE1Ml19
 -->
