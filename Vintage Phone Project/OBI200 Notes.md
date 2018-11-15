@@ -44,10 +44,13 @@ In the XML you'll see what the next firmware will be
 Useful call routing tutorial
 https://www.dslreports.com/r0/download/2232642~00ffcbc06b0f67559d67e75ce10ffc98/OBi-DigitMapCallRoute-Tutorial-v1-1.pdf
 
+DigitMap: ([1-9]xxxxxxxxxxx)
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjExMDgyMzEsNjg0MDc0MjA4LDU4Mz
-QyNjExMSwtMzgzNTM0NDU0LC0xODk0NjAzMjA3LC0xODkyMTA3
-NzA5LC0xNDUxMTY3ODEzLDE3MTk3MzEyMTMsLTE1MjQ0NTgxNT
-JdfQ==
+eyJoaXN0b3J5IjpbNTE1NzQ1NDUwLC0xODYxMTA4MjMxLDY4ND
+A3NDIwOCw1ODM0MjYxMTEsLTM4MzUzNDQ1NCwtMTg5NDYwMzIw
+NywtMTg5MjEwNzcwOSwtMTQ1MTE2NzgxMywxNzE5NzMxMjEzLC
+0xNTI0NDU4MTUyXX0=
 -->
