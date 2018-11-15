@@ -28,6 +28,15 @@ Cant force it just have to wait for FW to update automatically
 In the XML you'll see what the next firmware will be
 
 
+## Routing to BT
+
+The wizards just completely screw it up
+
+1.  Go into advanced mode
+2. Select Physical Interfaces
+3. Select Phone 1
+4. For Digit map:
+        ```([1-9]x?*(Mbt)|[1-9]S9|[1-9][0-9]S9|911|**0|***|#|##|**70(Mli)|**8(Mbt)|**81(Mbt)|**82(Mbt2)|**1(Msp1)|**2(Msp2)|**3(Msp3)|**4(Msp4)|**9(Mpp)|(Mbt))
 ```
 {([1-9]x?*(Mpli)):pp},
 {(<##:>):li},
@@ -62,9 +71,8 @@ DigitMap: ([1-9]xxxxxxxxxxx)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzc2NjI0MzIsMTc0MTk0OTMyNiw1MT
-U3NDU0NTAsLTE4NjExMDgyMzEsNjg0MDc0MjA4LDU4MzQyNjEx
-MSwtMzgzNTM0NDU0LC0xODk0NjAzMjA3LC0xODkyMTA3NzA5LC
-0xNDUxMTY3ODEzLDE3MTk3MzEyMTMsLTE1MjQ0NTgxNTJdfQ==
-
+eyJoaXN0b3J5IjpbLTUyNjQyODIxNiwxNzQxOTQ5MzI2LDUxNT
+c0NTQ1MCwtMTg2MTEwODIzMSw2ODQwNzQyMDgsNTgzNDI2MTEx
+LC0zODM1MzQ0NTQsLTE4OTQ2MDMyMDcsLTE4OTIxMDc3MDksLT
+E0NTExNjc4MTMsMTcxOTczMTIxMywtMTUyNDQ1ODE1Ml19
 -->
