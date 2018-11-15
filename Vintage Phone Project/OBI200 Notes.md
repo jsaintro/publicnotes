@@ -2,7 +2,8 @@
 https://www.obitalk.com/obinet/login/
 
 ## HTTP interface
+http://192.168.1.195
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzkyNjk2OV19
+eyJoaXN0b3J5IjpbLTgzMTgxNzU0Nl19
 -->
