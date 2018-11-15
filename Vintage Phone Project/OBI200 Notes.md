@@ -41,10 +41,13 @@ In the XML you'll see what the next firmware will be
 ```
 ([1-9]x?*(Mbt)|[1-9]S9|[1-9][0-9]S9|911|**0|***|#|##|**70(Mli)|**8(Mbt)|**81(Mbt)|**82(Mbt2)|**1(Msp1)|**2(Msp2)|**3(Msp3)|**4(Msp4)|**9(Mpp)|(Mpli))
 ```
+Useful call routing tutorial
+https://www.dslreports.com/r0/download/2232642~00ffcbc06b0f67559d67e75ce10ffc98/OBi-DigitMapCallRoute-Tutorial-v1-1.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0MDc0MjA4LDU4MzQyNjExMSwtMzgzNT
-M0NDU0LC0xODk0NjAzMjA3LC0xODkyMTA3NzA5LC0xNDUxMTY3
-ODEzLDE3MTk3MzEyMTMsLTE1MjQ0NTgxNTJdfQ==
+eyJoaXN0b3J5IjpbLTE4NjExMDgyMzEsNjg0MDc0MjA4LDU4Mz
+QyNjExMSwtMzgzNTM0NDU0LC0xODk0NjAzMjA3LC0xODkyMTA3
+NzA5LC0xNDUxMTY3ODEzLDE3MTk3MzEyMTMsLTE1MjQ0NTgxNT
+JdfQ==
 -->
