@@ -27,6 +27,7 @@ Latest is http://fw.obihai.com/OBi202-3-2-2-5921EX-332148940.fw
 Cant force it just have to wait for FW to update automatically
 In the XML you'll see what the next firmware will be
 
+
 ```
 {([1-9]x?*(Mpli)):pp},
 {(<##:>):li},
@@ -61,8 +62,9 @@ DigitMap: ([1-9]xxxxxxxxxxx)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTk0OTMyNiw1MTU3NDU0NTAsLTE4Nj
-ExMDgyMzEsNjg0MDc0MjA4LDU4MzQyNjExMSwtMzgzNTM0NDU0
-LC0xODk0NjAzMjA3LC0xODkyMTA3NzA5LC0xNDUxMTY3ODEzLD
-E3MTk3MzEyMTMsLTE1MjQ0NTgxNTJdfQ==
+eyJoaXN0b3J5IjpbLTE2Nzc2NjI0MzIsMTc0MTk0OTMyNiw1MT
+U3NDU0NTAsLTE4NjExMDgyMzEsNjg0MDc0MjA4LDU4MzQyNjEx
+MSwtMzgzNTM0NDU0LC0xODk0NjAzMjA3LC0xODkyMTA3NzA5LC
+0xNDUxMTY3ODEzLDE3MTk3MzEyMTMsLTE1MjQ0NTgxNTJdfQ==
+
 -->
