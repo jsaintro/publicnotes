@@ -24,8 +24,13 @@ Current FW is 3.2.2 (Build: 5898EX)
 
 Latest is http://fw.obihai.com/OBi202-3-2-2-5921EX-332148940.fw
 
+Cant force it just have to wait for FW to update automatically
+In the XML you'll see what the next firmware will be
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ2MDMyMDcsLTE4OTIxMDc3MDksLT
-E0NTExNjc4MTMsMTcxOTczMTIxMywtMTUyNDQ1ODE1Ml19
+eyJoaXN0b3J5IjpbLTM4MzUzNDQ1NCwtMTg5NDYwMzIwNywtMT
+g5MjEwNzcwOSwtMTQ1MTE2NzgxMywxNzE5NzMxMjEzLC0xNTI0
+NDU4MTUyXX0=
 -->
