@@ -28,7 +28,19 @@ Cant force it just have to wait for FW to update automatically
 In the XML you'll see what the next firmware will be
 
 ```
-{([1-9]x?*(Mpli)):pp},{(<##:>):li},{(<**70:>(Mli)):li},{(<**82:>(Mbt2)):bt2},{(<**81:>(Mbt)):bt},{(<**8:>(Mbt)):bt},{**0:aa},{***:aa2},{(<**1:>(Msp1)):sp1},{(<**2:>(Msp2)):sp2},{(<**3:>(Msp3)):sp3},{(<**4:>(Msp4)):sp4},{(<**9:>(Mpp)):pp},{(Mpli):pli}
+{([1-9]x?*(Mpli)):pp},
+{(<##:>):li},
+{(<**70:>(Mli)):li},
+{(<**82:>(Mbt2)):bt2},
+{(<**81:>(Mbt)):bt},
+{(<**8:>(Mbt)):bt},
+{**0:aa},{***:aa2},
+{(<**1:>(Msp1)):sp1},
+{(<**2:>(Msp2)):sp2},
+{(<**3:>(Msp3)):sp3},
+{(<**4:>(Msp4)):sp4},
+{(<**9:>(Mpp)):pp},
+{(Mpli):pli}
 ```
 
 ```
@@ -49,8 +61,8 @@ DigitMap: ([1-9]xxxxxxxxxxx)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1NzQ1NDUwLC0xODYxMTA4MjMxLDY4ND
-A3NDIwOCw1ODM0MjYxMTEsLTM4MzUzNDQ1NCwtMTg5NDYwMzIw
-NywtMTg5MjEwNzcwOSwtMTQ1MTE2NzgxMywxNzE5NzMxMjEzLC
-0xNTI0NDU4MTUyXX0=
+eyJoaXN0b3J5IjpbMTc0MTk0OTMyNiw1MTU3NDU0NTAsLTE4Nj
+ExMDgyMzEsNjg0MDc0MjA4LDU4MzQyNjExMSwtMzgzNTM0NDU0
+LC0xODk0NjAzMjA3LC0xODkyMTA3NzA5LC0xNDUxMTY3ODEzLD
+E3MTk3MzEyMTMsLTE1MjQ0NTgxNTJdfQ==
 -->
