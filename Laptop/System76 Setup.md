@@ -24,9 +24,12 @@
         sudo apt install pavucontrol   
 
 10. Switch to gnome dock
+11. Add the printer (Built in driver works fine)
+12. 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzY2MDQxNSwxNjU3NTI5MDU2LC03Nj
-Q0NzUwNDMsLTIwMTY0NDE5NjUsNDE3NTc4ODYzLC0xNDQwMzEw
-ODM1LC0xNjAyMzc3OTI3LDMwNTczODAxNl19
+eyJoaXN0b3J5IjpbLTE4NTc1OTI4NDAsMjEyMzY2MDQxNSwxNj
+U3NTI5MDU2LC03NjQ0NzUwNDMsLTIwMTY0NDE5NjUsNDE3NTc4
+ODYzLC0xNDQwMzEwODM1LC0xNjAyMzc3OTI3LDMwNTczODAxNl
+19
 -->
