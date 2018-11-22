@@ -22,9 +22,11 @@
 9. Install advanced audio controller
 
         sudo apt install pavucontrol   
+
+10. Switch to gnome dock
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NzUyOTA1NiwtNzY0NDc1MDQzLC0yMD
-E2NDQxOTY1LDQxNzU3ODg2MywtMTQ0MDMxMDgzNSwtMTYwMjM3
-NzkyNywzMDU3MzgwMTZdfQ==
+eyJoaXN0b3J5IjpbMjEyMzY2MDQxNSwxNjU3NTI5MDU2LC03Nj
+Q0NzUwNDMsLTIwMTY0NDE5NjUsNDE3NTc4ODYzLC0xNDQwMzEw
+ODM1LC0xNjAyMzc3OTI3LDMwNTczODAxNl19
 -->
