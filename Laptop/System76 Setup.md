@@ -14,8 +14,9 @@
     6.  In firefox add-ons select lastpass
 6. Test netflix
 7. Test youtube
+8. 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3NTc4ODYzLC0xNDQwMzEwODM1LC0xNj
-AyMzc3OTI3LDMwNTczODAxNl19
+eyJoaXN0b3J5IjpbMjAyMjA1ODY5Nyw0MTc1Nzg4NjMsLTE0ND
+AzMTA4MzUsLTE2MDIzNzc5MjcsMzA1NzM4MDE2XX0=
 -->
