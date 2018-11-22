@@ -10,10 +10,11 @@
         
 4. Install commercial Chrome (Not Chromium)
     4.  Download from https://www.google.com/chrome/browser/
-5. Setup Lastpass
-    6.  
+5. Setup Lastpass for firefox
+    6.  In firefox add-ons select lastpass
+    7. 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjM0MzkzLC0xNDQwMzEwODM1LC0xNj
-AyMzc3OTI3LDMwNTczODAxNl19
+eyJoaXN0b3J5IjpbMTIzODU1MTc5NSwtMTQ0MDMxMDgzNSwtMT
+YwMjM3NzkyNywzMDU3MzgwMTZdfQ==
 -->
