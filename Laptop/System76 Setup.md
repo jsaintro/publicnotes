@@ -6,9 +6,12 @@
 
         sudo apt update
         sudo apt dist-upgrade
+        sudo reboot
+        
 5. Install commercial Chrome (Not Chromium)
     4.  Download from https://www.google.com/chrome/browser/
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDIzNzc5MjcsMzA1NzM4MDE2XX0=
+eyJoaXN0b3J5IjpbLTE0NDAzMTA4MzUsLTE2MDIzNzc5MjcsMz
+A1NzM4MDE2XX0=
 -->
