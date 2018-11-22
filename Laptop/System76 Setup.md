@@ -14,9 +14,11 @@
     6.  In firefox add-ons select lastpass
 6. Test netflix
 7. Test youtube
-8. 
+8. Upgrade system76 firmware
+9. https://support.system76.com/articles/laptop-firmware/
+    10. Use the second set of directions 
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjA1ODY5Nyw0MTc1Nzg4NjMsLTE0ND
+eyJoaXN0b3J5IjpbMjAxODQ2NTE5Miw0MTc1Nzg4NjMsLTE0ND
 AzMTA4MzUsLTE2MDIzNzc5MjcsMzA1NzM4MDE2XX0=
 -->
