@@ -11,9 +11,9 @@
 4. Install commercial Chrome (Not Chromium)
     4.  Download from https://www.google.com/chrome/browser/
 5. Setup Lastpass
-    6. 
+    6.  
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk4MTA3MjksLTE0NDAzMTA4MzUsLT
-E2MDIzNzc5MjcsMzA1NzM4MDE2XX0=
+eyJoaXN0b3J5IjpbMTgxNjM0MzkzLC0xNDQwMzEwODM1LC0xNj
+AyMzc3OTI3LDMwNTczODAxNl19
 -->
