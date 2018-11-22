@@ -1,5 +1,5 @@
 1. Install Pop OS
-    1. Do not encrypt drive (Well be encrypting home folder later)
+    1. Use full disk encryption as it's got better performance that home folder encryption
 2. Setup dual monitors
     1. By default 2nd monitor is turned off (Activities/Displays)
 3. Do a system update
@@ -24,7 +24,7 @@
         sudo apt install pavucontrol   
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDQ3NTA0MywtMjAxNjQ0MTk2NSw0MT
-c1Nzg4NjMsLTE0NDAzMTA4MzUsLTE2MDIzNzc5MjcsMzA1NzM4
-MDE2XX0=
+eyJoaXN0b3J5IjpbMTY1NzUyOTA1NiwtNzY0NDc1MDQzLC0yMD
+E2NDQxOTY1LDQxNzU3ODg2MywtMTQ0MDMxMDgzNSwtMTYwMjM3
+NzkyNywzMDU3MzgwMTZdfQ==
 -->
