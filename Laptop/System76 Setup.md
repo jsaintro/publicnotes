@@ -16,8 +16,13 @@
 7. Test youtube
 8. Upgrade system76 firmware
     9. Actions/System76 Firmware updater
+        Note: Make sure ALL USB and external displays are disconnected
+        Note: There's a scary moment when the system shutsdown completely.  Just wait a minute and then start with button
+
+  
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY0NDE5NjUsNDE3NTc4ODYzLC0xND
-QwMzEwODM1LC0xNjAyMzc3OTI3LDMwNTczODAxNl19
+eyJoaXN0b3J5IjpbLTcxNDAyNTA1MSwtMjAxNjQ0MTk2NSw0MT
+c1Nzg4NjMsLTE0NDAzMTA4MzUsLTE2MDIzNzc5MjcsMzA1NzM4
+MDE2XX0=
 -->
