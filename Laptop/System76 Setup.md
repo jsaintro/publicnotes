@@ -19,10 +19,12 @@
         Note: Make sure ALL USB and external displays are disconnected
         Note: There's a scary moment when the system shutsdown completely.  Just wait a minute and then start with button
 
-  
+9. Install advanced audio controller
+
+        sudo apt install pavucontrol   
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDAyNTA1MSwtMjAxNjQ0MTk2NSw0MT
+eyJoaXN0b3J5IjpbLTc2NDQ3NTA0MywtMjAxNjQ0MTk2NSw0MT
 c1Nzg4NjMsLTE0NDAzMTA4MzUsLTE2MDIzNzc5MjcsMzA1NzM4
 MDE2XX0=
 -->
