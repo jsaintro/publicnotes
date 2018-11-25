@@ -1,10 +1,12 @@
 1. Install
 
-        sudo apt install arduino
-
+        don't install the one in the repos
+        Download from the site
+        https://www.arduino.cc/en/Main/Software
+        
 2. Run
 
-        sudo arduino
+        
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyMTc1MzgzXX0=
+eyJoaXN0b3J5IjpbMTc3MDY1NDgwLDgxMjE3NTM4M119
 -->
