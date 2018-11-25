@@ -1,3 +1,9 @@
+## Add serial permission for user
+
+```
+sudo gpasswd --add ${USER} dialout
+```
+
 1. Install
 
         don't install the one in the repos
@@ -16,5 +22,6 @@
 
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDg5NDgxOCw4MTIxNzUzODNdfQ==
+eyJoaXN0b3J5IjpbLTIxMTk5MjI2NTIsMTMxMDg5NDgxOCw4MT
+IxNzUzODNdfQ==
 -->
