@@ -22,8 +22,6 @@
        cd /opt/arduino-1.8.7
        ./install.sh
 
-       
-
 ## Configure to talk to 3d printer
 
 1.  Plug in the arduino via the USB cable (Should power up (Including LCD)
@@ -43,6 +41,6 @@
 
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTQ4NzIwNCwtMTU1MTcxNTY5NywtMj
+eyJoaXN0b3J5IjpbMTE0NTA3NTA3NCwtMTU1MTcxNTY5NywtMj
 ExOTkyMjY1MiwxMzEwODk0ODE4LDgxMjE3NTM4M119
 -->
