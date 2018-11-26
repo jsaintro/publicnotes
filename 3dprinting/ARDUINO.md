@@ -1,13 +1,15 @@
-## Add serial permission for user
+## Ubuntu
+### Add serial permission for user
 
 ```
 sudo gpasswd --add ${USER} dialout
 ```
 
-1. Install
+### Install
 
-        don't install the one in the repos
-        Download from the site
+1. Download software        don't install the one in the repos
+[Arduino SW Link](https://www.arduino.cc/en/Main/Software)
+    Note:         Download from the site
         https://www.arduino.cc/en/Main/Software
         
 
@@ -20,10 +22,16 @@ sudo gpasswd --add ${USER} dialout
 5. Select the port (Should only have one in the dropdown)
 6. Select Board Info (Should verify above settings)
 
-
+## Windows
+### Install Arduino SW
+1. Download
+[Arduino SW Link](https://www.arduino.cc/en/Main/Software)
+1. Install
+1. Plug in the Arduino via USB cable
+* Make sure to install usb driver For windows 10 this should be automatic
 
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTg3MTcxMiwtMjExOTkyMjY1MiwxMz
-EwODk0ODE4LDgxMjE3NTM4M119
+eyJoaXN0b3J5IjpbLTEyOTA4ODMxNTUsLTIxMTk5MjI2NTIsMT
+MxMDg5NDgxOCw4MTIxNzUzODNdfQ==
 -->
