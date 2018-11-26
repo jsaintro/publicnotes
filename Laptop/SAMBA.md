@@ -14,7 +14,9 @@
 
 3. Test
 
+        smbclient //storageserver/storage -U username
 
+   Note: Check lastpass asus entry
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTM0NjM4OSw0MzYyNTY2MDRdfQ==
+eyJoaXN0b3J5IjpbLTEwNjUwNDkwODMsNDM2MjU2NjA0XX0=
 -->
