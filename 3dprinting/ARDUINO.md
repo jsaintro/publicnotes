@@ -11,8 +11,12 @@
 
 2. Uncompress
 
-tar -xf 
-        
+       tar xf arduino-1.8.7-linux64.tar.xz
+
+3. Move to opt
+
+       sudo mv  arduino-1.8.7-linux64 /opt
+
 
 ## Configure to talk to 3d printer
 
@@ -33,6 +37,6 @@ tar -xf
 
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzY0MzQ2NDEsLTE1NTE3MTU2OTcsLT
-IxMTk5MjI2NTIsMTMxMDg5NDgxOCw4MTIxNzUzODNdfQ==
+eyJoaXN0b3J5IjpbMTIzMzIxNzU0MywtMTU1MTcxNTY5NywtMj
+ExOTkyMjY1MiwxMzEwODk0ODE4LDgxMjE3NTM4M119
 -->
