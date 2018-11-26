@@ -17,9 +17,10 @@
 
        sudo mv arduino-1.8.7-linux64/arduino-1.8.7 /opt
 
-4. Fix the desktop icon name
+4. Install
 
-       cd /opt/arduino-1.8.
+       cd /opt/arduino-1.8.7
+       ./install.sh
 
        
 
@@ -42,6 +43,6 @@
 
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODMxNzgyMSwtMTU1MTcxNTY5NywtMj
+eyJoaXN0b3J5IjpbLTUyNTQ4NzIwNCwtMTU1MTcxNTY5NywtMj
 ExOTkyMjY1MiwxMzEwODk0ODE4LDgxMjE3NTM4M119
 -->
