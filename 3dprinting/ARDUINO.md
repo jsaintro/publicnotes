@@ -1,4 +1,4 @@
-## Ubuntu
+## Ubuntu Setup
 ### Add serial permission for user
 
     sudo gpasswd --add ${USER} dialout
@@ -22,8 +22,15 @@
        cd /opt/arduino-1.8.7
        ./install.sh
 
+## Windows Setup
+### Install 
+1. Download
+[Arduino SW Link](https://www.arduino.cc/en/Main/Software)
+1. Install
+1. Plug in the Arduino via USB cable
+* Make sure to install usb driver For windows 10 this should be automatic
 
-## Configure IDE to talk to 3d printer
+## Configure IDE to talk to 3D printer
 
 1.  Plug in the arduino via the USB cable (Should power up (Including LCD)
 2. Select the model
@@ -35,6 +42,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3OTEwNTI2LC0xNTUxNzE1Njk3LC0yMT
+eyJoaXN0b3J5IjpbNTU0OTc5NTg2LC0xNTUxNzE1Njk3LC0yMT
 E5OTIyNjUyLDEzMTA4OTQ4MTgsODEyMTc1MzgzXX0=
 -->
