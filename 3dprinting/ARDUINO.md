@@ -1,9 +1,7 @@
 ## Ubuntu
 ### Add serial permission for user
 
-```
-sudo gpasswd --add ${USER} dialout
-```
+        sudo gpasswd --add ${USER} dialout
 
 ### Install
 
@@ -33,6 +31,6 @@ sudo gpasswd --add ${USER} dialout
 
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE3MTU2OTcsLTIxMTk5MjI2NTIsMT
-MxMDg5NDgxOCw4MTIxNzUzODNdfQ==
+eyJoaXN0b3J5IjpbMjEyMTc5NDU3OSwtMTU1MTcxNTY5NywtMj
+ExOTkyMjY1MiwxMzEwODk0ODE4LDgxMjE3NTM4M119
 -->
