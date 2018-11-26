@@ -8,15 +8,17 @@
 
 
 ## Install U8glib Library
-1. Download the latest binary lib for Arduino (NOT THE SOURCE FROM GITHUB)
-https://bintray.com/olikraus/u8glib/Arduino
-1. Install in Arduino IDE
-Sketch/Include Library/Add .ZIP Library
+1. Download the latest binary lib for Arduino
+    https://bintray.com/olikraus/u8glib/Arduino
+    Note: NOT THE SOURCE FROM GITHUB
+3. Install in Arduino IDE
+    Sketch/Include Library/Add .ZIP Library
+
 ## Install Marlin
 1. Download the latest stable Marlin from here
 * [Marlin Project](https://github.com/MarlinFirmware/Marlin/releases)
 * This is the one you've done in the past
-[1.0.2](https://github.com/MarlinFirmware/Marlin/archive/1.0.2-2.zip)
+[1.1.0](https://github.com/MarlinFirmware/Marlin/archive/1.0.2-2.zip)
 # Configure Marlin for Wilson TS
 ## Configuration.h
 1. Change author
@@ -154,5 +156,5 @@ NOTE: I think you can fix the encoder in the config.h now
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzYxMjQ2NTNdfQ==
+eyJoaXN0b3J5IjpbMTgxMDM5NTkyN119
 -->
