@@ -7,10 +7,11 @@ sudo gpasswd --add ${USER} dialout
 
 ### Install
 
-1. Download software        don't install the one in the repos
-[Arduino SW Link](https://www.arduino.cc/en/Main/Software)
-    Note:         Download from the site
-        https://www.arduino.cc/en/Main/Software
+1. Download software
+    [Arduino SW Link](https://www.arduino.cc/en/Main/Software)
+    Note: Don't use repo one.  It's old and buggy
+
+1. Uncompress using nautilus
         
 
 ## Configure to talk to 3d printer
@@ -32,6 +33,6 @@ sudo gpasswd --add ${USER} dialout
 
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA4ODMxNTUsLTIxMTk5MjI2NTIsMT
+eyJoaXN0b3J5IjpbLTE1NTE3MTU2OTcsLTIxMTk5MjI2NTIsMT
 MxMDg5NDgxOCw4MTIxNzUzODNdfQ==
 -->
