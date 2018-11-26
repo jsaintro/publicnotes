@@ -33,11 +33,23 @@ cd Printrun
 1. Copy the source to opt
         sudo cp Printrun /opt
 2. Create the gnome configuration file
-        vi ~/.local/share/applications/pronterface.desktop
-        
 
-4. 
+        vi ~/.local/share/applications/pronterface.desktop
+        [Desktop Entry]
+        Type=Application
+        Name=Pronterface
+        GenericName=Printer Interface
+        Comment=Controls your 3D printer
+        Icon=/opt/Printrun/pronterface.ico
+        Exec=/opt/Printrun/pronterface.py %f
+        Path=/opt/Printrun/
+        StartupNotify=true
+        Terminal=false
+        Categories=GNOME;GTK;Utility;Graphics;3DGraphics;
+        MimeType=application/sla;model/x.stl-binary;model/x.stl-ascii;text/x.gcode;
+
+4. You can now search and use pronter
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Mjc2NDk0MSwxMDUzODI4MDIxLC0xNz
-cyMzMyNDkzLDEzMjQxMzA1NjBdfQ==
+eyJoaXN0b3J5IjpbLTEyODczMDAyOTMsMTA1MzgyODAyMSwtMT
+c3MjMzMjQ5MywxMzI0MTMwNTYwXX0=
 -->
