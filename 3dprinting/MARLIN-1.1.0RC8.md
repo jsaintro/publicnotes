@@ -2,7 +2,8 @@
 
 ## Requirements
 
-* ARDUINO IDE is installed and com
+* ARDUINO IDE is installed and communicating
+* 
 
 
 # Install U8glib in ARDUINO library
@@ -160,5 +161,5 @@ NOTE: I think you can fix the encoder in the config.h now
 # Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1MzI5MzQwXX0=
+eyJoaXN0b3J5IjpbLTk4MjA3MDkyNV19
 -->
