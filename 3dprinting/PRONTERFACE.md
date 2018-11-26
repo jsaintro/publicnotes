@@ -48,8 +48,8 @@ cd Printrun
         Categories=GNOME;GTK;Utility;Graphics;3DGraphics;
         MimeType=application/sla;model/x.stl-binary;model/x.stl-ascii;text/x.gcode;
 
-4. You can now search and use pronter
+4. You can now search and use pronterface like any other application and also make a favoriate out of it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODczMDAyOTMsMTA1MzgyODAyMSwtMT
-c3MjMzMjQ5MywxMzI0MTMwNTYwXX0=
+eyJoaXN0b3J5IjpbLTY4ODAyOTYyMSwxMDUzODI4MDIxLC0xNz
+cyMzMyNDkzLDEzMjQxMzA1NjBdfQ==
 -->
