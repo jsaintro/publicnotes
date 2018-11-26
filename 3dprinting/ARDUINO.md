@@ -17,11 +17,13 @@ sudo gpasswd --add ${USER} dialout
 2. Select the model
 3. Tools/Board/Arduino/Genuino Mea or Mega 2560
 4. CPU should be Mego 2560
-4. Select the port (Should only have one in the dropdown)
-5. Select Board Info (Should verify above settings)
+5. Select the port (Should only have one in the dropdown)
+6. Select Board Info (Should verify above settings)
+
+
 
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTk5MjI2NTIsMTMxMDg5NDgxOCw4MT
-IxNzUzODNdfQ==
+eyJoaXN0b3J5IjpbLTc0MTg3MTcxMiwtMjExOTkyMjY1MiwxMz
+EwODk0ODE4LDgxMjE3NTM4M119
 -->
