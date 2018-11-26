@@ -162,8 +162,10 @@ NOTE: I think you can fix the encoder in the config.h now
 
 ## Compile the code
 1. Sketch/Verify/compile
+
+Note: Lots of warnings are normal
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzUxMDc4ODldfQ==
+eyJoaXN0b3J5IjpbODMzMjU4OTQ4XX0=
 -->
