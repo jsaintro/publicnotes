@@ -16,7 +16,7 @@
 
         smbclient //storageserver/storage -U username
 
-   Note: Check lastpass asus entry
+   Note: Check lastpass ASUS entry for details
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjUwNDkwODMsNDM2MjU2NjA0XX0=
+eyJoaXN0b3J5IjpbMTQ0MDYzNTU0Niw0MzYyNTY2MDRdfQ==
 -->
