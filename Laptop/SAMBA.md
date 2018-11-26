@@ -18,8 +18,8 @@
 
    Note: Check lastpass ASUS entry for details
 
-4.  Samba access should n
+4.  Samba access should now work for nautilus as well
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDIyOTcyNSwxNDQwNjM1NTQ2LDQzNj
-I1NjYwNF19
+eyJoaXN0b3J5IjpbLTU3NzkzNjMyLDE0NDA2MzU1NDYsNDM2Mj
+U2NjA0XX0=
 -->
