@@ -1,11 +1,7 @@
 [TOC]
 
-## Install Arduino SW
-1. Download
-[Arduino SW Link](https://www.arduino.cc/en/Main/Software)
-1. Install
-1. Plug in the Arduino via USB cable
-* Make sure to install usb driver For windows 10 this should be automatic
+
+
 
 # Install U8glib in ARDUINO library
 1. Download the latest binary lib for Arduino (NOT THE SOURCE FROM GITHUB)
@@ -161,3 +157,6 @@ NOTE: I think you can fix the encoder in the config.h now
 1. Sketch/Verify/compile
 # Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTgwOTg0MjQ1Ml19
+-->
