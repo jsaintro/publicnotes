@@ -7,7 +7,14 @@
 2. Revert to old authentication method
 
         vi /etc/samba/smb.conf
-        
+        [global]
+        # Fix for Asus RT-AC1900 samba share
+           client NTLMv2 auth = no
+           client use spnego = no
+
+3. Test
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2MjU2NjA0XX0=
+eyJoaXN0b3J5IjpbMTg4NTM0NjM4OSw0MzYyNTY2MDRdfQ==
 -->
