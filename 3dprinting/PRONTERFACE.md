@@ -30,9 +30,14 @@ cd Printrun
 
          ./pronterface.py
 ## Gome Setup
-Copy the source to p
-3. 
+1. Copy the source to opt
+        sudo cp Printrun /opt
+2. Create the gnome configuration file
+        vi ~/.local/share/applications/pronterface.desktop
+        
+
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5OTY0ODc2LDEwNTM4MjgwMjEsLTE3Nz
-IzMzI0OTMsMTMyNDEzMDU2MF19
+eyJoaXN0b3J5IjpbMTc0Mjc2NDk0MSwxMDUzODI4MDIxLC0xNz
+cyMzMyNDkzLDEzMjQxMzA1NjBdfQ==
 -->
