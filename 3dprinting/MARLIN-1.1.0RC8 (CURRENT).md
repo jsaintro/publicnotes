@@ -26,7 +26,7 @@
         unzip Marlin-1.1.0-RC8.zip
         
 3. Open in Arduino IDE
-    "File/Open" sele
+    "File/Open" select "Documents/3dPrinter/Marlin-1.1.0-RC8/Marlin/Marlin.ino"
     
 # Configure Marlin for Wilson TS
 ## Configuration.h
@@ -165,5 +165,5 @@ NOTE: I think you can fix the encoder in the config.h now
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwNDYyODQ3XX0=
+eyJoaXN0b3J5IjpbLTExNzUxMDc4ODldfQ==
 -->
