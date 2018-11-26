@@ -1,7 +1,7 @@
 ## Ubuntu
 ### Add serial permission for user
 
-        sudo gpasswd --add ${USER} dialout
+    sudo gpasswd --add ${USER} dialout
 
 ### Install
 
@@ -9,7 +9,9 @@
     [Arduino SW Link](https://www.arduino.cc/en/Main/Software)
     Note: Don't use repo one.  It's old and buggy
 
-1. Uncompress using nautilus
+2. Uncompress
+
+tar -xf 
         
 
 ## Configure to talk to 3d printer
@@ -31,6 +33,6 @@
 
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTc5NDU3OSwtMTU1MTcxNTY5NywtMj
-ExOTkyMjY1MiwxMzEwODk0ODE4LDgxMjE3NTM4M119
+eyJoaXN0b3J5IjpbLTE4MzY0MzQ2NDEsLTE1NTE3MTU2OTcsLT
+IxMTk5MjI2NTIsMTMxMDg5NDgxOCw4MTIxNzUzODNdfQ==
 -->
