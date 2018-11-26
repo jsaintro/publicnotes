@@ -15,11 +15,13 @@
 
 3. Move to opt
 
-       sudo mv  arduino-1.8.7-linux64 /opt
+       sudo mv arduino-1.8.7-linux64/arduino-1.8.7 /opt
 
 4. Fix the desktop icon name
 
-       suod
+       cd /opt/arduino-1.8.
+
+       
 
 ## Configure to talk to 3d printer
 
@@ -40,6 +42,6 @@
 
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTE5ODc4NCwtMTU1MTcxNTY5NywtMj
+eyJoaXN0b3J5IjpbLTI1ODMxNzgyMSwtMTU1MTcxNTY5NywtMj
 ExOTkyMjY1MiwxMzEwODk0ODE4LDgxMjE3NTM4M119
 -->
