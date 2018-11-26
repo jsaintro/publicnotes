@@ -29,8 +29,10 @@ cd Printrun
 2. Run
 
          ./pronterface.py
+## Gome Setup
+Copy the source to p
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzgyODAyMSwtMTc3MjMzMjQ5MywxMz
-I0MTMwNTYwXX0=
+eyJoaXN0b3J5IjpbOTM5OTY0ODc2LDEwNTM4MjgwMjEsLTE3Nz
+IzMzI0OTMsMTMyNDEzMDU2MF19
 -->
