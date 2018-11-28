@@ -34,7 +34,7 @@ Note: Before installing another copy of simplify 3d you'll have to deactivate th
         "Tools/Firmware Configuration/Import/WilsonTS.frm"
     
 1. Import FFF profiles
-	1. Download all `.fff` files from google drive [here](https://drive.google.com/file/d/1Gyy3sLMP8vbDZR3KGyHkDWy2GN9WNqof/view?usp=sharing)
+	1. Download all `.fff` files from google drive [here](https://drive.google.com/drive/u/0/folders/1Wc8FOE6dGREPz78OsDsMViDP6AQq866M)
 
     2. Import
 
@@ -45,6 +45,6 @@ Note: Before installing another copy of simplify 3d you'll have to deactivate th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4MDI2MzYyLDM1NDIyMTc4MywyMDkxNT
-MzMDk0LC0xNTQ5MDAxODY4XX0=
+eyJoaXN0b3J5IjpbMTU1ODE3OTAzNCwzNTQyMjE3ODMsMjA5MT
+UzMzA5NCwtMTU0OTAwMTg2OF19
 -->
