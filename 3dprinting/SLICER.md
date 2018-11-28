@@ -22,21 +22,16 @@ Note: Before installing another copy of simplify 3d you'll have to deactivate th
         mv ~/Desktop/Simplify3D.desktop ~/.local/share/applications/
 
 ### Configure
-4. Configure firmware
+1. Configure firmware
 
      You're custom Wilson TS firmware is located on google drive [here](https://drive.google.com/file/d/1Gyy3sLMP8vbDZR3KGyHkDWy2GN9WNqof/view?usp=sharing)
 
-5. Upload to simplify3d
-### Configure for use in gome
+2. Upload to simplify3d
 
-1. Copy the desktop file to the right place
-sudo chown myuserid:myuserid ~/Desktop/Simplify3D.desktop
-chmod 600 ~/Desktop/Simplify3D.desktop
-mv ~/Desktop/Simplify3D.desktop ~/.local/share/applications/
-
+3. Upload 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDAyNTM1NCwyMDkxNTMzMDk0LC0xNT
-Q5MDAxODY4XX0=
+eyJoaXN0b3J5IjpbMzU0MjIxNzgzLDIwOTE1MzMwOTQsLTE1ND
+kwMDE4NjhdfQ==
 -->
