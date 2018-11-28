@@ -4,8 +4,9 @@
 * For NTC 3950 ebay thermistors
 
 | Table | Bed 60 | Bed 100 | HE 180 | HE 230 |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: |:---: | :---: |
+| 11 | ?? | ?? | 170 | ?? |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDgxMzMyOV19
+eyJoaXN0b3J5IjpbLTY5NTU2NjgyOV19
 -->
