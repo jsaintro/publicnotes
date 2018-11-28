@@ -109,13 +109,13 @@ Ex. -4 + 3.52 = -.48
 -.48 + .3 = -.45
 
 ## Better Directions
-1. recalibrate current z pos to 10mm (So we can move down 10mm from current)
+1. Re-calibrate current z Position to 10mm (So we can move down 10mm from current)
 ```
 G92Z10
 ```
 
 
-1. Move z down in .1mm increments untill .051mm feeler is pinched then backoff .1
+1. Move z down in .1mm increments until .051mm feeler is pinched then backoff .1
 1. Determined current position
 ```
 M114
@@ -171,6 +171,6 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTM0OTg5MiwtNTQ3MDM3NzIsLTE5Nz
-Y1ODU5MDYsMTQxMDY2ODQyNV19
+eyJoaXN0b3J5IjpbNjQ5NTg0NjYyLDE1OTEzNDk4OTIsLTU0Nz
+AzNzcyLC0xOTc2NTg1OTA2LDE0MTA2Njg0MjVdfQ==
 -->
