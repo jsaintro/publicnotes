@@ -17,9 +17,10 @@ Note: Before installing another copy of simplify 3d you'll have to deactivate th
      You're custom Wilson TS firmware is located on google drive [here](https://drive.google.com/file/d/1Gyy3sLMP8vbDZR3KGyHkDWy2GN9WNqof/view?usp=sharing)
 
 5. Upload to simplify3d
+### Configure for use in gon
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjk0OTA0MywtMTU0OTAwMTg2OF19
+eyJoaXN0b3J5IjpbLTIyMzExMDEwMywtMTU0OTAwMTg2OF19
 -->
