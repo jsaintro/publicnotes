@@ -33,10 +33,11 @@ Note: Before installing another copy of simplify 3d you'll have to deactivate th
 2. Upload to simplify3d FFF profiles
 
 
+
 3. Upload 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg4NTc0ODYsMzU0MjIxNzgzLDIwOT
-E1MzMwOTQsLTE1NDkwMDE4NjhdfQ==
+eyJoaXN0b3J5IjpbLTM0NzczNTUyMCwzNTQyMjE3ODMsMjA5MT
+UzMzA5NCwtMTU0OTAwMTg2OF19
 -->
