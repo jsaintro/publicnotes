@@ -3,8 +3,9 @@
 ### Marlin 1.1.0-RC8
 * For NTC 3950 ebay thermistors
 
-| Table | Bed 100
+| Table | Bed 60 | Bed 100 | HE 180 | HE 230 |
+| :---: | :---: | :---: |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDgxOTc1M119
+eyJoaXN0b3J5IjpbMTIxMDgxMzMyOV19
 -->
