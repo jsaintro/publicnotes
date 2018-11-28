@@ -123,7 +123,7 @@ M114
 Z = 9.16
 9.16 - 10 = -.84 -1.02 -1.12 -1.15 -5.5=4.53 -4=3.53
 Z= 9.70 - 10 = -0.3
-Z=-1.80 - 10 =
+Z=-1.80 - 10 = -11.8
 
 Since trigger is closer than hotend
 
@@ -172,7 +172,7 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDI5MDQxNDAsNjQ5NTg0NjYyLDE1OT
-EzNDk4OTIsLTU0NzAzNzcyLC0xOTc2NTg1OTA2LDE0MTA2Njg0
-MjVdfQ==
+eyJoaXN0b3J5IjpbMzMwMjAzMjkzLDY0OTU4NDY2MiwxNTkxMz
+Q5ODkyLC01NDcwMzc3MiwtMTk3NjU4NTkwNiwxNDEwNjY4NDI1
+XX0=
 -->
