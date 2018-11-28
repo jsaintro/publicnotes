@@ -6,7 +6,7 @@
 | Table | Bed 60 | Bed 100 | HE 180 | HE 230 |
 | :---: | :---: | :---: |:---: | :---: |
 | 11 | ?? | ?? | 170 | ?? |
-| 13 | ?? | ?? | 182 | ?? |
+| 13 | ?? | ?? | 184.5 | ?? |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzYxOTY0MDJdfQ==
+eyJoaXN0b3J5IjpbMTUxMTI3MDgwN119
 -->
