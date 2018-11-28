@@ -26,18 +26,22 @@ Note: Before installing another copy of simplify 3d you'll have to deactivate th
         mv ~/Desktop/Simplify3D.desktop ~/.local/share/applications/
 
 ### Configure
-1. Configure firmware
+1. Import your custom firmware
 
      You're custom Wilson TS firmware is located on google drive [here](https://drive.google.com/file/d/1Gyy3sLMP8vbDZR3KGyHkDWy2GN9WNqof/view?usp=sharing)
 
-2. Upload to simplify3d FFF profiles
+2. Import
+
+    Tools/Firmware Configuration/Import
+    
+3. Upload to simplify3d FFF profiles
 
 
 
-3. Upload 
+4. Upload 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzczNTUyMCwzNTQyMjE3ODMsMjA5MT
+eyJoaXN0b3J5IjpbMTcxNjMyMjY5MywzNTQyMjE3ODMsMjA5MT
 UzMzA5NCwtMTU0OTAwMTg2OF19
 -->
