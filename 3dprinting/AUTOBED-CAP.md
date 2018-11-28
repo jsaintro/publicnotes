@@ -100,6 +100,7 @@ READ: X:150.00 Y:164.00 Z:4.84 E:0.00 Count X: 12000 Y:13120 Z:21173
 M114
 X:150.00 Y:164.00 **Z:3.52** E:-300.00 Count X: 12000 Y:13120 Z:35569
 ```
+READ: X:150.00 Y:164.00 Z:-1.56 E:0.00 Count X: 12000 Y:13120 Z:-4011
 
 1. Add current z number to current offset
 Ex. -4 + 3.52 = -.48
@@ -167,5 +168,5 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDY2ODQyNV19
+eyJoaXN0b3J5IjpbLTE5NzY1ODU5MDYsMTQxMDY2ODQyNV19
 -->
