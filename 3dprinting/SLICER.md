@@ -13,6 +13,10 @@ Note: Before installing another copy of simplify 3d you'll have to deactivate th
 
         sudo ./Simplify3D-4.1.0-linux-x64-installer.run
 
+4. Add user permissions for your account
+
+        myuserid@myhost:~$ /opt/Simplify3D-4.1.0/AddUserPermissons.sh
+
 ### Configure for use in gnome
 
 1. Copy the desktop file to the right place
@@ -26,12 +30,13 @@ Note: Before installing another copy of simplify 3d you'll have to deactivate th
 
      You're custom Wilson TS firmware is located on google drive [here](https://drive.google.com/file/d/1Gyy3sLMP8vbDZR3KGyHkDWy2GN9WNqof/view?usp=sharing)
 
-2. Upload to simplify3d
+2. Upload to simplify3d FFF profiles
+
 
 3. Upload 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0MjIxNzgzLDIwOTE1MzMwOTQsLTE1ND
-kwMDE4NjhdfQ==
+eyJoaXN0b3J5IjpbLTE3Njg4NTc0ODYsMzU0MjIxNzgzLDIwOT
+E1MzMwOTQsLTE1NDkwMDE4NjhdfQ==
 -->
