@@ -120,10 +120,10 @@ G92Z10
 ```
 M114
 ```
-Z = 9.16
+Z1 = 9.16
 9.16 - 10 = -.84 -1.02 -1.12 -1.15 -5.5=4.53 -4=3.53
 Z= 9.70 - 10 = -0.3
-Z = -1.80
+Z2 = -1.80
 -0.3 + -1.80 = -2.1
 
 Since trigger is closer than hotend
@@ -173,7 +173,7 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzgwMDczOTksLTUwMDk0NTI3NCw2ND
-k1ODQ2NjIsMTU5MTM0OTg5MiwtNTQ3MDM3NzIsLTE5NzY1ODU5
-MDYsMTQxMDY2ODQyNV19
+eyJoaXN0b3J5IjpbLTMxODM3MDk5NCwtMTkzODAwNzM5OSwtNT
+AwOTQ1Mjc0LDY0OTU4NDY2MiwxNTkxMzQ5ODkyLC01NDcwMzc3
+MiwtMTk3NjU4NTkwNiwxNDEwNjY4NDI1XX0=
 -->
