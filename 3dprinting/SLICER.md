@@ -1,8 +1,9 @@
-## This is used to prep a 3d printer file and generate gcode
+# SLICER install and setup
 
-### Simplify 3D
+## Simplify 3D
 Note: Before installing another copy of simplify 3d you'll have to deactivate the last instance.  The copy protection makes sure you only use the number you're licensed to use.  Deactivation can be done in your account or from inside the old program.
 
+### Install
 1.  Download from [here](https://www.simplify3d.com)
      Note: Check lastpass for login info
 2. Unzip
@@ -12,6 +13,15 @@ Note: Before installing another copy of simplify 3d you'll have to deactivate th
 
         sudo ./Simplify3D-4.1.0-linux-x64-installer.run
 
+### Configure for use in gnome
+
+1. Copy the desktop file to the right place
+
+        sudo chown myuserid:myuserid ~/Desktop/Simplify3D.desktop
+        chmod 600 ~/Desktop/Simplify3D.desktop
+        mv ~/Desktop/Simplify3D.desktop ~/.local/share/applications/
+
+### Configure
 4. Configure firmware
 
      You're custom Wilson TS firmware is located on google drive [here](https://drive.google.com/file/d/1Gyy3sLMP8vbDZR3KGyHkDWy2GN9WNqof/view?usp=sharing)
@@ -27,5 +37,6 @@ mv ~/Desktop/Simplify3D.desktop ~/.local/share/applications/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTUzMzA5NCwtMTU0OTAwMTg2OF19
+eyJoaXN0b3J5IjpbLTUwNDAyNTM1NCwyMDkxNTMzMDk0LC0xNT
+Q5MDAxODY4XX0=
 -->
