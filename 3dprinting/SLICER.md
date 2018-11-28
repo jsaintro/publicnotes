@@ -20,12 +20,12 @@ Note: Before installing another copy of simplify 3d you'll have to deactivate th
 ### Configure for use in gome
 
 1. Copy the desktop file to the right place
-sudo chown myuserid:myuserid ~/Desktop/Simplify3D
-ch
-mv ~/Desktop/Simplify3D ~/.local/share/applications/
+sudo chown myuserid:myuserid ~/Desktop/Simplify3D.desktop
+chmod 600 ~/Desktop/Simplify3D.desktop
+mv ~/Desktop/Simplify3D.desktop ~/.local/share/applications/
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExNjgxMzA2LC0xNTQ5MDAxODY4XX0=
+eyJoaXN0b3J5IjpbMjA5MTUzMzA5NCwtMTU0OTAwMTg2OF19
 -->
