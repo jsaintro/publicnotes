@@ -10,9 +10,9 @@
 | 1 | ?? | ?? | 183.5 | 238 |
 | 60 | ?? | ?? | 172 | 217 |
 | 12 | ?? | ?? | 250 | HH |
-| 70 | ?? | ?? | 185 |  |
+| 70 | ?? | ?? | 185 | 240 |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzYxMTY2NSwtNDQxNjgwMjQ4LC02OT
-Y5MDkxMTYsMjA0NTE5ODE0NCwtMjU3NjI0MDExXX0=
+eyJoaXN0b3J5IjpbODgwNjI4MjE5LC00NDE2ODAyNDgsLTY5Nj
+kwOTExNiwyMDQ1MTk4MTQ0LC0yNTc2MjQwMTFdfQ==
 -->
