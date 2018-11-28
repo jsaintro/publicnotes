@@ -4,17 +4,22 @@
 
 1.  Download from [here](https://www.simplify3d.com)
      Note: Check lastpass for login info
-3. Unzip
+2. Unzip
 
         unzip Simplify3D-4.1.0-linux-x64-installer.zip 
-4. Run installer as root
+3. Run installer as root
 
         sudo ./Simplify3D-4.1.0-linux-x64-installer.run
 
-5. Configure as prusa i3??
+4. Configure firmware
+
+     You're custom Wilson TS firmware is located on google drive [here](https://drive.google.com/file/d/1Gyy3sLMP8vbDZR3KGyHkDWy2GN9WNqof/view?usp=sharing)
+
+5. Upload to simp
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDkwMDE4NjhdfQ==
+eyJoaXN0b3J5IjpbLTEwMjc4NDc5MzMsLTE1NDkwMDE4NjhdfQ
+==
 -->
