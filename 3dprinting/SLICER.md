@@ -38,13 +38,13 @@ Note: Before installing another copy of simplify 3d you'll have to deactivate th
 
     2. Import
 
-        "File/Import FFF Profile/Tools/Firmware Configuration/Import/WilsonTS.frm"
+        "File/Import FFF Profile/*.fff"
 
 
 4. Upload 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDgwODA4NDYsMzU0MjIxNzgzLDIwOT
+eyJoaXN0b3J5IjpbLTIwMzAyNTEyNjAsMzU0MjIxNzgzLDIwOT
 E1MzMwOTQsLTE1NDkwMDE4NjhdfQ==
 -->
