@@ -90,6 +90,8 @@ G0 X150 F7000
 ```
 M114
 X:150.00 Y:164.00 **Z:9.02** E:-300.00 Count X: 12000 Y:13120 Z:35569
+
+READ: X:150.00 Y:164.00 Z:4.84 E:0.00 Count X: 12000 Y:13120 Z:21173
 ```
 
 1. Slowly lower to the bed Until tip is .06mm away via feeler guage
@@ -164,3 +166,6 @@ planeNormal x: 0.00 y: -0.00 z: 1.00
 ok
 echo:endstops hit:  Z:-0.82
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQxMDY2ODQyNV19
+-->
