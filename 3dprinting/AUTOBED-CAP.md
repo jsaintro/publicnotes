@@ -108,6 +108,7 @@ Ex. -4 + 3.52 = -.48
 1. repeat above steps (Calibrate unitl it reads same as feeler guage)
 -.48 + .3 = -.45
 
+## Better Directions
 1. recalibrate current z pos to 10mm (So we can move down 10mm from current)
 ```
 G92Z10
@@ -168,5 +169,6 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY1ODU5MDYsMTQxMDY2ODQyNV19
+eyJoaXN0b3J5IjpbLTU0NzAzNzcyLC0xOTc2NTg1OTA2LDE0MT
+A2Njg0MjVdfQ==
 -->
