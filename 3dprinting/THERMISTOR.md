@@ -8,9 +8,9 @@
 | 11 | ?? | ?? | 170 | 215 |
 | 13 | ?? | ?? | 184.5 |242 |
 | 1 | ?? | ?? | 183.5 | 238 |
-| 60 | ?? | ?? | ?? | ?? |
+| 60 | ?? | ?? | 172 | |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTI2ODc4NiwyMDQ1MTk4MTQ0LC0yNT
-c2MjQwMTFdfQ==
+eyJoaXN0b3J5IjpbOTgzNzkyMDc4LDIwNDUxOTgxNDQsLTI1Nz
+YyNDAxMV19
 -->
