@@ -109,14 +109,18 @@ Ex. -4 + 3.52 = -.48
 -.48 + .3 = -.45
 
 ## Better Directions
-1. Re-calibrate current z Position to 10mm (So we can move down 10mm from current)
+1. Flash marling with 1 offset
+        Z_PROBE_OFFSET_FROM_EXTRUDER = 0
+3. Move down till triggered
+4. 
+Re-calibrate current z Position to 10mm (So we can move down 10mm from current)
 ```
 G92Z10
 ```
 
 
-1. Move z down in .1mm increments until .051mm feeler is pinched then backoff .1
-1. Determined current position
+5. Move z down in .1mm increments until .051mm feeler is pinched then backoff .1
+6. Determined current position
 ```
 M114
 ```
@@ -173,7 +177,8 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODM3MDk5NCwtMTkzODAwNzM5OSwtNT
-AwOTQ1Mjc0LDY0OTU4NDY2MiwxNTkxMzQ5ODkyLC01NDcwMzc3
-MiwtMTk3NjU4NTkwNiwxNDEwNjY4NDI1XX0=
+eyJoaXN0b3J5IjpbLTI0NDYzMjgxMiwtMzE4MzcwOTk0LC0xOT
+M4MDA3Mzk5LC01MDA5NDUyNzQsNjQ5NTg0NjYyLDE1OTEzNDk4
+OTIsLTU0NzAzNzcyLC0xOTc2NTg1OTA2LDE0MTA2Njg0MjVdfQ
+==
 -->
