@@ -116,7 +116,8 @@ Ex. -4 + 3.52 = -.48
     2. Back off by 1mm
     3. Go down by .1mm increments checking with M119 each time
  3. Record Z for M114 (Ex. -2.70)
- 4. 
+ 4. Use .076 feeler or piece of paper an
+ 5. Move down till you feel friction between nozzle tip and feeler
 4. 
 5. Move down till triggered
 6. 
@@ -184,8 +185,8 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxMzgyMzQ5LC02MDY1ODA3NzUsLTMxOD
-M3MDk5NCwtMTkzODAwNzM5OSwtNTAwOTQ1Mjc0LDY0OTU4NDY2
-MiwxNTkxMzQ5ODkyLC01NDcwMzc3MiwtMTk3NjU4NTkwNiwxND
-EwNjY4NDI1XX0=
+eyJoaXN0b3J5IjpbLTQwOTgyNjQ4Miw4MDEzODIzNDksLTYwNj
+U4MDc3NSwtMzE4MzcwOTk0LC0xOTM4MDA3Mzk5LC01MDA5NDUy
+NzQsNjQ5NTg0NjYyLDE1OTEzNDk4OTIsLTU0NzAzNzcyLC0xOT
+c2NTg1OTA2LDE0MTA2Njg0MjVdfQ==
 -->
