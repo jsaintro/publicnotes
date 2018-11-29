@@ -120,8 +120,8 @@ Ex. -4 + 3.52 = -.48
  5. Move down .1 increments till you feel friction between nozzle tip and feeler
 3.  Back off .1
 4.  Record Z for M114 (Ex. -3.00)
-5.  Take difference of these 2 measurements (Ex. 0.30) Move down till triggered
-6. 
+5.  Take difference of these 2 measurements (Ex. -2.70 - -3.00 = 0.30) Move down till triggered
+6.  This number represents 
 Re-calibrate current z Position to 10mm (So we can move down 10mm from current)
 ```
 G92Z10
@@ -186,8 +186,8 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY5NDIxOSw4MDEzODIzNDksLTYwNj
-U4MDc3NSwtMzE4MzcwOTk0LC0xOTM4MDA3Mzk5LC01MDA5NDUy
-NzQsNjQ5NTg0NjYyLDE1OTEzNDk4OTIsLTU0NzAzNzcyLC0xOT
-c2NTg1OTA2LDE0MTA2Njg0MjVdfQ==
+eyJoaXN0b3J5IjpbMTgwOTQ1MTg3MywtMTE0Njk0MjE5LDgwMT
+M4MjM0OSwtNjA2NTgwNzc1LC0zMTgzNzA5OTQsLTE5MzgwMDcz
+OTksLTUwMDk0NTI3NCw2NDk1ODQ2NjIsMTU5MTM0OTg5MiwtNT
+Q3MDM3NzIsLTE5NzY1ODU5MDYsMTQxMDY2ODQyNV19
 -->
