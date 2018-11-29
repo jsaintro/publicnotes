@@ -109,8 +109,9 @@ Ex. -4 + 3.52 = -.48
 -.48 + .3 = -.45
 
 ## Better Directions
-1. Flash marling with 1 offset
+1. Flash marlin with 1 offset
         Z_PROBE_OFFSET_FROM_EXTRUDER = 0
+2. 
 3. Move down till triggered
 4. 
 Re-calibrate current z Position to 10mm (So we can move down 10mm from current)
@@ -177,7 +178,7 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDYzMjgxMiwtMzE4MzcwOTk0LC0xOT
+eyJoaXN0b3J5IjpbLTg5OTQxMzAwNSwtMzE4MzcwOTk0LC0xOT
 M4MDA3Mzk5LC01MDA5NDUyNzQsNjQ5NTg0NjYyLDE1OTEzNDk4
 OTIsLTU0NzAzNzcyLC0xOTc2NTg1OTA2LDE0MTA2Njg0MjVdfQ
 ==
