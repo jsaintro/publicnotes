@@ -121,15 +121,16 @@ Ex. -4 + 3.52 = -.48
 3.  Back off .1
 4.  Record Z for M114 (Ex. -3.00)
 5.  Take difference of these 2 measurements (Ex. -2.70 - -3.00 = 0.30) Move down till triggered
-6.  This number represents 
+6.  This number represents the distance *below* the nozzle tip that the sensor triggered
+7. Set Z_PROBE_OFFSET_FROM_EXTRUDER to dis
 Re-calibrate current z Position to 10mm (So we can move down 10mm from current)
 ```
 G92Z10
 ```
 
 
-7. Move z down in .1mm increments until .051mm feeler is pinched then backoff .1
-8. Determined current position
+8. Move z down in .1mm increments until .051mm feeler is pinched then backoff .1
+9. Determined current position
 ```
 M114
 ```
@@ -186,8 +187,8 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwOTQ1MTg3MywtMTE0Njk0MjE5LDgwMT
-M4MjM0OSwtNjA2NTgwNzc1LC0zMTgzNzA5OTQsLTE5MzgwMDcz
-OTksLTUwMDk0NTI3NCw2NDk1ODQ2NjIsMTU5MTM0OTg5MiwtNT
-Q3MDM3NzIsLTE5NzY1ODU5MDYsMTQxMDY2ODQyNV19
+eyJoaXN0b3J5IjpbLTk3MjEyNTk3LC0xMTQ2OTQyMTksODAxMz
+gyMzQ5LC02MDY1ODA3NzUsLTMxODM3MDk5NCwtMTkzODAwNzM5
+OSwtNTAwOTQ1Mjc0LDY0OTU4NDY2MiwxNTkxMzQ5ODkyLC01ND
+cwMzc3MiwtMTk3NjU4NTkwNiwxNDEwNjY4NDI1XX0=
 -->
