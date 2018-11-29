@@ -115,7 +115,8 @@ Ex. -4 + 3.52 = -.48
     1. Move down till it triggers
     2. Back off by 1mm
     3. Go down by .1mm increments checking with M119 each time
-    4. 
+ 3. Record Z for M114 (Ex. -2.70)
+ 4. 
 4. 
 5. Move down till triggered
 6. 
@@ -183,8 +184,8 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjU4MDc3NSwtMzE4MzcwOTk0LC0xOT
-M4MDA3Mzk5LC01MDA5NDUyNzQsNjQ5NTg0NjYyLDE1OTEzNDk4
-OTIsLTU0NzAzNzcyLC0xOTc2NTg1OTA2LDE0MTA2Njg0MjVdfQ
-==
+eyJoaXN0b3J5IjpbODAxMzgyMzQ5LC02MDY1ODA3NzUsLTMxOD
+M3MDk5NCwtMTkzODAwNzM5OSwtNTAwOTQ1Mjc0LDY0OTU4NDY2
+MiwxNTkxMzQ5ODkyLC01NDcwMzc3MiwtMTk3NjU4NTkwNiwxND
+EwNjY4NDI1XX0=
 -->
