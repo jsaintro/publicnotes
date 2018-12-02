@@ -72,42 +72,6 @@ Use G92Z{distance) to set position of z independent of probe
 ```
 #define min_software_endstops false
 ```
-1. Preheat hotend and preheat bed
-1. Calibrate with top 
-G0 Z150
-G92Z100
-G0 Z170 (increase till you hit top)
-G0 Z100
-
-1. Home Z/Autobed Calib/Pos Extruder
-```
-G28
-G29
-G0 X150 F7000
-```
-
-1. Determine current percieved z pos
-```
-M114
-X:150.00 Y:164.00 **Z:9.02** E:-300.00 Count X: 12000 Y:13120 Z:35569
-
-READ: X:150.00 Y:164.00 Z:4.84 E:0.00 Count X: 12000 Y:13120 Z:21173
-```
-
-1. Slowly lower to the bed Until tip is .06mm away via feeler guage
-1. Determine current percieved z pos
-```
-M114
-X:150.00 Y:164.00 **Z:3.52** E:-300.00 Count X: 12000 Y:13120 Z:35569
-```
-READ: X:150.00 Y:164.00 Z:-1.56 E:0.00 Count X: 12000 Y:13120 Z:-4011
-
-1. Add current z number to current offset
-Ex. -4 + 3.52 = -.48
-1. Set as z offset
-1. repeat above steps (Calibrate unitl it reads same as feeler guage)
--.48 + .3 = -.45
-
 ## Better Directions
 1. Flash marlin with 1 offset
     1. Open Anduino IDE
@@ -197,9 +161,10 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5NDc3MjAyLDU1Mjg2NzkyNCwxNDYyOT
-g5NzkyLC0xNjM3NTc4MjkyLDI1MjI1MTkyMiwtMTE0Njk0MjE5
-LDgwMTM4MjM0OSwtNjA2NTgwNzc1LC0zMTgzNzA5OTQsLTE5Mz
-gwMDczOTksLTUwMDk0NTI3NCw2NDk1ODQ2NjIsMTU5MTM0OTg5
-MiwtNTQ3MDM3NzIsLTE5NzY1ODU5MDYsMTQxMDY2ODQyNV19
+eyJoaXN0b3J5IjpbLTE3MDQyMTQ5Niw0NDk0NzcyMDIsNTUyOD
+Y3OTI0LDE0NjI5ODk3OTIsLTE2Mzc1NzgyOTIsMjUyMjUxOTIy
+LC0xMTQ2OTQyMTksODAxMzgyMzQ5LC02MDY1ODA3NzUsLTMxOD
+M3MDk5NCwtMTkzODAwNzM5OSwtNTAwOTQ1Mjc0LDY0OTU4NDY2
+MiwxNTkxMzQ5ODkyLC01NDcwMzc3MiwtMTk3NjU4NTkwNiwxND
+EwNjY4NDI1XX0=
 -->
