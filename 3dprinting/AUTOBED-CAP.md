@@ -124,7 +124,9 @@ Ex. -4 + 3.52 = -.48
 6.  This number represents the distance *below* the nozzle tip that the sensor triggered
 7. Set Z_PROBE_OFFSET_FROM_EXTRUDER to negative value of the distance Ex. Distance = 0.30 = -0.30 Z_PROBE_OFFSET
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
-    
+
+## Delete rest once you get above directions working
+
 Re-calibrate current z Position to 10mm (So we can move down 10mm from current)
 ```
 G92Z10
@@ -189,8 +191,9 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyMjUxOTIyLC0xMTQ2OTQyMTksODAxMz
-gyMzQ5LC02MDY1ODA3NzUsLTMxODM3MDk5NCwtMTkzODAwNzM5
-OSwtNTAwOTQ1Mjc0LDY0OTU4NDY2MiwxNTkxMzQ5ODkyLC01ND
-cwMzc3MiwtMTk3NjU4NTkwNiwxNDEwNjY4NDI1XX0=
+eyJoaXN0b3J5IjpbLTEyNDM1NDM5LDI1MjI1MTkyMiwtMTE0Nj
+k0MjE5LDgwMTM4MjM0OSwtNjA2NTgwNzc1LC0zMTgzNzA5OTQs
+LTE5MzgwMDczOTksLTUwMDk0NTI3NCw2NDk1ODQ2NjIsMTU5MT
+M0OTg5MiwtNTQ3MDM3NzIsLTE5NzY1ODU5MDYsMTQxMDY2ODQy
+NV19
 -->
