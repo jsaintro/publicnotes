@@ -118,12 +118,9 @@ Ex. -4 + 3.52 = -.48
         
 2. Preheat bed to operating temp (ABS = 100c PLA = 60c?) ## EXPERIMENTAL
 2. Get Z probe trigger distance
-    1. Run G28 to home Z
-    2. Descent to Z0 locatoin `G0 Z0`Back off by 1mm
-    3. Go down by .1mm increments checking with M119 each time Until triggered
-        In simplify3d you can just use the Z distance check
-        
- 3. Record Z for M114 (Ex. -2.70) Ex. 0
+    1. Run `G28` to home Z
+    2. Descend to Z0 location `G0 Z0`
+ 3
  4. Use .076 feeler or piece of paper and place under nozzle
  5. Move down .1 increments till you feel friction between nozzle tip and feeler
 4.  Back off .1 (Exp1 didn't do this
@@ -199,9 +196,9 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjUxNTU1NSwxNDYyOTg5NzkyLC0xNj
-M3NTc4MjkyLDI1MjI1MTkyMiwtMTE0Njk0MjE5LDgwMTM4MjM0
-OSwtNjA2NTgwNzc1LC0zMTgzNzA5OTQsLTE5MzgwMDczOTksLT
-UwMDk0NTI3NCw2NDk1ODQ2NjIsMTU5MTM0OTg5MiwtNTQ3MDM3
-NzIsLTE5NzY1ODU5MDYsMTQxMDY2ODQyNV19
+eyJoaXN0b3J5IjpbLTIxMTc0MDQ2MDQsMTQ2Mjk4OTc5MiwtMT
+YzNzU3ODI5MiwyNTIyNTE5MjIsLTExNDY5NDIxOSw4MDEzODIz
+NDksLTYwNjU4MDc3NSwtMzE4MzcwOTk0LC0xOTM4MDA3Mzk5LC
+01MDA5NDUyNzQsNjQ5NTg0NjYyLDE1OTEzNDk4OTIsLTU0NzAz
+NzcyLC0xOTc2NTg1OTA2LDE0MTA2Njg0MjVdfQ==
 -->
