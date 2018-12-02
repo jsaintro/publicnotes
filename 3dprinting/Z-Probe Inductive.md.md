@@ -1,6 +1,6 @@
 # Stats
 * Weight ??g
-* LJ8A3-H-Z/BX
+* LJ8A3-2-Z/BX-5V
 * NPN 6-36V/300mA 1mm - 10mm NO
 
 # Wiring
@@ -161,5 +161,5 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3MTUxMjI4XX0=
+eyJoaXN0b3J5IjpbLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
 -->
