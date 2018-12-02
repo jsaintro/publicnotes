@@ -117,8 +117,8 @@ Ex. -4 + 3.52 = -.48
     3.  Save and upload
         
 2. Preheat bed to operating temp (ABS = 100c PLA = 60c?) ## EXPERIMENTAL
-2. Move Z probe tritill it triggers
-    1. Move down till it triggers
+2. Get Z probe trigger distance
+    1. Move down until Z probe triggers (If you don't have a light check with M119)
     2. Back off by 1mm
     3. Go down by .1mm increments checking with M119 each time
  3. Record Z for M114 (Ex. -2.70)
@@ -197,7 +197,7 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTUwMzYxMzYsMjUyMjUxOTIyLC0xMT
+eyJoaXN0b3J5IjpbLTE2Mzc1NzgyOTIsMjUyMjUxOTIyLC0xMT
 Q2OTQyMTksODAxMzgyMzQ5LC02MDY1ODA3NzUsLTMxODM3MDk5
 NCwtMTkzODAwNzM5OSwtNTAwOTQ1Mjc0LDY0OTU4NDY2MiwxNT
 kxMzQ5ODkyLC01NDcwMzc3MiwtMTk3NjU4NTkwNiwxNDEwNjY4
