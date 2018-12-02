@@ -10,7 +10,11 @@
 
 ## Surface refinishing
 
-Lightly sand with 600 grit 
+Lightly sand with 600 grit.
+
+## Application
+Clean aluminum surface with alcohol prep pad and let dry thoroughly
+Give quick spray with canned air (If you're dparanoid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ0NzYwMjZdfQ==
+eyJoaXN0b3J5IjpbLTIxMDI3MTc1NDRdfQ==
 -->
