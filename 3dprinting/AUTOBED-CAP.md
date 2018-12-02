@@ -117,17 +117,19 @@ Ex. -4 + 3.52 = -.48
     3.  Save and upload
         
 2. Preheat bed to operating temp (ABS = 100c PLA = 60c?) ## EXPERIMENTAL
-2. Get Z probe trigger distance
+3. Get Z probe trigger distance
     1. Run `G28` to home Z
     2. Descend to Z0 location `G0 Z0`
- 3
+4. Descent to 1st layer distance
+    1. Place 0.063 feeler guage under extruder
+    2. descent in .1 increments till you f 
  4. Use .076 feeler or piece of paper and place under nozzle
  5. Move down .1 increments till you feel friction between nozzle tip and feeler
-4.  Back off .1 (Exp1 didn't do this
-5.  Record Z for M114 (Ex. -3.00) Ex Z:-0.40
-6.  Take difference of these 2 measurements (Ex. -2.70 - -3.00 = 0.30) Ex. 0 - -0.40 
-7.  This number represents the distance *below* the nozzle tip that the sensor triggered
-8. Set Z_PROBE_OFFSET_FROM_EXTRUDER to negative value of the distance Ex. Distance = 0.30 = -0.30 Z_PROBE_OFFSET
+6.  Back off .1 (Exp1 didn't do this
+7.  Record Z for M114 (Ex. -3.00) Ex Z:-0.40
+8.  Take difference of these 2 measurements (Ex. -2.70 - -3.00 = 0.30) Ex. 0 - -0.40 
+9.  This number represents the distance *below* the nozzle tip that the sensor triggered
+10. Set Z_PROBE_OFFSET_FROM_EXTRUDER to negative value of the distance Ex. Distance = 0.30 = -0.30 Z_PROBE_OFFSET
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
 
 ## Delete rest once you get above directions working
@@ -196,7 +198,7 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTc0MDQ2MDQsMTQ2Mjk4OTc5MiwtMT
+eyJoaXN0b3J5IjpbLTEyNjcwNTE4MTgsMTQ2Mjk4OTc5MiwtMT
 YzNzU3ODI5MiwyNTIyNTE5MjIsLTExNDY5NDIxOSw4MDEzODIz
 NDksLTYwNjU4MDc3NSwtMzE4MzcwOTk0LC0xOTM4MDA3Mzk5LC
 01MDA5NDUyNzQsNjQ5NTg0NjYyLDE1OTEzNDk4OTIsLTU0NzAz
