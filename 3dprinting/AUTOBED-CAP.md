@@ -123,7 +123,7 @@ Ex. -4 + 3.52 = -.48
     3. Go down by .1mm increments checking with M119 each time Until triggered
         In simplify3d you can just use the Z distance check
         
- 3. Record Z for M114 (Ex. -2.70)
+ 3. Record Z for M114 (Ex. -2.70) Ex. 0
  4. Use .076 feeler or piece of paper and place under nozzle
  5. Move down .1 increments till you feel friction between nozzle tip and feeler
 4.  Back off .1
@@ -199,7 +199,7 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1NTgyMDc0LC0xNjM3NTc4MjkyLDI1Mj
+eyJoaXN0b3J5IjpbMTQyMjIyMzczLC0xNjM3NTc4MjkyLDI1Mj
 I1MTkyMiwtMTE0Njk0MjE5LDgwMTM4MjM0OSwtNjA2NTgwNzc1
 LC0zMTgzNzA5OTQsLTE5MzgwMDczOTksLTUwMDk0NTI3NCw2ND
 k1ODQ2NjIsMTU5MTM0OTg5MiwtNTQ3MDM3NzIsLTE5NzY1ODU5
