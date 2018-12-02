@@ -110,13 +110,14 @@ Ex. -4 + 3.52 = -.48
 
 ## Better Directions
 1. Flash marlin with 1 offset
-2.    	1. Open Anduino IDE
-	2. Edit configure.h
-
+    1. Open Anduino IDE
+    2. Edit configure.h
+ 
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
-   1. 
+    3.  Save and upload
         
-3. Move Z probe till it triggers
+2. 
+2. Move Z probe till it triggers
     1. Move down till it triggers
     2. Back off by 1mm
     3. Go down by .1mm increments checking with M119 each time
@@ -196,7 +197,7 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODg0NDg3OSwyNTIyNTE5MjIsLTExND
+eyJoaXN0b3J5IjpbLTQ2MjU2OTA4MSwyNTIyNTE5MjIsLTExND
 Y5NDIxOSw4MDEzODIzNDksLTYwNjU4MDc3NSwtMzE4MzcwOTk0
 LC0xOTM4MDA3Mzk5LC01MDA5NDUyNzQsNjQ5NTg0NjYyLDE1OT
 EzNDk4OTIsLTU0NzAzNzcyLC0xOTc2NTg1OTA2LDE0MTA2Njg0
