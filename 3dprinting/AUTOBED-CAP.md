@@ -122,7 +122,8 @@ Ex. -4 + 3.52 = -.48
     2. Descend to Z0 location `G0 Z0`
 4. Descent to 1st layer distance
     1. Place 0.063 feeler guage under extruder
-    2. descent in .1 increments till you f 
+    2. descent in .1 increments while moving the feeler back and forth waiting until you feel it pinch
+    3.  
  4. Use .076 feeler or piece of paper and place under nozzle
  5. Move down .1 increments till you feel friction between nozzle tip and feeler
 6.  Back off .1 (Exp1 didn't do this
@@ -198,9 +199,9 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjcwNTE4MTgsMTQ2Mjk4OTc5MiwtMT
-YzNzU3ODI5MiwyNTIyNTE5MjIsLTExNDY5NDIxOSw4MDEzODIz
-NDksLTYwNjU4MDc3NSwtMzE4MzcwOTk0LC0xOTM4MDA3Mzk5LC
-01MDA5NDUyNzQsNjQ5NTg0NjYyLDE1OTEzNDk4OTIsLTU0NzAz
-NzcyLC0xOTc2NTg1OTA2LDE0MTA2Njg0MjVdfQ==
+eyJoaXN0b3J5IjpbNTUyODY3OTI0LDE0NjI5ODk3OTIsLTE2Mz
+c1NzgyOTIsMjUyMjUxOTIyLC0xMTQ2OTQyMTksODAxMzgyMzQ5
+LC02MDY1ODA3NzUsLTMxODM3MDk5NCwtMTkzODAwNzM5OSwtNT
+AwOTQ1Mjc0LDY0OTU4NDY2MiwxNTkxMzQ5ODkyLC01NDcwMzc3
+MiwtMTk3NjU4NTkwNiwxNDEwNjY4NDI1XX0=
 -->
