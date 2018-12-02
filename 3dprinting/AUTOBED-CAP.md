@@ -119,7 +119,7 @@ Ex. -4 + 3.52 = -.48
 2. Preheat bed to operating temp (ABS = 100c PLA = 60c?) ## EXPERIMENTAL
 2. Get Z probe trigger distance
     1. Run G28 to home Z
-    2. Descent to Z0 locatoin `G0 Z0Back off by 1mm
+    2. Descent to Z0 locatoin `G0 Z0`Back off by 1mm
     3. Go down by .1mm increments checking with M119 each time Until triggered
         In simplify3d you can just use the Z distance check
         
@@ -199,7 +199,7 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4Nzg2ODMxNSwxNDYyOTg5NzkyLC0xNj
+eyJoaXN0b3J5IjpbMTk3NjUxNTU1NSwxNDYyOTg5NzkyLC0xNj
 M3NTc4MjkyLDI1MjI1MTkyMiwtMTE0Njk0MjE5LDgwMTM4MjM0
 OSwtNjA2NTgwNzc1LC0zMTgzNzA5OTQsLTE5MzgwMDczOTksLT
 UwMDk0NTI3NCw2NDk1ODQ2NjIsMTU5MTM0OTg5MiwtNTQ3MDM3
