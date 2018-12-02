@@ -128,7 +128,7 @@ Ex. -4 + 3.52 = -.48
  5. Move down .1 increments till you feel friction between nozzle tip and feeler
 4.  Back off .1 (Exp1 didn't do this
 5.  Record Z for M114 (Ex. -3.00) Ex Z:-0.40
-6.  Take difference of these 2 measurements (Ex. -2.70 - -3.00 = 0.30) Move down till triggered
+6.  Take difference of these 2 measurements (Ex. -2.70 - -3.00 = 0.30) Ex. 0 - -0.40 
 7.  This number represents the distance *below* the nozzle tip that the sensor triggered
 8. Set Z_PROBE_OFFSET_FROM_EXTRUDER to negative value of the distance Ex. Distance = 0.30 = -0.30 Z_PROBE_OFFSET
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
@@ -199,9 +199,9 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjkwODIyMzQsLTE2Mzc1NzgyOTIsMj
-UyMjUxOTIyLC0xMTQ2OTQyMTksODAxMzgyMzQ5LC02MDY1ODA3
-NzUsLTMxODM3MDk5NCwtMTkzODAwNzM5OSwtNTAwOTQ1Mjc0LD
-Y0OTU4NDY2MiwxNTkxMzQ5ODkyLC01NDcwMzc3MiwtMTk3NjU4
-NTkwNiwxNDEwNjY4NDI1XX0=
+eyJoaXN0b3J5IjpbMTQ2Mjk4OTc5MiwtMTYzNzU3ODI5MiwyNT
+IyNTE5MjIsLTExNDY5NDIxOSw4MDEzODIzNDksLTYwNjU4MDc3
+NSwtMzE4MzcwOTk0LC0xOTM4MDA3Mzk5LC01MDA5NDUyNzQsNj
+Q5NTg0NjYyLDE1OTEzNDk4OTIsLTU0NzAzNzcyLC0xOTc2NTg1
+OTA2LDE0MTA2Njg0MjVdfQ==
 -->
