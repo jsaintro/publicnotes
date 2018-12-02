@@ -127,7 +127,9 @@ Ex. -4 + 3.52 = -.48
 5.  This number represents the distance *below* the nozzle tip that the sensor triggered
 6. Set Z_PROBE_OFFSET_FROM_EXTRUDER to negative value of the distance Ex. Distance = 0.40 = -0.40 Z_PROBE_OFFSET
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
-
+7. Test
+    Use a simple test print and see if 1st layer is going town (No gaps between lines and not peeling up in spots
+8.  Fine tune: If it's still not perfect add another 0.1 so for our example that would be -0.50
 
 ## Delete rest once you get above directions working
 
@@ -195,10 +197,9 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU5NjAyMDMsNTUyODY3OTI0LDE0Nj
-I5ODk3OTIsLTE2Mzc1NzgyOTIsMjUyMjUxOTIyLC0xMTQ2OTQy
-MTksODAxMzgyMzQ5LC02MDY1ODA3NzUsLTMxODM3MDk5NCwtMT
-kzODAwNzM5OSwtNTAwOTQ1Mjc0LDY0OTU4NDY2MiwxNTkxMzQ5
-ODkyLC01NDcwMzc3MiwtMTk3NjU4NTkwNiwxNDEwNjY4NDI1XX
-0=
+eyJoaXN0b3J5IjpbNDQ5NDc3MjAyLDU1Mjg2NzkyNCwxNDYyOT
+g5NzkyLC0xNjM3NTc4MjkyLDI1MjI1MTkyMiwtMTE0Njk0MjE5
+LDgwMTM4MjM0OSwtNjA2NTgwNzc1LC0zMTgzNzA5OTQsLTE5Mz
+gwMDczOTksLTUwMDk0NTI3NCw2NDk1ODQ2NjIsMTU5MTM0OTg5
+MiwtNTQ3MDM3NzIsLTE5NzY1ODU5MDYsMTQxMDY2ODQyNV19
 -->
