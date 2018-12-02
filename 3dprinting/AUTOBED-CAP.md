@@ -116,8 +116,8 @@ Ex. -4 + 3.52 = -.48
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
         
-2. Preheat bed to operating temp (ABS = 100c PLA = 60c?)
-2. Move Z probe till it triggers
+2. Preheat bed to operating temp (ABS = 100c PLA = 60c?) ## EXPERIMENTAL
+2. Move Z probe tritill it triggers
     1. Move down till it triggers
     2. Back off by 1mm
     3. Go down by .1mm increments checking with M119 each time
@@ -197,9 +197,9 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTEzMDAxLDI1MjI1MTkyMiwtMTE0Nj
-k0MjE5LDgwMTM4MjM0OSwtNjA2NTgwNzc1LC0zMTgzNzA5OTQs
-LTE5MzgwMDczOTksLTUwMDk0NTI3NCw2NDk1ODQ2NjIsMTU5MT
-M0OTg5MiwtNTQ3MDM3NzIsLTE5NzY1ODU5MDYsMTQxMDY2ODQy
-NV19
+eyJoaXN0b3J5IjpbLTEyMTUwMzYxMzYsMjUyMjUxOTIyLC0xMT
+Q2OTQyMTksODAxMzgyMzQ5LC02MDY1ODA3NzUsLTMxODM3MDk5
+NCwtMTkzODAwNzM5OSwtNTAwOTQ1Mjc0LDY0OTU4NDY2MiwxNT
+kxMzQ5ODkyLC01NDcwMzc3MiwtMTk3NjU4NTkwNiwxNDEwNjY4
+NDI1XX0=
 -->
