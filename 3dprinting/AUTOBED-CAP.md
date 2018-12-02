@@ -110,6 +110,7 @@ Ex. -4 + 3.52 = -.48
 
 ## Better Directions
 1. Flash marlin with 1 offset
+	2. Open A
         Z_PROBE_OFFSET_FROM_EXTRUDER = 0
 2. Move Z probe till it triggers
     1. Move down till it triggers
@@ -191,7 +192,7 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDM1NDM5LDI1MjI1MTkyMiwtMTE0Nj
+eyJoaXN0b3J5IjpbOTg5ODAzMDQ4LDI1MjI1MTkyMiwtMTE0Nj
 k0MjE5LDgwMTM4MjM0OSwtNjA2NTgwNzc1LC0zMTgzNzA5OTQs
 LTE5MzgwMDczOTksLTUwMDk0NTI3NCw2NDk1ODQ2NjIsMTU5MT
 M0OTg5MiwtNTQ3MDM3NzIsLTE5NzY1ODU5MDYsMTQxMDY2ODQy
