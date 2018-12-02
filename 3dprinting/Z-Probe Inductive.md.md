@@ -1,17 +1,12 @@
 # Stats
 * Weight ??g
-* LJ8A3-2-Z/BX-5V
-* NPN 6-36V/300mA 1mm - 10mm NO
+* LJ8A3-2-Z-BX-5V
+* DC 5V M8 2mm NPN NO LJ8A3-2-Z/BX-5V Inductive Proximity Sensor Switch
 
 # Wiring
 Blue = Ground
-Brown = 12V
-Black = Schottky Diode (BAT85) Neg Terminal (Black Band)
-Schottky Diode (BAT85) Pos Terminal = Arduino Z Stop Normally Open Pin (With pullup)
-
-# Schottky Diode Magic
-When the sensor is open aka high the Schottky diode is reverse biased and no current flows to sense pin.  So the pullup of the sense pin makes it a logic high.  When the sensor is triggered the sensor goes to ground causing a forward bias of the diode.  This effectively lets the diode flow to ground which causes a logic low on the arduino.  
-
+Brown = 5V+
+Black = Sense
 # Adjustment
 CCW More sensitive
 CW Less Sensitive
@@ -161,5 +156,6 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
+eyJoaXN0b3J5IjpbMTE3OTEwOTAxMywtMTkwMjQzNDQyMCw1OD
+cxNTEyMjhdfQ==
 -->
