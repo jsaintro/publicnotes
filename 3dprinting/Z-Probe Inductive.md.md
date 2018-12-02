@@ -14,11 +14,11 @@ With 3mm alu bed has about a 2mm detection distance.  So PEI sheet must be very 
 
 # Mechanical Placement
 1. Lower extruder till it is almost touching bed ~.5 - 1mm
-2. Use paperMove so that sensor is above a binder clip
-3. Adjust sensor so it doesn't hit binder clip
+2. Use paper to figure out max trigger distance
+3. Remove a couple of slips of paper and faster there
 
 # Test sensor functionality
-1. With sensor untriggered (faint light)
+1. With sensor untriggered
     Send M119 to see if Z endstop is untriggered
     ```
     Reporting endstop status
@@ -28,7 +28,7 @@ With 3mm alu bed has about a 2mm detection distance.  So PEI sheet must be very 
     ok
     ```
 
-2. Trigger sensor (Strong light)
+2. Trigger sensor
     ```
     Reporting endstop status
     x_min: open
@@ -136,6 +136,6 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTk0ODk3MCwtMTkwMjQzNDQyMCw1OD
-cxNTEyMjhdfQ==
+eyJoaXN0b3J5IjpbLTE5NDY2NTU0MjQsLTE5MDI0MzQ0MjAsNT
+g3MTUxMjI4XX0=
 -->
