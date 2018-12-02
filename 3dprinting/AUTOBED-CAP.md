@@ -120,7 +120,9 @@ Ex. -4 + 3.52 = -.48
 2. Get Z probe trigger distance
     1. Move down until Z probe triggers (If you don't have a light check with M119)
     2. Back off by 1mm
-    3. Go down by .1mm increments checking with M119 each time
+    3. Go down by .1mm increments checking with M119 each time Until triggered
+        In simplify3d you can just use the Z distance check
+        
  3. Record Z for M114 (Ex. -2.70)
  4. Use .076 feeler or piece of paper and place under nozzle
  5. Move down .1 increments till you feel friction between nozzle tip and feeler
@@ -197,9 +199,9 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzc1NzgyOTIsMjUyMjUxOTIyLC0xMT
-Q2OTQyMTksODAxMzgyMzQ5LC02MDY1ODA3NzUsLTMxODM3MDk5
-NCwtMTkzODAwNzM5OSwtNTAwOTQ1Mjc0LDY0OTU4NDY2MiwxNT
-kxMzQ5ODkyLC01NDcwMzc3MiwtMTk3NjU4NTkwNiwxNDEwNjY4
-NDI1XX0=
+eyJoaXN0b3J5IjpbNTY1NTgyMDc0LC0xNjM3NTc4MjkyLDI1Mj
+I1MTkyMiwtMTE0Njk0MjE5LDgwMTM4MjM0OSwtNjA2NTgwNzc1
+LC0zMTgzNzA5OTQsLTE5MzgwMDczOTksLTUwMDk0NTI3NCw2ND
+k1ODQ2NjIsMTU5MTM0OTg5MiwtNTQ3MDM3NzIsLTE5NzY1ODU5
+MDYsMTQxMDY2ODQyNV19
 -->
