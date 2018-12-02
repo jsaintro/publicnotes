@@ -7,34 +7,14 @@
 Blue = Ground
 Brown = 5V+
 Black = Sense
-# Adjustment
-CCW More sensitive
-CW Less Sensitive
-# Will this cook my arduino?
-* Shouldn't.. when untriggered the sense pin is floating
-  When you measure it using a multimeter it will show 12v becuase it's an induced current.  Using the pullup on the arduino sense pin will keep it from floating and it will read 5v when untriggered.  When triggered it will go to ground.
 
-# How well will this work on my surface??
-1. Mirrored Glass is best
-* This is a CAPACITIVE SENSOR so it's basically measuring the distance between two conductors.  Glass is an insulator so bare glass means that you'll be measuring the distance between the sensor and what's under the glass ... the heatbed (Prone to error/warping non uniform conductance.  But a mirror is ideal because a modern mirror is a piece of glass with a thin layer of conductive metal (Which is very uniform ;-).  If you check the back of a mirror for conductivity keep in mind that they normally put a layer of non-conductive paint to protect the metal from corrosion.
-* Recommended distance 2 - 4 mm
-* If it's too close you run the risk of triggering off the something below the sensor.  Too far and you increate your target area which reduced your accuracy.
+# Surface Notes
 
-* Arduino pin with pullup installed and unattached
-  Sense Pullup V 4.897 Vcc 4.921
-* with Sendor attached Same as Pullup
-
-* Unattached 9.90 V
-
-
-* Signal light glows slightly when hooked up to sense pin. (If diode isn't working)
-* 33 Ohm current limiting resistor didn't help
-* 50% voltage divider didn't help 
-  10K/10K 4.8V when open 1V when grounded.
+With 3mm alu bed has about a 2mm detection distance.  So PEI sheet must be very thin
 
 # Mechanical Placement
 1. Lower extruder till it is almost touching bed ~.5 - 1mm
-2. Move so that sensor is above a binder clip
+2. Use paperMove so that sensor is above a binder clip
 3. Adjust sensor so it doesn't hit binder clip
 
 # Test sensor functionality
@@ -156,6 +136,6 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTEwOTAxMywtMTkwMjQzNDQyMCw1OD
+eyJoaXN0b3J5IjpbMTM3NTk0ODk3MCwtMTkwMjQzNDQyMCw1OD
 cxNTEyMjhdfQ==
 -->
