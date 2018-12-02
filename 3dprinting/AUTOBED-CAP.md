@@ -110,20 +110,24 @@ Ex. -4 + 3.52 = -.48
 
 ## Better Directions
 1. Flash marlin with 1 offset
-	2. Open A
-        Z_PROBE_OFFSET_FROM_EXTRUDER = 0
-2. Move Z probe till it triggers
+2.    	1. Open Anduino IDE
+	2. Edit configure.h
+
+            Z_PROBE_OFFSET_FROM_EXTRUDER = 0
+   1. 
+        
+3. Move Z probe till it triggers
     1. Move down till it triggers
     2. Back off by 1mm
     3. Go down by .1mm increments checking with M119 each time
  3. Record Z for M114 (Ex. -2.70)
  4. Use .076 feeler or piece of paper and place under nozzle
  5. Move down .1 increments till you feel friction between nozzle tip and feeler
-3.  Back off .1
-4.  Record Z for M114 (Ex. -3.00)
-5.  Take difference of these 2 measurements (Ex. -2.70 - -3.00 = 0.30) Move down till triggered
-6.  This number represents the distance *below* the nozzle tip that the sensor triggered
-7. Set Z_PROBE_OFFSET_FROM_EXTRUDER to negative value of the distance Ex. Distance = 0.30 = -0.30 Z_PROBE_OFFSET
+4.  Back off .1
+5.  Record Z for M114 (Ex. -3.00)
+6.  Take difference of these 2 measurements (Ex. -2.70 - -3.00 = 0.30) Move down till triggered
+7.  This number represents the distance *below* the nozzle tip that the sensor triggered
+8. Set Z_PROBE_OFFSET_FROM_EXTRUDER to negative value of the distance Ex. Distance = 0.30 = -0.30 Z_PROBE_OFFSET
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
 
 ## Delete rest once you get above directions working
@@ -192,9 +196,9 @@ ok
 echo:endstops hit:  Z:-0.82
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5ODAzMDQ4LDI1MjI1MTkyMiwtMTE0Nj
-k0MjE5LDgwMTM4MjM0OSwtNjA2NTgwNzc1LC0zMTgzNzA5OTQs
-LTE5MzgwMDczOTksLTUwMDk0NTI3NCw2NDk1ODQ2NjIsMTU5MT
-M0OTg5MiwtNTQ3MDM3NzIsLTE5NzY1ODU5MDYsMTQxMDY2ODQy
-NV19
+eyJoaXN0b3J5IjpbLTc4ODg0NDg3OSwyNTIyNTE5MjIsLTExND
+Y5NDIxOSw4MDEzODIzNDksLTYwNjU4MDc3NSwtMzE4MzcwOTk0
+LC0xOTM4MDA3Mzk5LC01MDA5NDUyNzQsNjQ5NTg0NjYyLDE1OT
+EzNDk4OTIsLTU0NzAzNzcyLC0xOTc2NTg1OTA2LDE0MTA2Njg0
+MjVdfQ==
 -->
