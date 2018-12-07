@@ -1,5 +1,9 @@
 
 ## BOM
+
+| name | suppler/link | price |
+| :---: | :---: | :---: |
+| 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjc1NDM5NF19
+eyJoaXN0b3J5IjpbLTE4MzI4Mzk2NTldfQ==
 -->
