@@ -68,8 +68,8 @@ Use G92Z{distance) to set position of z independent of probe
 8. Test
     Use a simple test print and see if 1st layer is going town (No gaps between lines and not peeling up in spots
 9.  Fine tune: If it's still not perfect add another 0.1 so for our example that would be -0.50
-    Note: going from  
+    Note: Higher negative numbers move the extruder closer to the bed (Ex. -0.50 move the extruder closer to the bed vs -0.40. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTU4Njg3NSwtMTk3MzYzNTUzMywtMT
-kwMjQzNDQyMCw1ODcxNTEyMjhdfQ==
+eyJoaXN0b3J5IjpbNTM0MTc0MjY4LC0xOTczNjM1NTMzLC0xOT
+AyNDM0NDIwLDU4NzE1MTIyOF19
 -->
