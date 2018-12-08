@@ -18,7 +18,7 @@ With 3mm alu bed has about a 2mm detection distance.  So PEI sheet must be very 
 3. Raise extruder .1mm
 4. See if sensor has triggred with M119 (Z endtop triggered)
 5. If not then rotate sensor 1/4 and check M119 repeat till triggered
-6. G28
+6. Repeat steps 1
 7. Remove a couple of slips of paper and faster there
 
 # Test sensor functionality
@@ -74,7 +74,7 @@ Use G92Z{distance) to set position of z independent of probe
 9.  Fine tune: If it's still not perfect add another 0.1 so for our example that would be -0.50
     Note: Higher negative numbers move the extruder closer to the bed (Ex. -0.50 move the extruder closer to the bed vs -0.40. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxODg0MjkyLC0xNjIwNjE5ODIzLDUzND
-E3NDI2OCwtMTk3MzYzNTUzMywtMTkwMjQzNDQyMCw1ODcxNTEy
-MjhdfQ==
+eyJoaXN0b3J5IjpbLTEyMjc4NzAyMjQsLTE2MjA2MTk4MjMsNT
+M0MTc0MjY4LC0xOTczNjM1NTMzLC0xOTAyNDM0NDIwLDU4NzE1
+MTIyOF19
 -->
