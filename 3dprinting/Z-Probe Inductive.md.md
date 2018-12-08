@@ -55,16 +55,17 @@ Use G92Z{distance) to set position of z independent of probe
 1. Zero out offset (temporarily)
 
          M851 Z0 
-3. Preheat bed to operating temp (ABS = 100c PLA = 60c?)
-4. Get Z probe trigger distance
+2. Preheat bed to operating temp (ABS = 100c PLA = 60c?)
+3. Get Z probe trigger distance
     1. Run `G28` to home Z
     2. Descend to Z0 location `G0 Z0`
-5. Descent to 1st layer distance
+4. Descent to 1st layer distance
      1. Place 0.063 feeler guage under extruder
      2. descent in .1 increments while moving the feeler back and forth waiting until you feel it pinch
      3.  Record Z for M114 (Ex. -0.40)
-6.  This number represents the distance *below* the nozzle tip that the sensor triggered
-7. Calculate Temporarily set z offest Set Z_PROBE_OFFSET_FROM_EXTRUDER to that number + .15 (Ex -0.40 + -0.15 = -0.55to negative value of the distance Ex. Distance = 0.40 = -0.40 Z_PROBE_OFFSET
+5.  This number represents the distance *below* the nozzle tip that the sensor triggered
+6. Calculate z offest + fudge factor of -0.15.  (Ex -0.40 + -0.15 = -0.55)
+    the more negative the closer the extruder is to the build plate 
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
 8. Test
     Use a simple test print and see if 1st layer is going town (No gaps between lines and not peeling up in spots
@@ -79,7 +80,7 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTczNjMxMCwxNjIzMTQ1MjI3LDEwND
-k5MzYxMzksLTE2MjA2MTk4MjMsNTM0MTc0MjY4LC0xOTczNjM1
-NTMzLC0xOTAyNDM0NDIwLDU4NzE1MTIyOF19
+eyJoaXN0b3J5IjpbOTkzMjYyOTM1LDE2MjMxNDUyMjcsMTA0OT
+kzNjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgsLTE5NzM2MzU1
+MzMsLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
 -->
