@@ -64,7 +64,7 @@ Use G92Z{distance) to set position of z independent of probe
      2. descent in .1 increments while moving the feeler back and forth waiting until you feel it pinch
      3.  Record Z for M114 (Ex. -0.40)
 6.  This number represents the distance *below* the nozzle tip that the sensor triggered
-7. Set Z_PROBE_OFFSET_FROM_EXTRUDER to negative value of the distance Ex. Distance = 0.40 = -0.40 Z_PROBE_OFFSET
+7. Calculate Temporarily set z offest Set Z_PROBE_OFFSET_FROM_EXTRUDER to that number + .15 (Ex -0.40 + -0.15 = -0.55to negative value of the distance Ex. Distance = 0.40 = -0.40 Z_PROBE_OFFSET
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
 8. Test
     Use a simple test print and see if 1st layer is going town (No gaps between lines and not peeling up in spots
@@ -79,7 +79,7 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzE0NTIyNywxMDQ5OTM2MTM5LC0xNj
-IwNjE5ODIzLDUzNDE3NDI2OCwtMTk3MzYzNTUzMywtMTkwMjQz
-NDQyMCw1ODcxNTEyMjhdfQ==
+eyJoaXN0b3J5IjpbLTU3NTczNjMxMCwxNjIzMTQ1MjI3LDEwND
+k5MzYxMzksLTE2MjA2MTk4MjMsNTM0MTc0MjY4LC0xOTczNjM1
+NTMzLC0xOTAyNDM0NDIwLDU4NzE1MTIyOF19
 -->
