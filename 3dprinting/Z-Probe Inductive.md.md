@@ -62,12 +62,19 @@ Use G92Z{distance) to set position of z independent of probe
 4. Descent to 1st layer distance
      1. Place 0.063 feeler guage under extruder
      2. descent in .1 increments while moving the feeler back and forth waiting until you feel it pinch
-     3.  Record Z for M114 (Ex. -0.40)
+     3.  Record Z for M114 (Ex. -0.30)
 5.  This number represents the distance *below* the nozzle tip that the sensor triggered
-6. Calculate z offest + fudge factor of -0.15.  (Ex -0.40 + -0.15 = -0.55)
+6. Calculate z offest + fudge factor of -0.15.  (Ex -0.30 + -0.15 = -0.55)
     the more negative the closer the extruder is to the build plate 
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
+7. Temporarily set the new z offset
+
+         M851 Z-0.45
+
 8. Test
+ 
+          G28
+          G0 Z
     Use a simple test print and see if 1st layer is going town (No gaps between lines and not peeling up in spots
 9.  Fine tune: If it's still not perfect add another 0.1 so for our example that would be -0.50
     Note: Higher negative numbers move the extruder closer to the bed (Ex. -0.50 move the extruder closer to the bed vs -0.40. 
@@ -80,7 +87,7 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzMjYyOTM1LDE2MjMxNDUyMjcsMTA0OT
-kzNjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgsLTE5NzM2MzU1
-MzMsLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
+eyJoaXN0b3J5IjpbMjE1NzA5MTcsOTkzMjYyOTM1LDE2MjMxND
+UyMjcsMTA0OTkzNjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgs
+LTE5NzM2MzU1MzMsLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
 -->
