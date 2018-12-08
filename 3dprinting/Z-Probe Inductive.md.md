@@ -54,11 +54,13 @@ Use G92Z{distance) to set position of z independent of probe
 ## Calculate z probe offset
 1. Prep
 	 * Make sure 1st layer height and width in slicer is set to 100%
-	 * Bring heat bed up to operating temp 
+	 * Bring heat bed up to operating temp (ABS = 105c, PLA = 60c)
+
 2. Zero out offset (temporarily)
 
          M851 Z0 
-3. Preheat bed to operating temp (ABS = 100c PLA = 60c?)
+
+3. Wait for heated bePreheat bed to operating temp (ABS = 100c PLA = 60c?)
 4. Get Z probe trigger distance
     1. Run `G28` to home Z
     2. Descend to Z0 location `G0 Z0`
@@ -92,8 +94,8 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzcwNzA3NjksMTEzNDg4OTU5NSwxOD
-IxODM4NTY0LDIwNTU1MzkxMTksOTkzMjYyOTM1LDE2MjMxNDUy
-MjcsMTA0OTkzNjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgsLT
-E5NzM2MzU1MzMsLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
+eyJoaXN0b3J5IjpbODIzODc3MDg3LDExMzQ4ODk1OTUsMTgyMT
+gzODU2NCwyMDU1NTM5MTE5LDk5MzI2MjkzNSwxNjIzMTQ1MjI3
+LDEwNDk5MzYxMzksLTE2MjA2MTk4MjMsNTM0MTc0MjY4LC0xOT
+czNjM1NTMzLC0xOTAyNDM0NDIwLDU4NzE1MTIyOF19
 -->
