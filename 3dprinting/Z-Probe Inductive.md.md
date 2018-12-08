@@ -51,13 +51,10 @@ Use G92Z{distance) to set position of z independent of probe
 
         #define min_software_endstops false
 
-2. Flash marlin with 1 offset
-    1. Open Anduino IDE
-    2. Edit configure.h
- 
-            Z_PROBE_OFFSET_FROM_EXTRUDER = 0
-    3.  Save and upload
-1. Send M        
+## Calculate z probe offset
+1. Zero out offset (temporarily)
+
+         M851 Z0 
 3. Preheat bed to operating temp (ABS = 100c PLA = 60c?)
 4. Get Z probe trigger distance
     1. Run `G28` to home Z
@@ -74,9 +71,15 @@ Use G92Z{distance) to set position of z independent of probe
 9.  Fine tune: If it's still not perfect add another 0.1 so for our example that would be -0.50
     Note: Higher negative numbers move the extruder closer to the bed (Ex. -0.50 move the extruder closer to the bed vs -0.40. 
 10. Use M851 to temp get set offset
-11. 
+11. Save offset to firmware
+lash marlin with 1 offset
+    1. Open Anduino IDE
+    2. Edit configure.h
+ 
+            Z_PROBE_OFFSET_FROM_EXTRUDER = 0
+    3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE3MjA4NTYsMTA0OTkzNjEzOSwtMT
-YyMDYxOTgyMyw1MzQxNzQyNjgsLTE5NzM2MzU1MzMsLTE5MDI0
-MzQ0MjAsNTg3MTUxMjI4XX0=
+eyJoaXN0b3J5IjpbMTYyMzE0NTIyNywxMDQ5OTM2MTM5LC0xNj
+IwNjE5ODIzLDUzNDE3NDI2OCwtMTk3MzYzNTUzMywtMTkwMjQz
+NDQyMCw1ODcxNTEyMjhdfQ==
 -->
