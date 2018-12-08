@@ -52,36 +52,39 @@ Use G92Z{distance) to set position of z independent of probe
         #define min_software_endstops false
 
 ## Calculate z probe offset
-1. Zero out offset (temporarily)
+1. Prep
+	 * Make sure 1st layer height and width in slicer is set to 100%
+	 * Bring heat bed up to operating temp 
+2. Zero out offset (temporarily)
 
          M851 Z0 
-2. Preheat bed to operating temp (ABS = 100c PLA = 60c?)
-3. Get Z probe trigger distance
+3. Preheat bed to operating temp (ABS = 100c PLA = 60c?)
+4. Get Z probe trigger distance
     1. Run `G28` to home Z
     2. Descend to Z0 location `G0 Z0`
-4. Descent to 1st layer distance
+5. Descent to 1st layer distance
      1. Place 0.063 feeler guage under extruder
      2. descent in .1 increments while moving the feeler back and forth waiting until you feel it pinch
      3.  Record Z for M114 (Ex. -0.30)
-5.  This number represents the distance *below* the nozzle tip that the sensor triggered
-6. Calculate z offest + fudge factor of -0.08??.  (Ex -0.30 + -0.08 = -0.38)
+6.  This number represents the distance *below* the nozzle tip that the sensor triggered
+7. Calculate z offest + fudge factor of -0.08??.  (Ex -0.30 + -0.08 = -0.38)
     the more negative the closer the extruder is to the build plate 
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
-7. Temporarily set the new z offset
+8. Temporarily set the new z offset
 
          M851 Z-0.38
 
-8. Test
+9. Test
  
           G28
           G0 Z1 // Check to make sure you're not crashing into the bed
           G0 Z0.5 // Should be getting close now
           G0 Z0.1 // Sould be pretty much touching Feeler should just fit under 
     Use a simple test print and see if 1st layer is going town (No gaps between lines and not peeling up in spots
-9.  Fine tune: If it's still not perfect add another 0.1 so for our example that would be -0.50
+10.  Fine tune: If it's still not perfect add another 0.1 so for our example that would be -0.50
     Note: Higher negative numbers move the extruder closer to the bed (Ex. -0.50 move the extruder closer to the bed vs -0.40. 
-10. Use M851 to temp get set offset
-11. Save offset to firmware
+11. Use M851 to temp get set offset
+12. Save offset to firmware
 lash marlin with 1 offset
     1. Open Anduino IDE
     2. Edit configure.h
@@ -89,8 +92,8 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDg4OTU5NSwxODIxODM4NTY0LDIwNT
-U1MzkxMTksOTkzMjYyOTM1LDE2MjMxNDUyMjcsMTA0OTkzNjEz
-OSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgsLTE5NzM2MzU1MzMsLT
-E5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
+eyJoaXN0b3J5IjpbLTEzNzcwNzA3NjksMTEzNDg4OTU5NSwxOD
+IxODM4NTY0LDIwNTU1MzkxMTksOTkzMjYyOTM1LDE2MjMxNDUy
+MjcsMTA0OTkzNjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgsLT
+E5NzM2MzU1MzMsLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
 -->
