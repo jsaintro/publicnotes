@@ -74,7 +74,9 @@ Use G92Z{distance) to set position of z independent of probe
 8. Test
  
           G28
-          G0 Z
+          G0 Z1 // Check to make sure you're not crashing into the bed
+          G0 Z0.5 // Should be getting close now
+          G0 Z0.1 // Sould be pretty much touching
     Use a simple test print and see if 1st layer is going town (No gaps between lines and not peeling up in spots
 9.  Fine tune: If it's still not perfect add another 0.1 so for our example that would be -0.50
     Note: Higher negative numbers move the extruder closer to the bed (Ex. -0.50 move the extruder closer to the bed vs -0.40. 
@@ -87,7 +89,8 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1NzA5MTcsOTkzMjYyOTM1LDE2MjMxND
-UyMjcsMTA0OTkzNjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgs
-LTE5NzM2MzU1MzMsLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
+eyJoaXN0b3J5IjpbMjA1NTUzOTExOSw5OTMyNjI5MzUsMTYyMz
+E0NTIyNywxMDQ5OTM2MTM5LC0xNjIwNjE5ODIzLDUzNDE3NDI2
+OCwtMTk3MzYzNTUzMywtMTkwMjQzNDQyMCw1ODcxNTEyMjhdfQ
+==
 -->
