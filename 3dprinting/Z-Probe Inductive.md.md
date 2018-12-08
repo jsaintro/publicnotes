@@ -65,12 +65,11 @@ Use G92Z{distance) to set position of z independent of probe
     1. Run `G28` to home Z
     2. Descend to Z0 location `G0 Z0`
     3. Place piece of paper under extruder (old inst was to use 0.063 feeler gauge)
-    4. Descend in 0.1mm increments while moving paper back and forth waiting until you feel it pinch
+    4. Descend in 0.1mm increments while moving paper back and forth waiting until you feel it pinch (noticeable grab)
     5. Record Z offset
             
             M114
-         Ex. -0.30
-     4.  for M114 (Ex. -0.30)
+         Ex. -0.40
 7.  This number represents the distance *below* the nozzle tip that the sensor triggered
 8. Calculate z offest + fudge factor of -0.08??.  (Ex -0.30 + -0.08 = -0.38)
     the more negative the closer the extruder is to the build plate 
@@ -97,8 +96,9 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzM5MzYwNywxMTM0ODg5NTk1LDE4Mj
-E4Mzg1NjQsMjA1NTUzOTExOSw5OTMyNjI5MzUsMTYyMzE0NTIy
-NywxMDQ5OTM2MTM5LC0xNjIwNjE5ODIzLDUzNDE3NDI2OCwtMT
-k3MzYzNTUzMywtMTkwMjQzNDQyMCw1ODcxNTEyMjhdfQ==
+eyJoaXN0b3J5IjpbMTIzNTQzMzM4OSwtODc3MzkzNjA3LDExMz
+Q4ODk1OTUsMTgyMTgzODU2NCwyMDU1NTM5MTE5LDk5MzI2Mjkz
+NSwxNjIzMTQ1MjI3LDEwNDk5MzYxMzksLTE2MjA2MTk4MjMsNT
+M0MTc0MjY4LC0xOTczNjM1NTMzLC0xOTAyNDM0NDIwLDU4NzE1
+MTIyOF19
 -->
