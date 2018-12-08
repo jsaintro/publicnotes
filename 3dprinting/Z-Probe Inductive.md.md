@@ -70,8 +70,8 @@ Use G92Z{distance) to set position of z independent of probe
             
             M114
          Ex. -0.40
-7.  This number represents the distance *below* the nozzle tip that the sensor triggered
-8. Calculate z offest + fudge factor of -0.08??.  (Ex -0.30 + -0.08 = -0.38)
+    6.  This number represents the distance *below* the nozzle tip that the sensor triggered
+5. Calculate z offest + fudge factor of -0.08??.  (Ex -0.30 + -0.08 = -0.38)
     the more negative the closer the extruder is to the build plate 
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
 9. Temporarily set the new z offset
@@ -96,9 +96,9 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTQzMzM4OSwtODc3MzkzNjA3LDExMz
-Q4ODk1OTUsMTgyMTgzODU2NCwyMDU1NTM5MTE5LDk5MzI2Mjkz
-NSwxNjIzMTQ1MjI3LDEwNDk5MzYxMzksLTE2MjA2MTk4MjMsNT
-M0MTc0MjY4LC0xOTczNjM1NTMzLC0xOTAyNDM0NDIwLDU4NzE1
-MTIyOF19
+eyJoaXN0b3J5IjpbMzA1MzE3MjMzLC04NzczOTM2MDcsMTEzND
+g4OTU5NSwxODIxODM4NTY0LDIwNTU1MzkxMTksOTkzMjYyOTM1
+LDE2MjMxNDUyMjcsMTA0OTkzNjEzOSwtMTYyMDYxOTgyMyw1Mz
+QxNzQyNjgsLTE5NzM2MzU1MzMsLTE5MDI0MzQ0MjAsNTg3MTUx
+MjI4XX0=
 -->
