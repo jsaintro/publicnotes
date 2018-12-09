@@ -10,8 +10,9 @@
 | Part | Qty | Supplier/Link | Cost | 
 | :---: | :---: | :---: | :---: |
 | #14 x 1 in Qty 6 | 1 Bag | Home Depot | $1.18 |
-| #14 x 2-12 in Qty 2 | 2 Bags | 
+| #14 x 2-12 in Qty 2 | 2 Bags | Home Depot | $2.36 |
+| #10 x 1 in Qt
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjMzODQwNywtNDE1OTc3OTI2XX0=
+eyJoaXN0b3J5IjpbLTEwNzA5OTgxNzIsLTQxNTk3NzkyNl19
 -->
