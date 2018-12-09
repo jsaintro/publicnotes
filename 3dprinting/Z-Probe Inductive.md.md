@@ -89,18 +89,18 @@ Use G92Z{distance) to set position of z independent of probe
  12. If the above failed add a correction of -0.05 (For our example -0.40 + -0.05 = -0.45)
  
           M851 Z-0.45
-13. Repeat the test and add countil it passes
+13. Repeat the test and add corrections until it passes
 14. Save offset to firmware
-lash marlin with 1 offset
     1. Open Anduino IDE
     2. Edit configure.h
  
-            Z_PROBE_OFFSET_FROM_EXTRUDER = 0
-    3.  Save and upload
+            Z_PROBE_OFFSET_FROM_EXTRUDER = -0.45
+        Note: You can get the current offset by running `M851` without any arguments 
+    3.  Save and upload (DON'T forget to disconnect PR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY4MzM4MjMsLTExNjYxMzUwNTksMT
-U2ODI1MTMwNSwtODc3MzkzNjA3LDExMzQ4ODk1OTUsMTgyMTgz
-ODU2NCwyMDU1NTM5MTE5LDk5MzI2MjkzNSwxNjIzMTQ1MjI3LD
-EwNDk5MzYxMzksLTE2MjA2MTk4MjMsNTM0MTc0MjY4LC0xOTcz
-NjM1NTMzLC0xOTAyNDM0NDIwLDU4NzE1MTIyOF19
+eyJoaXN0b3J5IjpbNzY5NjAzODYwLC0xMTY2MTM1MDU5LDE1Nj
+gyNTEzMDUsLTg3NzM5MzYwNywxMTM0ODg5NTk1LDE4MjE4Mzg1
+NjQsMjA1NTUzOTExOSw5OTMyNjI5MzUsMTYyMzE0NTIyNywxMD
+Q5OTM2MTM5LC0xNjIwNjE5ODIzLDUzNDE3NDI2OCwtMTk3MzYz
+NTUzMywtMTkwMjQzNDQyMCw1ODcxNTEyMjhdfQ==
 -->
