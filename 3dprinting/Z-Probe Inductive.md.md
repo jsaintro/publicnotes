@@ -82,8 +82,9 @@ Use G92Z{distance) to set position of z independent of probe
 8. Cancel after the 1st layer is put down (Or sooner if it's obviously not going to stick)
 9. Raize Z by 10mm (To get your extruder out of the way)
 10. Set the bed temp to your preset (So you'll be ready for the next run
-11. Remove the 1st layer and inspect the buttom 
+11. Remove the 1st layer and inspect the bottom 
    * You should have COMPLETE coverage on the 1st layer no gaps
+   * Layer should be completely fused (dosen't separate along extrusion lines when pulled
    * It's better to over be a little over extruded on the 1st layer then under extruded
  8. If there we're gaps add a correction of -0.05 and repeat (For our example -0.40 + -0.05 = -0.45
  
@@ -104,7 +105,7 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjYyNTcwOSwtMTE2NjEzNTA1OSwxNT
+eyJoaXN0b3J5IjpbMTk3OTc0NDUwOSwtMTE2NjEzNTA1OSwxNT
 Y4MjUxMzA1LC04NzczOTM2MDcsMTEzNDg4OTU5NSwxODIxODM4
 NTY0LDIwNTU1MzkxMTksOTkzMjYyOTM1LDE2MjMxNDUyMjcsMT
 A0OTkzNjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgsLTE5NzM2
