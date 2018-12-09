@@ -78,7 +78,9 @@ Use G92Z{distance) to set position of z independent of probe
 
          M851 Z-0.40
 
-7. Run a test print
+7. Run a test print (Something with a big flat bottom surface)
+8. Cancel after the 1st layer is put down (Or sooner if it's obviously not going to stick)
+9. Raize 
    * You should have COMPLETE coverage on the 1st layer no gaps
    * It's better to over be a little over extruded on the 1st layer then under extruded
  8. If there we're gaps add a correction of -0.05 and repeat (For our example -0.40 + -0.05 = -0.45
@@ -89,10 +91,10 @@ Use G92Z{distance) to set position of z independent of probe
           G0 Z0.5 // Should be getting close now
           G0 Z0.1 // Sould be pretty much touching Feeler should just fit under 
     Use a simple test print and see if 1st layer is going town (No gaps between lines and not peeling up in spots
-9.  Fine tune: If it's still not perfect add another 0.1 so for our example that would be -0.50
+10.  Fine tune: If it's still not perfect add another 0.1 so for our example that would be -0.50
     Note: Higher negative numbers move the extruder closer to the bed (Ex. -0.50 move the extruder closer to the bed vs -0.40. 
-10. Use M851 to temp get set offset
-11. Save offset to firmware
+11. Use M851 to temp get set offset
+12. Save offset to firmware
 lash marlin with 1 offset
     1. Open Anduino IDE
     2. Edit configure.h
@@ -100,9 +102,9 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjYxMzUwNTksMTU2ODI1MTMwNSwtOD
-c3MzkzNjA3LDExMzQ4ODk1OTUsMTgyMTgzODU2NCwyMDU1NTM5
-MTE5LDk5MzI2MjkzNSwxNjIzMTQ1MjI3LDEwNDk5MzYxMzksLT
-E2MjA2MTk4MjMsNTM0MTc0MjY4LC0xOTczNjM1NTMzLC0xOTAy
-NDM0NDIwLDU4NzE1MTIyOF19
+eyJoaXN0b3J5IjpbMTE2MTExMDQ4NywtMTE2NjEzNTA1OSwxNT
+Y4MjUxMzA1LC04NzczOTM2MDcsMTEzNDg4OTU5NSwxODIxODM4
+NTY0LDIwNTU1MzkxMTksOTkzMjYyOTM1LDE2MjMxNDUyMjcsMT
+A0OTkzNjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgsLTE5NzM2
+MzU1MzMsLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
 -->
