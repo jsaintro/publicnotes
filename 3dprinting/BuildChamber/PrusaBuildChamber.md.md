@@ -7,11 +7,11 @@
 -20% infill
 
 ## BoM
-| Part | Desc | Supplier/Link | Cost | 
+| Part | Qty | Supplier/Link | Cost | 
 | :---: | :---: | :---: | :---: |
-| #14 x 1 in Qty 6| Home Depot | $1.18 |
-| #
+| #14 x 1 in Qty 6 | 1 Bag | Home Depot | $1.18 |
+| #14 x 2-12 in Qty 2 | 2 Bags | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDAxNjEzOTYsLTQxNTk3NzkyNl19
+eyJoaXN0b3J5IjpbMTU5MjMzODQwNywtNDE1OTc3OTI2XX0=
 -->
