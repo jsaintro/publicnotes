@@ -76,9 +76,9 @@ Use G92Z{distance) to set position of z independent of probe
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
 9. Temporarily set the new z offset
 
-         M851 Z-0.38
+         M851 Z-0.40
 
-10. Test
+10. Run a test print
  
           G28
           G0 Z1 // Check to make sure you're not crashing into the bed
@@ -96,9 +96,9 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MzE3MjMzLC04NzczOTM2MDcsMTEzND
-g4OTU5NSwxODIxODM4NTY0LDIwNTU1MzkxMTksOTkzMjYyOTM1
-LDE2MjMxNDUyMjcsMTA0OTkzNjEzOSwtMTYyMDYxOTgyMyw1Mz
-QxNzQyNjgsLTE5NzM2MzU1MzMsLTE5MDI0MzQ0MjAsNTg3MTUx
-MjI4XX0=
+eyJoaXN0b3J5IjpbMTU2ODI1MTMwNSwtODc3MzkzNjA3LDExMz
+Q4ODk1OTUsMTgyMTgzODU2NCwyMDU1NTM5MTE5LDk5MzI2Mjkz
+NSwxNjIzMTQ1MjI3LDEwNDk5MzYxMzksLTE2MjA2MTk4MjMsNT
+M0MTc0MjY4LC0xOTczNjM1NTMzLC0xOTAyNDM0NDIwLDU4NzE1
+MTIyOF19
 -->
