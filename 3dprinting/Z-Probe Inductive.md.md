@@ -84,19 +84,12 @@ Use G92Z{distance) to set position of z independent of probe
 10. Set the bed temp to your preset (So you'll be ready for the next run
 11. Remove the 1st layer and inspect the bottom 
    * You should have COMPLETE coverage on the 1st layer no gaps
-   * Layer should be completely fused (dosen't separate along extrusion lines when pulled
+   * Layer should be completely fused (doesn't separate along extrusion lines when pulled)
    * It's better to over be a little over extruded on the 1st layer then under extruded
- 8. If there we're gaps add a correction of -0.05 and repeat (For our example -0.40 + -0.05 = -0.45
+ 12. If the above failed add a correction of -0.05 (For our example -0.40 + -0.05 = -0.45)
  
           M851 Z-0.45
-          G28
-          G0 Z1 // Check to make sure you're not crashing into the bed
-          G0 Z0.5 // Should be getting close now
-          G0 Z0.1 // Sould be pretty much touching Feeler should just fit under 
-    Use a simple test print and see if 1st layer is going town (No gaps between lines and not peeling up in spots
-12.  Fine tune: If it's still not perfect add another 0.1 so for our example that would be -0.50
-    Note: Higher negative numbers move the extruder closer to the bed (Ex. -0.50 move the extruder closer to the bed vs -0.40. 
-13. Use M851 to temp get set offset
+13. Repeat the test and add countil it passes
 14. Save offset to firmware
 lash marlin with 1 offset
     1. Open Anduino IDE
@@ -105,9 +98,9 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTc0NDUwOSwtMTE2NjEzNTA1OSwxNT
-Y4MjUxMzA1LC04NzczOTM2MDcsMTEzNDg4OTU5NSwxODIxODM4
-NTY0LDIwNTU1MzkxMTksOTkzMjYyOTM1LDE2MjMxNDUyMjcsMT
-A0OTkzNjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgsLTE5NzM2
-MzU1MzMsLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
+eyJoaXN0b3J5IjpbLTEzMzY4MzM4MjMsLTExNjYxMzUwNTksMT
+U2ODI1MTMwNSwtODc3MzkzNjA3LDExMzQ4ODk1OTUsMTgyMTgz
+ODU2NCwyMDU1NTM5MTE5LDk5MzI2MjkzNSwxNjIzMTQ1MjI3LD
+EwNDk5MzYxMzksLTE2MjA2MTk4MjMsNTM0MTc0MjY4LC0xOTcz
+NjM1NTMzLC0xOTAyNDM0NDIwLDU4NzE1MTIyOF19
 -->
