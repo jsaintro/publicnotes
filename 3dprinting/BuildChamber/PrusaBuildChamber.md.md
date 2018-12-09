@@ -7,6 +7,7 @@
 -20% infill
 ## Replacement Parts
 Door Catch for easily sourced magnets https://www.thingiverse.com/thing:2922505
+Much better spool holder https://www.thingiverse.com/thing:2047554
 
 
 ## BoM
@@ -17,6 +18,6 @@ Door Catch for easily sourced magnets https://www.thingiverse.com/thing:2922505
 | #10 x 1 in Qty 8 | 1 Bag | Home Depot | $1.18 |
 | 3M Fire Barrier FB136 Grey 10.1 Oz Caulk | 1 Tube | Home Depot | $5.97 |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDQ0NTQyMywxMDE5MzI0NjE3LC00MT
-U5Nzc5MjZdfQ==
+eyJoaXN0b3J5IjpbMTg0MjA0NDIyOCwxOTEwNDQ1NDIzLDEwMT
+kzMjQ2MTcsLTQxNTk3NzkyNl19
 -->
