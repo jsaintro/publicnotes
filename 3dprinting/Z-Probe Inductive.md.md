@@ -81,7 +81,7 @@ Use G92Z{distance) to set position of z independent of probe
 7. Run a test print
    * You should have COMPLETE coverage on the 1st layer no gaps
    * It's better to over be a little over extruded on the 1st layer then under extruded
- 8. If there we're gaps add a correction of -0.03
+ 8. If there we're gaps add a correction of -0.05 and repeat (For our example -0.40 + 
  
           G28
           G0 Z1 // Check to make sure you're not crashing into the bed
@@ -99,9 +99,9 @@ lash marlin with 1 offset
             Z_PROBE_OFFSET_FROM_EXTRUDER = 0
     3.  Save and upload
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5NjU3MTAsMTU2ODI1MTMwNSwtODc3Mz
-kzNjA3LDExMzQ4ODk1OTUsMTgyMTgzODU2NCwyMDU1NTM5MTE5
-LDk5MzI2MjkzNSwxNjIzMTQ1MjI3LDEwNDk5MzYxMzksLTE2Mj
-A2MTk4MjMsNTM0MTc0MjY4LC0xOTczNjM1NTMzLC0xOTAyNDM0
-NDIwLDU4NzE1MTIyOF19
+eyJoaXN0b3J5IjpbLTk0NTMyMTAwMSwxNTY4MjUxMzA1LC04Nz
+czOTM2MDcsMTEzNDg4OTU5NSwxODIxODM4NTY0LDIwNTU1Mzkx
+MTksOTkzMjYyOTM1LDE2MjMxNDUyMjcsMTA0OTkzNjEzOSwtMT
+YyMDYxOTgyMyw1MzQxNzQyNjgsLTE5NzM2MzU1MzMsLTE5MDI0
+MzQ0MjAsNTg3MTUxMjI4XX0=
 -->
