@@ -96,11 +96,11 @@ Use G92Z{distance) to set position of z independent of probe
  
             Z_PROBE_OFFSET_FROM_EXTRUDER = -0.45
         Note: You can get the current offset by running `M851` without any arguments 
-    3.  Save and upload (DON'T forget to disconnect PR
+    3.  Save and upload (DON'T forget to disconnect PRONTERFACE from the serial first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5NjAzODYwLC0xMTY2MTM1MDU5LDE1Nj
-gyNTEzMDUsLTg3NzM5MzYwNywxMTM0ODg5NTk1LDE4MjE4Mzg1
-NjQsMjA1NTUzOTExOSw5OTMyNjI5MzUsMTYyMzE0NTIyNywxMD
-Q5OTM2MTM5LC0xNjIwNjE5ODIzLDUzNDE3NDI2OCwtMTk3MzYz
-NTUzMywtMTkwMjQzNDQyMCw1ODcxNTEyMjhdfQ==
+eyJoaXN0b3J5IjpbMTE4MDIzMDEzNiwtMTE2NjEzNTA1OSwxNT
+Y4MjUxMzA1LC04NzczOTM2MDcsMTEzNDg4OTU5NSwxODIxODM4
+NTY0LDIwNTU1MzkxMTksOTkzMjYyOTM1LDE2MjMxNDUyMjcsMT
+A0OTkzNjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgsLTE5NzM2
+MzU1MzMsLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
 -->
