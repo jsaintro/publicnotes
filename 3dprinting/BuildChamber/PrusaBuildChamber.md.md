@@ -8,8 +8,9 @@
 
 ## BoM
 | Part | Supplier/Link | Cost | 
-| :---: | :---: | :---: |
-| #14
+| : ---: | :---: | :---: |
+| #14 x 1 in | Home Depot | $1.18 |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDE0MTgyOCwtNDE1OTc3OTI2XX0=
+eyJoaXN0b3J5IjpbLTIwMzAzMjUyNzksLTQxNTk3NzkyNl19
 -->
