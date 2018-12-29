@@ -1,6 +1,6 @@
 1. apply the kube-dashboard yaml
 
-        kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard-arm.yaml
+        kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard-arm.yaml
         >secret/kubernetes-dashboard-certs created
         >serviceaccount/kubernetes-dashboard created
         >role.rbac.authorization.k8s.io/kubernetes-dashboard-minimal created
@@ -37,5 +37,5 @@ http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-da
 
 Enter the token from above
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwMDc0MDcyXX0=
+eyJoaXN0b3J5IjpbMTY1MTQwMjk1Myw0MzAwNzQwNzJdfQ==
 -->
