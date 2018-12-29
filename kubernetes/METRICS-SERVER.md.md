@@ -1,3 +1,6 @@
+# NOTE Don't run this for a long amount of time on a standard rpi
+The RPI controller will eventually get overloaded running this thing
+
 Look at this script for ideas
 https://github.com/stefanprodan/k8s-scw-baremetal/blob/master/scripts/monitoring-install.sh
 
@@ -21,7 +24,7 @@ https://github.com/kubernetes-incubator/metrics-server/issues/73
 https://raw.githubusercontent.com/kubernetes-incubator/metrics-server/master/deploy/1.8%2B/resource-reader.yaml
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDYxNjIyMCw0NDU2MTU0ODIsNjk1Nz
-ExNzkwLC00NzA3MTYwMDIsNDI0MTI4MDYxLDU2MjcyMjM3Nywx
-MzM4MzEwNzQsNzU0MDQ1NzYwXX0=
+eyJoaXN0b3J5IjpbMTY4ODg0MDQxNywtNDE0NjE2MjIwLDQ0NT
+YxNTQ4Miw2OTU3MTE3OTAsLTQ3MDcxNjAwMiw0MjQxMjgwNjEs
+NTYyNzIyMzc3LDEzMzgzMTA3NCw3NTQwNDU3NjBdfQ==
 -->
