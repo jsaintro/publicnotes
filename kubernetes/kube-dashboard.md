@@ -36,6 +36,11 @@ Access the ui via the URL
 http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login
 
 Enter the token from above
+
+## Destroy the dashboard
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTQwMjk1Myw0MzAwNzQwNzJdfQ==
+eyJoaXN0b3J5IjpbMTkzNjEwMzIzNCwxNjUxNDAyOTUzLDQzMD
+A3NDA3Ml19
 -->
