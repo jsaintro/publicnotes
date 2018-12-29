@@ -17,13 +17,11 @@ https://github.com/stefanprodan/k8s-scw-baremetal/blob/master/addons/metrics-ser
 
 https://github.com/kubernetes-incubator/metrics-server/issues/73
 
-> Written with [StackEdit](https://stackedit.io/).
-
 ## Nuke it
 https://raw.githubusercontent.com/kubernetes-incubator/metrics-server/master/deploy/1.8%2B/resource-reader.yaml
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1NjE1NDgyLDY5NTcxMTc5MCwtNDcwNz
-E2MDAyLDQyNDEyODA2MSw1NjI3MjIzNzcsMTMzODMxMDc0LDc1
-NDA0NTc2MF19
+eyJoaXN0b3J5IjpbLTQxNDYxNjIyMCw0NDU2MTU0ODIsNjk1Nz
+ExNzkwLC00NzA3MTYwMDIsNDI0MTI4MDYxLDU2MjcyMjM3Nywx
+MzM4MzEwNzQsNzU0MDQ1NzYwXX0=
 -->
