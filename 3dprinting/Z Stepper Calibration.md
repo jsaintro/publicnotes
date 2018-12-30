@@ -23,8 +23,8 @@ This procedure is to get both Z steppers in sync so the build plane is as level 
     3. Adjust rights stepper
         - CW is lower
         - CCW is higher
-     4. Repeat 
+     4. Repeat Calibration loop until left and right sides match
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjQyMDQzNV19
+eyJoaXN0b3J5IjpbMTc4Nzg4MjgyXX0=
 -->
