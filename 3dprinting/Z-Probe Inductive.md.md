@@ -72,17 +72,18 @@ Use G92Z{distance) to set position of z independent of probe
          Ex. -0.40
     6.  This number represents the distance *below* the nozzle tip that the sensor triggered
 5. Calculate z offest + fudge factor of -0.08??.  (Ex -0.30 + -0.08 = -0.38)
+6. 5. Calculate z offest + fudge factor of -0.30??.  (Ex -0.10 + -0.30 = -0.40)
     the more negative the closer the extruder is to the build plate 
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
-6. Temporarily set the new z offset
+7. Temporarily set the new z offset
 
          M851 Z-0.40
 
-7. Run a test print (Something with a big flat bottom surface)
-8. Cancel after the 1st layer is put down (Or sooner if it's obviously not going to stick)
-9. Raize Z by 10mm (To get your extruder out of the way)
-10. Set the bed temp to your preset (So you'll be ready for the next run
-11. Remove the 1st layer and inspect the bottom 
+8. Run a test print (Something with a big flat bottom surface)
+9. Cancel after the 1st layer is put down (Or sooner if it's obviously not going to stick)
+10. Raize Z by 10mm (To get your extruder out of the way)
+11. Set the bed temp to your preset (So you'll be ready for the next run
+12. Remove the 1st layer and inspect the bottom 
    * You should have COMPLETE coverage on the 1st layer no gaps
    * Layer should be completely fused (doesn't separate along extrusion lines when pulled)
    * It's better to over be a little over extruded on the 1st layer then under extruded
@@ -98,9 +99,10 @@ Use G92Z{distance) to set position of z independent of probe
         Note: You can get the current offset by running `M851` without any arguments 
     3.  Save and upload (DON'T forget to disconnect PRONTERFACE from the serial first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDIzMDEzNiwtMTE2NjEzNTA1OSwxNT
-Y4MjUxMzA1LC04NzczOTM2MDcsMTEzNDg4OTU5NSwxODIxODM4
-NTY0LDIwNTU1MzkxMTksOTkzMjYyOTM1LDE2MjMxNDUyMjcsMT
-A0OTkzNjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgsLTE5NzM2
-MzU1MzMsLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
+eyJoaXN0b3J5IjpbOTA5MTA3NTU4LDExODAyMzAxMzYsLTExNj
+YxMzUwNTksMTU2ODI1MTMwNSwtODc3MzkzNjA3LDExMzQ4ODk1
+OTUsMTgyMTgzODU2NCwyMDU1NTM5MTE5LDk5MzI2MjkzNSwxNj
+IzMTQ1MjI3LDEwNDk5MzYxMzksLTE2MjA2MTk4MjMsNTM0MTc0
+MjY4LC0xOTczNjM1NTMzLC0xOTAyNDM0NDIwLDU4NzE1MTIyOF
+19
 -->
