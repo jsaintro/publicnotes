@@ -18,10 +18,12 @@ This procedure is to get both Z steppers in sync so the build plane is as level 
             1 -0.29 -0.14 +0.18 +0.48
             2 -0.23 -0.07 +0.24 +0.54
             3 -0.08 +0.10 +0.38 +0.64
+               
+        Note: In this case right stepper needs to be adjusted lower
+    3. Adjust rights st
 
-    Note: In this case right stepper needs to be adjusted lower
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTY5NzYwN119
+eyJoaXN0b3J5IjpbLTEzNjI2NzUyNDVdfQ==
 -->
