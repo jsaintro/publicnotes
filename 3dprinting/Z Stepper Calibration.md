@@ -1,12 +1,12 @@
 # Z Stepper Calibration
 This procedure is to get both Z steppers in sync so the build plane is as level as possible
 
-1. Rough Calibration
+ 1. Rough Calibration
 	1. Run z-axis up to top of frame until both Z-steppers start skipping on top
-2. Home All Axis
+ 2. Home All Axis
 
         G28
-3. Begin Calibration loop
+ 3. Begin Calibration loop
     1. Perform Mesh Bed Leveling
 
             G29
@@ -20,10 +20,11 @@ This procedure is to get both Z steppers in sync so the build plane is as level 
             3 -0.08 +0.10 +0.38 +0.64
                
         Note: In this case right stepper needs to be adjusted lower
-    3. Adjust rights st
-
-
+    3. Adjust rights stepper
+        - CW is lower
+        - CCW is higher
+     4. Repeat 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjI2NzUyNDVdfQ==
+eyJoaXN0b3J5IjpbMTcyNjQyMDQzNV19
 -->
