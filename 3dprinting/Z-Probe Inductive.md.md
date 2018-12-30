@@ -81,19 +81,28 @@ Use G92Z{distance) to set position of z independent of probe
          SENDING:M851 Z-0.40
          echo:Z Offset -0.40
 
-8. Run a test print (Something with a big flat bottom surface)
-9. Cancel after the 1st layer is put down (Or sooner if it's obviously not going to stick)
-10. Raize Z by 10mm (To get your extruder out of the way)
-11. Set the bed temp to your preset (So you'll be ready for the next run
-12. Remove the 1st layer and inspect the bottom 
+8. Home all
+
+        G28
+9. Descend to .1mm
+
+        G0 Z0.1
+
+ 
+11. 
+12. Run a test print (Something with a big flat bottom surface)
+13. Cancel after the 1st layer is put down (Or sooner if it's obviously not going to stick)
+14. Raize Z by 10mm (To get your extruder out of the way)
+15. Set the bed temp to your preset (So you'll be ready for the next run
+16. Remove the 1st layer and inspect the bottom 
    * You should have COMPLETE coverage on the 1st layer no gaps
    * Layer should be completely fused (doesn't separate along extrusion lines when pulled)
    * It's better to over be a little over extruded on the 1st layer then under extruded
  12. If the above failed add a correction of -0.05 (For our example -0.40 + -0.05 = -0.45)
  
           M851 Z-0.45
-13. Repeat the test and add corrections until it passes
-14. Save offset to firmware
+17. Repeat the test and add corrections until it passes
+18. Save offset to firmware
     1. Open Anduino IDE
     2. Edit configure.h
  
@@ -101,10 +110,10 @@ Use G92Z{distance) to set position of z independent of probe
         Note: You can get the current offset by running `M851` without any arguments 
     3.  Save and upload (DON'T forget to disconnect PRONTERFACE from the serial first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njc4OTU5ODgsLTQ5NTQ1MjU3MCwtMT
-k1NDk1MDk3LDExODAyMzAxMzYsLTExNjYxMzUwNTksMTU2ODI1
-MTMwNSwtODc3MzkzNjA3LDExMzQ4ODk1OTUsMTgyMTgzODU2NC
-wyMDU1NTM5MTE5LDk5MzI2MjkzNSwxNjIzMTQ1MjI3LDEwNDk5
-MzYxMzksLTE2MjA2MTk4MjMsNTM0MTc0MjY4LC0xOTczNjM1NT
-MzLC0xOTAyNDM0NDIwLDU4NzE1MTIyOF19
+eyJoaXN0b3J5IjpbLTg5NTIwMjEzOCwtNDk1NDUyNTcwLC0xOT
+U0OTUwOTcsMTE4MDIzMDEzNiwtMTE2NjEzNTA1OSwxNTY4MjUx
+MzA1LC04NzczOTM2MDcsMTEzNDg4OTU5NSwxODIxODM4NTY0LD
+IwNTU1MzkxMTksOTkzMjYyOTM1LDE2MjMxNDUyMjcsMTA0OTkz
+NjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgsLTE5NzM2MzU1Mz
+MsLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
 -->
