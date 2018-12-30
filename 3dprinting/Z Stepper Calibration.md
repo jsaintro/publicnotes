@@ -7,10 +7,10 @@ This procedure is to get both Z steppers in sync so the build plane is as level 
 
         G28
 3. Begin Calibration loop
-	1. Perform Mesh Bed Leveling
+    1. Perform Mesh Bed Leveling
 
             G29
- 
+    2. Review report and look for difference between left side and right side 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTQ5NDA1M119
+eyJoaXN0b3J5IjpbODUzNjIyODFdfQ==
 -->
