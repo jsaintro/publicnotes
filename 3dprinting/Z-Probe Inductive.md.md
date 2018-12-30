@@ -88,21 +88,23 @@ Use G92Z{distance) to set position of z independent of probe
 
         G0 Z0.1
 
- 
-11. 
-12. Run a test print (Something with a big flat bottom surface)
-13. Cancel after the 1st layer is put down (Or sooner if it's obviously not going to stick)
-14. Raize Z by 10mm (To get your extruder out of the way)
-15. Set the bed temp to your preset (So you'll be ready for the next run
-16. Remove the 1st layer and inspect the bottom 
+10. Test with paper (or if you're fancy use feeler 
+     Note: you should feel it drag but not be completely pinched
+      
+12. 
+13. Run a test print (Something with a big flat bottom surface)
+14. Cancel after the 1st layer is put down (Or sooner if it's obviously not going to stick)
+15. Raize Z by 10mm (To get your extruder out of the way)
+16. Set the bed temp to your preset (So you'll be ready for the next run
+17. Remove the 1st layer and inspect the bottom 
    * You should have COMPLETE coverage on the 1st layer no gaps
    * Layer should be completely fused (doesn't separate along extrusion lines when pulled)
    * It's better to over be a little over extruded on the 1st layer then under extruded
  12. If the above failed add a correction of -0.05 (For our example -0.40 + -0.05 = -0.45)
  
           M851 Z-0.45
-17. Repeat the test and add corrections until it passes
-18. Save offset to firmware
+18. Repeat the test and add corrections until it passes
+19. Save offset to firmware
     1. Open Anduino IDE
     2. Edit configure.h
  
@@ -110,7 +112,7 @@ Use G92Z{distance) to set position of z independent of probe
         Note: You can get the current offset by running `M851` without any arguments 
     3.  Save and upload (DON'T forget to disconnect PRONTERFACE from the serial first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTIwMjEzOCwtNDk1NDUyNTcwLC0xOT
+eyJoaXN0b3J5IjpbMTE2NTA0Nzg5OCwtNDk1NDUyNTcwLC0xOT
 U0OTUwOTcsMTE4MDIzMDEzNiwtMTE2NjEzNTA1OSwxNTY4MjUx
 MzA1LC04NzczOTM2MDcsMTEzNDg4OTU5NSwxODIxODM4NTY0LD
 IwNTU1MzkxMTksOTkzMjYyOTM1LDE2MjMxNDUyMjcsMTA0OTkz
