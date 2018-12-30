@@ -88,8 +88,9 @@ Use G92Z{distance) to set position of z independent of probe
 
         G0 Z0.1
 
-10. Test with paper (or if you're fancy use feeler 
-     Note: you should feel it drag but not be completely pinched
+10. Test with paper (or if you're fancy use feeler gauge .102mm)
+     Note: you should feel it drag but not be completely pinched (for feeler gauge .102mm should feel drag but 0.076 should be free.
+     
       
 12. 
 13. Run a test print (Something with a big flat bottom surface)
@@ -112,10 +113,10 @@ Use G92Z{distance) to set position of z independent of probe
         Note: You can get the current offset by running `M851` without any arguments 
     3.  Save and upload (DON'T forget to disconnect PRONTERFACE from the serial first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTA0Nzg5OCwtNDk1NDUyNTcwLC0xOT
-U0OTUwOTcsMTE4MDIzMDEzNiwtMTE2NjEzNTA1OSwxNTY4MjUx
-MzA1LC04NzczOTM2MDcsMTEzNDg4OTU5NSwxODIxODM4NTY0LD
-IwNTU1MzkxMTksOTkzMjYyOTM1LDE2MjMxNDUyMjcsMTA0OTkz
-NjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgsLTE5NzM2MzU1Mz
-MsLTE5MDI0MzQ0MjAsNTg3MTUxMjI4XX0=
+eyJoaXN0b3J5IjpbLTE0NDY0NTg0OTgsLTQ5NTQ1MjU3MCwtMT
+k1NDk1MDk3LDExODAyMzAxMzYsLTExNjYxMzUwNTksMTU2ODI1
+MTMwNSwtODc3MzkzNjA3LDExMzQ4ODk1OTUsMTgyMTgzODU2NC
+wyMDU1NTM5MTE5LDk5MzI2MjkzNSwxNjIzMTQ1MjI3LDEwNDk5
+MzYxMzksLTE2MjA2MTk4MjMsNTM0MTc0MjY4LC0xOTczNjM1NT
+MzLC0xOTAyNDM0NDIwLDU4NzE1MTIyOF19
 -->
