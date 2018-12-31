@@ -72,7 +72,7 @@ Use G92Z{distance) to set position of z independent of probe
          Ex. -0.40
     6.  This number represents the distance *below* the nozzle tip that the sensor triggered
 5. Calculate z offest + fudge factor of -0.08??.  (Ex -0.30 + -0.08 = -0.38)
-6. 5. Calculate z offest + fudge factor of -0.35  (Ex -0.10 + -0.30 = -0.40)
+6. Calculate z offest + thickness of paper -0.1  (Ex -0.10 + -0.30 = -0.40)
     the more negative the closer the extruder is to the build plate 
     Note: We do the negative because the probe is triggering below the nozzle tip (Always the case with a static probe)
 7. Temporarily set the new z offset
@@ -113,11 +113,11 @@ Use G92Z{distance) to set position of z independent of probe
         Note: You can get the current offset by running `M851` without any arguments 
     3.  Save and upload (DON'T forget to disconnect PRONTERFACE from the serial first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE4NDc0NzIsLTE0NDY0NTg0OTgsLT
-Q5NTQ1MjU3MCwtMTk1NDk1MDk3LDExODAyMzAxMzYsLTExNjYx
-MzUwNTksMTU2ODI1MTMwNSwtODc3MzkzNjA3LDExMzQ4ODk1OT
-UsMTgyMTgzODU2NCwyMDU1NTM5MTE5LDk5MzI2MjkzNSwxNjIz
-MTQ1MjI3LDEwNDk5MzYxMzksLTE2MjA2MTk4MjMsNTM0MTc0Mj
-Y4LC0xOTczNjM1NTMzLC0xOTAyNDM0NDIwLDU4NzE1MTIyOF19
-
+eyJoaXN0b3J5IjpbMjAyNjAxMzUzOCwtMTE1MTg0NzQ3MiwtMT
+Q0NjQ1ODQ5OCwtNDk1NDUyNTcwLC0xOTU0OTUwOTcsMTE4MDIz
+MDEzNiwtMTE2NjEzNTA1OSwxNTY4MjUxMzA1LC04NzczOTM2MD
+csMTEzNDg4OTU5NSwxODIxODM4NTY0LDIwNTU1MzkxMTksOTkz
+MjYyOTM1LDE2MjMxNDUyMjcsMTA0OTkzNjEzOSwtMTYyMDYxOT
+gyMyw1MzQxNzQyNjgsLTE5NzM2MzU1MzMsLTE5MDI0MzQ0MjAs
+NTg3MTUxMjI4XX0=
 -->
