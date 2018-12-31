@@ -63,7 +63,7 @@ Use G92Z{distance) to set position of z independent of probe
 3. Wait for heated bed to come up to temp
 4. Get Z probe trigger distance
     1. Run `G28` to home Z
-    2. Descend to Z0 location and add probe X offset `G0 Z0` ( In our case probe is 25mm left of nozzle so X 
+    2. Descend to Z0 location and add probe X offset `G0 Z0` ( In our case probe is 25mm left of nozzle so X = X - 25, Use M114 to get current X)
     3. Place piece of paper under extruder (old inst was to use 0.063 feeler gauge)
     4. Descend in 0.1mm increments while moving paper back and forth waiting until you feel it pinch (noticeable grab)
     5. Record Z offset
@@ -113,11 +113,11 @@ Use G92Z{distance) to set position of z independent of probe
         Note: You can get the current offset by running `M851` without any arguments 
     3.  Save and upload (DON'T forget to disconnect PRONTERFACE from the serial first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE3Mzg2MzUsLTE1Njc3MjMyNDUsMj
-AyNjAxMzUzOCwtMTE1MTg0NzQ3MiwtMTQ0NjQ1ODQ5OCwtNDk1
-NDUyNTcwLC0xOTU0OTUwOTcsMTE4MDIzMDEzNiwtMTE2NjEzNT
-A1OSwxNTY4MjUxMzA1LC04NzczOTM2MDcsMTEzNDg4OTU5NSwx
-ODIxODM4NTY0LDIwNTU1MzkxMTksOTkzMjYyOTM1LDE2MjMxND
-UyMjcsMTA0OTkzNjEzOSwtMTYyMDYxOTgyMyw1MzQxNzQyNjgs
-LTE5NzM2MzU1MzNdfQ==
+eyJoaXN0b3J5IjpbOTU5ODgyMDA5LC0xNTY3NzIzMjQ1LDIwMj
+YwMTM1MzgsLTExNTE4NDc0NzIsLTE0NDY0NTg0OTgsLTQ5NTQ1
+MjU3MCwtMTk1NDk1MDk3LDExODAyMzAxMzYsLTExNjYxMzUwNT
+ksMTU2ODI1MTMwNSwtODc3MzkzNjA3LDExMzQ4ODk1OTUsMTgy
+MTgzODU2NCwyMDU1NTM5MTE5LDk5MzI2MjkzNSwxNjIzMTQ1Mj
+I3LDEwNDk5MzYxMzksLTE2MjA2MTk4MjMsNTM0MTc0MjY4LC0x
+OTczNjM1NTMzXX0=
 -->
