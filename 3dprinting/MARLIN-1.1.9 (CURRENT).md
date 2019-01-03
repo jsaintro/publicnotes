@@ -125,7 +125,7 @@ Note: Need to revisit these settings esp z which could be set at default if we i
 #define PREHEAT_2_TEMP_HOTEND 263
 #define PREHEAT_2_TEMP_BED    105
 ```
-# LCD SEtup
+# LCD Setup
 1. Enable the LCD
 ```
 #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
@@ -144,9 +144,12 @@ NOTE: I think you can fix the encoder in the config.h now
 NOTE: I think you can fix the encoder in the config.h now
 1. Disable the sucky beeper and reverse encoder dir
   1. configure pins_RAMPS.h
-  2. Search for "REPRAP_DISCOUNT_SMART_CONTROLLER"
-  3. Set `#define BEEPER_PIN -1`
-  4. Reverse pins for `BTN_EN1` `BTN_EN2`
+ 2. Fix Encoder Direction
+
+        
+  3. Search for "REPRAP_DISCOUNT_SMART_CONTROLLER"
+  4. Set `#define BEEPER_PIN -1`
+  5. Reverse pins for `BTN_EN1` `BTN_EN2`
 
 1. Add SD support
 ```
@@ -163,6 +166,6 @@ Note: Lots of warnings are normal
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjgyODg4MiwzMjI3Nzk5ODQsMTcxNT
-U3ODQ4OF19
+eyJoaXN0b3J5IjpbMTYwNjA5NTI1NSwtMzc2ODI4ODgyLDMyMj
+c3OTk4NCwxNzE1NTc4NDg4XX0=
 -->
