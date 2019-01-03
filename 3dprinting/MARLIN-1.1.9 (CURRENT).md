@@ -95,8 +95,10 @@ Note Might want to just flip every the stepper cables here
 #define X_MIN_ENDSTOP_INVERTING true
 #define Y_MIN_ENDSTOP_INVERTING true
 #define Z_MIN_ENDSTOP_INVERTING true
+
+
 ```
-Note: Might want to flip the endstops mechanically in the future
+Note: Should probably flip enstonps and uninvert these (Would be safer?)
 1. Set the homing speeds to something fast yet reasonable
 ```
 #define HOMING_FEEDRATE_XY (150*60)
@@ -149,6 +151,6 @@ Note: Lots of warnings are normal
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzgzOTc2MiwtMzc2ODI4ODgyLDMyMj
-c3OTk4NCwxNzE1NTc4NDg4XX0=
+eyJoaXN0b3J5IjpbLTEzMDYxNDQ2MjQsMTcyMzgzOTc2MiwtMz
+c2ODI4ODgyLDMyMjc3OTk4NCwxNzE1NTc4NDg4XX0=
 -->
