@@ -74,7 +74,7 @@ Edit in Configuration_adv.h
 #define THERMAL_RUNAWAY_PROTECTION_BED_PERIOD 60 //in seconds for 110 bed temp
 #define THERMAL_RUNAWAY_PROTECTION_BED_HYSTERESIS 4 // in degree Celsius for 110 bed temp
 ```
-1. Invert the extruder stepper
+1. Invert the extruder stepper (in Configuration.h)
 ```
 #define INVERT_E0_DIR true
 ```
@@ -167,5 +167,5 @@ Note: Lots of warnings are normal
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzMjU4OTQ4XX0=
+eyJoaXN0b3J5IjpbMTU0NDU1MDEyLDgzMzI1ODk0OF19
 -->
