@@ -14,7 +14,7 @@
 1. Download the latest stable Marlin from here
 * [Marlin Project](https://github.com/MarlinFirmware/Marlin/releases)
 * This is the one we're currently on
-[1.1.0-RC8](https://github.com/MarlinFirmware/Marlin/archive/1.1.0-RC8.zip)
+[1.1.9](https://github.com/MarlinFirmware/Marlin/archive/1.1.9.zip)
 2. move to Documents directory and extract the source
 
         mkdir ~/Documents/3dPrinter
@@ -163,5 +163,6 @@ Note: Lots of warnings are normal
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyNzc5OTg0LDE3MTU1Nzg0ODhdfQ==
+eyJoaXN0b3J5IjpbLTM3NjgyODg4MiwzMjI3Nzk5ODQsMTcxNT
+U3ODQ4OF19
 -->
