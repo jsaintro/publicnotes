@@ -94,7 +94,27 @@ const bool Z_MIN_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 1. Configure pins_RAMPS.h
 2. Search for "REPRAP_DISCOUNT_SMART_CONTROLLER"
 3. Set `#define BEEPER -1`
-        
+         #if ENABLED(REPRAP_DISCOUNT_SMART_CONTROLLER)
+
+      #define BEEPER_PIN        37
+
+      #if ENABLED(CR10_STOCKDISPLAY)
+        #define BTN_EN1         17
+        #define BTN_EN2         23
+      #else
+        #define BTN_EN1         33
+        #define BTN_EN2         31
+      #endif
+
+      #define BTN_ENC           35
+      #define SD_DETECT_PIN     49
+      #define KILL_PIN          41
+
+      #if ENABLED(BQ_LCD_SMART_CONTROLLER)
+        #define LCD_BACKLIGHT_PIN 39
+      #endif
+
+    #elif ENABLED(REPRAPWORLD_GRAPHICAL_LCD)
 5. in the else
 6. Reverse pins for `BTN_EN1` `BTN_EN2`
 # Fix the annoyingly long delay for the stop button
@@ -329,5 +349,5 @@ Extruder Calc
 =50
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDg0NTczOCw2Mjg4ODUwNzhdfQ==
+eyJoaXN0b3J5IjpbLTE4Njg0MjkwNzAsNjI4ODg1MDc4XX0=
 -->
