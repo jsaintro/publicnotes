@@ -91,7 +91,7 @@ const bool Z_MIN_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #endif
 ```
 # Fix the beeper/reverse encoder dir
-NOTE: Try to replace this with 
+NOTE: Try to replace this with "Encoder Direction Options" in Configuration.h now
 1. Configure pins_RAMPS.h
 2. Search for "REPRAP_DISCOUNT_SMART_CONTROLLER"
 3. Set `#define BEEPER -1`
@@ -350,6 +350,6 @@ Extruder Calc
 =50
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDExNjc1OTAsLTE4Njg0MjkwNzAsNj
+eyJoaXN0b3J5IjpbLTEyNjI1MzE3MzYsLTE4Njg0MjkwNzAsNj
 I4ODg1MDc4XX0=
 -->
