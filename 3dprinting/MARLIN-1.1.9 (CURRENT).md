@@ -91,13 +91,12 @@ Note: This is after adjusting your Y table far left
 ```
 Note Might want to just flip every the stepper cables here
 1. Fix Endstop inversion for Wilson
-```
-#define X_MIN_ENDSTOP_INVERTING true
-#define Y_MIN_ENDSTOP_INVERTING true
-#define Z_MIN_ENDSTOP_INVERTING true
 
+        #define X_MIN_ENDSTOP_INVERTING true
+        #define Y_MIN_ENDSTOP_INVERTING true
+        #define Z_MIN_ENDSTOP_INVERTING true
+        #define Z_MIN_PROBE_ENDSTOP_INVERTING true
 
-```
 Note: Should probably flip enstonps and uninvert these (Would be safer?)
 1. Set the homing speeds to something fast yet reasonable
 ```
@@ -151,6 +150,6 @@ Note: Lots of warnings are normal
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDYxNDQ2MjQsMTcyMzgzOTc2MiwtMz
-c2ODI4ODgyLDMyMjc3OTk4NCwxNzE1NTc4NDg4XX0=
+eyJoaXN0b3J5IjpbMTI0NTg4NzU1LDE3MjM4Mzk3NjIsLTM3Nj
+gyODg4MiwzMjI3Nzk5ODQsMTcxNTU3ODQ4OF19
 -->
