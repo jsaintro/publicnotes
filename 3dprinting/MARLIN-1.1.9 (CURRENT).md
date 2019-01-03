@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* ARDUINO IDE is installed and communicating
+* ARDUINO IDE is installed and communicating (See ARDUINO Doc)
 
 ## Install U8glib Library
 1. Download the latest binary lib for Arduino
@@ -164,5 +164,5 @@ Note: Lots of warnings are normal
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzYzODgxMF19
+eyJoaXN0b3J5IjpbLTEyODQzNDY0NjhdfQ==
 -->
