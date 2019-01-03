@@ -91,10 +91,12 @@ const bool Z_MIN_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #endif
 ```
 # Fix the beeper/reverse encoder dir
-1. Configure pins.h
+1. Configure pins_RAMPS.h
 2. Search for "REPRAP_DISCOUNT_SMART_CONTROLLER"
 3. Set `#define BEEPER -1`
-4. Reverse pins for `BTN_EN1` `BTN_EN2`
+        
+5. in the else
+6. Reverse pins for `BTN_EN1` `BTN_EN2`
 # Fix the annoyingly long delay for the stop button
 1. Configure Marlin_main.cpp
 2. Set `const int KILL_DELAY = 750;`
@@ -327,5 +329,5 @@ Extruder Calc
 =50
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4ODg1MDc4XX0=
+eyJoaXN0b3J5IjpbLTM5NDg0NTczOCw2Mjg4ODUwNzhdfQ==
 -->
