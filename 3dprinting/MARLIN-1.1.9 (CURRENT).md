@@ -127,20 +127,8 @@ Note: Need to revisit these settings esp z which could be set at default if we i
 ```
 # LCD Setup
 1. Enable the LCD
-```
-#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
-```
-NOTE: I think you can fix the encoder in the config.h now
-2. Fix the encoder for the LCD (Edit in Conditionals_LCD.h)
-```
-#if defined (REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER)
- #define DOGLCD
- #define U8GLIB_ST7920
- #define REPRAP_DISCOUNT_SMART_CONTROLLER
- #define ENCODER_PULSES_PER_STEP 4
- #define ENCODER_STEPS_PER_MENU_ITEM 1
-#endif
-```
+
+        #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 3. Fix Encoder Direction
 
@@ -148,9 +136,8 @@ NOTE: I think you can fix the encoder in the config.h now
         #define REVERSE_MENU_DIRECTION
 
 4. Add SD support
-```
-#define SDSUPPORT
-```
+
+        #define SDSUPPORT
 
 5. Save the project
     File/Save
@@ -162,6 +149,6 @@ Note: Lots of warnings are normal
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzM0NjIzMSwtMzc2ODI4ODgyLDMyMj
+eyJoaXN0b3J5IjpbMTcyMzgzOTc2MiwtMzc2ODI4ODgyLDMyMj
 c3OTk4NCwxNzE1NTc4NDg4XX0=
 -->
