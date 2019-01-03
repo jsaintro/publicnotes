@@ -8,9 +8,7 @@
 1.  Open IDE
 2. Select "Tools/Library Manager"
 3. Search for "U8glib"
-4. Instal
-5. Install in Arduino IDE
-    Sketch/Include Library/Add .ZIP Library
+4. Install latest version
 
 ## Install Marlin
 1. Download the latest stable Marlin from here
@@ -165,5 +163,5 @@ Note: Lots of warnings are normal
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE5MzA0NzQsMTcxNTU3ODQ4OF19
+eyJoaXN0b3J5IjpbMzIyNzc5OTg0LDE3MTU1Nzg0ODhdfQ==
 -->
