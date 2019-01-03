@@ -43,7 +43,7 @@
 ```
 1. Define the Extruder/Bed Temp thermistor
 ```
-#define TEMP_SENSOR_0 13 //+1 deg at 185, +2 deg at 200, +2.5 deg at 230, +5.5 deg at 240 (Best choice for E3d clone/ebay ntc 3950)
+#define TEMP_SENSOR_0 1 // I think this is the current best choice for ebay ntc+1 deg at 185, +2 deg at 200, +2.5 deg at 230, +5.5 deg at 240 (Best choice for E3d clone/ebay ntc 3950)
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_BED 1 //65 at set 60 set 110 at set 110
 ```
@@ -164,5 +164,5 @@ Note: Lots of warnings are normal
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQzNDY0NjhdfQ==
+eyJoaXN0b3J5IjpbLTEzNDE5MjI0Ml19
 -->
