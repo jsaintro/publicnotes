@@ -131,7 +131,7 @@ Note: Need to revisit these settings esp z which could be set at default if we i
 #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 ```
 NOTE: I think you can fix the encoder in the config.h now
-1. Fix the encoder for the LCD (Edit in Conditionals_LCD.h)
+2. Fix the encoder for the LCD (Edit in Conditionals_LCD.h)
 ```
 #if defined (REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER)
  #define DOGLCD
@@ -141,22 +141,18 @@ NOTE: I think you can fix the encoder in the config.h now
  #define ENCODER_STEPS_PER_MENU_ITEM 1
 #endif
 ```
-NOTE: I think you can fix the encoder in the config.h now
-1. Disable the sucky beeper and reverse encoder dir
-  1. configure pins_RAMPS.h
- 2. Fix Encoder Direction
 
-        
-  3. Search for "REPRAP_DISCOUNT_SMART_CONTROLLER"
-  4. Set `#define BEEPER_PIN -1`
-  5. Reverse pins for `BTN_EN1` `BTN_EN2`
+3. Fix Encoder Direction
 
-1. Add SD support
+        #define REVERSE_ENCODER_DIRECTION
+        #define REVERSE_MENU_DIRECTION
+
+4. Add SD support
 ```
 #define SDSUPPORT
 ```
 
-1. Save the project
+5. Save the project
     File/Save
 
 ## Compile the code
@@ -166,6 +162,6 @@ Note: Lots of warnings are normal
 ## Upload
 1. Sketch/Upload (This will take about 1 minute) You'll see the LCD screen blink when it's done
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjA5NTI1NSwtMzc2ODI4ODgyLDMyMj
+eyJoaXN0b3J5IjpbMTYyNzM0NjIzMSwtMzc2ODI4ODgyLDMyMj
 c3OTk4NCwxNzE1NTc4NDg4XX0=
 -->
