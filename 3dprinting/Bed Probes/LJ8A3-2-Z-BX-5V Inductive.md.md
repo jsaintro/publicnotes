@@ -50,7 +50,7 @@ Use G92Z{distance) to set position of z independent of probe
 # Calculate z height distance
 1. Disable min software endstops
 
-        #define min_software_endstops false
+       //#define MIN_SOFTWARE_ENDSTOP_Z
 
 ## Calculate z probe offset
 1. Prep
@@ -114,5 +114,5 @@ Use G92Z{distance) to set position of z independent of probe
         Note: You can get the current offset by running `M851` without any arguments 
     3.  Save and upload (DON'T forget to disconnect PRONTERFACE from the serial first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0NTQ0Nzg1XX0=
+eyJoaXN0b3J5IjpbLTM0OTkzOTI5Miw1NDQ1NDQ3ODVdfQ==
 -->
