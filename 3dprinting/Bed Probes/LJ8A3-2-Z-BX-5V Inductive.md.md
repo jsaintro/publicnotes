@@ -2,6 +2,7 @@
 * Weight ??g
 * LJ8A3-2-Z-BX-5V
 * DC 5V M8 2mm NPN NO LJ8A3-2-Z/BX-5V Inductive Proximity Sensor Switch
+* I don't this is truly a 5V probe probably 6-36 (There is an LED but it barely lights at 5V)
 
 # Wiring
 Blue = Ground
@@ -113,5 +114,5 @@ Use G92Z{distance) to set position of z independent of probe
         Note: You can get the current offset by running `M851` without any arguments 
     3.  Save and upload (DON'T forget to disconnect PRONTERFACE from the serial first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzM5ODE1Nl19
+eyJoaXN0b3J5IjpbNTQ0NTQ0Nzg1XX0=
 -->
