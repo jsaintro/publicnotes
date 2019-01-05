@@ -32,6 +32,8 @@ With 3mm alu bed has about a 2mm detection distance.  So PEI sheet must be very 
 Enable M48 in firmware `#define Z_MIN_PROBE_REPEATABILITY_TEST`
 
 Run the repeatability test
+
+        G28
         M48 P10 X100 Y100 V2 E L2
 P = Number of times
 X/Y = x/y positon
@@ -132,5 +134,5 @@ Use G92Z{distance) to set position of z independent of probe
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU2NjgxMDddfQ==
+eyJoaXN0b3J5IjpbMTY1Njc4NjE2OCwtMTM2NTY2ODEwN119
 -->
