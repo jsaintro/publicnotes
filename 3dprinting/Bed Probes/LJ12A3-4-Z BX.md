@@ -16,6 +16,7 @@ When the sensor is open aka high the Schottky diode is reverse biased and no cur
 
 # Surface Notes
 
+NOTE: Need to verify with the 4mm probe
 With 3mm alu bed has about a 2mm detection distance.  So PEI sheet must be very thin
 
 # Mechanical Placement
@@ -27,6 +28,8 @@ With 3mm alu bed has about a 2mm detection distance.  So PEI sheet must be very 
 6. Repeat steps 1 till sensor triggers
 7. Remove a couple of slips of paper and faster there
 
+# Accuracy Test
+Enable G48 in firmware
 # Test sensor functionality
 1. With sensor untriggered
     Send M119 to see if Z endstop is untriggered
@@ -121,5 +124,5 @@ Use G92Z{distance) to set position of z independent of probe
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2Nzc4NTg1NV19
+eyJoaXN0b3J5IjpbMTc3NzkzOTY0Nl19
 -->
