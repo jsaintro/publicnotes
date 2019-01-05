@@ -9,7 +9,11 @@
 2. Run
 
         user@workstation:~$ ./Slic3r-1.3.0-x86_64.AppImage
+
+## Make Desktop Icon
+??
+.local/share/??
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzMwNDI5Ml19
+eyJoaXN0b3J5IjpbNjA0MzMxNDMzLC00NjMzMDQyOTJdfQ==
 -->
