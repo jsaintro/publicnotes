@@ -3,7 +3,7 @@
 * Weight ??g
 * LJ12A3-4-Z/BX
 * DC 6V-36V M? 4mm NPN NO LJ8A3-2-Z/BX-5V Inductive Proximity Sensor Switch
-
+* 
 # Wiring
 Blue = Ground
 Brown = 5V+
@@ -116,5 +116,5 @@ Use G92Z{distance) to set position of z independent of probe
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDAwNjAzMV19
+eyJoaXN0b3J5IjpbLTYzMDY0NjY1XX0=
 -->
