@@ -32,7 +32,12 @@ With 3mm alu bed has about a 2mm detection distance.  So PEI sheet must be very 
 Enable M48 in firmware `#define Z_MIN_PROBE_REPEATABILITY_TEST`
 
 Run the repeatability test
-M48 P4 X100 Y100 V2 E L2
+        M48 P10 X100 Y100 V2 E L2
+P = Number of times
+X/Y = x/y positon
+V = verbosity 1-4
+E = Engage probe after each reading
+L = Legs of movement?
 # Test sensor functionality
 1. With sensor untriggered
     Send M119 to see if Z endstop is untriggered
@@ -127,5 +132,5 @@ Use G92Z{distance) to set position of z independent of probe
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTk5NDY3OV19
+eyJoaXN0b3J5IjpbLTEzNjU2NjgxMDddfQ==
 -->
