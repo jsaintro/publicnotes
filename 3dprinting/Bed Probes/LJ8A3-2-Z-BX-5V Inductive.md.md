@@ -54,9 +54,9 @@ Use G92Z{distance) to set position of z independent of probe
 
 ## Calculate z probe offset
 1. Prep
-	 * Make sure 1st layer height and width in slicer is set to 100%
+	 * Remove Filament From Extruder
 	 * Bring heat bed up to operating temp (ABS = 105c, PLA = 60c)
-
+     * Bring up
 2. Zero out offset (temporarily)
 
          M851 Z0 
@@ -114,5 +114,6 @@ Use G92Z{distance) to set position of z independent of probe
         Note: You can get the current offset by running `M851` without any arguments 
     3.  Save and upload (DON'T forget to disconnect PRONTERFACE from the serial first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTkzOTI5Miw1NDQ1NDQ3ODVdfQ==
+eyJoaXN0b3J5IjpbMTAwMDQwOTk1NiwtMzQ5OTM5MjkyLDU0ND
+U0NDc4NV19
 -->
