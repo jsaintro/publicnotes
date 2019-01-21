@@ -22,8 +22,8 @@ based on https://reprap.org/wiki/PID_Tuning
 ## Tune your heatbed
 1. Run the following gcode
 
-        M303
+        M303 E-1 S60 C8
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTY3OTIzMywyNjA2NDQ2NjksLTUyMD
+eyJoaXN0b3J5IjpbLTI2MTU2NDg0MiwyNjA2NDQ2NjksLTUyMD
 cyMTc2MF19
 -->
