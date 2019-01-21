@@ -16,12 +16,12 @@ based on https://reprap.org/wiki/PID_Tuning
 	1. Edit Configuration.h
 
             #define PIDTEMP
-        #define DEFAULT_Kp <P>
-#define DEFAULT_Ki <I>
-#define DEFAULT_Kd <D>
+            #define DEFAULT_Kp <P>
+            #define DEFAULT_Ki <I>
+            #define DEFAULT_Kd <D>
 ## Tune your heatbed
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDI1NDk1NCwyNjA2NDQ2NjksLTUyMD
+eyJoaXN0b3J5IjpbMTY3Nzg1NzY0MiwyNjA2NDQ2NjksLTUyMD
 cyMTc2MF19
 -->
