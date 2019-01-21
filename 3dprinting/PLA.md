@@ -9,7 +9,12 @@
 * Overhangs tend to curl a lot easier maybe use supports (Reducing bed temp to 60 degrees) also probably need more efficient part cooling duct.
 ## Experiments
 Run fan at 60% starting 2nd layer
+
+## Drying out
+https://www.matterhackers.com/store/l/printdry-filament-drying-system/sk/MNXQRWQC?gclid=Cj0KCQiA-JXiBRCpARIsAGqF8wXTVejEunmPmJpt4D0lZPfqhaXDz4C-h2Sq3-B2VM2OQTtCPjhKzrcaAjzoEALw_wcB
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzMTYyODMxLC0xODgwOTA5NTkxLC0xOT
-c2ODU3MTUxXX0=
+eyJoaXN0b3J5IjpbLTcwNDI3Njg2OCwzMDMxNjI4MzEsLTE4OD
+A5MDk1OTEsLTE5NzY4NTcxNTFdfQ==
 -->
