@@ -20,8 +20,10 @@ based on https://reprap.org/wiki/PID_Tuning
             #define DEFAULT_Ki <I>
             #define DEFAULT_Kd <D>
 ## Tune your heatbed
+1. Run the following gcode
 
+        M303
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Nzg1NzY0MiwyNjA2NDQ2NjksLTUyMD
+eyJoaXN0b3J5IjpbLTY1NTY3OTIzMywyNjA2NDQ2NjksLTUyMD
 cyMTc2MF19
 -->
