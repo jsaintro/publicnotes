@@ -4,7 +4,14 @@
 based on https://reprap.org/wiki/PID_Tuning
 
 ## Enable PID for both extruder and bed
-1. Edi
+Note: This is required to use the PID autotune features
+1. Edit Marlin config
+	1.  Edit Configuration.h
+
+            #define PIDTEMP
+            #define PIDTEMPBED
+
+1. Upload new marlin firmware
 
 ## Tune your hotend
 1. Run the following gcode
@@ -27,6 +34,6 @@ based on https://reprap.org/wiki/PID_Tuning
 
         M303 E-1 S60 C8
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODAyMDc1MiwyNjA2NDQ2NjksLTUyMD
-cyMTc2MF19
+eyJoaXN0b3J5IjpbNDY2MDI2OTE2LDI2MDY0NDY2OSwtNTIwNz
+IxNzYwXX0=
 -->
