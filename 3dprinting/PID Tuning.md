@@ -10,16 +10,18 @@ based on https://reprap.org/wiki/PID_Tuning
 
     This will heat the first nozzle (E0), and cycle around the target temperature 8 times (C8) at the given temperature (S200) ,200 C, and return values for P I and D
 
-2. Update Marlin
+    Final output will be the lines you need to add to your marlin config
 
-Edit Configuration.h
-#define PIDTEMP
-#define DEFAULT_Kp <P>
+2. Update Marlin
+	1. Edit Configuration.h
+
+            #define PIDTEMP
+        #define DEFAULT_Kp <P>
 #define DEFAULT_Ki <I>
 #define DEFAULT_Kd <D>
 ## Tune your heatbed
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDI4MzMzOSwyNjA2NDQ2NjksLTUyMD
+eyJoaXN0b3J5IjpbMTM1NDI1NDk1NCwyNjA2NDQ2NjksLTUyMD
 cyMTc2MF19
 -->
