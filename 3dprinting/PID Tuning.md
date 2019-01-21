@@ -12,8 +12,12 @@ based on https://reprap.org/wiki/PID_Tuning
 
 2. Update Marlin
 
+Edit Configuration.h
+#define PIDTEMP
+
 ## Tune your heatbed
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwNjQ0NjY5LC01MjA3MjE3NjBdfQ==
+eyJoaXN0b3J5IjpbLTE0MzM3ODA3NCwyNjA2NDQ2NjksLTUyMD
+cyMTc2MF19
 -->
