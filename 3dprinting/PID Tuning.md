@@ -3,6 +3,9 @@
 
 based on https://reprap.org/wiki/PID_Tuning
 
+## Enable PID for both extruder and bed
+1. Edi
+
 ## Tune your hotend
 1. Run the following gcode
 
@@ -24,6 +27,6 @@ based on https://reprap.org/wiki/PID_Tuning
 
         M303 E-1 S60 C8
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTU2NDg0MiwyNjA2NDQ2NjksLTUyMD
+eyJoaXN0b3J5IjpbLTM3ODAyMDc1MiwyNjA2NDQ2NjksLTUyMD
 cyMTc2MF19
 -->
