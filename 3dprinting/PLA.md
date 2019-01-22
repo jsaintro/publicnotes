@@ -15,7 +15,7 @@ https://www.matterhackers.com/news/filament-and-water
 
 ## **How to dry 3D printing filament:**
 
-1) Preheat your oven to 160-180°F (or 70-80°C). Tried 175
+1) Preheat your oven to 160-180°F (or 70-80°C). Tried 175 Next time do 160 for PLA
 
 2) Place spool in oven for 4-6 hours Tried 5.5 hrs
 
@@ -29,6 +29,6 @@ So if you have some spools that have been sitting out for a while and aren’t p
   
 As always, Happy Printing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODUxNDc4NSwtMjY3OTM2NTE5LDMwMz
-E2MjgzMSwtMTg4MDkwOTU5MSwtMTk3Njg1NzE1MV19
+eyJoaXN0b3J5IjpbLTExMjc4NjI2NjUsLTI2NzkzNjUxOSwzMD
+MxNjI4MzEsLTE4ODA5MDk1OTEsLTE5NzY4NTcxNTFdfQ==
 -->
