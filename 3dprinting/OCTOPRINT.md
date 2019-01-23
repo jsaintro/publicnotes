@@ -13,10 +13,7 @@
 3. Uncompress the image
 
         ununzip octopi-stretch-lite-0.15.1.zip 
-4. Burn image to 
-
-6. Create the Octopi image
-   Insert a suitable SD card and image using the software
+4. Flash img file to SD card
 # Configure Octopi Network
 1. On card edit octopi-network.txt
    ```
@@ -55,5 +52,5 @@
 and do any recommended updates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTIwMjQ2MDRdfQ==
+eyJoaXN0b3J5IjpbLTgwMjY3NDg2MF19
 -->
