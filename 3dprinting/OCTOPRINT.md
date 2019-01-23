@@ -16,12 +16,14 @@
 4. Flash img file to SD card
 # Configure Octopi Network
 1. Mount SD card on workstation and access the `boot` partition
-3. On card edit octopi-wpa-supplicant.txt
+2. On card edit octopi-wpa-supplicant.txt
+
         vi octopi-wpa-supplicant.txt
         ## WPA/WPA2 secured
-       octopi-wpa-supplicant.txt iface wlan-octopi inet manual
-           wpa-ssid "put SSID here"
-           wpa-psk "put password here"
+        network={
+          ssid="put SSID here"
+          psk="put password here"
+        }
 # Boot raspberrypi
 1. install sd card
 1. Power on printer (So we don't power printer from raspberry pi)
@@ -52,5 +54,5 @@
 and do any recommended updates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQ2ODM5MjZdfQ==
+eyJoaXN0b3J5IjpbLTE2OTk2MDA1NDhdfQ==
 -->
