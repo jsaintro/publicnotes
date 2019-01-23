@@ -17,6 +17,7 @@
 # Configure Octopi Network
 1. On card edit octopi-network.txt
    ```
+   
    ## WPA/WPA2 secured
    iface wlan-octopi inet manual
       wpa-ssid "put SSID here"
@@ -52,5 +53,5 @@
 and do any recommended updates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjY3NDg2MF19
+eyJoaXN0b3J5IjpbMTk4Njg5NDg2Ml19
 -->
