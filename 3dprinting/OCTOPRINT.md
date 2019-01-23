@@ -7,13 +7,15 @@
 
 # Install Octopi
 1. Download the imaging software (Etcher)
-2
-3. Download the latest image
+      https://www.balena.io/etcher/
+2. Download the latest image
    https://octopi.octoprint.org
- 
-4. Download the Etcher imaging software
-   https://www.balena.io/etcher/
-5. Create the Octopi image
+3. Uncompress the image
+
+        ununzip octopi-stretch-lite-0.15.1.zip 
+4. Burn image to 
+
+6. Create the Octopi image
    Insert a suitable SD card and image using the software
 # Configure Octopi Network
 1. On card edit octopi-network.txt
@@ -53,5 +55,5 @@
 and do any recommended updates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1ODI2OTAzXX0=
+eyJoaXN0b3J5IjpbLTE1MTIwMjQ2MDRdfQ==
 -->
