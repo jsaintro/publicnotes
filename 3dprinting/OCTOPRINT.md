@@ -8,8 +8,8 @@
 # Install Octopi
 1. Download the latest image
    https://octopi.octoprint.org
-1. Download the imaging software for windows
-   https://sourceforge.net/projects/win32diskimager/
+1. Download the Etcher imaging software
+   https://www.balena.io/etcher/
 1. Create the Octopi image
    Insert a suitable SD card and image using the software
 # Configure Octopi Network
@@ -49,3 +49,6 @@
 
 and do any recommended updates
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTgwNDYxNDY0NV19
+-->
