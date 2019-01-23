@@ -24,7 +24,10 @@
           ssid="put SSID here"
           psk="put password here"
         }
-        
+
+        country=US # United States
+
+       
 # Boot raspberrypi
 1. install sd card
 1. Power on printer (So we don't power printer from raspberry pi)
@@ -55,5 +58,5 @@
 and do any recommended updates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE0Mzc2ODZdfQ==
+eyJoaXN0b3J5IjpbLTk5MzE4NzUzN119
 -->
