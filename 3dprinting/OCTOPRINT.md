@@ -15,8 +15,8 @@
         ununzip octopi-stretch-lite-0.15.1.zip 
 4. Flash img file to SD card
 # Configure Octopi Network
-1. Mount SD card on workstation
-2. On card edit octopi-wpa-supplicant.txt
+1. Mount SD card on workstation and access the `boot` partition
+3. On card edit octopi-wpa-supplicant.txt
         vi octopi-wpa-supplicant.txt
         ## WPA/WPA2 secured
         iface wlan-octopi inet manual
@@ -52,5 +52,5 @@
 and do any recommended updates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3OTY3MDM0XX0=
+eyJoaXN0b3J5IjpbLTIzMDMxMTEwM119
 -->
