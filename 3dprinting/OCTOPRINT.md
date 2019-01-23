@@ -19,7 +19,7 @@
 3. On card edit octopi-wpa-supplicant.txt
         vi octopi-wpa-supplicant.txt
         ## WPA/WPA2 secured
-        iface wlan-octopi inet manual
+       octopi-wpa-supplicant.txt iface wlan-octopi inet manual
            wpa-ssid "put SSID here"
            wpa-psk "put password here"
 # Boot raspberrypi
@@ -52,5 +52,5 @@
 and do any recommended updates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDMxMTEwM119
+eyJoaXN0b3J5IjpbLTEwMjQ2ODM5MjZdfQ==
 -->
