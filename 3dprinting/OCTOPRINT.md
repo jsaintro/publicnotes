@@ -15,14 +15,13 @@
         ununzip octopi-stretch-lite-0.15.1.zip 
 4. Flash img file to SD card
 # Configure Octopi Network
-1. On card edit octopi-network.txt
-   ```
-   
-   ## WPA/WPA2 secured
-   iface wlan-octopi inet manual
-      wpa-ssid "put SSID here"
-      wpa-psk "put password here"
-   ```
+1. Mount SD card on workstation
+2. On card edit octopi-wpa-supplicant.txt
+        vi octopi-wpa-supplicant.txt
+        ## WPA/WPA2 secured
+        iface wlan-octopi inet manual
+           wpa-ssid "put SSID here"
+           wpa-psk "put password here"
 # Boot raspberrypi
 1. install sd card
 1. Power on printer (So we don't power printer from raspberry pi)
@@ -53,5 +52,5 @@
 and do any recommended updates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4Njg5NDg2Ml19
+eyJoaXN0b3J5IjpbMzA3OTY3MDM0XX0=
 -->
