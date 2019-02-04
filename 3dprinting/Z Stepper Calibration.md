@@ -17,7 +17,6 @@ This procedure is to get both Z steppers in sync so the build plane is as level 
     2. Review report and look for difference between left side and right side
 
             Bilinear Leveling Grid:
-            Bilinear Leveling Grid:
                   0      1
             0 +0.492 +1.020
             1 +0.731 +0.574
@@ -28,5 +27,5 @@ This procedure is to get both Z steppers in sync so the build plane is as level 
      4. Repeat Calibration loop until left and right sides match
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTA5NTQzNywxNzg3ODgyODJdfQ==
+eyJoaXN0b3J5IjpbMjExNTEzMzQyOSwxNzg3ODgyODJdfQ==
 -->
