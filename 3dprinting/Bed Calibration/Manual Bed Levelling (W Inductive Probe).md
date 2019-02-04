@@ -27,7 +27,8 @@ Using the inductive probe get the bed as level as possible (This way the SW bed 
    4. Adjust FR till it matches FL
    5. Adjust BL and BR together until all points match
    6. Repeat Calibration loop until left and right sides match
-1/4 turn is .1mm
+1/4 turn is .1mm Shoot for +/- .05
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1NDU3ODE2LC03MjYyMDg3ODhdfQ==
+eyJoaXN0b3J5IjpbLTE5NDc4MTc0MCw0NzU0NTc4MTYsLTcyNj
+IwODc4OF19
 -->
