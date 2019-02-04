@@ -12,10 +12,10 @@ Using the inductive probe get the bed as level as possible (This way the SW bed 
   
         #define GRID_MAX_POINTS_X 2      
 3. Begin Calibration loop
-    1. Perform Mesh Bed Leveling
+   1. Perform Mesh Bed Leveling
 
             G29
-    2. Review report and look for difference between left side and right side
+   2. Review report and look for difference between left side and right side
 
             Bilinear Leveling Grid:
                   0      1
@@ -23,10 +23,10 @@ Using the inductive probe get the bed as level as possible (This way the SW bed 
             1 +0.731(BL) +0.574(BR)
         Note: In this case right stepper needs to be adjusted lower
         
-    3. Lock FL tight (This will be your reference)
-    4. Adjust FR till it matches FL
-    5. Adjust BL and BR together until all points match
-    6.      4. Repeat Calibration loop until left and right sides match
+   3. Lock FL tight (This will be your reference)
+   4. Adjust FR till it matches FL
+   5. Adjust BL and BR together until all points match
+   4. Repeat Calibration loop until left and right sides match
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTkyMjI2OF19
+eyJoaXN0b3J5IjpbLTcyNjIwODc4OF19
 -->
