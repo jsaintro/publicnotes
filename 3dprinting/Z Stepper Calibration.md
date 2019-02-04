@@ -6,6 +6,9 @@ This procedure is to get both Z steppers in sync so the build plane is as level 
  2. Home All Axis
 
         G28
+ 4. Set firmware to only do 4 points
+  
+        #define GRID_MAX_POINTS_X 2      
  3. Begin Calibration loop
     1. Perform Mesh Bed Leveling
 
@@ -26,5 +29,5 @@ This procedure is to get both Z steppers in sync so the build plane is as level 
      4. Repeat Calibration loop until left and right sides match
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Nzg4MjgyXX0=
+eyJoaXN0b3J5IjpbMTUxODg3MzI2LDE3ODc4ODI4Ml19
 -->
