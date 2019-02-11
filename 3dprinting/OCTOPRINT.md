@@ -13,7 +13,12 @@
 3. Uncompress the image
 
         ununzip octopi-stretch-lite-0.15.1.zip 
-4. Flash img file to SD card
+4. Flash img file to SD clatest image
+   https://octopi.octoprint.org
+1. Download the imaging software for windows
+   https://sourceforge.net/projects/win32diskimager/
+1. Create the Octopi image
+   Insert a suitable SD card and image using the softwarde
 # Configure Octopi Network
 1. Mount SD card on workstation and access the `boot` partition
 2. On card edit octopi-wpa-supplicant.txt
@@ -21,12 +26,16 @@
         vi octopi-wpa-supplicant.txt
         ## WPA/WPA2 secured
         network={
-          ssid="put SSID here"
-          psk="put password here"
+    On card edit octopi-network.txt
+   ```
+   ## WPA/WPA2 secured
+   iface wlan-octopi inet manual
+      wpa-ssid= "put SSID here"
+          wpa-psk= "put password here"
         }
         country=US # United States
 
-3. Eject both partitions `boot` and `root`       
+3. Eject both partitions `boot` and `root`       ```
 # Boot raspberrypi
 1. install sd card
 1. Power on printer (So we don't power printer from raspberry pi)
@@ -57,5 +66,5 @@
 and do any recommended updates
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTY3MzgzNF19
+eyJoaXN0b3J5IjpbMTk0Mzg1NzM0MSwxMjU1NjczODM0XX0=
 -->
