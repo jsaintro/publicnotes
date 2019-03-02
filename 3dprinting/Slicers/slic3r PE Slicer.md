@@ -22,15 +22,15 @@
         vi .local/share/applications/slic3rPE.desktop
         [Desktop Entry]
         Name=Slic3r Prusa Edition
-Exec=/home/jsaintrocc/slic3rPE/Slic3rPE-1.41.3+linux64-full-201902121303.AppImage --gui
-Icon=/home/jsaintrocc/slic3rPE/Slic3r.png
-Terminal=false
-Type=Application
-Categories=Graphics;3DGraphics;
-X-AppImage-Version=1.41.3+linux64.glibc2.14
+        Exec=/home/jsaintrocc/slic3rPE/Slic3rPE-1.41.3+linux64-full-201902121303.AppImage --gui
+        Icon=/home/jsaintrocc/slic3rPE/Slic3r.png
+        Terminal=false
+        Type=Application
+        Categories=Graphics;3DGraphics;
+        X-AppImage-Version=1.41.3+linux64.glibc2.14
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyODA4NjYyLDM5NzI0OTEwLDMzOTAzOT
-AxOCwtMTM1MjA4MDgxOV19
+eyJoaXN0b3J5IjpbLTU3MDY2MDAxMCwzOTcyNDkxMCwzMzkwMz
+kwMTgsLTEzNTIwODA4MTldfQ==
 -->
