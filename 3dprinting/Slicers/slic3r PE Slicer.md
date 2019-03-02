@@ -13,8 +13,24 @@
         user@workstation:~$ ./Slic3r-1.3.0-x86_64.AppImage
 
 ## Make Desktop Icon
-vi .local/share/applications/slic3rPE.desktop
+1. Download the slic3r icon image
+
+        wget https://github.com/prusa3d/Slic3r/raw/master/resources/icons/Slic3r.png
+
+2. Create the gnome desktop file
+
+        vi .local/share/applications/slic3rPE.desktop
+        [Desktop Entry]
+        Name=Slic3r Prusa Edition
+Exec=/home/jsaintrocc/slic3rPE/Slic3rPE-1.41.3+linux64-full-201902121303.AppImage --gui
+Icon=/home/jsaintrocc/slic3rPE/Slic3r.png
+Terminal=false
+Type=Application
+Categories=Graphics;3DGraphics;
+X-AppImage-Version=1.41.3+linux64.glibc2.14
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MjQ5MTAsMzM5MDM5MDE4LC0xMzUyMD
-gwODE5XX0=
+eyJoaXN0b3J5IjpbOTIyODA4NjYyLDM5NzI0OTEwLDMzOTAzOT
+AxOCwtMTM1MjA4MDgxOV19
 -->
