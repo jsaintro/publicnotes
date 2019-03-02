@@ -33,11 +33,11 @@
 
   1. Open activities window
   2. type `Slic3r` into search window
-  3. Right click on Slic3r Prusa Edition search result
-  4. A
+  3. Right click on `Slic3r Prusa Edition` search result
+  4. Select add to favorites
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDAzOTk3MzksMzk3MjQ5MTAsMzM5MD
-M5MDE4LC0xMzUyMDgwODE5XX0=
+eyJoaXN0b3J5IjpbODcwOTAwMjc1LDM5NzI0OTEwLDMzOTAzOT
+AxOCwtMTM1MjA4MDgxOV19
 -->
