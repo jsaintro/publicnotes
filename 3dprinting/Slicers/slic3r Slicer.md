@@ -1,4 +1,5 @@
 # Slic3r Install
+Note: You probably want to use slic3r PE instead.  This guide is old
 
 ## Linux
 1. Download the appimage from [here](https://dl.slic3r.org/linux/)
@@ -15,5 +16,6 @@
 .local/share/??
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0MzMxNDMzLC00NjMzMDQyOTJdfQ==
+eyJoaXN0b3J5IjpbMjA0OTM5MTk1OSw2MDQzMzE0MzMsLTQ2Mz
+MwNDI5Ml19
 -->
