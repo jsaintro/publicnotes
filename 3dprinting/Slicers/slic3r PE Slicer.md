@@ -13,8 +13,8 @@
         user@workstation:~$ ./Slic3r-1.3.0-x86_64.AppImage
 
 ## Make Desktop Icon
-??
-.local/share/??
+vi .local/share/applications/slic3rPE.desktop
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5MDM5MDE4LC0xMzUyMDgwODE5XX0=
+eyJoaXN0b3J5IjpbMzk3MjQ5MTAsMzM5MDM5MDE4LC0xMzUyMD
+gwODE5XX0=
 -->
