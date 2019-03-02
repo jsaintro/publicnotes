@@ -29,8 +29,15 @@
         Categories=Graphics;3DGraphics;
         X-AppImage-Version=1.41.3+linux64.glibc2.14
 
+3. Add to favorites
+
+  1. Open activities window
+  2. type `Slic3r` into search window
+  3. Right click on Slic3r Prusa Edition search result
+  4. A
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDY2MDAxMCwzOTcyNDkxMCwzMzkwMz
-kwMTgsLTEzNTIwODA4MTldfQ==
+eyJoaXN0b3J5IjpbLTIxMDAzOTk3MzksMzk3MjQ5MTAsMzM5MD
+M5MDE4LC0xMzUyMDgwODE5XX0=
 -->
