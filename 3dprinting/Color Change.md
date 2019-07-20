@@ -6,7 +6,7 @@
 
 2. Use Prusa Slicer
 	3. Select Preview to Edit layers
-		4. Use slider to select 
+		4. Use slider to select layer for change and hit "+" to add color change code
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTAwMTE3OSwtMzU5NDg3ODkyXX0=
+eyJoaXN0b3J5IjpbLTEwOTkzMzA0MjQsLTM1OTQ4Nzg5Ml19
 -->
