@@ -21,24 +21,24 @@
 
         vi .local/share/applications/slic3rPE.desktop
         [Desktop Entry]
-        Name=Slic3r Prusa Edition
-        Exec=/home/jsaintrocc/slic3rPE/Slic3rPE-1.41.3+linux64-full-201902121303.AppImage --gui
+        Name=Prusa Slicer
+        Exec=/home/jsaintrocc/slic3rPE/Slic3rPE-1.41.3+linux64-full-201902121303.AppImage
         Icon=/home/jsaintrocc/slic3rPE/Slic3r.png
         Terminal=false
         Type=Application
         Categories=Graphics;3DGraphics;
-        X-AppImage-Version=1.41.3+linux64.glibc2.14
+        #X-AppImage-Version=1.41.3+linux64.glibc2.14
 
 3. Add to favorites
 
   1. Open activities window
-  2. type `Slic3r` into search window
-  3. Right click on `Slic3r Prusa Edition` search result
+  2. type `Prusa` into search window
+  3. Right click on `Prusa Slicer` search result
   4. Select add to favorites
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTU5MzgxNSwtMzk2MDY0MDg1LDg3MD
-kwMDI3NSwzOTcyNDkxMCwzMzkwMzkwMTgsLTEzNTIwODA4MTld
-fQ==
+eyJoaXN0b3J5IjpbMTQyMzkzMTgxNiwxNDA5NTkzODE1LC0zOT
+YwNjQwODUsODcwOTAwMjc1LDM5NzI0OTEwLDMzOTAzOTAxOCwt
+MTM1MjA4MDgxOV19
 -->
