@@ -6,7 +6,7 @@
 
 2. Use Prusa Slicer
 	3. Select Preview to Edit layers
-		4. A
+		4. Use slider to select 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjU2MDQ0NywtMzU5NDg3ODkyXX0=
+eyJoaXN0b3J5IjpbMTQ2NTAwMTE3OSwtMzU5NDg3ODkyXX0=
 -->
