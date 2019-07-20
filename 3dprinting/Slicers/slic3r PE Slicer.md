@@ -7,7 +7,7 @@
         user@workstation:~$ mkdir slic3rPE
         user@workstation:~$ cd slic3rPE
         user@workstation:~$ wget https://github.com/prusa3d/PrusaSlicer/releases/download/version_2.0.0/PrusaSlicer-2.0.0+linux64-201905201652.AppImage
-        user@workstation:~$ chmod +x Slic3rPE-1.41.3+linux64-full-201902121303.AppImage
+        user@workstation:~$ chmod +x PrusaSlicer-2.0.0+linux64-201905201652.AppImage
 2. Run
 
         user@workstation:~$ ./Slic3r-1.3.0-x86_64.AppImage
@@ -38,6 +38,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDQzODEsODcwOTAwMjc1LDM5NzI0OT
-EwLDMzOTAzOTAxOCwtMTM1MjA4MDgxOV19
+eyJoaXN0b3J5IjpbLTM5NjA2NDA4NSw4NzA5MDAyNzUsMzk3Mj
+Q5MTAsMzM5MDM5MDE4LC0xMzUyMDgwODE5XX0=
 -->
