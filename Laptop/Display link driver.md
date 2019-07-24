@@ -1,7 +1,12 @@
+Get ubuntu version
+
+lsb_release -a
+
+You have an intel video card
+Download the driver here
+http://www.displaylink.com/downloads/ubuntu
 
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTExMzI4OTc4XX0=
 -->
