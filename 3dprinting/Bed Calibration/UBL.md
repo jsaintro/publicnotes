@@ -29,7 +29,13 @@
  G29 S1
  8. Set Fade height
   G29 F 10.0 (Start leveling off the mesh buy 10mm
+  9. Activate the UBL
+  G29 A
+  10. Save the settings
+   M500
+    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc4MjI3NzcsMTM4OTk0MzIzNSw4Mz
-QyMDQyOTYsLTEyMzY4MzkxODQsLTk3NTgxMzE3Ml19
+eyJoaXN0b3J5IjpbMTgwNjkzMDIyNCwtMTQ4NzgyMjc3NywxMz
+g5OTQzMjM1LDgzNDIwNDI5NiwtMTIzNjgzOTE4NCwtOTc1ODEz
+MTcyXX0=
 -->
