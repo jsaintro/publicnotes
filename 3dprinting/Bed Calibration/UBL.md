@@ -21,7 +21,9 @@
  4. Preheat bed and hotend
   M140 S60
   M104 S210
+3. Probe bed
+4. G29 P1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODk1ODQ1MzYsODM0MjA0Mjk2LC0xMj
-M2ODM5MTg0LC05NzU4MTMxNzJdfQ==
+eyJoaXN0b3J5IjpbMTM4OTk0MzIzNSw4MzQyMDQyOTYsLTEyMz
+Y4MzkxODQsLTk3NTgxMzE3Ml19
 -->
