@@ -23,7 +23,11 @@
   M104 S210
 3. Probe bed
 4. G29 P1
+5. Check out the output
+  G29 T
+7. Save Mesh
+ G29 S1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTk0MzIzNSw4MzQyMDQyOTYsLTEyMz
-Y4MzkxODQsLTk3NTgxMzE3Ml19
+eyJoaXN0b3J5IjpbMTUyNDU5OTUzMywxMzg5OTQzMjM1LDgzND
+IwNDI5NiwtMTIzNjgzOTE4NCwtOTc1ODEzMTcyXX0=
 -->
