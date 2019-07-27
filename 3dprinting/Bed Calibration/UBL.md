@@ -27,7 +27,9 @@
   G29 T
 7. Save Mesh
  G29 S1
+ 8. Set Fade height
+  G29 F 10.0 (Start leveling off the mesh buy 10mm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDU5OTUzMywxMzg5OTQzMjM1LDgzND
-IwNDI5NiwtMTIzNjgzOTE4NCwtOTc1ODEzMTcyXX0=
+eyJoaXN0b3J5IjpbLTE0ODc4MjI3NzcsMTM4OTk0MzIzNSw4Mz
+QyMDQyOTYsLTEyMzY4MzkxODQsLTk3NTgxMzE3Ml19
 -->
