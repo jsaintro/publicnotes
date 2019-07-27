@@ -73,7 +73,8 @@ Restart octoprint server (maybe twice)
 Will appear under settings plugins heading
 Configure path for avrdude and settings
 
+Edit arduino ide preferences and set a not temp location for builds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDM2MTA5MiwxOTQzODU3MzQxLDEyNT
-U2NzM4MzRdfQ==
+eyJoaXN0b3J5IjpbLTM0MjU2NDk1MiwxNzQ0MzYxMDkyLDE5ND
+M4NTczNDEsMTI1NTY3MzgzNF19
 -->
