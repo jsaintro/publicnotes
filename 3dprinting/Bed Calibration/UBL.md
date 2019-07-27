@@ -6,8 +6,9 @@
 #define MESH_INSET (abs(X_PROBE_OFFSET_FROM_EXTRUDER) - 10)
 
 #define MESH_EDIT_GFX_OVERLAY   // Display a graphics overlay while editing the mesh
+#define G26_MESH_VALIDATION
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTg2Mzg3LC0xMjM2ODM5MTg0LC05Nz
-U4MTMxNzJdfQ==
+eyJoaXN0b3J5IjpbLTIwMzk5Nzc0NDYsLTEyMzY4MzkxODQsLT
+k3NTgxMzE3Ml19
 -->
