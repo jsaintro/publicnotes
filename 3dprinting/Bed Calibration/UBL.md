@@ -12,9 +12,11 @@
 ```
 
 # Operation
-1. Reset eeprom to defaults
+1. Reset to defaults
   M502
+2. Save to eeprom
+  M500
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDE2MzA2OCw4MzQyMDQyOTYsLTEyMz
+eyJoaXN0b3J5IjpbMTU1ODA3NTYzNiw4MzQyMDQyOTYsLTEyMz
 Y4MzkxODQsLTk3NTgxMzE3Ml19
 -->
