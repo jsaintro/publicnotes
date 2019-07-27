@@ -33,9 +33,13 @@
   G29 A
   10. Save the settings
    M500
-    
+# Set probe offset
+1. Home and center
+G28 
+2. Disable software endstops
+M211 S
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjkzMDIyNCwtMTQ4NzgyMjc3NywxMz
-g5OTQzMjM1LDgzNDIwNDI5NiwtMTIzNjgzOTE4NCwtOTc1ODEz
-MTcyXX0=
+eyJoaXN0b3J5IjpbLTc1MTQwMDQzMiwxODA2OTMwMjI0LC0xND
+g3ODIyNzc3LDEzODk5NDMyMzUsODM0MjA0Mjk2LC0xMjM2ODM5
+MTg0LC05NzU4MTMxNzJdfQ==
 -->
