@@ -37,9 +37,9 @@
 1. Home and center
 G28 
 2. Disable software endstops
-M211 S
+M211 S0
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTQwMDQzMiwxODA2OTMwMjI0LC0xND
-g3ODIyNzc3LDEzODk5NDMyMzUsODM0MjA0Mjk2LC0xMjM2ODM5
-MTg0LC05NzU4MTMxNzJdfQ==
+eyJoaXN0b3J5IjpbLTE5MzM3NjM1NjQsMTgwNjkzMDIyNCwtMT
+Q4NzgyMjc3NywxMzg5OTQzMjM1LDgzNDIwNDI5NiwtMTIzNjgz
+OTE4NCwtOTc1ODEzMTcyXX0=
 -->
