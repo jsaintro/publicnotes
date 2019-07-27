@@ -74,9 +74,10 @@ Will appear under settings plugins heading
 Configure path for avrdude and settings
 
 Edit arduino ide preferences and set a not temp location for builds
+Exit the arduino IDE (it overwrites the preferences file on exit)
 /home/jsaintrocc/.arduino15/preferences.txt
 build.path=/home/jsaintrocc/Arduino/binaries
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2MzE3Mzc3LDE3NDQzNjEwOTIsMTk0Mz
-g1NzM0MSwxMjU1NjczODM0XX0=
+eyJoaXN0b3J5IjpbOTU0ODAzMDMwLDg1NjMxNzM3NywxNzQ0Mz
+YxMDkyLDE5NDM4NTczNDEsMTI1NTY3MzgzNF19
 -->
