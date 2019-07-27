@@ -51,10 +51,15 @@ M851 Z-0.71
 8. Run mesh validation print
 G28
 G26 P10 //P10 primes with 10 mm of filament
-
+9. Resave
+ G29 S1
+ M500
+ 10. Tuning the bed 
+ 11. [https://www.youtube.com/watch?v=ONpKxkil16Q](https://www.youtube.com/watch?v=ONpKxkil16Q) 13.58
+ 12.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTk1MjEyNywtMTkxMTQxNTc4OSwxNT
-I0MTEyOTQxLC0xMzk0MzA3OTExLDE4MDY5MzAyMjQsLTE0ODc4
-MjI3NzcsMTM4OTk0MzIzNSw4MzQyMDQyOTYsLTEyMzY4MzkxOD
-QsLTk3NTgxMzE3Ml19
+eyJoaXN0b3J5IjpbLTEzODE5MjcwNjUsLTE5MTE0MTU3ODksMT
+UyNDExMjk0MSwtMTM5NDMwNzkxMSwxODA2OTMwMjI0LC0xNDg3
+ODIyNzc3LDEzODk5NDMyMzUsODM0MjA0Mjk2LC0xMjM2ODM5MT
+g0LC05NzU4MTMxNzJdfQ==
 -->
