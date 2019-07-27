@@ -75,8 +75,8 @@ Configure path for avrdude and settings
 
 Edit arduino ide preferences and set a not temp location for builds
 /home/jsaintrocc/.arduino15/preferences.txt
-
+build.path=/home/jsaintrocc/Arduino/binaries
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDM3NzA0NywxNzQ0MzYxMDkyLDE5ND
-M4NTczNDEsMTI1NTY3MzgzNF19
+eyJoaXN0b3J5IjpbODU2MzE3Mzc3LDE3NDQzNjEwOTIsMTk0Mz
+g1NzM0MSwxMjU1NjczODM0XX0=
 -->
