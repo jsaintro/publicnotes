@@ -18,8 +18,10 @@
   M500
  3. Current eeprom settings
  M501
- 
+ 4. Preheat bed and hotend
+  M140 S60
+  M104 S210
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODk3NTY0MTIsODM0MjA0Mjk2LC0xMj
+eyJoaXN0b3J5IjpbLTEzODk1ODQ1MzYsODM0MjA0Mjk2LC0xMj
 M2ODM5MTg0LC05NzU4MTMxNzJdfQ==
 -->
