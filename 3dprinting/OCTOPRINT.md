@@ -69,7 +69,11 @@ and do any recommended updates
 Install the plugin by the octopi creator
 Install avrdude from the command line
   sudo apt install avrdude
+Restart octoprint server (maybe twice)
+Will appear under settings plugins heading
+Configure path for avrdude and settings
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk0MzUwMDgsMTk0Mzg1NzM0MSwxMj
-U1NjczODM0XX0=
+eyJoaXN0b3J5IjpbMTc0NDM2MTA5MiwxOTQzODU3MzQxLDEyNT
+U2NzM4MzRdfQ==
 -->
