@@ -38,8 +38,11 @@
 G28 
 2. Disable software endstops
 M211 S0
+3. Adjust down till you touch paper
+4. See setting
+M114
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzM3NjM1NjQsMTgwNjkzMDIyNCwtMT
+eyJoaXN0b3J5IjpbLTEzOTQzMDc5MTEsMTgwNjkzMDIyNCwtMT
 Q4NzgyMjc3NywxMzg5OTQzMjM1LDgzNDIwNDI5NiwtMTIzNjgz
 OTE4NCwtOTc1ODEzMTcyXX0=
 -->
