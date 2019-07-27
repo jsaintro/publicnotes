@@ -16,7 +16,10 @@
   M502
 2. Save to eeprom
   M500
+ 3. Current eeprom settings
+ M501
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODA3NTYzNiw4MzQyMDQyOTYsLTEyMz
-Y4MzkxODQsLTk3NTgxMzE3Ml19
+eyJoaXN0b3J5IjpbLTE4ODk3NTY0MTIsODM0MjA0Mjk2LC0xMj
+M2ODM5MTg0LC05NzU4MTMxNzJdfQ==
 -->
