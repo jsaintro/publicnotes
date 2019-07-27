@@ -65,6 +65,11 @@
 
 and do any recommended updates
 
+# Install Firmware Updater
+Install the plugin by the octopi creator
+Install avrdude from the command line
+  sudo apt install avrdude
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Mzg1NzM0MSwxMjU1NjczODM0XX0=
+eyJoaXN0b3J5IjpbLTE0Mzk0MzUwMDgsMTk0Mzg1NzM0MSwxMj
+U1NjczODM0XX0=
 -->
