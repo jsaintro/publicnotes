@@ -74,7 +74,9 @@ Will appear under settings plugins heading
 Configure path for avrdude and settings
 
 Edit arduino ide preferences and set a not temp location for builds
+/home/jsaintrocc/.arduino15/preferences.txt
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjU2NDk1MiwxNzQ0MzYxMDkyLDE5ND
+eyJoaXN0b3J5IjpbLTQzNDM3NzA0NywxNzQ0MzYxMDkyLDE5ND
 M4NTczNDEsMTI1NTY3MzgzNF19
 -->
