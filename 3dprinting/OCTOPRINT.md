@@ -73,7 +73,10 @@ Restart octoprint server (maybe twice)
 Will appear under settings plugins heading
 Configuration
 flashmethod avrdude
-
+AVR MCU ATmego2560
+Path: /usr/bin/avrdude
+Programmer type: stk500v2
+baud rade: 11
 Configure path for avrdude and settings
 
 Edit arduino ide preferences and set a not temp location for builds
@@ -86,7 +89,7 @@ build.path=/home/jsaintrocc/Arduino/binaries
 avrdude: Version 6.3-20171130
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTQ5MjM5MSw5NTQ4MDMwMzAsODU2Mz
-E3Mzc3LDE3NDQzNjEwOTIsMTk0Mzg1NzM0MSwxMjU1NjczODM0
-XX0=
+eyJoaXN0b3J5IjpbLTE3NjE4Mzg1OTQsOTU0ODAzMDMwLDg1Nj
+MxNzM3NywxNzQ0MzYxMDkyLDE5NDM4NTczNDEsMTI1NTY3Mzgz
+NF19
 -->
