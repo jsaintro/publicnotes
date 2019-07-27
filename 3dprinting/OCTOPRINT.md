@@ -75,21 +75,16 @@ Configuration
 flashmethod avrdude
 AVR MCU ATmego2560
 Path: /usr/bin/avrdude
-Programmer type: stk500v2
-baud rade: 11
-Configure path for avrdude and settings
+AVR Programmer Type: stk500v2
+baud rate: 115200
 
 Edit arduino ide preferences and set a not temp location for builds
 Exit the arduino IDE (it overwrites the preferences file on exit)
 /home/jsaintrocc/.arduino15/preferences.txt
 build.path=/home/jsaintrocc/Arduino/binaries
 
-/opt/arduino-1.8.7/hardware/tools/avr/bin/avrdude -C/opt/arduino-1.8.7/hardware/tools/avr/etc/avrdude.conf -v -patmega2560 -cwiring -P/dev/ttyACM0 -b115200 -D -Uflash:w:/home/jsaintrocc/ArduinoBins/Marlin.ino.hex:i 
-
-avrdude: Version 6.3-20171130
- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE4Mzg1OTQsOTU0ODAzMDMwLDg1Nj
-MxNzM3NywxNzQ0MzYxMDkyLDE5NDM4NTczNDEsMTI1NTY3Mzgz
-NF19
+eyJoaXN0b3J5IjpbOTI3NzE1NjgsOTU0ODAzMDMwLDg1NjMxNz
+M3NywxNzQ0MzYxMDkyLDE5NDM4NTczNDEsMTI1NTY3MzgzNF19
+
 -->
