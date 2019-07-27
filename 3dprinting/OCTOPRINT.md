@@ -71,6 +71,8 @@ Install avrdude from the command line
   sudo apt install avrdude
 Restart octoprint server (maybe twice)
 Will appear under settings plugins heading
+Configuration
+flash 
 Configure path for avrdude and settings
 
 Edit arduino ide preferences and set a not temp location for builds
@@ -83,7 +85,7 @@ build.path=/home/jsaintrocc/Arduino/binaries
 avrdude: Version 6.3-20171130
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTg1MTM4OSw5NTQ4MDMwMzAsODU2Mz
-E3Mzc3LDE3NDQzNjEwOTIsMTk0Mzg1NzM0MSwxMjU1NjczODM0
-XX0=
+eyJoaXN0b3J5IjpbNTY0Njk1NTU3LDk1NDgwMzAzMCw4NTYzMT
+czNzcsMTc0NDM2MTA5MiwxOTQzODU3MzQxLDEyNTU2NzM4MzRd
+fQ==
 -->
