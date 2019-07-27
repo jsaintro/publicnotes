@@ -36,16 +36,20 @@
 # Set probe offset
 1. Clear current
 M851 Z0
-3. Home and center
+2. Home and center
 G28 
-4. Disable software endstops
+3. Disable software endstops
 M211 S0
-5. Adjust down till you touch paper
-6. See setting
+4. Adjust down till you touch paper
+5. See setting
 M114
 That's your offset Z-0.71
+6. Set in firmware
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.71
+7. Do in terminal
+M851 Z-0.71
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ4MTU0NzksLTEzOTQzMDc5MTEsMT
-gwNjkzMDIyNCwtMTQ4NzgyMjc3NywxMzg5OTQzMjM1LDgzNDIw
-NDI5NiwtMTIzNjgzOTE4NCwtOTc1ODEzMTcyXX0=
+eyJoaXN0b3J5IjpbMTUyNDExMjk0MSwtMTM5NDMwNzkxMSwxOD
+A2OTMwMjI0LC0xNDg3ODIyNzc3LDEzODk5NDMyMzUsODM0MjA0
+Mjk2LC0xMjM2ODM5MTg0LC05NzU4MTMxNzJdfQ==
 -->
