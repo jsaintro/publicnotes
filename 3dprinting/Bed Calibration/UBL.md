@@ -1,7 +1,7 @@
 
 #define AUTO_BED_LEVELING_UBL
 
-
+#define RESTORE_LEVELING_AFTER_G28
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTgxMzE3Ml19
+eyJoaXN0b3J5IjpbLTEyMzY4MzkxODQsLTk3NTgxMzE3Ml19
 -->
