@@ -50,7 +50,7 @@ That's your offset Z-0.71 Z-2.56
 M851 Z-0.71
 8. Run mesh validation print
 G28
-G26 P10 //P10 primes with 10 mm of filament
+G26 P5 //P10 primes with 10 mm of filament
 9. Resave
  G29 S1
  M500
@@ -60,9 +60,9 @@ G26 P10 //P10 primes with 10 mm of filament
 # Loading a mesh
 G29 L2 // to load 2nd slot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTEwNjk3NTksMTQ0NDgyNDc1NSwtMT
-M4MTkyNzA2NSwtMTkxMTQxNTc4OSwxNTI0MTEyOTQxLC0xMzk0
-MzA3OTExLDE4MDY5MzAyMjQsLTE0ODc4MjI3NzcsMTM4OTk0Mz
-IzNSw4MzQyMDQyOTYsLTEyMzY4MzkxODQsLTk3NTgxMzE3Ml19
+eyJoaXN0b3J5IjpbMjIwOTI1Nzg5LDE0NDQ4MjQ3NTUsLTEzOD
+E5MjcwNjUsLTE5MTE0MTU3ODksMTUyNDExMjk0MSwtMTM5NDMw
+NzkxMSwxODA2OTMwMjI0LC0xNDg3ODIyNzc3LDEzODk5NDMyMz
+UsODM0MjA0Mjk2LC0xMjM2ODM5MTg0LC05NzU4MTMxNzJdfQ==
 
 -->
