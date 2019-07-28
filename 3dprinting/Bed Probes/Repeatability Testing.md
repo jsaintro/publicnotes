@@ -6,13 +6,15 @@
  M48 P10 X100 Y100 V2
  
 
-Log
+# Log
 With spring steel
 Bed temp 65
-M48 L4 X107 Y103 V4
-Recv: Finished!Recv: Mean: -0.002247 Min: -0.009 Max: 0.005 Range: 0.014Recv: Standard Deviation: 0.004854
-Recv: Mean: -0.015962 Min: -0.037 Max: -0.003 Range: 0.034Recv: Standard Deviation: 0.009420
+**M48 L4 X107 Y103 V4**
+Recv: Mean: 0.016715 Min: 0.000 Max: 0.024 Range: 0.023Recv: Standard Deviation: 0.006565
+**M48 L4 X107 Y103 V4**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTE3Njk3OSwxMzIwNzM1OTI3LDk1Mz
+eyJoaXN0b3J5IjpbMTk4NTg2MDc2MiwxMzIwNzM1OTI3LDk1Mz
 Y3ODMyM119
 -->
