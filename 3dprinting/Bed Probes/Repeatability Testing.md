@@ -19,7 +19,8 @@ Bed temp 65
 **M48 L4 X107 Y103 V4**
 Recv: Mean: -2.792464 Min: -2.811 Max: -2.776 Range: 0.036Recv: Standard Deviation: 0.011046
 **M48 L4 X107 Y185 V4**
+Recv: Mean: -2.661459 Min: -2.670 Max: -2.641 Range: 0.029Recv: Standard Deviation: 0.010041
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTk1ODc5NjksMTMyMDczNTkyNyw5NT
-M2NzgzMjNdfQ==
+eyJoaXN0b3J5IjpbMTAzMTI2MzYzOCwxMzIwNzM1OTI3LDk1Mz
+Y3ODMyM119
 -->
