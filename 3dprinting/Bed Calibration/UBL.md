@@ -57,9 +57,11 @@ G26 P10 //P10 primes with 10 mm of filament
  10. Tuning the bed 
  11. [https://www.youtube.com/watch?v=ONpKxkil16Q](https://www.youtube.com/watch?v=ONpKxkil16Q) 13.58
  12.  
+# Loading a mesh
+G29 L2 // to load 2nd slot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODE5MjcwNjUsLTE5MTE0MTU3ODksMT
-UyNDExMjk0MSwtMTM5NDMwNzkxMSwxODA2OTMwMjI0LC0xNDg3
-ODIyNzc3LDEzODk5NDMyMzUsODM0MjA0Mjk2LC0xMjM2ODM5MT
-g0LC05NzU4MTMxNzJdfQ==
+eyJoaXN0b3J5IjpbMTQ0NDgyNDc1NSwtMTM4MTkyNzA2NSwtMT
+kxMTQxNTc4OSwxNTI0MTEyOTQxLC0xMzk0MzA3OTExLDE4MDY5
+MzAyMjQsLTE0ODc4MjI3NzcsMTM4OTk0MzIzNSw4MzQyMDQyOT
+YsLTEyMzY4MzkxODQsLTk3NTgxMzE3Ml19
 -->
