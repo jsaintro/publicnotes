@@ -21,6 +21,8 @@ Recv: 10 of 10: z: 0.156 mean: 0.1600 sigma: 0.006431 min: 0.153 max: 0.177 rang
 
 Recv: 10 of 10: z: 0.151 mean: 0.1559 sigma: 0.008777 min: 0.136 max: 0.168 range: 0.032Recv: Finished!Recv: Mean: 0.155917 Min: 0.136 Max: 0.168 Range: 0.032Recv: Standard Deviation: 0.008777
 
+Recv: 10 of 10: z: 0.138 mean: 0.1434 sigma: 0.005342 min: 0.138 max: 0.154 range: 0.017Recv: Finished!Recv: Mean: 0.143440 Min: 0.138 Max: 0.154 Range: 0.017Recv: Standard Deviation: 0.005342
+
 ## W/O Spring Steel
 Bed temp 65
 **M48 L4 X107 Y103 V4**
@@ -32,7 +34,7 @@ Recv: 10 of 10: z: -2.744 mean: -2.7432 sigma: 0.008077 min: -2.760 max: -2.730 
 Recv: Mean: -2.661459 Min: -2.670 Max: -2.641 Range: 0.029Recv: Standard Deviation: 0.010041
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQxNjUxMDIsMjA4NDMzMTY3NiwtMT
+eyJoaXN0b3J5IjpbLTEwNTU2ODUzNDEsMjA4NDMzMTY3NiwtMT
 gwMDgyNjk5NywtMTIwMDU0MjQwMiwxMzIwNzM1OTI3LDk1MzY3
 ODMyM119
 -->
