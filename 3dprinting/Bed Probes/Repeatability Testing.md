@@ -30,6 +30,7 @@ Recv: 10 of 10: z: -2.770 mean: -2.7729 sigma: 0.007988 min: -2.789 max: -2.757 
 
 Recv: 10 of 10: z: -2.744 mean: -2.7432 sigma: 0.008077 min: -2.760 max: -2.730 range: 0.030Recv: Finished!Recv: Mean: -2.743211 Min: -2.760 Max: -2.730 Range: 0.030Recv: Standard Deviation: 0.008077
 
+Recv: 10 of 10: z: -2.819 mean: -2.8195 sigma: 0.005651 min: -2.825 max: -2.804 range: 0.020Recv: Finished!Recv: Mean: -2.819499 Min: -2.825 Max: -2.804 Range: 0.020Recv: Standard Deviation: 0.005651
 **M48 L4 X107 Y185 V4**
 Recv: 10 of 10: z: -2.647 mean: -2.6651 sigma: 0.014015 min: -2.686 max: -2.645 range: 0.041Recv: Finished!Recv: Mean: -2.665061 Min: -2.686 Max: -2.645 Range: 0.041Recv: Standard Deviation: 0.014015
 
@@ -38,7 +39,7 @@ Recv: 10 of 10: z: -2.657 mean: -2.6496 sigma: 0.008658 min: -2.670 max: -2.638 
 Recv: 10 of 10: z: -2.632 mean: -2.6402 sigma: 0.007809 min: -2.653 max: -2.627 range: 0.025Recv: Finished!Recv: Mean: -2.640237 Min: -2.653 Max: -2.627 Range: 0.025Recv: Standard Deviation: 0.007809
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDEwMjI4MywtMTA1NTY4NTM0MSwyMD
+eyJoaXN0b3J5IjpbMTIyNjUxMjgzOCwtMTA1NTY4NTM0MSwyMD
 g0MzMxNjc2LC0xODAwODI2OTk3LC0xMjAwNTQyNDAyLDEzMjA3
 MzU5MjcsOTUzNjc4MzIzXX0=
 -->
