@@ -14,8 +14,9 @@ Recv: Mean: 0.016715 Min: 0.000 Max: 0.024 Range: 0.023Recv: Standard Deviation:
 **M48 L4 X107 Y185 V4**
 Recv: Mean: 0.145380 Min: 0.127 Max: 0.152 Range: 0.025Recv: Standard Deviation: 0.006925
 
+Recv: Mean: -2.792464 Min: -2.811 Max: -2.776 Range: 0.036Recv: Standard Deviation: 0.011046
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzkwODk4MzIsMTMyMDczNTkyNyw5NT
-M2NzgzMjNdfQ==
+eyJoaXN0b3J5IjpbNzkzOTIzNTEwLDEzMjA3MzU5MjcsOTUzNj
+c4MzIzXX0=
 -->
