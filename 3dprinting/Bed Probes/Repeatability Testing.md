@@ -31,10 +31,9 @@ Recv: 10 of 10: z: -2.770 mean: -2.7729 sigma: 0.007988 min: -2.789 max: -2.757 
 Recv: 10 of 10: z: -2.744 mean: -2.7432 sigma: 0.008077 min: -2.760 max: -2.730 range: 0.030Recv: Finished!Recv: Mean: -2.743211 Min: -2.760 Max: -2.730 Range: 0.030Recv: Standard Deviation: 0.008077
 
 **M48 L4 X107 Y185 V4**
-Recv: Mean: -2.661459 Min: -2.670 Max: -2.641 Range: 0.029Recv: Standard Deviation: 0.010041
-
+Recv: 10 of 10: z: -2.647 mean: -2.6651 sigma: 0.014015 min: -2.686 max: -2.645 range: 0.041Recv: Finished!Recv: Mean: -2.665061 Min: -2.686 Max: -2.645 Range: 0.041Recv: Standard Deviation: 0.014015
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU2ODUzNDEsMjA4NDMzMTY3NiwtMT
-gwMDgyNjk5NywtMTIwMDU0MjQwMiwxMzIwNzM1OTI3LDk1MzY3
-ODMyM119
+eyJoaXN0b3J5IjpbNTI2MjA4MjkxLC0xMDU1Njg1MzQxLDIwOD
+QzMzE2NzYsLTE4MDA4MjY5OTcsLTEyMDA1NDI0MDIsMTMyMDcz
+NTkyNyw5NTM2NzgzMjNdfQ==
 -->
