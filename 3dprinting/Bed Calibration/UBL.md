@@ -43,7 +43,7 @@ M211 S0
 4. Adjust down till you touch paper
 5. See setting
 M114
-That's your offset Z-0.71
+That's your offset Z-0.71 Z-2.56
 6. Set in firmware
 #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.71
 7. Do in terminal
@@ -60,8 +60,9 @@ G26 P10 //P10 primes with 10 mm of filament
 # Loading a mesh
 G29 L2 // to load 2nd slot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDgyNDc1NSwtMTM4MTkyNzA2NSwtMT
-kxMTQxNTc4OSwxNTI0MTEyOTQxLC0xMzk0MzA3OTExLDE4MDY5
-MzAyMjQsLTE0ODc4MjI3NzcsMTM4OTk0MzIzNSw4MzQyMDQyOT
-YsLTEyMzY4MzkxODQsLTk3NTgxMzE3Ml19
+eyJoaXN0b3J5IjpbLTE4NTEwNjk3NTksMTQ0NDgyNDc1NSwtMT
+M4MTkyNzA2NSwtMTkxMTQxNTc4OSwxNTI0MTEyOTQxLC0xMzk0
+MzA3OTExLDE4MDY5MzAyMjQsLTE0ODc4MjI3NzcsMTM4OTk0Mz
+IzNSw4MzQyMDQyOTYsLTEyMzY4MzkxODQsLTk3NTgxMzE3Ml19
+
 -->
