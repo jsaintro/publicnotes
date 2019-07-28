@@ -35,9 +35,10 @@ Recv: 10 of 10: z: -2.647 mean: -2.6651 sigma: 0.014015 min: -2.686 max: -2.645 
 
 Recv: 10 of 10: z: -2.657 mean: -2.6496 sigma: 0.008658 min: -2.670 max: -2.638 range: 0.032Recv: Finished!Recv: Mean: -2.649551 Min: -2.670 Max: -2.638 Range: 0.032Recv: Standard Deviation: 0.008658
 
+Recv: 10 of 10: z: -2.632 mean: -2.6402 sigma: 0.007809 min: -2.653 max: -2.627 range: 0.025Recv: Finished!Recv: Mean: -2.640237 Min: -2.653 Max: -2.627 Range: 0.025Recv: Standard Deviation: 0.007809
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTA3NTYzNCwtMTA1NTY4NTM0MSwyMD
+eyJoaXN0b3J5IjpbMTg0MDEwMjI4MywtMTA1NTY4NTM0MSwyMD
 g0MzMxNjc2LC0xODAwODI2OTk3LC0xMjAwNTQyNDAyLDEzMjA3
 MzU5MjcsOTUzNjc4MzIzXX0=
 -->
