@@ -26,7 +26,7 @@
     G28
     G29 P1 V3
     ```
-    Note: P1 is very high detail.  Maybe try P3 nexttime
+    Note: 
 4. Check out the output
     ```
     G29 T
@@ -70,9 +70,9 @@ G26 P5 //P10 primes with 10 mm of filament
 # Loading a mesh
 G29 L2 // to load 2nd slot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODc5ODU2MCwxMDY5MTIyNTg4LC05Nj
-UxMTk5NDIsMjIwOTI1Nzg5LDE0NDQ4MjQ3NTUsLTEzODE5Mjcw
-NjUsLTE5MTE0MTU3ODksMTUyNDExMjk0MSwtMTM5NDMwNzkxMS
-wxODA2OTMwMjI0LC0xNDg3ODIyNzc3LDEzODk5NDMyMzUsODM0
-MjA0Mjk2LC0xMjM2ODM5MTg0LC05NzU4MTMxNzJdfQ==
+eyJoaXN0b3J5IjpbLTIxMDAxNDI0MTgsMTA2OTEyMjU4OCwtOT
+Y1MTE5OTQyLDIyMDkyNTc4OSwxNDQ0ODI0NzU1LC0xMzgxOTI3
+MDY1LC0xOTExNDE1Nzg5LDE1MjQxMTI5NDEsLTEzOTQzMDc5MT
+EsMTgwNjkzMDIyNCwtMTQ4NzgyMjc3NywxMzg5OTQzMjM1LDgz
+NDIwNDI5NiwtMTIzNjgzOTE4NCwtOTc1ODEzMTcyXX0=
 -->
