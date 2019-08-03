@@ -30,8 +30,10 @@
     ```
     G29 T
     ```
-6. Save Mesh
- G29 S1
+5. Save Mesh
+    ```
+    G29 S1
+    ```
  8. Set Fade height
   G29 F 10.0 (Start leveling off the mesh buy 10mm
   9. Activate the UBL
@@ -65,9 +67,9 @@ G26 P5 //P10 primes with 10 mm of filament
 # Loading a mesh
 G29 L2 // to load 2nd slot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTU0NzM5MTcsMjIwOTI1Nzg5LDE0ND
-Q4MjQ3NTUsLTEzODE5MjcwNjUsLTE5MTE0MTU3ODksMTUyNDEx
-Mjk0MSwtMTM5NDMwNzkxMSwxODA2OTMwMjI0LC0xNDg3ODIyNz
-c3LDEzODk5NDMyMzUsODM0MjA0Mjk2LC0xMjM2ODM5MTg0LC05
-NzU4MTMxNzJdfQ==
+eyJoaXN0b3J5IjpbLTk2NTExOTk0MiwyMjA5MjU3ODksMTQ0ND
+gyNDc1NSwtMTM4MTkyNzA2NSwtMTkxMTQxNTc4OSwxNTI0MTEy
+OTQxLC0xMzk0MzA3OTExLDE4MDY5MzAyMjQsLTE0ODc4MjI3Nz
+csMTM4OTk0MzIzNSw4MzQyMDQyOTYsLTEyMzY4MzkxODQsLTk3
+NTgxMzE3Ml19
 -->
