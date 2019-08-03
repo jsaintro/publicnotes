@@ -58,7 +58,7 @@ That's your offset Z-0.71 Z-2.56
 #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.71
 7. Do in terminal
 M851 Z-0.71
-
+M500 //to save
 8. Run mesh validation print
 G28
 G26 P5 //P10 primes with 10 mm of filament
@@ -71,7 +71,7 @@ G26 P5 //P10 primes with 10 mm of filament
 # Loading a mesh
 G29 L2 // to load 2nd slot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODYyMjI3MiwtMjEwMDE0MjQxOCwxMD
+eyJoaXN0b3J5IjpbLTQyMTI3MzI3MCwtMjEwMDE0MjQxOCwxMD
 Y5MTIyNTg4LC05NjUxMTk5NDIsMjIwOTI1Nzg5LDE0NDQ4MjQ3
 NTUsLTEzODE5MjcwNjUsLTE5MTE0MTU3ODksMTUyNDExMjk0MS
 wtMTM5NDMwNzkxMSwxODA2OTMwMjI0LC0xNDg3ODIyNzc3LDEz
