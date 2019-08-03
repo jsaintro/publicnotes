@@ -22,8 +22,10 @@
   M140 S60
   M104 S210
 3. Probe bed
-4. G29 P1
-5. Check out the output
+   ```
+   G28
+5. G29 P1
+6. Check out the output
   G29 T
 7. Save Mesh
  G29 S1
@@ -60,9 +62,9 @@ G26 P5 //P10 primes with 10 mm of filament
 # Loading a mesh
 G29 L2 // to load 2nd slot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwOTI1Nzg5LDE0NDQ4MjQ3NTUsLTEzOD
-E5MjcwNjUsLTE5MTE0MTU3ODksMTUyNDExMjk0MSwtMTM5NDMw
-NzkxMSwxODA2OTMwMjI0LC0xNDg3ODIyNzc3LDEzODk5NDMyMz
-UsODM0MjA0Mjk2LC0xMjM2ODM5MTg0LC05NzU4MTMxNzJdfQ==
-
+eyJoaXN0b3J5IjpbLTQxMTM1MzU4NiwyMjA5MjU3ODksMTQ0ND
+gyNDc1NSwtMTM4MTkyNzA2NSwtMTkxMTQxNTc4OSwxNTI0MTEy
+OTQxLC0xMzk0MzA3OTExLDE4MDY5MzAyMjQsLTE0ODc4MjI3Nz
+csMTM4OTk0MzIzNSw4MzQyMDQyOTYsLTEyMzY4MzkxODQsLTk3
+NTgxMzE3Ml19
 -->
