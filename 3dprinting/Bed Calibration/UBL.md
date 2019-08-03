@@ -65,16 +65,22 @@ G26 P5 //P10 primes with 10 mm of filament
 9. Resave
  G29 S1
  M500
- 10. Tuning the bed 
- 11. [https://www.youtube.com/watch?v=ONpKxkil16Q](https://www.youtube.com/watch?v=ONpKxkil16Q) 13.58
- 12.  
+ # Fine Tuning Mesh
+ Use LCD go into mesh edit
+ scroll to point and adjust using paper
+ Will 
+ will automat Tuning the bed
+  
+ 12. [https://www.youtube.com/watch?v=ONpKxkil16Q](https://www.youtube.com/watch?v=ONpKxkil16Q) 13.58
+ 13.  
+ 1
 # Loading a mesh
 G29 L2 // to load 2nd slot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTI3MzI3MCwtMjEwMDE0MjQxOCwxMD
-Y5MTIyNTg4LC05NjUxMTk5NDIsMjIwOTI1Nzg5LDE0NDQ4MjQ3
-NTUsLTEzODE5MjcwNjUsLTE5MTE0MTU3ODksMTUyNDExMjk0MS
-wtMTM5NDMwNzkxMSwxODA2OTMwMjI0LC0xNDg3ODIyNzc3LDEz
-ODk5NDMyMzUsODM0MjA0Mjk2LC0xMjM2ODM5MTg0LC05NzU4MT
-MxNzJdfQ==
+eyJoaXN0b3J5IjpbLTIwMjg1MDg5MSwtNDIxMjczMjcwLC0yMT
+AwMTQyNDE4LDEwNjkxMjI1ODgsLTk2NTExOTk0MiwyMjA5MjU3
+ODksMTQ0NDgyNDc1NSwtMTM4MTkyNzA2NSwtMTkxMTQxNTc4OS
+wxNTI0MTEyOTQxLC0xMzk0MzA3OTExLDE4MDY5MzAyMjQsLTE0
+ODc4MjI3NzcsMTM4OTk0MzIzNSw4MzQyMDQyOTYsLTEyMzY4Mz
+kxODQsLTk3NTgxMzE3Ml19
 -->
