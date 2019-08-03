@@ -37,10 +37,9 @@
     ```
  8. Set Fade height
     ```
-    G29 F 10.0
+    G29 F10.0
     ```
-     Means should have it lev (Start leveling off the mesh buy 10mm
-  9. Activate the UBL
+     Gradually fade out the compensation by 10mm  9. Activate the UBL
   G29 A
   10. Save the settings
    M500
@@ -71,9 +70,9 @@ G26 P5 //P10 primes with 10 mm of filament
 # Loading a mesh
 G29 L2 // to load 2nd slot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODAyNzU0OTUsLTk2NTExOTk0MiwyMj
-A5MjU3ODksMTQ0NDgyNDc1NSwtMTM4MTkyNzA2NSwtMTkxMTQx
-NTc4OSwxNTI0MTEyOTQxLC0xMzk0MzA3OTExLDE4MDY5MzAyMj
-QsLTE0ODc4MjI3NzcsMTM4OTk0MzIzNSw4MzQyMDQyOTYsLTEy
-MzY4MzkxODQsLTk3NTgxMzE3Ml19
+eyJoaXN0b3J5IjpbMTA2OTEyMjU4OCwtOTY1MTE5OTQyLDIyMD
+kyNTc4OSwxNDQ0ODI0NzU1LC0xMzgxOTI3MDY1LC0xOTExNDE1
+Nzg5LDE1MjQxMTI5NDEsLTEzOTQzMDc5MTEsMTgwNjkzMDIyNC
+wtMTQ4NzgyMjc3NywxMzg5OTQzMjM1LDgzNDIwNDI5NiwtMTIz
+NjgzOTE4NCwtOTc1ODEzMTcyXX0=
 -->
