@@ -26,9 +26,11 @@
     G28
     G29 P1 V3
     ```
-6. Check out the output
-  G29 T
-7. Save Mesh
+4. Check out the output
+    ```
+    G29 T
+    ```
+6. Save Mesh
  G29 S1
  8. Set Fade height
   G29 F 10.0 (Start leveling off the mesh buy 10mm
@@ -63,9 +65,9 @@ G26 P5 //P10 primes with 10 mm of filament
 # Loading a mesh
 G29 L2 // to load 2nd slot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0NTA0NDUwLDIyMDkyNTc4OSwxNDQ0OD
-I0NzU1LC0xMzgxOTI3MDY1LC0xOTExNDE1Nzg5LDE1MjQxMTI5
-NDEsLTEzOTQzMDc5MTEsMTgwNjkzMDIyNCwtMTQ4NzgyMjc3Ny
-wxMzg5OTQzMjM1LDgzNDIwNDI5NiwtMTIzNjgzOTE4NCwtOTc1
-ODEzMTcyXX0=
+eyJoaXN0b3J5IjpbLTIwOTU0NzM5MTcsMjIwOTI1Nzg5LDE0ND
+Q4MjQ3NTUsLTEzODE5MjcwNjUsLTE5MTE0MTU3ODksMTUyNDEx
+Mjk0MSwtMTM5NDMwNzkxMSwxODA2OTMwMjI0LC0xNDg3ODIyNz
+c3LDEzODk5NDMyMzUsODM0MjA0Mjk2LC0xMjM2ODM5MTg0LC05
+NzU4MTMxNzJdfQ==
 -->
