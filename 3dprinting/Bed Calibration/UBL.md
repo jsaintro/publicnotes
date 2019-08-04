@@ -13,9 +13,13 @@
 
 # Operation
 1. Reset to defaults
-    M502
+	```
+	M502
+	```
 3. Save to eeprom
-  M500
+	```
+	M500
+	```
  3. Current eeprom settings
  M501
  4. Preheat bed and hotend
@@ -81,8 +85,9 @@ G29 L2 // to load 2nd slot
 # Pre Print Mesh Tilt
 G29 L1 // Load mesh one
 G29 J
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTU4NDAzOSwtODYyNDA1NjcxLDE1MT
+eyJoaXN0b3J5IjpbLTI5OTMxNjQ2MywtODYyNDA1NjcxLDE1MT
 kwNjU3OTAsLTIwMjg1MDg5MSwtNDIxMjczMjcwLC0yMTAwMTQy
 NDE4LDEwNjkxMjI1ODgsLTk2NTExOTk0MiwyMjA5MjU3ODksMT
 Q0NDgyNDc1NSwtMTM4MTkyNzA2NSwtMTkxMTQxNTc4OSwxNTI0
