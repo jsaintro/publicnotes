@@ -13,25 +13,25 @@
 
 # Operation
 1. Reset to defaults
-  M502
-2. Save to eeprom
+    M502
+3. Save to eeprom
   M500
  3. Current eeprom settings
  M501
  4. Preheat bed and hotend
   M140 S65
   M104 S210
-3. Probe bed
+4. Probe bed
     ```
     G28
     G29 P1 V3
     ```
     Note: 
-4. Check out the output
+5. Check out the output
     ```
     G29 T
     ```
-5. Save Mesh
+6. Save Mesh
     ```
     G29 S1
     ```
@@ -43,6 +43,7 @@
   G29 A
   10. Save the settings
    M500
+
 # Set probe offset
 1. Clear current
 M851 Z0
@@ -81,11 +82,11 @@ G29 L2 // to load 2nd slot
 G29 L1 // Load mesh one
 G29 J
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjQwNTY3MSwxNTE5MDY1NzkwLC0yMD
-I4NTA4OTEsLTQyMTI3MzI3MCwtMjEwMDE0MjQxOCwxMDY5MTIy
-NTg4LC05NjUxMTk5NDIsMjIwOTI1Nzg5LDE0NDQ4MjQ3NTUsLT
-EzODE5MjcwNjUsLTE5MTE0MTU3ODksMTUyNDExMjk0MSwtMTM5
-NDMwNzkxMSwxODA2OTMwMjI0LC0xNDg3ODIyNzc3LDEzODk5ND
-MyMzUsODM0MjA0Mjk2LC0xMjM2ODM5MTg0LC05NzU4MTMxNzJd
-fQ==
+eyJoaXN0b3J5IjpbMTA1NTU4NDAzOSwtODYyNDA1NjcxLDE1MT
+kwNjU3OTAsLTIwMjg1MDg5MSwtNDIxMjczMjcwLC0yMTAwMTQy
+NDE4LDEwNjkxMjI1ODgsLTk2NTExOTk0MiwyMjA5MjU3ODksMT
+Q0NDgyNDc1NSwtMTM4MTkyNzA2NSwtMTkxMTQxNTc4OSwxNTI0
+MTEyOTQxLC0xMzk0MzA3OTExLDE4MDY5MzAyMjQsLTE0ODc4Mj
+I3NzcsMTM4OTk0MzIzNSw4MzQyMDQyOTYsLTEyMzY4MzkxODQs
+LTk3NTgxMzE3Ml19
 -->
