@@ -11,11 +11,11 @@
 
 2. Uncompress
 
-       tar xf arduino-1.8.7-linux64.tar.xz
+       tar xf arduino-1.8.9-linux64.tar.xz
 
 3. Move to opt
 
-       sudo mv arduino-1.8.7-linux64/arduino-1.8.7 /opt
+       sudo mv arduino-1.8.9 /opt
 
 4. Install
 
@@ -42,5 +42,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDI1MjY4XX0=
+eyJoaXN0b3J5IjpbLTEzODI4NTczOTksMTYxMDI1MjY4XX0=
 -->
