@@ -10,6 +10,7 @@ vi /opt/arduino-1.8.7/hardware/arduino/avr/platform.txt
 compiler.c.elf.flags={compiler.warning_flags} -Os -g -flto -fuse-linker-plugin -Wl,-u,vfprintf -lprintf_flt -lm -Wl,--gc-sections
 ```
 Note: `-Wl,-u,vfprintf -lprintf_flt -lm` is what was added
+Note: You can probably skip this for just marlin
 5. Install TMC2130 Library
 Sketch/Include Library/Manage Libraries
 Search for `TMC2130Stepper`
@@ -25,10 +26,13 @@ Install the TMC2130Stepper library
 
 #define E0_DRIVER_TYPE TMC2130
 
+#define REPRAP_DISCOUNT_SMART_CONTROLLER
+
 ```
 
 3. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzcwOTczOSwtNTM4OTAyNzEyLC0xMT
-A5OTAwMzkxLDExMzkyNzIwMTgsMTM5MzI3NzE2MF19
+eyJoaXN0b3J5IjpbLTY3NTA5NTAxMSwxNjM3NzA5NzM5LC01Mz
+g5MDI3MTIsLTExMDk5MDAzOTEsMTEzOTI3MjAxOCwxMzkzMjc3
+MTYwXX0=
 -->
