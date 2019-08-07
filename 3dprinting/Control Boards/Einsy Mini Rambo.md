@@ -4,9 +4,15 @@
 	1.  Open Arduino and navigate to File -> Preferences -> Settings
 	2. To the text field  `"Additional Boards Manager URLSs"`  add `https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/package_prusa3d_index.json`
 -   Open Board manager (`Tools->Board->Board manager`), and install  `Prusa Research AVR MK3 RAMBo EINSy board`
-3. Install TMC2130 Library
+3. Add compiler options
+```
+vi /opt/arduino-1.8.7/hardware/arduino/avr/platform.txt
+compiler.c.elf.flags={compiler.warning_flags} -Os -g -flto -fuse-linker-plugin -Wl,-u,vfprintf -lprintf_flt -lm -Wl,--gc-sections
+```
+Note: `-Wl,-u,vfprintf -lprintf_flt -lm` is what was added
+5. Install TMC2130 Library
 Tools/Manage Library
-4. Select configuration.h
+6. Select configuration.h
 ```
 #define MOTHERBOARD BOARD_EINSY_RAMBO
 
@@ -20,6 +26,6 @@ Tools/Manage Library
 
 3. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2Mzg0MjkzNCwxMTM5MjcyMDE4LDEzOT
-MyNzcxNjBdfQ==
+eyJoaXN0b3J5IjpbLTExMDk5MDAzOTEsMTEzOTI3MjAxOCwxMz
+kzMjc3MTYwXX0=
 -->
