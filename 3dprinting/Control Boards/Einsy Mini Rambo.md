@@ -3,7 +3,7 @@
 2. Get the board config
 	1.  Open Arduino and navigate to File -> Preferences -> Settings
 	2. To the text field  `"Additional Boards Manager URLSs"`  add `https://raw.githubusercontent.com/ultimachine/ArduinoAddons/master/package_ultimachine_index.json`
--   Open Board manager (`Tools->Board->Board manager`), and install  `Prusa Research AVR MK3 RAMBo EINSy board`
+-   Open Board manager (`Tools->Board->Board manager`), and install  `Rambo`
 3. Add compiler options
 ```
 vi /opt/arduino-1.8.7/hardware/arduino/avr/platform.txt
@@ -29,6 +29,6 @@ Install the TMC2130Stepper library
 
 3. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3ODIxNjY5LC01Mzg5MDI3MTIsLTExMD
-k5MDAzOTEsMTEzOTI3MjAxOCwxMzkzMjc3MTYwXX0=
+eyJoaXN0b3J5IjpbMTYzNzcwOTczOSwtNTM4OTAyNzEyLC0xMT
+A5OTAwMzkxLDExMzkyNzIwMTgsMTM5MzI3NzE2MF19
 -->
