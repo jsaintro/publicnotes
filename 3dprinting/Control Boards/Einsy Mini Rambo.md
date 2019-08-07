@@ -1,8 +1,12 @@
 # Configure Marlin Firmware
 1. Open up Arduino IDE
-2. Install TMC2130 Library
+2. Get the board config
+3. -   Open Arduino and navigate to File -> Preferences -> Settings
+-   To the text field  `"Additional Boards Manager URLSs"`  add  `https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/package_prusa3d_index.json`
+-   Open Board manager (`Tools->Board->Board manager`), and install  `Prusa Research AVR MK3 RAMBo EINSy board`
+4. Install TMC2130 Library
 Tools/Manage Library
-4. Select configuration.h
+5. Select configuration.h
 ```
 #define MOTHERBOARD BOARD_EINSY_RAMBO
 
@@ -16,5 +20,5 @@ Tools/Manage Library
 
 3. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzI3NzE2MF19
+eyJoaXN0b3J5IjpbMTEzOTI3MjAxOCwxMzkzMjc3MTYwXX0=
 -->
