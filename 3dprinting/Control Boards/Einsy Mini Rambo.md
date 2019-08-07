@@ -11,7 +11,10 @@ compiler.c.elf.flags={compiler.warning_flags} -Os -g -flto -fuse-linker-plugin -
 ```
 Note: `-Wl,-u,vfprintf -lprintf_flt -lm` is what was added
 5. Install TMC2130 Library
-Sketch/Include Librar
+Sketch/Include Library/Manage Libraries
+Search for `TMC2130Stepper`
+Install the TMC2130Stepper library
+
 6. Select configuration.h
 ```
 #define MOTHERBOARD BOARD_EINSY_RAMBO
@@ -26,6 +29,6 @@ Sketch/Include Librar
 
 3. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU4NTUyNDIsLTExMDk5MDAzOTEsMT
-EzOTI3MjAxOCwxMzkzMjc3MTYwXX0=
+eyJoaXN0b3J5IjpbLTUzODkwMjcxMiwtMTEwOTkwMDM5MSwxMT
+M5MjcyMDE4LDEzOTMyNzcxNjBdfQ==
 -->
