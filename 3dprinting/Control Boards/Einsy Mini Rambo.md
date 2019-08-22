@@ -6,11 +6,12 @@
 -   Open Board manager (`Tools->Board->Board manager`), and install  `Rambo`
 3. Add compiler options
 ```
-vi /opt/arduino-1.8.7/hardware/arduino/avr/platform.txt
+vi /opt/arduino-{version}/hardware/arduino/avr/platform.txt
 compiler.c.elf.flags={compiler.warning_flags} -Os -g -flto -fuse-linker-plugin -Wl,-u,vfprintf -lprintf_flt -lm -Wl,--gc-sections
 ```
 Note: `-Wl,-u,vfprintf -lprintf_flt -lm` is what was added
 Note: You can probably skip this for just marlin
+Note: make sure you use the right version for the arduino ide your using.  Aka if you upgrade.
 5. Install TMC2130 Library
 Sketch/Include Library/Manage Libraries
 Search for `TMC2130Stepper`
@@ -32,7 +33,7 @@ Install the TMC2130Stepper library
 
 3. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODA4NjM2OCwtNjc1MDk1MDExLDE2Mz
-c3MDk3MzksLTUzODkwMjcxMiwtMTEwOTkwMDM5MSwxMTM5Mjcy
-MDE4LDEzOTMyNzcxNjBdfQ==
+eyJoaXN0b3J5IjpbMTQ4NDI5OTA0MiwxMDg4MDg2MzY4LC02Nz
+UwOTUwMTEsMTYzNzcwOTczOSwtNTM4OTAyNzEyLC0xMTA5OTAw
+MzkxLDExMzkyNzIwMTgsMTM5MzI3NzE2MF19
 -->
