@@ -18,7 +18,9 @@
 3. Go in 5 deg C increments up to 120 (on the termocouple
    Wait 3min between to allow temp to stabilize
 
-B25 
+ADC B:25.6C->975.75000 26C
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjgyMTUwLC0xMzMzMTE2Mjc1XX0=
+eyJoaXN0b3J5IjpbLTExMjM1OTk0MzAsLTE2NjgyMTUwLC0xMz
+MzMTE2Mjc1XX0=
 -->
