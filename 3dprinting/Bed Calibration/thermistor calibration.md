@@ -9,13 +9,16 @@
 ## Setup Firmware
 1. edit configuration_adv.h
     `#define SHOW_TEMP_ADC_VALUES`
-2. Use M115 to get values
+2. Edit configuration_prusa.h
+   `#define BED_MAXTEMP 140` from 125
+   **NOTE SET THIS BACK WHEN DONE WITH THESE TEST**
+4. Use M115 to get values
     ```
     ADC B:24.2C->978.31250
     ```
     Record termocouple value
     
-3. Go in 5 deg C increments up to 120 (on the termocouple
+5. Go in 5 deg C increments up to 120 (on the termocouple
    Wait 3min between to allow temp to stabilize
 
 ADC B:25.6C->975.75000 26C
@@ -42,11 +45,11 @@ ADC B:120.2C->514.31250 110C 111.0C
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDAzMDc5OCwtMTczOTk2NDc1MywxMj
-M5MjY5NTE4LC02OTQyODU0NjAsODE3OTYyNDI3LDE5NTE5ODAw
-NDMsMjUxNTcwNDcwLC00NTkxMDMyMDUsODMwNjg2MDAwLC0yMT
-MwODQ0MTA0LDExMTkxNjg1NzQsMTY1MjIxMzI0Nyw3ODY5MjYz
-ODEsMTMyNTcwNjQ3OCwtMjAyODQyMDE2OCwxNzc5NzU2NTY5LC
-0xNDExMzczMzM0LDEzMTczNzUwMzYsLTExMjM1OTk0MzAsLTE2
-NjgyMTUwXX0=
+eyJoaXN0b3J5IjpbMjk3MzA2NTg5LDEwMDAwMzA3OTgsLTE3Mz
+k5NjQ3NTMsMTIzOTI2OTUxOCwtNjk0Mjg1NDYwLDgxNzk2MjQy
+NywxOTUxOTgwMDQzLDI1MTU3MDQ3MCwtNDU5MTAzMjA1LDgzMD
+Y4NjAwMCwtMjEzMDg0NDEwNCwxMTE5MTY4NTc0LDE2NTIyMTMy
+NDcsNzg2OTI2MzgxLDEzMjU3MDY0NzgsLTIwMjg0MjAxNjgsMT
+c3OTc1NjU2OSwtMTQxMTM3MzMzNCwxMzE3Mzc1MDM2LC0xMTIz
+NTk5NDMwXX0=
 -->
