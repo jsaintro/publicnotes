@@ -19,8 +19,9 @@
    Wait 3min between to allow temp to stabilize
 
 ADC B:25.6C->975.75000 26C
+ADC B:30.7C->964.43750 30C
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM1OTk0MzAsLTE2NjgyMTUwLC0xMz
-MzMTE2Mjc1XX0=
+eyJoaXN0b3J5IjpbMTMxNzM3NTAzNiwtMTEyMzU5OTQzMCwtMT
+Y2ODIxNTAsLTEzMzMxMTYyNzVdfQ==
 -->
