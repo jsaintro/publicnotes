@@ -2,10 +2,10 @@
 
 ## Physical Placement
 
-1. Place thermocouple on bed
+1. Place thermocouple on bed (Should be as close to thermistor location as possible/accept on top of bed)
 2. Place fiberglass pipe insulation over thermocouple
-3. Place pieced of card board on top of insulation (To evenly compre
-4. Manually lower hot end over insulation and thermocouple to secure
+3. Place pieced of card board on top of insulation (To evenly compress when we lower hotend)
+4. Manually lower hot end over cardboard insulation to secure and insulate thermocouple to bed
 
 ## Setup Firmware
 1. edit configuration_adv.h
@@ -51,11 +51,11 @@ ADC B:125.1C->479.00000  117C 119.5C
    `#define BED_MAXTEMP 125`
     **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDkyODQzMTQsLTQ4NDcxNTE4MiwxNz
-M2NjkwMjI5LDEwMDAwMzA3OTgsLTE3Mzk5NjQ3NTMsMTIzOTI2
-OTUxOCwtNjk0Mjg1NDYwLDgxNzk2MjQyNywxOTUxOTgwMDQzLD
-I1MTU3MDQ3MCwtNDU5MTAzMjA1LDgzMDY4NjAwMCwtMjEzMDg0
-NDEwNCwxMTE5MTY4NTc0LDE2NTIyMTMyNDcsNzg2OTI2MzgxLD
-EzMjU3MDY0NzgsLTIwMjg0MjAxNjgsMTc3OTc1NjU2OSwtMTQx
-MTM3MzMzNF19
+eyJoaXN0b3J5IjpbMTQ2MDk5NTk2MywtNDg0NzE1MTgyLDE3Mz
+Y2OTAyMjksMTAwMDAzMDc5OCwtMTczOTk2NDc1MywxMjM5MjY5
+NTE4LC02OTQyODU0NjAsODE3OTYyNDI3LDE5NTE5ODAwNDMsMj
+UxNTcwNDcwLC00NTkxMDMyMDUsODMwNjg2MDAwLC0yMTMwODQ0
+MTA0LDExMTkxNjg1NzQsMTY1MjIxMzI0Nyw3ODY5MjYzODEsMT
+MyNTcwNjQ3OCwtMjAyODQyMDE2OCwxNzc5NzU2NTY5LC0xNDEx
+MzczMzM0XX0=
 -->
