@@ -9,7 +9,12 @@
 ## Setup Firmware
 1. edit configuration_adv.h
     `#define SHOW_TEMP_ADC_VALUES`
-2. 
+2. Use M115 to get values
+    ```
+    ADC B:24.2C->978.31250
+    ```
+    Record termocouple value
+3. Go in 5 deg C increments up to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzMxMTYyNzVdfQ==
+eyJoaXN0b3J5IjpbLTMwNTUwNTczNywtMTMzMzExNjI3NV19
 -->
