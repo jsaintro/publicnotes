@@ -11,7 +11,7 @@
     `#define SHOW_TEMP_ADC_VALUES`
 2. Edit configuration_prusa.h
    `#define BED_MAXTEMP 140` from 125
-   **NOTE SET THIS BACK WHEN DONE WITH THESE TEST**
+   **NOTE SET THIS BACK WHEN DONE WITH THESE TESTS!!**
 4. Use M115 to get values
     ```
     ADC B:24.2C->978.31250
@@ -20,6 +20,7 @@
     
 5. Go in 5 deg C increments up to 120 (on the termocouple
    Wait 3min between to allow temp to stabilize
+   Don't exceed a reading of 139C on the thermoco
 
 ADC B:25.6C->975.75000 26C
 ADC B:30.7C->964.43750 30C
@@ -43,9 +44,11 @@ ADC B:115.2C->551.43750 106C 106.0C
 ADC B:120.2C->514.31250 110C 111.0C
 
 
-
+2. Edit configuration_prusa.h
+   `#define BED_MAXTEMP 125`
+    **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3MzA2NTg5LDEwMDAwMzA3OTgsLTE3Mz
+eyJoaXN0b3J5IjpbOTc5NzI5OTIwLDEwMDAwMzA3OTgsLTE3Mz
 k5NjQ3NTMsMTIzOTI2OTUxOCwtNjk0Mjg1NDYwLDgxNzk2MjQy
 NywxOTUxOTgwMDQzLDI1MTU3MDQ3MCwtNDU5MTAzMjA1LDgzMD
 Y4NjAwMCwtMjEzMDg0NDEwNCwxMTE5MTY4NTc0LDE2NTIyMTMy
