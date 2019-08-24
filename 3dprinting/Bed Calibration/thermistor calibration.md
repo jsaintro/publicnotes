@@ -7,7 +7,9 @@
 3. Manually lower hot end over insulation and thermocouple to secure
 
 ## Setup Firmware
-
+1. edit configuration_adv.h
+    `#define SHOW_TEMP_ADC_VALUES`
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjE0ODY5Nl19
+eyJoaXN0b3J5IjpbLTEzMzMxMTYyNzVdfQ==
 -->
