@@ -14,7 +14,11 @@
     ADC B:24.2C->978.31250
     ```
     Record termocouple value
-3. Go in 5 deg C increments up to 
+    
+3. Go in 5 deg C increments up to 120 (on the termocouple
+   Wait 3min between to allow temp to stabilize
+
+B
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTUwNTczNywtMTMzMzExNjI3NV19
+eyJoaXN0b3J5IjpbMTg2Mjc2NDg2MSwtMTMzMzExNjI3NV19
 -->
