@@ -4,7 +4,8 @@
 
 1. Place thermocouple on bed
 2. Place fiberglass pipe insulation over thermocouple
-3. Manually lower hot end over insulation and thermocouple to secure
+3. Place pieced of card board on top of insulation (To evenly compre
+4. Manually lower hot end over insulation and thermocouple to secure
 
 ## Setup Firmware
 1. edit configuration_adv.h
@@ -50,11 +51,11 @@ ADC B:125.1C->479.00000  117C 119.5C
    `#define BED_MAXTEMP 125`
     **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1ODE1OTk3LC00ODQ3MTUxODIsMTczNj
-Y5MDIyOSwxMDAwMDMwNzk4LC0xNzM5OTY0NzUzLDEyMzkyNjk1
-MTgsLTY5NDI4NTQ2MCw4MTc5NjI0MjcsMTk1MTk4MDA0MywyNT
-E1NzA0NzAsLTQ1OTEwMzIwNSw4MzA2ODYwMDAsLTIxMzA4NDQx
-MDQsMTExOTE2ODU3NCwxNjUyMjEzMjQ3LDc4NjkyNjM4MSwxMz
-I1NzA2NDc4LC0yMDI4NDIwMTY4LDE3Nzk3NTY1NjksLTE0MTEz
-NzMzMzRdfQ==
+eyJoaXN0b3J5IjpbLTE2MDkyODQzMTQsLTQ4NDcxNTE4MiwxNz
+M2NjkwMjI5LDEwMDAwMzA3OTgsLTE3Mzk5NjQ3NTMsMTIzOTI2
+OTUxOCwtNjk0Mjg1NDYwLDgxNzk2MjQyNywxOTUxOTgwMDQzLD
+I1MTU3MDQ3MCwtNDU5MTAzMjA1LDgzMDY4NjAwMCwtMjEzMDg0
+NDEwNCwxMTE5MTY4NTc0LDE2NTIyMTMyNDcsNzg2OTI2MzgxLD
+EzMjU3MDY0NzgsLTIwMjg0MjAxNjgsMTc3OTc1NjU2OSwtMTQx
+MTM3MzMzNF19
 -->
