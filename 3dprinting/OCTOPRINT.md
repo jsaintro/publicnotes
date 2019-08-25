@@ -83,10 +83,11 @@ Exit the arduino IDE (it overwrites the preferences file on exit)
 /home/jsaintrocc/.arduino15/preferences.txt
 build.path=/home/jsaintrocc/ArduinoBins/
 
-Install 
+## To install FW
+Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDc4MDg0Niw5Mjc3MTU2OCw5NTQ4MD
-MwMzAsODU2MzE3Mzc3LDE3NDQzNjEwOTIsMTk0Mzg1NzM0MSwx
-MjU1NjczODM0XX0=
+eyJoaXN0b3J5IjpbNDQyOTE0MjA0LDkyNzcxNTY4LDk1NDgwMz
+AzMCw4NTYzMTczNzcsMTc0NDM2MTA5MiwxOTQzODU3MzQxLDEy
+NTU2NzM4MzRdfQ==
 -->
