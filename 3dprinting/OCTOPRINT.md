@@ -81,10 +81,11 @@ baud rate: 115200
 Edit arduino ide preferences and set a not temp location for builds
 Exit the arduino IDE (it overwrites the preferences file on exit)
 /home/jsaintrocc/.arduino15/preferences.txt
-build.path=/home/jsaintrocc/Arduino/binaries
+build.path=/home/jsaintrocc/ArduinoBins/
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3NzE1NjgsOTU0ODAzMDMwLDg1NjMxNz
-M3NywxNzQ0MzYxMDkyLDE5NDM4NTczNDEsMTI1NTY3MzgzNF19
-
+eyJoaXN0b3J5IjpbNzUzMzE0ODI1LDkyNzcxNTY4LDk1NDgwMz
+AzMCw4NTYzMTczNzcsMTc0NDM2MTA5MiwxOTQzODU3MzQxLDEy
+NTU2NzM4MzRdfQ==
 -->
