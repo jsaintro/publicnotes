@@ -14,13 +14,19 @@
 2. Edit configuration_prusa.h
    `#define BED_MAXTEMP 140` from 125
    **NOTE SET THIS BACK WHEN DONE WITH THESE TESTS!!**
-4. Use M105 to get values
+3. Install the new firmware
+4. REset the eeprom (This is important)
+    ```
+    M502
+    M500
+    ```
+6. Use M105 to get values
     ```
     ADC B:24.2C->978.31250
     ```
     Record termocouple value
     
-5. Go in 5 deg C increments up to 120 (on the termocouple
+7. Go in 5 deg C increments up to 120 (on the termocouple
    Wait 3min between to allow temp to stabilize
    Don't exceed a reading of 139C on the thermocuple
 
@@ -55,11 +61,11 @@ ADC B:130.2C->443.87500 129C 130.5C R2
    `#define BED_MAXTEMP 125`
     **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxMzY3MTMsLTUyNTM2MjE1LC0xNzk0Mj
-Q1MTcwLDQ0MjEyNTg2NiwyOTcwNzI4MTEsNDg1NjkzOTkzLC05
-MjE3ODkyNTcsMTE1NjM1NTM3NywyMDUxMDgxNTgwLC00MDA2OT
-YxMjIsMTM5MDA4MTU5LC00Mjg4OTQ3MTEsLTE4NDAzMDA1OTUs
-LTEyMTY2NjM2NDYsLTEyNzIwMTI3MDcsLTEzNTM0OTE4OSwtMT
-Y2NjA4ODYxOSwtMTY4ODMxNDgxNCwxNzA2OTIyOTQ5LDE3NjI2
-MzM0OV19
+eyJoaXN0b3J5IjpbLTEyNjE5MDQ0NzIsMzgxMzY3MTMsLTUyNT
+M2MjE1LC0xNzk0MjQ1MTcwLDQ0MjEyNTg2NiwyOTcwNzI4MTEs
+NDg1NjkzOTkzLC05MjE3ODkyNTcsMTE1NjM1NTM3NywyMDUxMD
+gxNTgwLC00MDA2OTYxMjIsMTM5MDA4MTU5LC00Mjg4OTQ3MTEs
+LTE4NDAzMDA1OTUsLTEyMTY2NjM2NDYsLTEyNzIwMTI3MDcsLT
+EzNTM0OTE4OSwtMTY2NjA4ODYxOSwtMTY4ODMxNDgxNCwxNzA2
+OTIyOTQ5XX0=
 -->
