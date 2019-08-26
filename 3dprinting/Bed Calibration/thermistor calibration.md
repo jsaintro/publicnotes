@@ -6,7 +6,7 @@
 2. secure with capton tape.  Just to keep in place.  don't have to cover head
 3. Place fiberglass pipe insulation over thermocouple
 4. Place pieced of card board on top of insulation (To evenly compress when we lower hotend)
-5. Manually lower hot end over cardboard insulation to secure and insulate thermocouple to bed 
+5. Manually lower hot end over cardboard insulation to secure and insulate thermocouple to bed not super squshed but secure enough so air isn't making it to the thermocouple
 
 ## Setup Firmware
 1. edit configuration_adv.h
@@ -14,11 +14,7 @@
 2. Edit configuration_prusa.h
    `#define BED_MAXTEMP 140` from 125
    **NOTE SET THIS BACK WHEN DONE WITH THESE TESTS!!**
-4. Use M10
-|  |  |
-|--|--|
-|  |  |
-5 to get values
+4. Use M105 to get values
     ```
     ADC B:24.2C->978.31250
     ```
@@ -59,11 +55,11 @@ ADC B:130.2C->443.87500 129C 130.5C R2
    `#define BED_MAXTEMP 125`
     **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1NDg5NjMyLC01MjUzNjIxNSwtMTc5ND
-I0NTE3MCw0NDIxMjU4NjYsMjk3MDcyODExLDQ4NTY5Mzk5Mywt
-OTIxNzg5MjU3LDExNTYzNTUzNzcsMjA1MTA4MTU4MCwtNDAwNj
-k2MTIyLDEzOTAwODE1OSwtNDI4ODk0NzExLC0xODQwMzAwNTk1
-LC0xMjE2NjYzNjQ2LC0xMjcyMDEyNzA3LC0xMzUzNDkxODksLT
-E2NjYwODg2MTksLTE2ODgzMTQ4MTQsMTcwNjkyMjk0OSwxNzYy
-NjMzNDldfQ==
+eyJoaXN0b3J5IjpbMzgxMzY3MTMsLTUyNTM2MjE1LC0xNzk0Mj
+Q1MTcwLDQ0MjEyNTg2NiwyOTcwNzI4MTEsNDg1NjkzOTkzLC05
+MjE3ODkyNTcsMTE1NjM1NTM3NywyMDUxMDgxNTgwLC00MDA2OT
+YxMjIsMTM5MDA4MTU5LC00Mjg4OTQ3MTEsLTE4NDAzMDA1OTUs
+LTEyMTY2NjM2NDYsLTEyNzIwMTI3MDcsLTEzNTM0OTE4OSwtMT
+Y2NjA4ODYxOSwtMTY4ODMxNDgxNCwxNzA2OTIyOTQ5LDE3NjI2
+MzM0OV19
 -->
