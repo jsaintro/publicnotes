@@ -20,8 +20,8 @@ Install the TMC2130Stepper library
 2. Copy variants/1_75mm_MK3-RAMBo10a-E3Dv6full.h To Configuration_prusa.h
 3. vi config.h
     #define LANG_MODE              0
-4. 
+4. Compile and install
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTE4NzQyMl19
+eyJoaXN0b3J5IjpbNjk4MTEzMjYxXX0=
 -->
