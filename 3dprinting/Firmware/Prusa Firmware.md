@@ -2,7 +2,7 @@
 ## Setup the libs in the arduino IDE
 2. Get the board config
 	1.  Open Arduino and navigate to File -> Preferences -> Settings
-	2. To the text field  `"Additional Boards Manager URLSs"`  add `https://raw.githubusercontent.com/ultimachine/ArduinoAddons/master/package_ultimachine_index.json`
+	2. To the text field  `"Additional Boards Manager URLSs"`  add `https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/package_prusa3d_index.json`
 -   Open Board manager (`Tools->Board->Board manager`), and install  `Rambo`
 3. Add compiler options
 ```
@@ -24,5 +24,5 @@ Install the TMC2130Stepper library
 4. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5MzcwNDM3XX0=
+eyJoaXN0b3J5IjpbNTU5NDg1Mjk0XX0=
 -->
