@@ -1,7 +1,9 @@
 
 
 
-Knob CW is down CCW is up
+Knob
+ CCW is down
+ CW is up
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzE1OTI5Nl19
+eyJoaXN0b3J5IjpbMTI4ODA0NDU3OCwxMTg3MTU5Mjk2XX0=
 -->
