@@ -14,7 +14,8 @@ Remove any melted filament from nozzle
 Clean off bed surface
 Use alcohol prep pad on cold bed
 
-Check wiring (Frayed too tight/
+Check wiring (Frayed too tight/broken cable management
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODMyOTMxM119
+eyJoaXN0b3J5IjpbLTIyMzgwMzQ3Ml19
 -->
