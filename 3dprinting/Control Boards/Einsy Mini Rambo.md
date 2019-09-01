@@ -31,9 +31,16 @@ Install the TMC2130Stepper library
 //#define MESH_EDIT_GFX_OVERLAY
 ```
 
-3. Inst
+7. Edit configuration_adv.h
+```
+
+  #define R_SENSE           0.11  // R_sense resistor for SilentStepStick2130
+```
+
+9. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDI5OTA0MiwxMDg4MDg2MzY4LC02Nz
-UwOTUwMTEsMTYzNzcwOTczOSwtNTM4OTAyNzEyLC0xMTA5OTAw
-MzkxLDExMzkyNzIwMTgsMTM5MzI3NzE2MF19
+eyJoaXN0b3J5IjpbLTM3MTYwNzU3NiwxNDg0Mjk5MDQyLDEwOD
+gwODYzNjgsLTY3NTA5NTAxMSwxNjM3NzA5NzM5LC01Mzg5MDI3
+MTIsLTExMDk5MDAzOTEsMTEzOTI3MjAxOCwxMzkzMjc3MTYwXX
+0=
 -->
