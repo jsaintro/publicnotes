@@ -1,5 +1,5 @@
 # Configure Marlin Firmware
-## Setup
+## Setup Dependencies
 1. Open up Arduino IDE
 2. Get the board config
 	1.  Open Arduino and navigate to File -> Preferences -> Settings
@@ -22,7 +22,8 @@
 	2. Search for `TMC2130Stepper`
 	3. Install the `TMC2130Stepper` library
 
-6. Select configuration.h
+## Einsy Specific Config
+1. Select configuration.h
 ```
 #define BAUDRATE 115200
 
@@ -44,10 +45,10 @@
 #define R_SENSE           0.22  // R_sense resistor for SilentStepStick2130
 ```
 
-9. Inst
+9. Install
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTcxNTI2OCwtMTE2OTIyMTcxMSwtOD
-kyMDg0MzM1LDE0ODQyOTkwNDIsMTA4ODA4NjM2OCwtNjc1MDk1
-MDExLDE2Mzc3MDk3MzksLTUzODkwMjcxMiwtMTEwOTkwMDM5MS
-wxMTM5MjcyMDE4LDEzOTMyNzcxNjBdfQ==
+eyJoaXN0b3J5IjpbODEzNTc1OTU1LC0xMTY5MjIxNzExLC04OT
+IwODQzMzUsMTQ4NDI5OTA0MiwxMDg4MDg2MzY4LC02NzUwOTUw
+MTEsMTYzNzcwOTczOSwtNTM4OTAyNzEyLC0xMTA5OTAwMzkxLD
+ExMzkyNzIwMTgsMTM5MzI3NzE2MF19
 -->
