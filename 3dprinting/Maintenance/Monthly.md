@@ -1,8 +1,8 @@
 
 
-## Extruder gear
-Lubricate bondtech gears
-  Super Lube grease on synchro gears and needle bearings
+## Extruder gears (Bondtech)
+1. Apply Super luge to drive gears (Not part that grips filament
+2. Remove the idler part and lube the needle bearing with Super Lube
 
 ## Linear Rods
 1. Wipe the rod clean
@@ -13,5 +13,5 @@ Lubricate bondtech gears
 ## Lead Screws
 Same as `Linear Rods` process
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTI5NjIyLDE4NzgyMDE0MjBdfQ==
+eyJoaXN0b3J5IjpbMTg2MTM1MjIzMywxODc4MjAxNDIwXX0=
 -->
