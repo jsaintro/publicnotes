@@ -19,6 +19,8 @@ Install the TMC2130Stepper library
 
 6. Select configuration.h
 ```
+#define BAUDRATE 115200
+
 #define MOTHERBOARD BOARD_EINSY_RAMBO
 
 #define X_DRIVER_TYPE  TMC2130
@@ -39,8 +41,8 @@ Install the TMC2130Stepper library
 
 9. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTgxMTYxLDE0ODQyOTkwNDIsMTA4OD
-A4NjM2OCwtNjc1MDk1MDExLDE2Mzc3MDk3MzksLTUzODkwMjcx
-MiwtMTEwOTkwMDM5MSwxMTM5MjcyMDE4LDEzOTMyNzcxNjBdfQ
-==
+eyJoaXN0b3J5IjpbLTEwNzQ4ODk0NDIsMTQ4NDI5OTA0MiwxMD
+g4MDg2MzY4LC02NzUwOTUwMTEsMTYzNzcwOTczOSwtNTM4OTAy
+NzEyLC0xMTA5OTAwMzkxLDExMzkyNzIwMTgsMTM5MzI3NzE2MF
+19
 -->
