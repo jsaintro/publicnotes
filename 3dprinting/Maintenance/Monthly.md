@@ -12,6 +12,11 @@
 
 ## Lead Screws
 Same as `Linear Rods` process
+
+## Grease
+Use Super Lube Multi-Purpose Synthetic Grease with Syncolon (PTFE)
+This is available at Logan hardware in a 3 oz tube (You keep it with the glues in the carriage house)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTM1MjIzMywxODc4MjAxNDIwXX0=
+eyJoaXN0b3J5IjpbLTE2NjY2ODk3MDcsMTg2MTM1MjIzMywxOD
+c4MjAxNDIwXX0=
 -->
