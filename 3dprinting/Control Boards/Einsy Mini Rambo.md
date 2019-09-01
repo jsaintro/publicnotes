@@ -44,12 +44,15 @@
 ```
 //#define E0_AUTO_FAN_PIN -1 // Comment this out to enable it??!!
 #define R_SENSE           0.22  // R_sense resistor for SilentStepStick2130
+
+#define FILAMENT_LOAD_UNLOAD_GCODES 
 ```
 
 9. Install
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjQwNzUwNCw4MTM1NzU5NTUsLTExNj
-kyMjE3MTEsLTg5MjA4NDMzNSwxNDg0Mjk5MDQyLDEwODgwODYz
-NjgsLTY3NTA5NTAxMSwxNjM3NzA5NzM5LC01Mzg5MDI3MTIsLT
-ExMDk5MDAzOTEsMTEzOTI3MjAxOCwxMzkzMjc3MTYwXX0=
+eyJoaXN0b3J5IjpbMjA2NjAzNTk0MywxNDMyNDA3NTA0LDgxMz
+U3NTk1NSwtMTE2OTIyMTcxMSwtODkyMDg0MzM1LDE0ODQyOTkw
+NDIsMTA4ODA4NjM2OCwtNjc1MDk1MDExLDE2Mzc3MDk3MzksLT
+UzODkwMjcxMiwtMTEwOTkwMDM5MSwxMTM5MjcyMDE4LDEzOTMy
+NzcxNjBdfQ==
 -->
