@@ -6,6 +6,7 @@
 -   Open Board manager (`Tools->Board->Board manager`), and install  `Rambo`
 3. Add compiler options
 ```
+Note: if you get an spi.h missing error it's because you're didn'
 vi /opt/arduino-{version}/hardware/arduino/avr/platform.txt
 compiler.c.elf.flags={compiler.warning_flags} -Os -g -flto -fuse-linker-plugin -Wl,-u,vfprintf -lprintf_flt -lm -Wl,--gc-sections
 ```
@@ -40,8 +41,8 @@ Install the TMC2130Stepper library
 
 9. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjkyMjE3MTEsLTg5MjA4NDMzNSwxND
-g0Mjk5MDQyLDEwODgwODYzNjgsLTY3NTA5NTAxMSwxNjM3NzA5
-NzM5LC01Mzg5MDI3MTIsLTExMDk5MDAzOTEsMTEzOTI3MjAxOC
-wxMzkzMjc3MTYwXX0=
+eyJoaXN0b3J5IjpbLTc3OTM2MjU3MCwtMTE2OTIyMTcxMSwtOD
+kyMDg0MzM1LDE0ODQyOTkwNDIsMTA4ODA4NjM2OCwtNjc1MDk1
+MDExLDE2Mzc3MDk3MzksLTUzODkwMjcxMiwtMTEwOTkwMDM5MS
+wxMTM5MjcyMDE4LDEzOTMyNzcxNjBdfQ==
 -->
