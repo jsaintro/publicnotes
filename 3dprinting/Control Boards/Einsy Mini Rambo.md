@@ -4,18 +4,18 @@
 	1.  Open Arduino and navigate to File -> Preferences -> Settings
 	2. To the text field  `"Additional Boards Manager URLSs"`  add
 		 `https://raw.githubusercontent.com/ultimachine/ArduinoAddons/master/package_ultimachine_index.json`
-	. Open Board manager (`Tools->Board->Board manager`), and install  `Rambo`
+	1. Open Board manager (`Tools->Board->Board manager`), and install  `Rambo`
 
-Note: if you get an spi.h missing error it's because you're didn't do this
+		*Note: if you get an spi.h missing error it's because you're didn't do this*
 
 3. Add compiler options
-```
+	```
+	vi /opt/arduino-{version}/hardware/arduino/avr/platform.txt
+	compiler.c.elf.flags={compiler.warning_flags} -Os -g -flto -fuse-linker-plugin -Wl,-u,vfprintf -lprintf_flt -lm -Wl,--gc-sections
+	```
+	Note: `-Wl,-u,vfprintf -lprintf_flt -lm` is what was added
+	Note: make sure you use the right version for the arduino ide your using.  Aka if you upgrade.
 
-vi /opt/arduino-{version}/hardware/arduino/avr/platform.txt
-compiler.c.elf.flags={compiler.warning_flags} -Os -g -flto -fuse-linker-plugin -Wl,-u,vfprintf -lprintf_flt -lm -Wl,--gc-sections
-```
-Note: `-Wl,-u,vfprintf -lprintf_flt -lm` is what was added
-Note: make sure you use the right version for the arduino ide your using.  Aka if you upgrade.
 5. Install TMC2130 Library
 Sketch/Include Library/Manage Libraries
 Search for `TMC2130Stepper`
@@ -45,7 +45,7 @@ Install the TMC2130Stepper library
 
 9. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzU4MDg4MTAsLTExNjkyMjE3MTEsLT
+eyJoaXN0b3J5IjpbLTE2OTU1NTU4MjEsLTExNjkyMjE3MTEsLT
 g5MjA4NDMzNSwxNDg0Mjk5MDQyLDEwODgwODYzNjgsLTY3NTA5
 NTAxMSwxNjM3NzA5NzM5LC01Mzg5MDI3MTIsLTExMDk5MDAzOT
 EsMTEzOTI3MjAxOCwxMzkzMjc3MTYwXX0=
