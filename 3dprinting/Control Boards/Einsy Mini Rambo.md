@@ -43,7 +43,9 @@
 7. Edit configuration_adv.h
 *From Einsy reprap page*
 ```
-//#define E0_AUTO_FAN_PIN -1 // Comment this out to enable it??!!
+#define FAN_PIN 6 // The pins are flipped in Marlin 1.1.9
+#define FAN1_PIN 8
+#define E0_AUTO_FAN_PIN 8 // Comment this out to enable it??!!
 #define R_SENSE           0.22  // R_sense resistor for SilentStepStick2130
 
 #define FILAMENT_LOAD_UNLOAD_GCODES 
@@ -51,9 +53,9 @@
 
 9. Install
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDM5NjIyODUsMjA2NjAzNTk0MywxND
-MyNDA3NTA0LDgxMzU3NTk1NSwtMTE2OTIyMTcxMSwtODkyMDg0
-MzM1LDE0ODQyOTkwNDIsMTA4ODA4NjM2OCwtNjc1MDk1MDExLD
-E2Mzc3MDk3MzksLTUzODkwMjcxMiwtMTEwOTkwMDM5MSwxMTM5
-MjcyMDE4LDEzOTMyNzcxNjBdfQ==
+eyJoaXN0b3J5IjpbLTc0MDc4Njc1NCwtMTQ0Mzk2MjI4NSwyMD
+Y2MDM1OTQzLDE0MzI0MDc1MDQsODEzNTc1OTU1LC0xMTY5MjIx
+NzExLC04OTIwODQzMzUsMTQ4NDI5OTA0MiwxMDg4MDg2MzY4LC
+02NzUwOTUwMTEsMTYzNzcwOTczOSwtNTM4OTAyNzEyLC0xMTA5
+OTAwMzkxLDExMzkyNzIwMTgsMTM5MzI3NzE2MF19
 -->
