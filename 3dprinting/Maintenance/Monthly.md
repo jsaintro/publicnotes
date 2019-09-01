@@ -2,9 +2,12 @@
 
 
 Lubricate bondtech gears
-  Dab of silicone grease on synchro gears and needle bearings
+  Super Lube grease on synchro gears and needle bearings
 
-[https://reprap.org/wiki/Lubrication](https://reprap.org/wiki/Lubrication)
+## Linear Rods
+1. Wipe the rod clean
+2. Using a tooth pick apply a little Super Lube Grease
+3. Using
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODIwMTQyMF19
+eyJoaXN0b3J5IjpbLTExNjMyNzA3OTIsMTg3ODIwMTQyMF19
 -->
