@@ -1,8 +1,9 @@
 # Configure Marlin Firmware
+## Setup
 1. Open up Arduino IDE
 2. Get the board config
 	1.  Open Arduino and navigate to File -> Preferences -> Settings
-	2. To the text field  `"Additional Boards Manager URLSs"`  add
+	2. To the text field  `Additional Boards Manager URLSs`  add
 		 `https://raw.githubusercontent.com/ultimachine/ArduinoAddons/master/package_ultimachine_index.json`
 	1. Open Board manager (`Tools->Board->Board manager`), and install  `Rambo`
 
@@ -17,9 +18,9 @@
 	Note: make sure you use the right version for the arduino ide your using.  Aka if you upgrade.
 
 5. Install TMC2130 Library
-Sketch/Include Library/Manage Libraries
-Search for `TMC2130Stepper`
-Install the TMC2130Stepper library
+	1. Navigate to Sketch -> Include Library -> Manage Libraries
+	2. Search for `TMC2130Stepper`
+	3. Install the `TMC2130Stepper` library
 
 6. Select configuration.h
 ```
@@ -45,8 +46,8 @@ Install the TMC2130Stepper library
 
 9. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTU1NTU4MjEsLTExNjkyMjE3MTEsLT
-g5MjA4NDMzNSwxNDg0Mjk5MDQyLDEwODgwODYzNjgsLTY3NTA5
-NTAxMSwxNjM3NzA5NzM5LC01Mzg5MDI3MTIsLTExMDk5MDAzOT
-EsMTEzOTI3MjAxOCwxMzkzMjc3MTYwXX0=
+eyJoaXN0b3J5IjpbMTg3OTcxNTI2OCwtMTE2OTIyMTcxMSwtOD
+kyMDg0MzM1LDE0ODQyOTkwNDIsMTA4ODA4NjM2OCwtNjc1MDk1
+MDExLDE2Mzc3MDk3MzksLTUzODkwMjcxMiwtMTEwOTkwMDM5MS
+wxMTM5MjcyMDE4LDEzOTMyNzcxNjBdfQ==
 -->
