@@ -10,7 +10,6 @@ vi /opt/arduino-{version}/hardware/arduino/avr/platform.txt
 compiler.c.elf.flags={compiler.warning_flags} -Os -g -flto -fuse-linker-plugin -Wl,-u,vfprintf -lprintf_flt -lm -Wl,--gc-sections
 ```
 Note: `-Wl,-u,vfprintf -lprintf_flt -lm` is what was added
-Note: You can probably skip this for just marlin
 Note: make sure you use the right version for the arduino ide your using.  Aka if you upgrade.
 5. Install TMC2130 Library
 Sketch/Include Library/Manage Libraries
@@ -41,8 +40,8 @@ Install the TMC2130Stepper library
 
 9. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ4ODk0NDIsMTQ4NDI5OTA0MiwxMD
-g4MDg2MzY4LC02NzUwOTUwMTEsMTYzNzcwOTczOSwtNTM4OTAy
-NzEyLC0xMTA5OTAwMzkxLDExMzkyNzIwMTgsMTM5MzI3NzE2MF
-19
+eyJoaXN0b3J5IjpbLTg5MjA4NDMzNSwxNDg0Mjk5MDQyLDEwOD
+gwODYzNjgsLTY3NTA5NTAxMSwxNjM3NzA5NzM5LC01Mzg5MDI3
+MTIsLTExMDk5MDAzOTEsMTEzOTI3MjAxOCwxMzkzMjc3MTYwXX
+0=
 -->
