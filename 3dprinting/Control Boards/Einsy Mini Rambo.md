@@ -35,13 +35,13 @@ Install the TMC2130Stepper library
 7. Edit configuration_adv.h
 *From Einsy reprap page*
 ```
-#define R_SENSE           0.11  // R_sense resistor for SilentStepStick2130
+#define R_SENSE           0.22  // R_sense resistor for SilentStepStick2130
 ```
 
 9. Inst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MjA4NDMzNSwxNDg0Mjk5MDQyLDEwOD
-gwODYzNjgsLTY3NTA5NTAxMSwxNjM3NzA5NzM5LC01Mzg5MDI3
-MTIsLTExMDk5MDAzOTEsMTEzOTI3MjAxOCwxMzkzMjc3MTYwXX
-0=
+eyJoaXN0b3J5IjpbLTExNjkyMjE3MTEsLTg5MjA4NDMzNSwxND
+g0Mjk5MDQyLDEwODgwODYzNjgsLTY3NTA5NTAxMSwxNjM3NzA5
+NzM5LC01Mzg5MDI3MTIsLTExMDk5MDAzOTEsMTEzOTI3MjAxOC
+wxMzkzMjc3MTYwXX0=
 -->
