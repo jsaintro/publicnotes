@@ -11,17 +11,19 @@ compiler.c.elf.flags={compiler.warning_flags} -Os -g -flto -fuse-linker-plugin -
 ```
 Note: `-Wl,-u,vfprintf -lprintf_flt -lm` is what was added
 Note: make sure you use the right version for the arduino ide your using.  Aka if you upgrade.
-5. Install TMC2130 Library
+4. Install TMC2130 Library
 Sketch/Include Library/Manage Libraries
 Search for `TMC2130Stepper`
 Install the TMC2130Stepper library
 
-1. Clone the repo
-2. Copy variants/1_75mm_MK3-RAMBo10a-E3Dv6full.h To Configuration_prusa.h
-3. vi config.h
+5. Clone the repo
+6. Copy variants/1_75mm_MK3-RAMBo10a-E3Dv6full.h To Configuration_prusa.h
+7. vi config.h
     #define LANG_MODE              0
-4. Compile and install
+8. Compile and install
+   run ./build.sh from main dir.
+   Bin will be in Prusa-Firmware-Build directory names *.hex
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4MTEzMjYxXX0=
+eyJoaXN0b3J5IjpbLTM5NjU5MzU5OCw2OTgxMTMyNjFdfQ==
 -->
