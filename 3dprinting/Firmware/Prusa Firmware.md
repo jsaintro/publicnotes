@@ -23,7 +23,10 @@ Install the TMC2130Stepper library
 8. Compile and install
    run ./build.sh from main dir.
    Bin will be in Prusa-Firmware-Build directory names *.hex
+   Flash using prusa slicer
+   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjU5MzU5OCw2OTgxMTMyNjFdfQ==
+eyJoaXN0b3J5IjpbLTEwNDU2MTQ1OSwtMzk2NTkzNTk4LDY5OD
+ExMzI2MV19
 -->
