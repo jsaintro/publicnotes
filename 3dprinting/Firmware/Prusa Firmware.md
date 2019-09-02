@@ -1,5 +1,5 @@
 
-## Setup the libs in the arduino IDE
+## Setup the libs in the arduino IDE (SKIP BECAUSE YOUR USING shell script)
 2. Get the board config
 	1.  Open Arduino and navigate to File -> Preferences -> Settings
 	2. To the text field  `"Additional Boards Manager URLSs"`  add `https://raw.githubusercontent.com/prusa3d/Arduino_Boards/master/IDE_Board_Manager/package_prusa3d_index.json`
@@ -27,6 +27,6 @@ Install the TMC2130Stepper library
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU2MTQ1OSwtMzk2NTkzNTk4LDY5OD
-ExMzI2MV19
+eyJoaXN0b3J5IjpbODAxNDczNzY1LC0zOTY1OTM1OTgsNjk4MT
+EzMjYxXX0=
 -->
