@@ -3,7 +3,8 @@
 * Use an unheated build chamber
 * Set bed temp to 110C to improve adhesion
 ## Prevent overhang curling
-* At 5mm 
+* At 10mm open build chamber to reduce heat buildup in plastic and improve cooling
+* Consider turning on part cooli
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjkxMTg3MV19
+eyJoaXN0b3J5IjpbMTI5ODc4NDU4XX0=
 -->
