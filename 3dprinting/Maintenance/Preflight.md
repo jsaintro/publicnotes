@@ -17,12 +17,12 @@ Remove any melted filament from nozzle
 	1. Work in sections
 	2. Use alcohol prep pad on cold bed to soak portion of bed
 	3. Wipe off/buff with clean paper towel
-	4.  
+	4. fold  
 	5. Work in sections
 	6. 
 
 Check wiring (Frayed too tight/broken cable management
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwMTI0NTU4LC0yMjM4MDM0NzJdfQ==
+eyJoaXN0b3J5IjpbLTIwMTIzOTYyNjMsLTIyMzgwMzQ3Ml19
 -->
