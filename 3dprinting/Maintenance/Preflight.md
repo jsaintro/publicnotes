@@ -1,15 +1,14 @@
-
-
-
-bontech gears free of plastic
-filament spool on holder
-no kinks in filament
-end of filament prepped for loading
+## Checklist
+1. bontech gears free of plastic
+1. filament spool on holder
+1. no kinks in filament
+1. end of filament prepped for loading
 
 ## Prep Hot End
-  warm up hotend
-  remove with tweezers
-  buff with cloth
+Note: Plastic stuck to hot End can cause print failure
+1.  warm up hotend
+1. remove with tweezers
+1. buff with cloth
 
 ## Prep Surface
 Note: Oil from last print/removal process can contaminate bed
@@ -22,5 +21,6 @@ Note: Oil from last print/removal process can contaminate bed
 Check wiring (Frayed too tight/broken cable management
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjU1Njk4MCwtMjIzODAzNDcyXX0=
+eyJoaXN0b3J5IjpbLTEwNTcxMjU2ODAsMjA0NjU1Njk4MCwtMj
+IzODAzNDcyXX0=
 -->
