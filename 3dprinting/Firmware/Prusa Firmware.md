@@ -37,13 +37,12 @@ Install the TMC2130Stepper library
 	5. Select the MK3 variant (1)
 	6. Select Englist Only (2)
 	7. Dev_status (1) Language
-   run ./PF-build.sh from main dir.
-   Bin will be in Prusa-Firmware-Build directory names *.hex
-   Flash using prusa slicer
+5. Bin will be in Prusa-Firmware-Build directory names *.hex
+6. Flash using prusa slicer (or octopi)
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODIzNTcyOCwtNjUxMjAzODU5LDE2Mj
-A2MTE4MzIsLTQxMjcyNjE4NiwtNTg2MjA3MzM0LDgwMTQ3Mzc2
-NSwtMzk2NTkzNTk4LDY5ODExMzI2MV19
+eyJoaXN0b3J5IjpbLTE0NTc4OTg0MTEsLTY1MTIwMzg1OSwxNj
+IwNjExODMyLC00MTI3MjYxODYsLTU4NjIwNzMzNCw4MDE0NzM3
+NjUsLTM5NjU5MzU5OCw2OTgxMTMyNjFdfQ==
 -->
