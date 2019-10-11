@@ -18,16 +18,17 @@ Install the TMC2130Stepper library
 
 # Build the Firmware
 5. Clone the repo
-6. Copy variants/1_75mm_MK3-RAMBo10a-E3Dv6full.h To Configuration_prusa.h
-7. vi config.h
+	git clone 
+7. Copy variants/1_75mm_MK3-RAMBo10a-E3Dv6full.h To Configuration_prusa.h
+8. vi config.h
     #define LANG_MODE              0
-8. Compile and install
+9. Compile and install
    run ./build.sh from main dir.
    Bin will be in Prusa-Firmware-Build directory names *.hex
    Flash using prusa slicer
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjIwNzMzNCw4MDE0NzM3NjUsLTM5Nj
-U5MzU5OCw2OTgxMTMyNjFdfQ==
+eyJoaXN0b3J5IjpbLTQxMjcyNjE4NiwtNTg2MjA3MzM0LDgwMT
+Q3Mzc2NSwtMzk2NTkzNTk4LDY5ODExMzI2MV19
 -->
