@@ -19,7 +19,7 @@ Install the TMC2130Stepper library
 # Build the Firmware
 5. Clone the repo
 	git clone 
-7. Copy variants/1_75mm_MK3-RAMBo10a-E3Dv6full.h To Configuration_prusa.h
+7. Copy variants/1_75mm_MK3-RAMBo10a-E3Dv6full.h To Configuration_prusa.h:
 8. vi config.h
     #define LANG_MODE              0
 9. Compile and install
@@ -29,6 +29,7 @@ Install the TMC2130Stepper library
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjcyNjE4NiwtNTg2MjA3MzM0LDgwMT
-Q3Mzc2NSwtMzk2NTkzNTk4LDY5ODExMzI2MV19
+eyJoaXN0b3J5IjpbMTYyMDYxMTgzMiwtNDEyNzI2MTg2LC01OD
+YyMDczMzQsODAxNDczNzY1LC0zOTY1OTM1OTgsNjk4MTEzMjYx
+XX0=
 -->
