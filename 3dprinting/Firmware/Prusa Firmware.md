@@ -22,19 +22,23 @@ Install the TMC2130Stepper library
 	git clone https://github.com/prusa3d/Prusa-Firmware.git
 	```
 2. Fix Dos CR/LF silliness
-3.  Copy variants/1_75mm_MK3-RAMBo10a-E3Dv6full.h To Configuration_prusa.h:
-4. vi config.h
-    #define LANG_MODE              0
-5. Fix windows cr/lf's
+      ```
    find . -type f -print0 | xargs -0 dos2unix
-6. Compile and install
+   ```
+3. Select the MK3 variant (1)
+4. Select Eng Language Copy variants/1_75mm_MK3-RAMBo10a-E3Dv6full.h To Configuration_prusa.h:
+5. vi config.h
+    #define LANG_MODE              0
+6. Fix windows cr/lf's
+   find . -type f -print0 | xargs -0 dos2unix
+7. Compile and install
    run ./PF-build.sh from main dir.
    Bin will be in Prusa-Firmware-Build directory names *.hex
    Flash using prusa slicer
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMjY5MTIsLTY1MTIwMzg1OSwxNjIwNj
-ExODMyLC00MTI3MjYxODYsLTU4NjIwNzMzNCw4MDE0NzM3NjUs
-LTM5NjU5MzU5OCw2OTgxMTMyNjFdfQ==
+eyJoaXN0b3J5IjpbLTk5Njk1MDE3MCwtNjUxMjAzODU5LDE2Mj
+A2MTE4MzIsLTQxMjcyNjE4NiwtNTg2MjA3MzM0LDgwMTQ3Mzc2
+NSwtMzk2NTkzNTk4LDY5ODExMzI2MV19
 -->
