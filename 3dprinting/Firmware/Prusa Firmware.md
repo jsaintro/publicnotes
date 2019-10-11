@@ -16,6 +16,7 @@ Sketch/Include Library/Manage Libraries
 Search for `TMC2130Stepper`
 Install the TMC2130Stepper library
 
+# Build the Firmware
 5. Clone the repo
 6. Copy variants/1_75mm_MK3-RAMBo10a-E3Dv6full.h To Configuration_prusa.h
 7. vi config.h
@@ -27,6 +28,6 @@ Install the TMC2130Stepper library
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxNDczNzY1LC0zOTY1OTM1OTgsNjk4MT
-EzMjYxXX0=
+eyJoaXN0b3J5IjpbLTU4NjIwNzMzNCw4MDE0NzM3NjUsLTM5Nj
+U5MzU5OCw2OTgxMTMyNjFdfQ==
 -->
