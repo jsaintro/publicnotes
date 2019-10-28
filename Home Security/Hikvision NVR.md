@@ -9,7 +9,11 @@ Put on USB Key
 Backup config
 update
 
-##
+## Camera updates
+Go to international site
+[https://www.hikvision.com/en/Support/Downloads/Firmware/IPC/Pro-Series(EasyIP)](https://www.hikvision.com/en/Support/Downloads/Firmware/IPC/Pro-Series(EasyIP))
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5Mzc3NzA4MSwxODA5MTgzMDFdfQ==
+eyJoaXN0b3J5IjpbMTM0NDAwMTY2OSwxMTkzNzc3MDgxLDE4MD
+kxODMwMV19
 -->
