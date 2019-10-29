@@ -14,8 +14,9 @@ USB KEY needs to formatted Fat32 to be read.  a Ubuntu boot disk seems to work
 Go to **international s**ite
 [https://www.hikvision.com/en/Support/Downloads/Firmware/IPC/Pro-Series(EasyIP)](https://www.hikvision.com/en/Support/Downloads/Firmware/IPC/Pro-Series(EasyIP))
 
-Note the USB upgrade via t
+Note the USB upgrade via the NVR takes a while for the cameras to reboot don't be worried.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjU1MjYyMywtNzYyMDIzNTg0LDEzND
-QwMDE2NjksMTE5Mzc3NzA4MSwxODA5MTgzMDFdfQ==
+eyJoaXN0b3J5IjpbODkyMDE3MjMsLTc2MjAyMzU4NCwxMzQ0MD
+AxNjY5LDExOTM3NzcwODEsMTgwOTE4MzAxXX0=
 -->
