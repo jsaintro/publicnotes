@@ -11,13 +11,13 @@ update
 USB KEY needs to formatted Fat32 to be read.  a Ubuntu boot disk seems to work
 
 ## Camera updates
-ALL CAMERAS are COMPATIBLE WITH US FIRMWARES
+ALL CAMERAS are COMPATIBLE WITH US FIRMWARES (ALL have us firmware installed right now).
 some of the model numbers are slightly different but you should see the x in the actual file downloaded.
-IN FACT ALL CAMERAS seem to take the same firmware file.  Should ver
+IN FACT ALL CAMERAS seem to take the same firmware file.  Should verify with a DIFF though
 Note the USB upgrade via the NVR takes a while for the cameras to reboot don't be worried.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1Mzc3ODU5LDg5MjAxNzIzLC03NjIwMj
-M1ODQsMTM0NDAwMTY2OSwxMTkzNzc3MDgxLDE4MDkxODMwMV19
-
+eyJoaXN0b3J5IjpbLTYxNDYxNzUzMSw4OTIwMTcyMywtNzYyMD
+IzNTg0LDEzNDQwMDE2NjksMTE5Mzc3NzA4MSwxODA5MTgzMDFd
+fQ==
 -->
