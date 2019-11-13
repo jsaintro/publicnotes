@@ -3,16 +3,18 @@
 1. Tools Needed
 	* Metric Ruler
 	* Sharp Sharpie Ultra Fine Point
-2. Disable Filament Sensor
-3. Measure 120mm on fliament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
-4. Heat filament to 215 (Natural RS)
-5. Extrude 100mm
+2. Print Diagnostic print
+3. Disable Filament Sensor
+4. Measure 120mm on fliament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
+5. Heat filament to 215 (Natural RS)
+6. Extrude 100mm
     ```
     G91
     G1 E100 F100
    ```
-6. Measure filament mark (From same spot)
-    20mm
+7. Measure filament mark (From same spot)
+    20mm.
+    120mm(1st measurement) - 20mm(2nd mesurement) = 100 (measured distance)
 8. Retrieve number of esteps
 	6. M503
 	7. Look for M92
@@ -25,6 +27,6 @@
 13. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODIxMDM2NTgsMTIzODM1NDA4NiwyMD
-Q3OTI4OTk1LC0yNTE1MzA3OTAsNDk3ODE4ODEwXX0=
+eyJoaXN0b3J5IjpbMTE4NjI1MTA3MywxMjM4MzU0MDg2LDIwND
+c5Mjg5OTUsLTI1MTUzMDc5MCw0OTc4MTg4MTBdfQ==
 -->
