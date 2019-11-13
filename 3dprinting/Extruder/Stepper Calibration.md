@@ -1,9 +1,9 @@
 
 # Calibrate Steps per MM
 1. Tools Needed
-2. Metric Ruler
-3. Sharp Sharpie
-4. 
+	* Metric Ruler
+	* Sharp Sharpie
+4. Measure 120mm from extruder entry to filament (Doesn't have to be exact, just consistent
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3NDU5NzQ2LDQ5NzgxODgxMF19
+eyJoaXN0b3J5IjpbLTQwNDcwMTA5Nyw0OTc4MTg4MTBdfQ==
 -->
