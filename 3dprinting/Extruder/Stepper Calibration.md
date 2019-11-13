@@ -11,6 +11,10 @@
 	6. M503
 	7. Look for M92
 	8.  EXX where xx is steps for MM
+6. Calculate correction
+	Desired distance / measured distance * Current e steps = new e steps
+7. Temporarliy set 
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzI1MjMzNiw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbMzM3MjU0MjU0LDQ5NzgxODgxMF19
 -->
