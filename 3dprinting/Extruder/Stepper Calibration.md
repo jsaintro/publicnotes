@@ -7,8 +7,10 @@
 3. Measure 120mm on fliament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
 4. Heat filament to 215 (Natural RS)
 5. Extrude 100mm
-6. G91
-	G1 E100 F100
+    ```
+    G91
+    G1 E100 F100
+   ```
 7. Measure filament mark
 8. Retrieve number of esteps
 	6. M503
@@ -22,6 +24,6 @@
 13. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODM1NDA4NiwyMDQ3OTI4OTk1LC0yNT
-E1MzA3OTAsNDk3ODE4ODEwXX0=
+eyJoaXN0b3J5IjpbLTIwNTQ4NjI5ODYsMTIzODM1NDA4NiwyMD
+Q3OTI4OTk1LC0yNTE1MzA3OTAsNDk3ODE4ODEwXX0=
 -->
