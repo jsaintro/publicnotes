@@ -13,8 +13,10 @@
 	8.  EXX where xx is steps for MM
 6. Calculate correction
 	Desired distance / measured distance * Current e steps = new e steps
-7. Temporarliy set 
+7. Temporarliy set new esteps
+8. M92 E{{ New E Steps}}
+9. 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3MjU0MjU0LDQ5NzgxODgxMF19
+eyJoaXN0b3J5IjpbLTI1MTUzMDc5MCw0OTc4MTg4MTBdfQ==
 -->
