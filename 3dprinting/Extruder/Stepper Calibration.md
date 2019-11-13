@@ -2,7 +2,7 @@
 # Calibrate Steps per MM
 1. Tools Needed
 	* Metric Ruler
-	* Sharp Sharpie
+	* Sharp Sharpie 
 2. Measure 120mm on fliament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
 3. Heat filament to 215 (Natural RS)
 4. Extrude 100mm
@@ -19,6 +19,6 @@
 10. 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzkyODk5NSwtMjUxNTMwNzkwLDQ5Nz
-gxODgxMF19
+eyJoaXN0b3J5IjpbMTAzNDE3OTkzNywyMDQ3OTI4OTk1LC0yNT
+E1MzA3OTAsNDk3ODE4ODEwXX0=
 -->
