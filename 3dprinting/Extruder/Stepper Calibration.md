@@ -3,7 +3,7 @@
 1. Tools Needed
 	* Metric Ruler
 	* Sharp Sharpie Ultra Fine Point
-2. Print Diagnostic print
+2. Print Diagnostic print[https://www.thingiverse.com/thing:2975429/](https://www.thingiverse.com/thing:2975429/)
 3. Disable Filament Sensor
 4. Measure 120mm on fliament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
 5. Heat filament to 215 (Natural RS)
@@ -27,6 +27,6 @@
 13. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjI1MTA3MywxMjM4MzU0MDg2LDIwND
+eyJoaXN0b3J5IjpbMTA4MjI2NDMzMCwxMjM4MzU0MDg2LDIwND
 c5Mjg5OTUsLTI1MTUzMDc5MCw0OTc4MTg4MTBdfQ==
 -->
