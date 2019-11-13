@@ -11,11 +11,12 @@
     G91
     G1 E100 F100
    ```
-7. Measure filament mark
+6. Measure filament mark (From same spot)
+    20mm
 8. Retrieve number of esteps
 	6. M503
 	7. Look for M92
-	8.  EXX where xx is steps for MM
+	8.  EXXX where xx is steps for MM
 9. Calculate correction
 	Desired distance / measured distance * Current e steps = new e steps
 10. Temporarliy set new esteps
@@ -24,6 +25,6 @@
 13. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQ4NjI5ODYsMTIzODM1NDA4NiwyMD
+eyJoaXN0b3J5IjpbLTE3ODIxMDM2NTgsMTIzODM1NDA4NiwyMD
 Q3OTI4OTk1LC0yNTE1MzA3OTAsNDk3ODE4ODEwXX0=
 -->
