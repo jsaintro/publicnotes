@@ -2,23 +2,26 @@
 # Calibrate Steps per MM
 1. Tools Needed
 	* Metric Ruler
-	* Sharp Sharpie 
-2. Measure 120mm on fliament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
-3. Heat filament to 215 (Natural RS)
-4. Extrude 100mm
+	* Sharp Sharpie Ultra Fine Point
+2. Disable Filament Sensor
+3. Measure 120mm on fliament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
+4. Heat filament to 215 (Natural RS)
+5. Extrude 100mm
+6. G91
 	G1 E100 F100
-5. Measure filament mark
-6. Retrieve number of esteps
+7. Measure filament mark
+8. Retrieve number of esteps
 	6. M503
 	7. Look for M92
 	8.  EXX where xx is steps for MM
-7. Calculate correction
+9. Calculate correction
 	Desired distance / measured distance * Current e steps = new e steps
-8. Temporarliy set new esteps
-9. M92 E{{ New E Steps}}
-10. 
+10. Temporarliy set new esteps
+11. M92 E{{ New E Steps}}
+12. 
+13. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDE3OTkzNywyMDQ3OTI4OTk1LC0yNT
+eyJoaXN0b3J5IjpbMTIzODM1NDA4NiwyMDQ3OTI4OTk1LC0yNT
 E1MzA3OTAsNDk3ODE4ODEwXX0=
 -->
