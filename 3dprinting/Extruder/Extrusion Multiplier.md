@@ -4,6 +4,7 @@ Slice cube from here
 * 0 top/bottom layer
 * 0 infill
 * default extrusion width 0.45 (print settings/advanced) this should be the default
+* Use .2mm Quality MK3 profile
 
 Print cube
 
@@ -13,7 +14,9 @@ desired wall thickness/measured wall thickness * extrusion multiplier = new extr
 
 adjust extrusion multiplier
 
+etc...
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDk2MDAzOTYsLTE2MjUzMjk5MzEsMT
-k0NTk5MDU1NF19
+eyJoaXN0b3J5IjpbLTI2OTEwNjU2OCwtMTYyNTMyOTkzMSwxOT
+Q1OTkwNTU0XX0=
 -->
