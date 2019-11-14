@@ -12,11 +12,13 @@ measure
 
 desired wall thickness/measured wall thickness * extrusion multiplier = new extrusion multiplier
 
+.45/.48 * 1 = .9375
+
 adjust extrusion multiplier
 
 etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTEwNjU2OCwtMTYyNTMyOTkzMSwxOT
-Q1OTkwNTU0XX0=
+eyJoaXN0b3J5IjpbLTE0ODA5NjQ4MiwtMjY5MTA2NTY4LC0xNj
+I1MzI5OTMxLDE5NDU5OTA1NTRdfQ==
 -->
