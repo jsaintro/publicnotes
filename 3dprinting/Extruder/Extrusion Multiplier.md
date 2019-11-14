@@ -5,7 +5,9 @@ Slice cube from here
 Print cube
 
 measure 
-desired wall thickness/measured wall thi
+desired wall thickness/measured wall thickness * extrusion multiplier = new extrusion multiplier
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzExNDg3NjMsMTk0NTk5MDU1NF19
+eyJoaXN0b3J5IjpbLTE2MjUzMjk5MzEsMTk0NTk5MDU1NF19
 -->
