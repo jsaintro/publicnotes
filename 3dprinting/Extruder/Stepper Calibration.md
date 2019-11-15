@@ -1,5 +1,5 @@
 
-# Calibrate Steps per MM
+# Calibrate Extruder Steps per MM
 1. Tools Needed
 	* Metric Ruler
 	* Sharp Sharpie Ultra Fine Point
@@ -35,7 +35,7 @@ thin walls
 14. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQ0NzAxNCwxMDgyMjY0MzMwLDEyMz
-gzNTQwODYsMjA0NzkyODk5NSwtMjUxNTMwNzkwLDQ5NzgxODgx
-MF19
+eyJoaXN0b3J5IjpbMTM1MzQxMjAzLC0yMDI0NDcwMTQsMTA4Mj
+I2NDMzMCwxMjM4MzU0MDg2LDIwNDc5Mjg5OTUsLTI1MTUzMDc5
+MCw0OTc4MTg4MTBdfQ==
 -->
