@@ -3,9 +3,11 @@
 
 
 # Calibrate XY Steps per MM
-1. Tools Needed
+ 1. Tools Needed
 	* Digital Calipers
 	* Sharp Sharpie Ultra Fine Point
+ 2. Print this
+	 [https://www.thingiverse.com/thing:2050876](https://www.thingiverse.com/thing:2050876)
 Follow the steps below to calibration your X and Y axis:  
 1.Connect to your printer via a USB connection (direct to computer or Octoprint, etc.)
 
@@ -43,5 +45,5 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzMzY1ODAyLC0zNjUyNTgyODhdfQ==
+eyJoaXN0b3J5IjpbMTgxMjE2NDE3MCwtMzY1MjU4Mjg4XX0=
 -->
