@@ -6,37 +6,42 @@
 1. Tools Needed
 	* Digital Calipers
 	* Sharp Sharpie Ultra Fine Point
-2. Print Diagnostic print[https://www.thingiverse.com/thing:2975429/](https://www.thingiverse.com/thing:2975429/)
-3. **Resolution:**
-30% infill
-0.1 lh
-thin walls
+Follow the steps below to calibration your X and Y axis:  
+1.Connect to your printer via a USB connection (direct to computer or Octoprint, etc.)
 
-**Infill:**
+1.  Issue the M503 command
+2.  Scroll back through the output of the M503 command and look for the M92 output. Mine was  `M92:X100.00 Y100.00 Z400.00 E161.30`. Copy down these numbers. The M92 command sets the numbers of steps the stepper motors will move based on movement instructions in your GCODE
+3.  Download, slice, and print the calibration square included with this Thing
+4.  Before removing the square from the bed, note that the X-axis is left to right movement and Y axis is front to rear movement.
+5.  Using calipers, measure the distance across the X-axis in at least three places. I suggest measuring 10mm from each end, plus once in the middle. Write down these distances.
+6.  Average the three distances. Write down this average for the X-axis. Mine was 99.79.
+7.  Using calipers, measure the distance across the Y-axis in at least three places. I suggest measuring 10mm from each end, plus once in the middle. Write down these distances.
+8.  Average the three distances. Write down this average for the Y-axis. Mine was 99.63.
+9.  Next, use this formula to determine new M92 values:  
+    New M92 value = Desired movement / Actual movement * Current M92 value
+    
+    **So for example,**
+    
+    **New M92 for X (100.21) = 100/99.79*100**
+    
+    **So for example,**
+    
+    **New M92 for Y (100.37) = 100/99.63*100**
+    
+10.  Create the new M92 command by replacing the X and Y values above with the new calculated values:  
+    `M92 X100.21 Y100.37 Z400.00 E161.30`
+11.  This changed code can be activated in two ways. The easiest is to enter the new command while connected to the printer via USB from your computer, then enter M500 to save the value. You can confirm the new value was stored by entering M503 and looking for the updated M92 line in the config. The other option is to change this line of code in the startup GCODE in your slicer profiles. To do this, place this line in the Startup GCODE in your slicer. In Simplify3D this is placed in the Scripts --> Starting Scrip area. In Slic3r this is in Printer Settings --> Custom G-code.
+12.  Re-slice the Calibration square
+13.  Re-print the Calibration square
+14.  Mark and measure the new calibration square as in steps 5-8 above
+15.  Average the distances for X and Y These should now be closer to 100.0mm
+16.  If you are satisfied with the results, you are done! If the distances are not as close to 100mm as you desire, if not happy with results, repeat the calibration process.
 
-30%
-4. Disable Filament Sensor
-5. Measure 120mm on fliament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
-6. Heat filament to 215 (Natural RS)
-7. Extrude 100mm
-    ```
-    G91
-    G1 E100 F100
-   ```
-8. Measure filament mark (From same spot)
-    20mm.
-    120mm(1st measurement) - 20mm(2nd mesurement) = 100 (measured distance)
-9. Retrieve number of esteps
-	6. M503
-	7. Look for M92
-	8.  EXXX where xx is steps for MM
-10. Calculate correction
-	Desired distance / measured distance * Current e steps = new e steps
-11. Temporarliy set new esteps
-12. M92 E{{ New E Steps}}
-13. 
-14. Enable filament Sensor
-	
+Note that this test was done with PLA. When you change material, you should re-test dimensions, and may need to re-calibrate your M92 values.
+
+If you want to adjust your Z or E axis, please refer to the Instructables article.
+
+[http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTI1ODI4OF19
+eyJoaXN0b3J5IjpbMzEzMzY1ODAyLC0zNjUyNTgyODhdfQ==
 -->
