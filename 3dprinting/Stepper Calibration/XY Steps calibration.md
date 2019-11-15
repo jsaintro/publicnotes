@@ -8,6 +8,8 @@
 	* Sharp Sharpie Ultra Fine Point
  2. Print this
 	 [https://www.thingiverse.com/thing:2050876](https://www.thingiverse.com/thing:2050876)
+	 or this
+	 [https://www.thingiverse.com/thing:195604](https://www.thingiverse.com/thing:195604)
 Follow the steps below to calibration your X and Y axis:  
 1.Connect to your printer via a USB connection (direct to computer or Octoprint, etc.)
 
@@ -45,5 +47,5 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjE2NDE3MCwtMzY1MjU4Mjg4XX0=
+eyJoaXN0b3J5IjpbLTE5NTA5NDYwNTgsLTM2NTI1ODI4OF19
 -->
