@@ -33,10 +33,11 @@ Edit the start gcode for the printer profile
   
  3. Add the results to your slicer config
 Edit the start gcode for the printer profile
-`M304 [D<value>] [I<value>] [P<value>]`
+```
+{if M304 [D<value>] [I<value>] [P<value>]`
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjU0NzU1MjQsLTE3NTgzMjQzNzEsNz
-k2NjQzNTEyLC02NjAxMjU1NzcsMTYzMDQ4MzE5MSw2MzY3MTQw
-MTksLTEzMDgyOTcwMTRdfQ==
+eyJoaXN0b3J5IjpbOTY2ODUyNTAyLC0xNzU4MzI0MzcxLDc5Nj
+Y0MzUxMiwtNjYwMTI1NTc3LDE2MzA0ODMxOTEsNjM2NzE0MDE5
+LC0xMzA4Mjk3MDE0XX0=
 -->
