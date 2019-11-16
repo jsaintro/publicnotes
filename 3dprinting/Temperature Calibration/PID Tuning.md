@@ -16,13 +16,13 @@ Recv:  Ki: 1.51
 Recv:  Kd: 72.77
 ```
 Note: Where 215 is the temp in C that you are going to use for your filament (Change accordingly).   
-Note: This will heat the first nozzle (E0), and cycle around the target temperature 8 times (C8) at the given temperature (S200) ,200 C, and return values for P I and D
+Note: This will heat the first nozzle (E0), and cycle around the target temperature 8 times (C8) at the given temperature (S200) ,200 C, and return values for P I and D.  Ex P=20.95 I=1.51 D=72.77
   
 3. Add the results to your slicer config
 Edit the start gcode for the printer profile
     ```
     {if first_layer_temperature[0]>210 && first_layer_temperature[0]<220}
-    M301 [D<value>] [E<index>] [I<value>] [P<value>]
+    M301 E0 P20.95 I1.51 D72.77
     {endif}
     ```
 Note: Consider wrapping this in an if statement
@@ -41,7 +41,7 @@ Edit the start gcode for the printer profile
 `M304 [D<value>] [I<value>] [P<value>]`
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDExODc2NSwtMTc1ODMyNDM3MSw3OT
-Y2NDM1MTIsLTY2MDEyNTU3NywxNjMwNDgzMTkxLDYzNjcxNDAx
-OSwtMTMwODI5NzAxNF19
+eyJoaXN0b3J5IjpbNDA4ODg1MDYxLC0xNzU4MzI0MzcxLDc5Nj
+Y0MzUxMiwtNjYwMTI1NTc3LDE2MzA0ODMxOTEsNjM2NzE0MDE5
+LC0xMzA4Mjk3MDE0XX0=
 -->
