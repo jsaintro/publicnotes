@@ -38,6 +38,19 @@ defaults are fine
 write down the MAC from the serial monitor
 8. [https://github.com/nodemcu/nodemcu-devkit-v1.0](https://github.com/nodemcu/nodemcu-devkit-v1.0)
 9. MAC: 60:01:94:51:bd:a1
+
+# Setup smartthings device handler
+1.  Login to the  [smarthings api](https://graph.api.smartthings.com/login/auth) (USe the samsung login with your ST credentials
+-   Click on "My Device Handlers" from the navigation menu.
+-   Click on "Settings" from the menu and add my GitHub Repository to your account
+    -   Owner: DanielOgorchock
+    -   Name: ST_Anything
+    -   Branch: master
+-   Click on "Update From Repo" from the menu
+-   Select "ST_Anything (master)" from the list
+-   Select all of the Parent and Child Device Handlers
+-   Check the "Publish" check box and click "Execute Update"
+-   You should now have all of the necessary Device Handlers added to your account
 #### Internal pull-up/-down resistors
 
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
@@ -150,8 +163,8 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjYzNTc1NTksLTE5Njk2MDMyNzMsLT
-IxNTk1MjI5OSwtMTM2MTU0NDc3NCwxMTE0Mjg1NjI1LDc0MDUz
-Mzc5MywxNTA3MzY1MTY3LDE5MjY2NTA1OTUsLTE1NzMxMzU0Mz
-csLTU3MDg1MTQ3Nl19
+eyJoaXN0b3J5IjpbLTE0MjcyODc4MjUsLTE5NjYzNTc1NTksLT
+E5Njk2MDMyNzMsLTIxNTk1MjI5OSwtMTM2MTU0NDc3NCwxMTE0
+Mjg1NjI1LDc0MDUzMzc5MywxNTA3MzY1MTY3LDE5MjY2NTA1OT
+UsLTE1NzMxMzU0MzcsLTU3MDg1MTQ3Nl19
 -->
