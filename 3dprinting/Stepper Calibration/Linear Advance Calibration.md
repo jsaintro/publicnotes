@@ -7,7 +7,9 @@ For our prusa Mk3
  - Bed Temp: 65
  - Slow speed printing 45mm
  - Fast speed printing 60mm
- - M
+ - Movement Speed 180mm
+ - retra
+ - Accelleration: 800
 
 Add 
 ```
@@ -16,6 +18,6 @@ G80 ; mesh bed leveling
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI0ODI5NDAsOTgwNjg2MDkwLC0yMD
-M1MTk2ODZdfQ==
+eyJoaXN0b3J5IjpbMTg0MjI0MDQ4LDk4MDY4NjA5MCwtMjAzNT
+E5Njg2XX0=
 -->
