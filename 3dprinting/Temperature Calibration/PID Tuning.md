@@ -24,12 +24,7 @@ Edit the start gcode for the printer profile
     {if first_layer_temperature[0]>210 && first_layer_temperature[0]<220}
     M301 E0 P20.95 I1.51 D72.77
     {endif}
-    ```
-Note: Consider wrapping this in an if statement
-
-
-
- 
+    ``` 
 ## Tune your heatbed  
 
 1. Run the following gcode
@@ -41,7 +36,7 @@ Edit the start gcode for the printer profile
 `M304 [D<value>] [I<value>] [P<value>]`
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4ODg1MDYxLC0xNzU4MzI0MzcxLDc5Nj
-Y0MzUxMiwtNjYwMTI1NTc3LDE2MzA0ODMxOTEsNjM2NzE0MDE5
-LC0xMzA4Mjk3MDE0XX0=
+eyJoaXN0b3J5IjpbLTE2NjU0NzU1MjQsLTE3NTgzMjQzNzEsNz
+k2NjQzNTEyLC02NjAxMjU1NzcsMTYzMDQ4MzE5MSw2MzY3MTQw
+MTksLTEzMDgyOTcwMTRdfQ==
 -->
