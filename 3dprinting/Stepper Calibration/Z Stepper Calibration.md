@@ -1,5 +1,6 @@
-# Dual Z Stepper Calibration
+# Dual Z Stepper leveling
 This procedure is to get both Z steppers in sync so the build plane is as level as possible
+Note for prusa just do the top of the frame
 
 
 1. Rough Calibration
@@ -29,5 +30,5 @@ This procedure is to get both Z steppers in sync so the build plane is as level 
      4. Repeat Calibration loop until left and right sides match
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTI1MjMwMDNdfQ==
+eyJoaXN0b3J5IjpbLTE5MzYxNDA4NzFdfQ==
 -->
