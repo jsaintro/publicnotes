@@ -32,6 +32,9 @@ You're using a NODE MCU for this
     ```
 5. Verify IDE by compiling the sketch
 
+6. Prep nodemcu for flashing
+7. [https://github.com/nodemcu/nodemcu-devkit-v1.0](https://github.com/nodemcu/nodemcu-devkit-v1.0)
+8. 
 #### Internal pull-up/-down resistors
 
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
@@ -170,7 +173,7 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDI4NTYyNSw3NDA1MzM3OTMsMTUwNz
-M2NTE2NywxOTI2NjUwNTk1LC0xNTczMTM1NDM3LC01NzA4NTE0
-NzZdfQ==
+eyJoaXN0b3J5IjpbLTEzNjE1NDQ3NzQsMTExNDI4NTYyNSw3ND
+A1MzM3OTMsMTUwNzM2NTE2NywxOTI2NjUwNTk1LC0xNTczMTM1
+NDM3LC01NzA4NTE0NzZdfQ==
 -->
