@@ -14,7 +14,7 @@ You're using a NODE MCU for this
   Note: for Linux the DIR is ~/Arduino
 
    ```
-   cp -r ST_Anything_Garage/Arduino/Sketches/ST_Anything_GarageDoors_ESP8266WiFi/ ~/Arduino/sketch_ST_Anything_Garage
+   cp -r ST_Anything_Garage/Arduino/Sketches/ST_Anything_GarageDoors_ESP8266WiFi/ ~/Arduino/ST_Anything_GarageDoors_ESP8266WiFi
    cp -r ST_Anything_Garage/Arduino/libraries/* ~/Arduino/libraries/
    ```
 
@@ -152,6 +152,6 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc4MTU5MTMsMTkyNjY1MDU5NSwtMT
-U3MzEzNTQzNywtNTcwODUxNDc2XX0=
+eyJoaXN0b3J5IjpbMTUwNzM2NTE2NywxOTI2NjUwNTk1LC0xNT
+czMTM1NDM3LC01NzA4NTE0NzZdfQ==
 -->
