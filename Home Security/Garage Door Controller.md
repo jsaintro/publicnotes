@@ -14,7 +14,17 @@ You're using a NODE MCU for this
 2. Open the Garage door sketches in Arduino IDE
   ST_Anything_Garage/Arduino/Sketches/ST_Anything_GarageDoor_ESP8266WIFI
 4.  Copy the Sketches and Libraries folders from the project in the Arduino directory
-
+-   Download the ST_Anything repository, focusing on the ST_Anything/Arduino/ folders
+-   This folder structure should mirror that of your local User Arduino directory.
+    -   On Mac, it's located in  `~/Documents/Arduino/`.
+    -   On Windows, it's located in  `C:\Users\yourusername\Documents\Arduino`.
+-   Look inside the  `Arduino/Sketches`  folder of the repo.
+-   Copy and paste all of the  `ST_Anything_...`  sketch folders into your local Arduino sketches directory. If you haven't created any sketches, you may not see the folder. In this case, feel free to create it.
+-   Look inside the  `Arduino/libraries`  folder of the repo.
+-   Copy and paste both the  `ST_Anything...`  and  `SmartThings...`  folders (as well as ALL of the other library folders) into your local Arduino libraries directory.
+-   Open one of the ST_Anything_Multiples_xxxxx.ino sketches for the hardware you're using and see if it successfully compiles.
+    -   Make sure you select the correct model of board you are compiling for.
+    -   If building for a standalone ESP8266 board, make sure you have configured the Arduino IDE to include support for these boards. Follow the guide at  [https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon](https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon)
     ```
     
     
@@ -135,5 +145,6 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzMxMzU0MzcsLTU3MDg1MTQ3Nl19
+eyJoaXN0b3J5IjpbNDYyMTc0OTI4LC0xNTczMTM1NDM3LC01Nz
+A4NTE0NzZdfQ==
 -->
