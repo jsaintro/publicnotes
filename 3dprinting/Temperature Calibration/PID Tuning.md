@@ -19,9 +19,9 @@ Note: Consider wrapping this in an if statement
   
  3. Add the results to your slicer config
 Edit the start gcode for the printer profile
-`M301  [C<value>] [D<value>] [E<index>] [I<value>] [L<value>] [P<value>]`
+`M304 [D<value>] [I<value>] [P<value>]`
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTM2NTIwMCw2MzY3MTQwMTksLTEzMD
+eyJoaXN0b3J5IjpbMTYzMDQ4MzE5MSw2MzY3MTQwMTksLTEzMD
 gyOTcwMTRdfQ==
 -->
