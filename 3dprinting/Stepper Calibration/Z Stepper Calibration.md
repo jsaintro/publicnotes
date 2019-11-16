@@ -1,4 +1,4 @@
-# Z Stepper Calibration
+# Dual Z Stepper Calibration
 This procedure is to get both Z steppers in sync so the build plane is as level as possible
 
 
@@ -29,5 +29,5 @@ This procedure is to get both Z steppers in sync so the build plane is as level 
      4. Repeat Calibration loop until left and right sides match
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTA1MDQwOV19
+eyJoaXN0b3J5IjpbLTIxMTI1MjMwMDNdfQ==
 -->
