@@ -8,18 +8,23 @@
 	* Sharp Sharpie Ultra Fine Point
 2. Get the current Stepps
 ```
-M500
-4. Print this object with the following settings
+M503
+Recv: echo: M92 X100.00 Y100.00 Z400.00 E280.00
+```
+Note look for the M92 line those are your steps per mm
+
+3. Print this object with the following settings
 	 [https://www.thingiverse.com/thing:195604](https://www.thingiverse.com/thing:195604)
 
 		* 10% infill rectangular
 		* .2mm layer height
 		* .2mm Speed MK3 profile
 
-5. Once done label the X and Y axes on the print (So you don't loose them once you remove the part
-6. Measure x and y with digital calipers 
+4. Once done label the X and Y axes on the print (So you don't loose them once you remove the part
+5. Measure x and y with digital calipers 
 	X = 99.35 Y = 99.59
-7. Calculate the correction factor
+6. Calculate the correction factor
+7. 
 ## Alt
  2. Print this
 	 [https://www.thingiverse.com/thing:2050876](https://www.thingiverse.com/thing:2050876)
@@ -61,6 +66,6 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDQxNDE2MywtMTk1MDk0NjA1OCwtMz
+eyJoaXN0b3J5IjpbLTUzNDMxMzcxNSwtMTk1MDk0NjA1OCwtMz
 Y1MjU4Mjg4XX0=
 -->
