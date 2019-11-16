@@ -25,10 +25,11 @@ Note look for the M92 line those are your steps per mm
 	X = 99.35 Y = 99.59
 6. Calculate the correction factor
 	X,Y-Axis: 100mm / [measured length in mm] _[current STEPS]  
-	Z-Axis: X,Y-Axis: 50 / [measured height in mm]_ [current STEPS]
+	Z-Axis: 45mm / [measured height in mm]_ [current STEPS]
 	Ex.
 	  X: 100/ 99.35 * 100 = 100.65
-	  Y: 100/99.59 * 100 = 
+	  Y: 100/99.59 * 100 = 100.41
+	  Z: 45/
 ## Alt
  2. Print this
 	 [https://www.thingiverse.com/thing:2050876](https://www.thingiverse.com/thing:2050876)
@@ -70,6 +71,6 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMDA3NzQ5LC0xOTUwOTQ2MDU4LC0zNj
+eyJoaXN0b3J5IjpbODk3MjQxNjc0LC0xOTUwOTQ2MDU4LC0zNj
 UyNTgyODhdfQ==
 -->
