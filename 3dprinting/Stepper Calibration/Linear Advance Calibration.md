@@ -17,8 +17,14 @@ For our prusa Mk3
 
 Note: For prusa you don't have to add any ABL it'll do it automatically when it homes apparently
 
+1. Evaluate
+  With a magnifying glass loop at the 1st transition line (at the top)
+  You're looking for the line that seems most consistent through the transition Doesn't got thin->thick or vice versa
+
+2. File tune repeat above but set
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODgwOTI4MTgsMTk2NzA4NzIyNiwxMz
-A5MjYwNjQsMjE0NzMwMjQ1MSw5ODA2ODYwOTAsLTIwMzUxOTY4
-Nl19
+eyJoaXN0b3J5IjpbNDIwNzEwMzI2LDE5NjcwODcyMjYsMTMwOT
+I2MDY0LDIxNDczMDI0NTEsOTgwNjg2MDkwLC0yMDM1MTk2ODZd
+fQ==
 -->
