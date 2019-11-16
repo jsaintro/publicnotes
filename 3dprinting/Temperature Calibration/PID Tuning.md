@@ -7,7 +7,10 @@ Note: This will heat the first nozzle (E0), and cycle around the target temperat
   
 3. Add the results to your slicer config
 Edit the start gcode for the printer profile
-`M301  [C<value>] [D<value>] [E<index>] [I<value>] [L<value>] [P<value>]`
+    ```
+    {if first_layer_temperature[0]=
+    M301  [C<value>] [D<value>] [E<index>] [I<value>] [L<value>] [P<value>]
+    ```
 Note: Consider wrapping this in an if statement
 
 
@@ -24,6 +27,6 @@ Edit the start gcode for the printer profile
 `M304 [D<value>] [I<value>] [P<value>]`
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzM1OTU3MSwxNjMwNDgzMTkxLDYzNj
+eyJoaXN0b3J5IjpbLTY2MDEyNTU3NywxNjMwNDgzMTkxLDYzNj
 cxNDAxOSwtMTMwODI5NzAxNF19
 -->
