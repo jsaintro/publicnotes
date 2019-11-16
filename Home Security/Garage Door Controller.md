@@ -1,12 +1,12 @@
 # HW Setup
-
+You're using a NODE MCU for this
 
 # Arduino Setup
 
 1.  Download the ST_anything project
     
     ```
-    git clone https://github.com/DanielOgorchock/ST_Anything.git
+    git clone https://github.com/DanielOgorchock/ST_Anything.git ST_Anything_Garage
     git checkout v2.9.7
     
     ```
@@ -130,5 +130,5 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzgwNDYzMiwtNTcwODUxNDc2XX0=
+eyJoaXN0b3J5IjpbLTE0MDgyOTQ3MCwtNTcwODUxNDc2XX0=
 -->
