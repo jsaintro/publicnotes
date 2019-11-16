@@ -15,6 +15,7 @@ Slice cube from here
 Print cube
 
 measure 
+Note there always seems to be one wall that's a little thinner.  as long as you have one x and one y consistent go for it.
 
 desired wall thickness/measured wall thickness * extrusion multiplier = new extrusion multiplier
 
@@ -25,7 +26,7 @@ adjust extrusion multiplier
 etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTA2ODI0NzcsMTUzMjYyMDk3NSwtMT
-Q4MDk2NDgyLC0yNjkxMDY1NjgsLTE2MjUzMjk5MzEsMTk0NTk5
-MDU1NF19
+eyJoaXN0b3J5IjpbLTg4MjIyMjEwMiwtMTE5MDY4MjQ3NywxNT
+MyNjIwOTc1LC0xNDgwOTY0ODIsLTI2OTEwNjU2OCwtMTYyNTMy
+OTkzMSwxOTQ1OTkwNTU0XX0=
 -->
