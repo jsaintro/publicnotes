@@ -14,7 +14,8 @@
 ### Per Filament Calibrations
 9. XYZ Steps calibration
 10. Extruder stepper calibration
-11. Extrusion Multiplier
+11. Linear Advance Calibration
+12. Extrusion Multiplier
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjgwOTAwOV19
+eyJoaXN0b3J5IjpbMTMxMTc4NTA4MSwtNjkyODA5MDA5XX0=
 -->
