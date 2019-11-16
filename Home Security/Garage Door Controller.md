@@ -24,6 +24,11 @@ You're using a NODE MCU for this
 6. Now open up the board and click the board manager at the bottom you should be able to install the esp8266 lib now
 7. Now you'll be able to select Generic ESP8266 Module
 8. 
+
+#### Internal pull-up/-down resistors
+
+GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
+
 ~/Arduino/ST_Anything_GarageDoor_ESP8266WIFI
   ST_Anything_Garage/Arduino/Sketches/ST_Anything_GarageDoor_ESP8266WIFI
 9.  Copy the Sketches and Libraries folders from the project in the Arduino directory
@@ -158,6 +163,6 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3MzMxMjk4LDE1MDczNjUxNjcsMTkyNj
+eyJoaXN0b3J5IjpbNzQwNTMzNzkzLDE1MDczNjUxNjcsMTkyNj
 Y1MDU5NSwtMTU3MzEzNTQzNywtNTcwODUxNDc2XX0=
 -->
