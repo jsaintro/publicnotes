@@ -33,11 +33,13 @@ Edit the start gcode for the printer profile
   
  3. Add the results to your slicer config
 Edit the start gcode for the printer profile
-```
-{if M304 [D<value>] [I<value>] [P<value>]`
- 
+    ```
+    {if bed_temperature[0]>60 && bed_temperature[0]<70}
+    M304 [D<value>] [I<value>] [P<value>]`
+    {endif}
+    ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2ODUyNTAyLC0xNzU4MzI0MzcxLDc5Nj
+eyJoaXN0b3J5IjpbOTk2NjY2OTU4LC0xNzU4MzI0MzcxLDc5Nj
 Y0MzUxMiwtNjYwMTI1NTc3LDE2MzA0ODMxOTEsNjM2NzE0MDE5
 LC0xMzA4Mjk3MDE0XX0=
 -->
