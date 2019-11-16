@@ -14,7 +14,11 @@ You're using a NODE MCU for this
   Note: for Linux the DIR is ~/Arduino
 
    ```
-   cp ST_Anything_Garage/Arduino/Sketches/ST_Anything_GarageDoor_ESP8266WIFI ~/Arduino/ST_Anything_GarageDoor_ESP8266WIFI
+   cp -r ST_Anything_Garage/Arduino/Sketches/ST_Anything_GarageDoors_ESP8266WiFi/ ~/Arduino/sketch_ST_Anything_Garage
+   cp -r ST_Anything_Garage/Arduino/libraries/* ~/Arduino/libraries/
+   ```
+
+~/Arduino/ST_Anything_GarageDoor_ESP8266WIFI
   ST_Anything_Garage/Arduino/Sketches/ST_Anything_GarageDoor_ESP8266WIFI
 4.  Copy the Sketches and Libraries folders from the project in the Arduino directory
 -   Download the ST_Anything repository, focusing on the ST_Anything/Arduino/ folders
@@ -148,6 +152,6 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjY1MDU5NSwtMTU3MzEzNTQzNywtNT
-cwODUxNDc2XX0=
+eyJoaXN0b3J5IjpbLTE0Mjc4MTU5MTMsMTkyNjY1MDU5NSwtMT
+U3MzEzNTQzNywtNTcwODUxNDc2XX0=
 -->
