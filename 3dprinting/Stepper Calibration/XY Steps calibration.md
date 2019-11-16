@@ -40,7 +40,7 @@ Note look for the M92 line those are your steps per mm
     M92 X100.65 Y100.41 Z398.58 E280.00 ; fine tune steps per mm JSR
     {endif}
     ```
-Note: In the `Notes` for the fi
+Note: In the `Notes` for the filament you must have the filament name.  In this example it's `RS_NAT_PLA`
 Note: [Nifty macro language reference](https://github.com/prusa3d/PrusaSlicer/wiki/Slic3r-Prusa-Edition-Macro-Language) 
 ## Alt
  2. Print this
@@ -83,6 +83,6 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzM2NjEzMiwtNjI3ODU4NDcwLC0xOT
+eyJoaXN0b3J5IjpbLTQ1MTE5ODExMiwtNjI3ODU4NDcwLC0xOT
 UwOTQ2MDU4LC0zNjUyNTgyODhdfQ==
 -->
