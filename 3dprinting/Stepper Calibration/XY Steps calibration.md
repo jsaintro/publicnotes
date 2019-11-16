@@ -35,13 +35,13 @@ Note look for the M92 line those are your steps per mm
 	  Y: 100/99.59 * 100 = 100.41
 	  Z: 45/45.16 * 400 = 398.58
 9. Update slicer start gcode with steps line
-```    
-{if filament_notes[0]=~/.*RS_NAT_PLA.*/}
-M92 X100.65 Y100.41 Z398.58 E280.00 ; fine tune steps per mm JSR
-{endif}
-```
-
-Note: Nifty macro language   
+    ```    
+    {if filament_notes[0]=~/.*RS_NAT_PLA.*/}
+    M92 X100.65 Y100.41 Z398.58 E280.00 ; fine tune steps per mm JSR
+    {endif}
+    ```
+Note: In the `Notes` for the fi
+Note: [Nifty macro language reference](https://github.com/prusa3d/PrusaSlicer/wiki/Slic3r-Prusa-Edition-Macro-Language) 
 ## Alt
  2. Print this
 	 [https://www.thingiverse.com/thing:2050876](https://www.thingiverse.com/thing:2050876)
@@ -83,6 +83,6 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Mjk3NzY3LC02Mjc4NTg0NzAsLTE5NT
-A5NDYwNTgsLTM2NTI1ODI4OF19
+eyJoaXN0b3J5IjpbLTUwNzM2NjEzMiwtNjI3ODU4NDcwLC0xOT
+UwOTQ2MDU4LC0zNjUyNTgyODhdfQ==
 -->
