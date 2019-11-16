@@ -42,6 +42,7 @@ write down the MAC from the serial monitor
 # Setup smartthings device handler
 1.  Login to the  [smarthings api](https://graph.api.smartthings.com/login/auth) (USe the samsung login with your ST credentials
 -   Click on "My Device Handlers" from the navigation menu.
+-  Enabl
 -   Click on "Settings" from the menu and add my GitHub Repository to your account
     -   Owner: DanielOgorchock
     -   Name: ST_Anything
@@ -163,8 +164,8 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjcyODc4MjUsLTE5NjYzNTc1NTksLT
-E5Njk2MDMyNzMsLTIxNTk1MjI5OSwtMTM2MTU0NDc3NCwxMTE0
-Mjg1NjI1LDc0MDUzMzc5MywxNTA3MzY1MTY3LDE5MjY2NTA1OT
-UsLTE1NzMxMzU0MzcsLTU3MDg1MTQ3Nl19
+eyJoaXN0b3J5IjpbLTEyMTI1MzExMiwtMTk2NjM1NzU1OSwtMT
+k2OTYwMzI3MywtMjE1OTUyMjk5LC0xMzYxNTQ0Nzc0LDExMTQy
+ODU2MjUsNzQwNTMzNzkzLDE1MDczNjUxNjcsMTkyNjY1MDU5NS
+wtMTU3MzEzNTQzNywtNTcwODUxNDc2XX0=
 -->
