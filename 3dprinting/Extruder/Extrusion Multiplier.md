@@ -5,6 +5,8 @@ Slice cube from here
 * 0 infill
 * default extrusion width 0.45 (print settings/advanced) this should be the default
 * Use .2mm Quality MK3 profile
+* Disable K value (Comment out line in filament gcode)
+* Do really really slow
 
 Print cube
 
@@ -19,6 +21,6 @@ adjust extrusion multiplier
 etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA5NjQ4MiwtMjY5MTA2NTY4LC0xNj
-I1MzI5OTMxLDE5NDU5OTA1NTRdfQ==
+eyJoaXN0b3J5IjpbMTUzMjYyMDk3NSwtMTQ4MDk2NDgyLC0yNj
+kxMDY1NjgsLTE2MjUzMjk5MzEsMTk0NTk5MDU1NF19
 -->
