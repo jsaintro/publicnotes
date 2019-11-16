@@ -22,7 +22,7 @@ Note: This will heat the first nozzle (E0), and cycle around the target temperat
 Edit the start gcode for the printer profile
     ```
     {if first_layer_temperature[0]>210 && first_layer_temperature[0]<220}
-    M301  [C<value>] [D<value>] [E<index>] [I<value>] [L<value>] [P<value>]
+    M301 [D<value>] [E<index>] [I<value>] [P<value>]
     {endif}
     ```
 Note: Consider wrapping this in an if statement
@@ -41,7 +41,7 @@ Edit the start gcode for the printer profile
 `M304 [D<value>] [I<value>] [P<value>]`
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ3MjE5OTIsLTE3NTgzMjQzNzEsNz
-k2NjQzNTEyLC02NjAxMjU1NzcsMTYzMDQ4MzE5MSw2MzY3MTQw
-MTksLTEzMDgyOTcwMTRdfQ==
+eyJoaXN0b3J5IjpbLTc4MDExODc2NSwtMTc1ODMyNDM3MSw3OT
+Y2NDM1MTIsLTY2MDEyNTU3NywxNjMwNDgzMTkxLDYzNjcxNDAx
+OSwtMTMwODI5NzAxNF19
 -->
