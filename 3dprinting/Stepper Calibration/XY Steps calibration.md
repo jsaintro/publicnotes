@@ -6,6 +6,7 @@
  1. Tools Needed
 	* Digital Calipers
 	* Sharp Sharpie Ultra Fine Point
+	* 
 2. Print this object with the following settings
 	 [https://www.thingiverse.com/thing:195604](https://www.thingiverse.com/thing:195604)
 
@@ -58,6 +59,6 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjU2MjY3MiwtMTk1MDk0NjA1OCwtMz
+eyJoaXN0b3J5IjpbMTI4MzU2MTcxMiwtMTk1MDk0NjA1OCwtMz
 Y1MjU4Mjg4XX0=
 -->
