@@ -27,11 +27,10 @@ You're using a NODE MCU for this
     ```
     #define D1  5
     #define D2  4
-//#define D3  0  //must not be pulled low during power on/reset, toggles value during boot
-//#define D4  2  //must not be pulled low during power on/reset, toggles value during boot
-#define D5 14
-#define D6 12
-    ```Verify IDE by compiling the sketch
+    #define D5 14
+    #define D6 12
+    ```
+5. Verify IDE by compiling the sketch
 
 #### Internal pull-up/-down resistors
 
@@ -171,7 +170,7 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDI5ODQwNyw3NDA1MzM3OTMsMTUwNz
+eyJoaXN0b3J5IjpbMTExNDI4NTYyNSw3NDA1MzM3OTMsMTUwNz
 M2NTE2NywxOTI2NjUwNTk1LC0xNTczMTM1NDM3LC01NzA4NTE0
 NzZdfQ==
 -->
