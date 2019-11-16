@@ -1,5 +1,6 @@
 # PID Tuning
 ## Tune your hotend  
+1. Unload filament (So you don't cook it)
 2. Run the following gcode
 `M303 E0 S215 C8`
 Note: Where 215 is the temp in C that you are going to use for your filament (Change accordingly).   
@@ -27,6 +28,7 @@ Edit the start gcode for the printer profile
 `M304 [D<value>] [I<value>] [P<value>]`
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2NjQzNTEyLC02NjAxMjU1NzcsMTYzMD
-Q4MzE5MSw2MzY3MTQwMTksLTEzMDgyOTcwMTRdfQ==
+eyJoaXN0b3J5IjpbLTE3NTgzMjQzNzEsNzk2NjQzNTEyLC02Nj
+AxMjU1NzcsMTYzMDQ4MzE5MSw2MzY3MTQwMTksLTEzMDgyOTcw
+MTRdfQ==
 -->
