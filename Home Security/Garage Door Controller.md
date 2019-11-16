@@ -6,8 +6,8 @@
 1.  Download the ST_anything project
     
     ```
-    git clone 
-     git@github.com:jsaintrocc/ST_Anything.git
+    git clone https://github.com/DanielOgorchock/ST_Anything.git
+    git checkout v2.9.7
     
     ```
     
@@ -130,5 +130,5 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDg1MTQ3Nl19
+eyJoaXN0b3J5IjpbMTMzNzgwNDYzMiwtNTcwODUxNDc2XX0=
 -->
