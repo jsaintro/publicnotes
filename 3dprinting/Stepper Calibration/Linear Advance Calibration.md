@@ -7,7 +7,7 @@ For our prusa Mk3
  - Bed Temp: 65
  - Slow speed printing 20mm
  - Fast speed printing 60mm
-	 - Note this should be the slowest/fastest speeds during a single print (So for Speed do 20-60 etc..) bigger spreads have 
+	 - Note this should be the slowest/fastest speeds during a single print (So for Speed do 20-60 etc..) bigger spreads have more noticable results
  - Movement Speed 180mm
  - retract speed 35
  - retract distance .8
@@ -26,7 +26,7 @@ Note: For prusa you don't have to add any ABL it'll do it automatically when it 
 2. File tune repeat above but set the scale  +-5 and steps to 0.5
 26
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MjIxMDgsMjA2OTU4MTU4NSwxMTA3Nz
-k0MjE3LDE5NjcwODcyMjYsMTMwOTI2MDY0LDIxNDczMDI0NTEs
-OTgwNjg2MDkwLC0yMDM1MTk2ODZdfQ==
+eyJoaXN0b3J5IjpbMTY5NTY0MTE2MiwyMDY5NTgxNTg1LDExMD
+c3OTQyMTcsMTk2NzA4NzIyNiwxMzA5MjYwNjQsMjE0NzMwMjQ1
+MSw5ODA2ODYwOTAsLTIwMzUxOTY4Nl19
 -->
