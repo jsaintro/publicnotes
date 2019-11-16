@@ -2,11 +2,11 @@
 
 
 
-# Calibrate XY Steps per MM
+# Calibrate XYZ Steps per MM
 1. Tools Needed
 	* Digital Calipers
 	* Sharp Sharpie Ultra Fine Point
-2. Get the current Stepps
+2. Get the current Steps
 ```
 M503
 Recv: echo: M92 X100.00 Y100.00 Z400.00 E280.00
@@ -19,6 +19,7 @@ Note look for the M92 line those are your steps per mm
 		* 10% infill grid
 		* .2mm layer height
 		* .2mm Speed MK3 profile
+		* 2 shells
 
 4. Once done label the X and Y axes on the print (So you don't loose them once you remove the part
 5. Measure x and y with digital calipers 
@@ -76,6 +77,6 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUzMjU4NDI1LC02Mjc4NTg0NzAsLTE5NT
-A5NDYwNTgsLTM2NTI1ODI4OF19
+eyJoaXN0b3J5IjpbMTQ5MzYxODE0MCwtNjI3ODU4NDcwLC0xOT
+UwOTQ2MDU4LC0zNjUyNTgyODhdfQ==
 -->
