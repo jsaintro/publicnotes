@@ -8,7 +8,8 @@ For our prusa Mk3
  - Slow speed printing 45mm
  - Fast speed printing 60mm
  - Movement Speed 180mm
- - retra
+ - retract speed 35
+ - retract distance .8
  - Accelleration: 800
 
 Add 
@@ -18,6 +19,6 @@ G80 ; mesh bed leveling
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjI0MDQ4LDk4MDY4NjA5MCwtMjAzNT
-E5Njg2XX0=
+eyJoaXN0b3J5IjpbMTE5MTMzNTA2OSw5ODA2ODYwOTAsLTIwMz
+UxOTY4Nl19
 -->
