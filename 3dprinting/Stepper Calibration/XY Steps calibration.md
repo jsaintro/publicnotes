@@ -23,6 +23,7 @@ Note look for the M92 line those are your steps per mm
 4. Once done label the X and Y axes on the print (So you don't loose them once you remove the part
 5. Measure x and y with digital calipers 
 	X = 99.35 Y = 99.59
+	
 6. Calculate the correction factor
 	X,Y-Axis: 100mm / [measured length in mm] _[current STEPS]  
 	Z-Axis: 45mm / [measured height in mm]_ [current STEPS]
@@ -30,7 +31,8 @@ Note look for the M92 line those are your steps per mm
 	  X: 100/ 99.35 * 100 = 100.65
 	  Y: 100/99.59 * 100 = 100.41
 	  Z: 45/45.16 * 400 = 398.58
-7. Update slicer 
+7. Update slicer start gcode with steps line
+    M92 X100.65 Y100.41 Z398.58 E280.00 ; fine tune steps per mm JSR
 ## Alt
  2. Print this
 	 [https://www.thingiverse.com/thing:2050876](https://www.thingiverse.com/thing:2050876)
@@ -72,6 +74,6 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzg1ODQ3MCwtMTk1MDk0NjA1OCwtMz
-Y1MjU4Mjg4XX0=
+eyJoaXN0b3J5IjpbLTU3MzY5ODUzOCwtNjI3ODU4NDcwLC0xOT
+UwOTQ2MDU4LC0zNjUyNTgyODhdfQ==
 -->
