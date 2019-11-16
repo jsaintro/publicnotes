@@ -19,11 +19,19 @@ You're using a NODE MCU for this
    ```
 
 3. Download the board libraries
-4. IN arduino go into preferences and add into `Additional boards Manager`
-5. http://arduino.esp8266.com/stable/package_esp8266com_index.json
-6. Now open up the board and click the board manager at the bottom you should be able to install the esp8266 lib now
-7. Now you'll be able to select Generic ESP8266 Module
-8. 
+	4. IN arduino go into preferences and add into `Additional boards Manager`
+        http://arduino.esp8266.com/stable/package_esp8266com_index.json
+	5. Now open up the board and click the board manager at the bottom you should be able to install the esp8266 lib now
+	6. Now you'll be able to select Generic ESP8266 Module
+4. Edit sketch
+    ```
+    #define D1  5
+    #define D2  4
+//#define D3  0  //must not be pulled low during power on/reset, toggles value during boot
+//#define D4  2  //must not be pulled low during power on/reset, toggles value during boot
+#define D5 14
+#define D6 12
+    ```Verify IDE by compiling the sketch
 
 #### Internal pull-up/-down resistors
 
@@ -163,6 +171,7 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwNTMzNzkzLDE1MDczNjUxNjcsMTkyNj
-Y1MDU5NSwtMTU3MzEzNTQzNywtNTcwODUxNDc2XX0=
+eyJoaXN0b3J5IjpbMTgzNDI5ODQwNyw3NDA1MzM3OTMsMTUwNz
+M2NTE2NywxOTI2NjUwNTk1LC0xNTczMTM1NDM3LC01NzA4NTE0
+NzZdfQ==
 -->
