@@ -29,7 +29,8 @@ Note look for the M92 line those are your steps per mm
 	Ex.
 	  X: 100/ 99.35 * 100 = 100.65
 	  Y: 100/99.59 * 100 = 100.41
-	  Z: 45/
+	  Z: 45/45.16 * 400 = 398.58
+7. Update slicer 
 ## Alt
  2. Print this
 	 [https://www.thingiverse.com/thing:2050876](https://www.thingiverse.com/thing:2050876)
@@ -71,6 +72,6 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3MjQxNjc0LC0xOTUwOTQ2MDU4LC0zNj
-UyNTgyODhdfQ==
+eyJoaXN0b3J5IjpbLTYyNzg1ODQ3MCwtMTk1MDk0NjA1OCwtMz
+Y1MjU4Mjg4XX0=
 -->
