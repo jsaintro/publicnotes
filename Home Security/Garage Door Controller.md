@@ -44,33 +44,7 @@ GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 
 
 ~/Arduino/ST_Anything_GarageDoor_ESP8266WIFI
   ST_Anything_Garage/Arduino/Sketches/ST_Anything_GarageDoor_ESP8266WIFI
-9.  Copy the Sketches and Libraries folders from the project in the Arduino directory
--   Download the ST_Anything repository, focusing on the ST_Anything/Arduino/ folders
--   This folder structure should mirror that of your local User Arduino directory.
-    -   On Mac, it's located in  `~/Documents/Arduino/`.
-    -   On Windows, it's located in  `C:\Users\yourusername\Documents\Arduino`.
--   Look inside the  `Arduino/Sketches`  folder of the repo.
--   Copy and paste all of the  `ST_Anything_...`  sketch folders into your local Arduino sketches directory. If you haven't created any sketches, you may not see the folder. In this case, feel free to create it.
--   Look inside the  `Arduino/libraries`  folder of the repo.
--   Copy and paste both the  `ST_Anything...`  and  `SmartThings...`  folders (as well as ALL of the other library folders) into your local Arduino libraries directory.
--   Open one of the ST_Anything_Multiples_xxxxx.ino sketches for the hardware you're using and see if it successfully compiles.
-    -   Make sure you select the correct model of board you are compiling for.
-    -   If building for a standalone ESP8266 board, make sure you have configured the Arduino IDE to include support for these boards. Follow the guide at  [https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon](https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon)
-    ```
-    
-    
-10.  Open the Arduino App and load the ST_Anything_DSC_Alarm Sketch
-    
-    ```
-     Arduino/Sketches/ST_Anything_DSC_Alarm/ST_Anything_DSC_Alarm.ino
-    
-    ```
-    
-11.  Compile the sketch  
-    (The check icon)
-    
-12.  Upload the compiled sketch to the Arduino
-    
+
 
 # Pairing SmartThings shield with hub
 
@@ -176,8 +150,8 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk2MDMyNzMsLTIxNTk1MjI5OSwtMT
-M2MTU0NDc3NCwxMTE0Mjg1NjI1LDc0MDUzMzc5MywxNTA3MzY1
-MTY3LDE5MjY2NTA1OTUsLTE1NzMxMzU0MzcsLTU3MDg1MTQ3Nl
-19
+eyJoaXN0b3J5IjpbLTE5NjYzNTc1NTksLTE5Njk2MDMyNzMsLT
+IxNTk1MjI5OSwtMTM2MTU0NDc3NCwxMTE0Mjg1NjI1LDc0MDUz
+Mzc5MywxNTA3MzY1MTY3LDE5MjY2NTA1OTUsLTE1NzMxMzU0Mz
+csLTU3MDg1MTQ3Nl19
 -->
