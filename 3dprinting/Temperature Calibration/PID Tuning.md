@@ -9,7 +9,8 @@ Note: This will heat the first nozzle (E0), and cycle around the target temperat
   
 3. Add the results to your slicer config
 Edit the start gcode for the printer profile
-   
+M301  [C<value>] [D<value>] [E<index>] [I<value>] [L<value>] [P<value>]`   
+ ```
  Final output will be the lines you need to add to your marlin config
   
   
@@ -60,5 +61,6 @@ Markdown 1291  bytes 190  words 47  lines Ln 1, Col 0
 
 HTML 904  characters 177  words 31  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2NzE0MDE5LC0xMzA4Mjk3MDE0XX0=
+eyJoaXN0b3J5IjpbLTE2Mjg2MzA5ODYsNjM2NzE0MDE5LC0xMz
+A4Mjk3MDE0XX0=
 -->
