@@ -1,19 +1,12 @@
 # HW Setup
 
-1.  Attach the smartthings sheild to the arduino  
-    Note: Match up the pin labels between the two boards.
-2.  Setup the alternate serial pins  
-    jumper pin 2 -> 14 (tx3)  
-    jumper pin 3 -> 15 (rx3)  
-    set switch on shield to D2/D3  
-    Note: This allows you to troubleshoot using the serial monitor  
-    also this is the only way i’ve gotten everything to work
 
 # Arduino Setup
 
 1.  Download the ST_anything project
     
     ```
+    git clone 
      git@github.com:jsaintrocc/ST_Anything.git
     
     ```
@@ -137,5 +130,5 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjQ0NzcwMl19
+eyJoaXN0b3J5IjpbLTU3MDg1MTQ3Nl19
 -->
