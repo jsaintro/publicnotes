@@ -11,21 +11,24 @@ You're using a NODE MCU for this
     git checkout v2.9.7
     ```
     
-2.  Copy the Sketches and Libraries folders from the project in the Arduino directory
+2. Open the Garage door sketches in Arduino IDE
+  
+4.  Copy the Sketches and Libraries folders from the project in the Arduino directory
 
     ```
     
-3.  Open the Arduino App and load the ST_Anything_DSC_Alarm Sketch
+    
+5.  Open the Arduino App and load the ST_Anything_DSC_Alarm Sketch
     
     ```
      Arduino/Sketches/ST_Anything_DSC_Alarm/ST_Anything_DSC_Alarm.ino
     
     ```
     
-4.  Compile the sketch  
+6.  Compile the sketch  
     (The check icon)
     
-5.  Upload the compiled sketch to the Arduino
+7.  Upload the compiled sketch to the Arduino
     
 
 # Pairing SmartThings shield with hub
@@ -132,5 +135,5 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODQzMTc3OSwtNTcwODUxNDc2XX0=
+eyJoaXN0b3J5IjpbLTE4MzczMjQxOCwtNTcwODUxNDc2XX0=
 -->
