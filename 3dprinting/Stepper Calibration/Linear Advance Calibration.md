@@ -11,6 +11,8 @@ For our prusa Mk3
  - retract speed 35
  - retract distance .8
  - Accelleration: 800
+ - ending k value: 50
+ - k value steps 5
 
 Add 
 ```
@@ -19,6 +21,6 @@ G80 ; mesh bed leveling
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTMzNTA2OSw5ODA2ODYwOTAsLTIwMz
+eyJoaXN0b3J5IjpbMjE0NzMwMjQ1MSw5ODA2ODYwOTAsLTIwMz
 UxOTY4Nl19
 -->
