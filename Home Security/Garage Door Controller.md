@@ -22,10 +22,11 @@ You're using a NODE MCU for this
 4. IN arduino go into preferences and add into `Additional boards Manager`
 5. http://arduino.esp8266.com/stable/package_esp8266com_index.json
 6. Now open up the board and click the board manager at the bottom you should be able to install the esp8266 lib now
-7. 
+7. Now you'll be able to select Generic ESP8266 Module
+8. 
 ~/Arduino/ST_Anything_GarageDoor_ESP8266WIFI
   ST_Anything_Garage/Arduino/Sketches/ST_Anything_GarageDoor_ESP8266WIFI
-8.  Copy the Sketches and Libraries folders from the project in the Arduino directory
+9.  Copy the Sketches and Libraries folders from the project in the Arduino directory
 -   Download the ST_Anything repository, focusing on the ST_Anything/Arduino/ folders
 -   This folder structure should mirror that of your local User Arduino directory.
     -   On Mac, it's located in  `~/Documents/Arduino/`.
@@ -40,17 +41,17 @@ You're using a NODE MCU for this
     ```
     
     
-9.  Open the Arduino App and load the ST_Anything_DSC_Alarm Sketch
+10.  Open the Arduino App and load the ST_Anything_DSC_Alarm Sketch
     
     ```
      Arduino/Sketches/ST_Anything_DSC_Alarm/ST_Anything_DSC_Alarm.ino
     
     ```
     
-10.  Compile the sketch  
+11.  Compile the sketch  
     (The check icon)
     
-11.  Upload the compiled sketch to the Arduino
+12.  Upload the compiled sketch to the Arduino
     
 
 # Pairing SmartThings shield with hub
@@ -157,6 +158,6 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzc0NDAxNiwxNTA3MzY1MTY3LDE5Mj
-Y2NTA1OTUsLTE1NzMxMzU0MzcsLTU3MDg1MTQ3Nl19
+eyJoaXN0b3J5IjpbOTA3MzMxMjk4LDE1MDczNjUxNjcsMTkyNj
+Y1MDU5NSwtMTU3MzEzNTQzNywtNTcwODUxNDc2XX0=
 -->
