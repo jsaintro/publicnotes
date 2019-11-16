@@ -9,10 +9,12 @@
 6. Z Stepper Calibration
 7. PRONTERFACE
 
+Per pastic type
+8. PID Tuning
 Per Filament Calibrations
-
-7. XY Stepper Calibration
-
+9. XYZ Steps calibration
+10. Extruder stepper calibration
+11. Extrusion Multiplier
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTAyNjQ1MzhdfQ==
+eyJoaXN0b3J5IjpbLTk2OTQyMzA3Nl19
 -->
