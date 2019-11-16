@@ -7,11 +7,13 @@ You're using a NODE MCU for this
     
     ```
     git clone https://github.com/DanielOgorchock/ST_Anything.git ST_Anything_Garage
+    cd ST_Anything_Garage
     git checkout v2.9.7
-    
     ```
     
 2.  Copy the Sketches and Libraries folders from the project in the Arduino directory
+
+    ```
     
 3.  Open the Arduino App and load the ST_Anything_DSC_Alarm Sketch
     
@@ -130,5 +132,5 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDgyOTQ3MCwtNTcwODUxNDc2XX0=
+eyJoaXN0b3J5IjpbLTYzODQzMTc3OSwtNTcwODUxNDc2XX0=
 -->
