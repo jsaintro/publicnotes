@@ -52,6 +52,27 @@ write down the MAC from the serial monitor
 -   Select all of the Parent and Child Device Handlers
 -   Check the "Publish" check box and click "Execute Update"
 -   You should now have all of the necessary Device Handlers added to your account
+## SmartThings Device Handler Instructions - FOR USE WITH LAN-to-HUB WiFi/Cat5 Ethernet Devices
+
+-   Click on My Devices from navigation menu
+-   Click the "+ New Device" button from the menu
+-   Enter in the following REQUIRED fields
+    -   Name: anything you want (tip: keep it short)
+    -   Label: anything you want (tip: keep it short)
+    -   Device Network ID: any unique name (this will be overwritten with your device's MAC address automatically)
+    -   Type: "Parent_ST_Anything_Ethernet"
+    -   Version: "Self Published"
+    -   Location: your location (required!)
+    -   Hub: your hub (required!)
+-   Click the Create button at the bottom of the screen
+-   On your phone's SmartThings app, select Things view, find and select your New Device
+    -   You may receive a "Device not fully configured" pop-up with the ST app. We're about to take care of that!
+-   In the Arduino Device, click the "Gear Icon" in the top right of the screen
+-   Enter the folowing data from your Arduino
+    -   IP Address: must match what you hard-coded in your Arduino sketch file
+    -   Port: must match what you hard-coded in your Arduino sketch file
+    -   MAC Address: must match your Arduino's MAC address, all uppercase, no delimiters (e.g. 06AB12CD34EF)
+    -   Configure the correct number of "Button Devices" to match what you defined in the Arduino Sketch. Set to 0 if none. Note: If you visit the "Recently" page of your Parent Device in your ST App on your phone, you may get an annoying warning that the setup is not complete. If you've entered all of the required data above, you can safely ignore this message. Once it scrolls off the 'Recently' list, the pop-ups will stop.
 #### Internal pull-up/-down resistors
 
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
@@ -164,8 +185,9 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjIzNTQxNCwtMTk2NjM1NzU1OSwtMT
-k2OTYwMzI3MywtMjE1OTUyMjk5LC0xMzYxNTQ0Nzc0LDExMTQy
-ODU2MjUsNzQwNTMzNzkzLDE1MDczNjUxNjcsMTkyNjY1MDU5NS
-wtMTU3MzEzNTQzNywtNTcwODUxNDc2XX0=
+eyJoaXN0b3J5IjpbLTc1NTgxMjAyOSwxMzQyMjM1NDE0LC0xOT
+Y2MzU3NTU5LC0xOTY5NjAzMjczLC0yMTU5NTIyOTksLTEzNjE1
+NDQ3NzQsMTExNDI4NTYyNSw3NDA1MzM3OTMsMTUwNzM2NTE2Ny
+wxOTI2NjUwNTk1LC0xNTczMTM1NDM3LC01NzA4NTE0NzZdfQ==
+
 -->
