@@ -13,6 +13,7 @@ For our prusa Mk3
  - Accelleration: 800
  - ending k value: 50
  - k value steps 5
+ - extrusion multiplier
 
 Add 
 ```
@@ -21,6 +22,6 @@ G80 ; mesh bed leveling
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzMwMjQ1MSw5ODA2ODYwOTAsLTIwMz
-UxOTY4Nl19
+eyJoaXN0b3J5IjpbMTMwOTI2MDY0LDIxNDczMDI0NTEsOTgwNj
+g2MDkwLC0yMDM1MTk2ODZdfQ==
 -->
