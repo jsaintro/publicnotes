@@ -16,7 +16,7 @@ Note look for the M92 line those are your steps per mm
 3. Print this object with the following settings
 	 [https://www.thingiverse.com/thing:195604](https://www.thingiverse.com/thing:195604)
 
-		* 10% infill rectangular
+		* 10% infill grid
 		* .2mm layer height
 		* .2mm Speed MK3 profile
 
@@ -76,6 +76,6 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4MTc5NDIxLC02Mjc4NTg0NzAsLTE5NT
+eyJoaXN0b3J5IjpbNjUzMjU4NDI1LC02Mjc4NTg0NzAsLTE5NT
 A5NDYwNTgsLTM2NTI1ODI4OF19
 -->
