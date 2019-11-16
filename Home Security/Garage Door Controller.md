@@ -10,8 +10,8 @@ You're using a NODE MCU for this
     cd ST_Anything_Garage
     git checkout v2.9.7
     ```
-    
-2. Open the Garage door sketches in Arduino IDE
+2. Copy the garage door sketches to your arduino directory
+  Note: for     
   ST_Anything_Garage/Arduino/Sketches/ST_Anything_GarageDoor_ESP8266WIFI
 4.  Copy the Sketches and Libraries folders from the project in the Arduino directory
 -   Download the ST_Anything repository, focusing on the ST_Anything/Arduino/ folders
@@ -145,6 +145,6 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyMTc0OTI4LC0xNTczMTM1NDM3LC01Nz
+eyJoaXN0b3J5IjpbODkzNzgwMzAwLC0xNTczMTM1NDM3LC01Nz
 A4NTE0NzZdfQ==
 -->
