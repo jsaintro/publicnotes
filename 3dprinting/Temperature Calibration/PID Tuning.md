@@ -8,7 +8,8 @@ Note: Where 215 is the temp in C that you are going to use for your filament (Ch
 Note: This will heat the first nozzle (E0), and cycle around the target temperature 8 times (C8) at the given temperature (S200) ,200 C, and return values for P I and D
   
 3. Add the results to your slicer config
-4.    
+Edit the start gcode for the printer profile
+   
  Final output will be the lines you need to add to your marlin config
   
   
@@ -59,6 +60,5 @@ Markdown 1291  bytes 190  words 47  lines Ln 1, Col 0
 
 HTML 904  characters 177  words 31  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU0NDk4NDEsLTEzMDgyOTcwMTRdfQ
-==
+eyJoaXN0b3J5IjpbNjM2NzE0MDE5LC0xMzA4Mjk3MDE0XX0=
 -->
