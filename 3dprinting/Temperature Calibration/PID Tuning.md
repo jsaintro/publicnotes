@@ -8,6 +8,8 @@ Note: This will heat the first nozzle (E0), and cycle around the target temperat
 3. Add the results to your slicer config
 Edit the start gcode for the printer profile
 `M301  [C<value>] [D<value>] [E<index>] [I<value>] [L<value>] [P<value>]`
+Note: Consider wrapping this in an if statement
+
  
 ## Tune your heatbed  
 
@@ -20,6 +22,6 @@ Edit the start gcode for the printer profile
 `M301  [C<value>] [D<value>] [E<index>] [I<value>] [L<value>] [P<value>]`
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTYxOTM0OSw2MzY3MTQwMTksLTEzMD
+eyJoaXN0b3J5IjpbLTg3OTM2NTIwMCw2MzY3MTQwMTksLTEzMD
 gyOTcwMTRdfQ==
 -->
