@@ -20,8 +20,9 @@ Add
 G28 W ; home all without mesh bed level
 G80 ; mesh bed leveling
 ```
+After the G92 in the output
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTI2MDY0LDIxNDczMDI0NTEsOTgwNj
-g2MDkwLC0yMDM1MTk2ODZdfQ==
+eyJoaXN0b3J5IjpbMTk2NzA4NzIyNiwxMzA5MjYwNjQsMjE0Nz
+MwMjQ1MSw5ODA2ODYwOTAsLTIwMzUxOTY4Nl19
 -->
