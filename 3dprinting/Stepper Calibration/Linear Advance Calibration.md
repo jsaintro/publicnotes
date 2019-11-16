@@ -22,10 +22,10 @@ Note: For prusa you don't have to add any ABL it'll do it automatically when it 
   You're looking for the line that seems most consistent through the transition Doesn't got thin->thick or vice versa
 30
 
-2. File tune repeat above but set the scale  +-5 and steps to 0.
+2. File tune repeat above but set the scale  +-5 and steps to 0.5
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQ3ODgwNDYsMTk2NzA4NzIyNiwxMz
-A5MjYwNjQsMjE0NzMwMjQ1MSw5ODA2ODYwOTAsLTIwMzUxOTY4
-Nl19
+eyJoaXN0b3J5IjpbMTEwNzc5NDIxNywxOTY3MDg3MjI2LDEzMD
+kyNjA2NCwyMTQ3MzAyNDUxLDk4MDY4NjA5MCwtMjAzNTE5Njg2
+XX0=
 -->
