@@ -7,7 +7,7 @@ For our prusa Mk3
  - Bed Temp: 65
  - Slow speed printing 45mm Exaggerate this 20mm
  - Fast speed printing 60mm Exaggerate this 80mm
- - 
+	 - Note this should be the slowest/fastest speeds during a single print (So for Speed do 20-60 etc..)
  - Movement Speed 180mm
  - retract speed 35
  - retract distance .8
@@ -26,7 +26,7 @@ Note: For prusa you don't have to add any ABL it'll do it automatically when it 
 2. File tune repeat above but set the scale  +-5 and steps to 0.5
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwMDQ2Njg4LDExMDc3OTQyMTcsMTk2Nz
-A4NzIyNiwxMzA5MjYwNjQsMjE0NzMwMjQ1MSw5ODA2ODYwOTAs
-LTIwMzUxOTY4Nl19
+eyJoaXN0b3J5IjpbMjA2OTU4MTU4NSwxMTA3Nzk0MjE3LDE5Nj
+cwODcyMjYsMTMwOTI2MDY0LDIxNDczMDI0NTEsOTgwNjg2MDkw
+LC0yMDM1MTk2ODZdfQ==
 -->
