@@ -28,18 +28,24 @@ Edit the start gcode for the printer profile
 ## Tune your heatbed  
 
 1. Run the following gcode
-`M303 E-1 S65 C8`
+```
+M303 E-1 S65 C8
+Recv:  Classic PID
+Recv:  Kp: 122.48
+Recv:  Ki: 7.31
+Recv:  Kd: 513.35
+```
  This will heat the heat bed nozzle (E-1), and cycle around the target temperature 8 times (C8) at the given temperature (S65) ,65 C, and return values for P I and D
   
  3. Add the results to your slicer config
 Edit the start gcode for the printer profile
     ```
     {if bed_temperature[0]>60 && bed_temperature[0]<70}
-    M304 [D<value>] [I<value>] [P<value>]`
+    M304 P122.48 I7.31 D513.35
     {endif}
     ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2NjY2OTU4LC0xNzU4MzI0MzcxLDc5Nj
-Y0MzUxMiwtNjYwMTI1NTc3LDE2MzA0ODMxOTEsNjM2NzE0MDE5
-LC0xMzA4Mjk3MDE0XX0=
+eyJoaXN0b3J5IjpbLTQwNDI1NTU1NCw5OTY2NjY5NTgsLTE3NT
+gzMjQzNzEsNzk2NjQzNTEyLC02NjAxMjU1NzcsMTYzMDQ4MzE5
+MSw2MzY3MTQwMTksLTEzMDgyOTcwMTRdfQ==
 -->
