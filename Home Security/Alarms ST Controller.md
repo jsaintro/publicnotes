@@ -27,6 +27,7 @@ You're using a Arduino MEGA256
     #define D5 14
     #define D6 12
     ```
+5. Select board `Arduino/Genuino MEGA or MEGA 2560`
 5. Verify IDE by compiling the sketch
 
 6. Prep nodemcu for flashing
@@ -77,5 +78,5 @@ write down the MAC from the serial monitor
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU4MTcyNDhdfQ==
+eyJoaXN0b3J5IjpbMTU4MDc0ODM5MSwtMTg3NTgxNzI0OF19
 -->
