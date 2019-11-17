@@ -12,7 +12,7 @@ You're using a Arduino MEGA256
     cd ST_Anything_Alarm
     git checkout v2.9.7
     ```
-2. Copy the garage door sketches to your arduino directory
+2. Copy the multi sketch to your arduino directory
   Note: for Linux the DIR is ~/Arduino
 
    ```
@@ -82,5 +82,5 @@ write down the MAC from the serial monitor
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDE4OTUxOF19
+eyJoaXN0b3J5IjpbLTEyMjY0MTAwMDJdfQ==
 -->
