@@ -72,9 +72,10 @@ write down the MAC from the serial monitor
     -   IP Address: must match what you hard-coded in your Arduino sketch file
     -   Port: must match what you hard-coded in your Arduino sketch file
     -   MAC Address: must match your Arduino's MAC address, all uppercase, no delimiters (e.g. 06AB12CD34EF)
-    -   Configure the correct number of "Button Devices" to match what you defined in the Arduino Sketch. Set to 0 if none. Note: If you visit the "Recently" page of your Parent Device in your ST App on your phone, you may get an annoying warning that the setup is not complete. If you've entered all of the required data above, you can safely ignore this message. Once it scrolls off the 'Recently' list, the pop-ups will stop.
-#### Internal pull-up/-down resistors
+    -   Number of  "Button Devices" per garage relay/contact pair (2 by default)to match what you defined in the Arduino Sketch. Set to 0 if none. Note: If you visit the "Recently" page of your Parent Device in your ST App on your phone, you may get an annoying warning that the setup is not complete. If you've entered all of the required data above, you can safely ignore this message. Once it scrolls off the 'Recently' list, the pop-ups will stop.
 
+1.  Once this is done you should see 2 buttons 
+#### Internal pull-up/-down resistors
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
 
 ~/Arduino/ST_Anything_GarageDoor_ESP8266WIFI
@@ -185,9 +186,9 @@ Create virtual devices for each
 
 HTML 3146  characters 596  words 100  paragraphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NTgxMjAyOSwxMzQyMjM1NDE0LC0xOT
-Y2MzU3NTU5LC0xOTY5NjAzMjczLC0yMTU5NTIyOTksLTEzNjE1
-NDQ3NzQsMTExNDI4NTYyNSw3NDA1MzM3OTMsMTUwNzM2NTE2Ny
-wxOTI2NjUwNTk1LC0xNTczMTM1NDM3LC01NzA4NTE0NzZdfQ==
-
+eyJoaXN0b3J5IjpbLTk5NDk3MTc3MSwtNzU1ODEyMDI5LDEzND
+IyMzU0MTQsLTE5NjYzNTc1NTksLTE5Njk2MDMyNzMsLTIxNTk1
+MjI5OSwtMTM2MTU0NDc3NCwxMTE0Mjg1NjI1LDc0MDUzMzc5My
+wxNTA3MzY1MTY3LDE5MjY2NTA1OTUsLTE1NzMxMzU0MzcsLTU3
+MDg1MTQ3Nl19
 -->
