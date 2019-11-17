@@ -16,7 +16,7 @@ You're using a Arduino MEGA256
   Note: for Linux the DIR is ~/Arduino
 
    ```
-   cp -r ST_Anything_Garage/Arduino/Sketches/ST_Anything_GarageDoors_ESP8266WiFi/ ~/Arduino/ST_Anything_GarageDoors_ESP8266WiFi
+   cp -r ST_Anything_Alarm/Arduino/Sketches/ST_Anything_Multiples_Thingshield/ ~/Arduino/Sketches/ST_Anything_Multiples_Thingshield
    cp -r ST_Anything_Garage/Arduino/libraries/* ~/Arduino/libraries/
    ```
 
@@ -82,5 +82,5 @@ write down the MAC from the serial monitor
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjY0MTAwMDJdfQ==
+eyJoaXN0b3J5IjpbMTE1MzI1NDY3MV19
 -->
