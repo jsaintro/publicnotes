@@ -17,14 +17,9 @@ You're using a Arduino MEGA256
 
    ```
    cp -r ST_Anything_Alarm/Arduino/Sketches/ST_Anything_Multiples_Thingshield/ ~/Arduino/Sketches/ST_Anything_Multiples_Thingshield
-   cp -r ST_Anything_Garage/Arduino/libraries/* ~/Arduino/libraries/
+   cp -r ST_Anything_Alarm/Arduino/libraries/* ~/Arduino/libraries/
    ```
 
-3. Download the board libraries
-	4. IN arduino go into preferences and add into `Additional boards Manager`
-        http://arduino.esp8266.com/stable/package_esp8266com_index.json
-	5. Now open up the board and click the board manager at the bottom you should be able to install the esp8266 lib now
-	6. Now you'll be able to select Generic ESP8266 Module
 4. Edit sketch
     ```
     #define D1  5
@@ -82,5 +77,5 @@ write down the MAC from the serial monitor
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MzI1NDY3MV19
+eyJoaXN0b3J5IjpbLTE4NzU4MTcyNDhdfQ==
 -->
