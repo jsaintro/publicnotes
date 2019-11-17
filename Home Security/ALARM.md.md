@@ -31,7 +31,7 @@
 4. In the App go into pairing mode looking for a device
 5. Hit the "switch" button on the shield (Unless you already did the 6 second hold ???)
 6. Should pair as an Arduino ThingShield
-;
+
 # Setup the Device Handler
 1. Login to the [smarthings api](https://graph.api.smartthings.com/login/auth)
 1. Click on "My Device Handlers"
@@ -114,5 +114,6 @@ Create virtual devices for each
 1. Edit the schetch
    change the variables to match your zones
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzc2MDg1MCwtMTY0NzczMzM1M119
+eyJoaXN0b3J5IjpbLTE2NDc3MzMzNTMsMTQxNzc2MDg1MCwtMT
+Y0NzczMzM1M119
 -->
