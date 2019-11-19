@@ -34,7 +34,7 @@ You're using a NodeMCU for this (Amica/Smaller Variant)
 5. Verify IDE by compiling the sketch
 
 6. Prep nodemcu for flashing
-Use baud rate 115200 (Note: if it doesn't show up make sure you're using a microUSB DATA cable
+Use baud rate 115200 (Note: if it doesn't show up make sure you're using a microUSB DATA cable/You have a lot of power only)
 defaults are fine
 write down the MAC from the serial monitor
 8. [https://github.com/nodemcu/nodemcu-devkit-v1.0](https://github.com/nodemcu/nodemcu-devkit-v1.0)
@@ -81,5 +81,5 @@ write down the MAC from the serial monitor
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTI3ODQ0NCwtOTg2NzI1MjVdfQ==
+eyJoaXN0b3J5IjpbODAzMTEzMzQ3LC05ODY3MjUyNV19
 -->
