@@ -15,8 +15,8 @@ You're using a NodeMCU for this (Amica/Smaller Variant)
   Note: for Linux the DIR is ~/Arduino
 
    ```
-   cp -r ST_Anything_Garage/Arduino/Sketches/ST_Anything_GarageDoors_ESP8266WiFi/ ~/Arduino/ST_Anything_GarageDoors_ESP8266WiFi
-   cp -r ST_Anything_Garage/Arduino/libraries/* ~/Arduino/libraries/
+   cp -r ST_Anything_Alarm/Arduino/Sketches/ST_Anything_Multiples_ESP8266WiFi/ ~/Arduino/Sketches/ST_Anything_Multiples_ESP8266WiFi
+   cp -r ST_Anything_Alarm/Arduino/libraries/* ~/Arduino/libraries/
    ```
 
 3. Download the board libraries
@@ -81,5 +81,5 @@ write down the MAC from the serial monitor
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjcyNTI1XX0=
+eyJoaXN0b3J5IjpbLTc2OTI3ODQ0NCwtOTg2NzI1MjVdfQ==
 -->
