@@ -65,7 +65,7 @@ write down the MAC from the serial monitor
 -   On your phone's SmartThings app, select Things view, find and select your New Device
     -   You may receive a "Device not fully configured" pop-up with the ST app. We're about to take care of that!
 -   In the Arduino Device, click the "Gear Icon" in the top right of the screen
--   Enter the folowing data from your Arduino
+-   Enter the following data from your Arduino
     -   IP Address: must match what you hard-coded in your Arduino sketch file
     -   Port: must match what you hard-coded in your Arduino sketch file
     -   MAC Address: must match your Arduino's MAC address, all uppercase, no delimiters (e.g. 60019451BDA1)
@@ -77,6 +77,6 @@ write down the MAC from the serial monitor
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTY3NzA4OCwtMTMwMTEwNzQ5NSw4MD
-MxMTMzNDcsLTk4NjcyNTI1XX0=
+eyJoaXN0b3J5IjpbLTEyMTcwMzY5ODgsMTkzOTY3NzA4OCwtMT
+MwMTEwNzQ5NSw4MDMxMTMzNDcsLTk4NjcyNTI1XX0=
 -->
