@@ -68,7 +68,7 @@ write down the MAC from the serial monitor
 -   Enter the folowing data from your Arduino
     -   IP Address: must match what you hard-coded in your Arduino sketch file
     -   Port: must match what you hard-coded in your Arduino sketch file
-    -   MAC Address: must match your Arduino's MAC address, all uppercase, no delimiters (e.g. 06AB12CD34EF)
+    -   MAC Address: must match your Arduino's MAC address, all uppercase, no delimiters (e.g. 60019451BDA1)
     -   Number of  "Button Devices" per garage relay/contact pair (2 by default)
     -  Note: If you visit the "Recently" page of your Parent Device in your ST App on your phone, you may get an annoying warning that the setup is not complete. If you've entered all of the required data above, you can safely ignore this message. Once it scrolls off the 'Recently' list, the pop-ups will stop.
 
@@ -77,6 +77,6 @@ write down the MAC from the serial monitor
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDExMDc0OTUsODAzMTEzMzQ3LC05OD
-Y3MjUyNV19
+eyJoaXN0b3J5IjpbMTkzOTY3NzA4OCwtMTMwMTEwNzQ5NSw4MD
+MxMTMzNDcsLTk4NjcyNTI1XX0=
 -->
