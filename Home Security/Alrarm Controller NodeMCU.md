@@ -25,15 +25,11 @@ You're using a NodeMCU for this (Amica/Smaller Variant)
 	5. Now open up the board and click the board manager at the bottom you should be able to install the esp8266 lib now
 	6. Now you'll be able to select Generic ESP8266 Module
 4. Edit sketch
-    ```
-    #define D1  5
-    #define D2  4
-    #define D5 14
-    #define D6 12
-    ```
-5. Verify IDE by compiling the sketch
+  Apply the diff file located here
+  https://drive.google.com/file/d/15UaZJWbeZfzeLV04jwlj3u3aFoceukCY/view?usp=sharing
+6. Verify IDE by compiling the sketch
 
-6. Prep nodemcu for flashing
+7. Prep nodemcu for flashing
 Use baud rate 115200 (Note: if it doesn't show up make sure you're using a microUSB DATA cable/You have a lot of power only)
 defaults are fine
 write down the MAC from the serial monitor
@@ -81,5 +77,6 @@ write down the MAC from the serial monitor
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzMTEzMzQ3LC05ODY3MjUyNV19
+eyJoaXN0b3J5IjpbLTEzMDExMDc0OTUsODAzMTEzMzQ3LC05OD
+Y3MjUyNV19
 -->
