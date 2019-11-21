@@ -37,7 +37,7 @@ Use baud rate 115200 (Note: if it doesn't show up make sure you're using a micro
 defaults are fine
 write down the MAC from the serial monitor
 8. [https://github.com/nodemcu/nodemcu-devkit-v1.0](https://github.com/nodemcu/nodemcu-devkit-v1.0)
-9. MAC: 60:01:94:51:bd:a1
+9. MAC: 2CF4323CB086
 
 # Setup smartthings device handler
 1.  Login to the  [smarthings api](https://graph.api.smartthings.com/login/auth) (USe the samsung login with your ST credentials
@@ -80,9 +80,9 @@ write down the MAC from the serial monitor
 GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzEzNTUzNjMsLTc1NTgxMjAyOSwxMz
-QyMjM1NDE0LC0xOTY2MzU3NTU5LC0xOTY5NjAzMjczLC0yMTU5
-NTIyOTksLTEzNjE1NDQ3NzQsMTExNDI4NTYyNSw3NDA1MzM3OT
-MsMTUwNzM2NTE2NywxOTI2NjUwNTk1LC0xNTczMTM1NDM3LC01
-NzA4NTE0NzZdfQ==
+eyJoaXN0b3J5IjpbNTQ1MjgzOTAxLC0xMDcxMzU1MzYzLC03NT
+U4MTIwMjksMTM0MjIzNTQxNCwtMTk2NjM1NzU1OSwtMTk2OTYw
+MzI3MywtMjE1OTUyMjk5LC0xMzYxNTQ0Nzc0LDExMTQyODU2Mj
+UsNzQwNTMzNzkzLDE1MDczNjUxNjcsMTkyNjY1MDU5NSwtMTU3
+MzEzNTQzNywtNTcwODUxNDc2XX0=
 -->
