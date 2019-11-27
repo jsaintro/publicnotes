@@ -45,6 +45,8 @@ Edit the start gcode for the printer profile
     Note: Replace the XXXs with our actual PID values that are output from the previous step
 ## Tune your heatbed  
 
+2. You will be testing a full range bed temps
+   XXX = 55,65,75,85,95,105,115
 1. Run the following gcode
 ```
 M303 E-1 S65 C8
@@ -53,15 +55,15 @@ Recv:  Kp: 122.48
 Recv:  Ki: 7.31
 Recv:  Kd: 513.35
 ```
- This will heat the heat bed nozzle (E-1), and cycle around the target temperature 8 times (C8) at the given temperature (S65) ,65 C, and return values for P I and D
+ This will heat the heat bed (E-1), and cycle around the target temperature 8 times (C8) at the given temperature (S65) ,65 C, and return values for P I and D
   
  3. Add the results to your slicer config
 Edit the start gcode for the printer profile
     ```
     ```
-    {if first_layer_temperature[0]>=260 && first_layer_temperature[0]<270}
+    {if bed_temperature[0]>=260 && bed_temperature[0]<270}
     M301 E0 PXXX IXXX DXXX
-    {elsif first_layer_temperature[0]>250}
+    {elsif bed_temperature[0]>250}
     M301 E0 PXXX IXXX DXXX
     {elsif first_layer_temperature[0]>240}
     M301 E0 PXXX IXXX DXXX
@@ -75,13 +77,14 @@ Edit the start gcode for the printer profile
     M301 E0 PXXX IXXX DXXX
     {elsif first_layer_temperature[0]>190}
     M301 E0 PXXX IXXX DXXX
+    
     {if bed_temperature[0]>60 && bed_temperature[0]<70}
     M304 P122.48 I7.31 D513.35
     {endif}
     ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwNjU1NjUxLDEwMTM1ODIzNjMsLTQwND
-I1NTU1NCw5OTY2NjY5NTgsLTE3NTgzMjQzNzEsNzk2NjQzNTEy
-LC02NjAxMjU1NzcsMTYzMDQ4MzE5MSw2MzY3MTQwMTksLTEzMD
-gyOTcwMTRdfQ==
+eyJoaXN0b3J5IjpbLTQxNTg5MTg1MSwxMDEzNTgyMzYzLC00MD
+QyNTU1NTQsOTk2NjY2OTU4LC0xNzU4MzI0MzcxLDc5NjY0MzUx
+MiwtNjYwMTI1NTc3LDE2MzA0ODMxOTEsNjM2NzE0MDE5LC0xMz
+A4Mjk3MDE0XX0=
 -->
