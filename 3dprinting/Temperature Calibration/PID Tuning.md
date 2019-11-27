@@ -24,8 +24,22 @@ Note: This will heat the first nozzle (E0), and cycle around the target temperat
 5. Add the results to your slicer config
 Edit the start gcode for the printer profile
     ```
-    {if first_layer_temperature[0]>210 && first_layer_temperature[0]<220}
-    M301 E0 P20.95 I1.51 D72.77
+    {if first_layer_temperature[0]>=260 && first_layer_temperature[0]<270}
+    M301 E0 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>250}
+    M301 E0 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>240}
+    M301 E0 P18.33 I1.27 D66.34
+    {elsif first_layer_temperature[0]>230}
+    M301 E0 P19.96 I1.43 D69.87
+    {elsif first_layer_temperature[0]>220}
+    M301 E0 P21.25 I1.56 D72.52
+    {elsif first_layer_temperature[0]>210}
+    M301 E0 P20.58 I1.48 D71.52
+    {elsif first_layer_temperature[0]>200}
+    M301 E0 P19.42 I1.38 D68.58
+    {elsif first_layer_temperature[0]>190}
+    M301 E0 P21.21 I1.50 D74.85
     {endif}
     ``` 
 ## Tune your heatbed  
@@ -48,7 +62,8 @@ Edit the start gcode for the printer profile
     {endif}
     ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzU4MjM2MywtNDA0MjU1NTU0LDk5Nj
-Y2Njk1OCwtMTc1ODMyNDM3MSw3OTY2NDM1MTIsLTY2MDEyNTU3
-NywxNjMwNDgzMTkxLDYzNjcxNDAxOSwtMTMwODI5NzAxNF19
+eyJoaXN0b3J5IjpbMTA5NjUzMDAxMywxMDEzNTgyMzYzLC00MD
+QyNTU1NTQsOTk2NjY2OTU4LC0xNzU4MzI0MzcxLDc5NjY0MzUx
+MiwtNjYwMTI1NTc3LDE2MzA0ODMxOTEsNjM2NzE0MDE5LC0xMz
+A4Mjk3MDE0XX0=
 -->
