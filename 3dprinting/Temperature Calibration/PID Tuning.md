@@ -1,9 +1,12 @@
 # PID Tuning
 ## Tune your hotend  
 1. Unload filament (So you don't cook it)
-2. Run the following gcode
+2. You will be testing a full range of temps
+   XXX = 205,215,225,235,245,255,265
+   
+4. Run the following gcode
 ```
-M303 E0 S215 C8
+M303 E0 SXXX C8
 Send: M303 E0 S215 C8
 Recv: PID Autotune start [...]
 Recv:  bias: 93 d: 93 min: 211.67 max: 220.81 [...]
@@ -15,10 +18,10 @@ Recv:  Kp: 20.95
 Recv:  Ki: 1.51
 Recv:  Kd: 72.77
 ```
-Note: Where 215 is the temp in C that you are going to use for your filament (Change accordingly).   
+Note: Where XXX is the temp in C that you are going to use for your filament (Change accordingly).   
 Note: This will heat the first nozzle (E0), and cycle around the target temperature 8 times (C8) at the given temperature (S200) ,200 C, and return values for P I and D.  Ex P=20.95 I=1.51 D=72.77
   
-3. Add the results to your slicer config
+5. Add the results to your slicer config
 Edit the start gcode for the printer profile
     ```
     {if first_layer_temperature[0]>210 && first_layer_temperature[0]<220}
@@ -45,7 +48,7 @@ Edit the start gcode for the printer profile
     {endif}
     ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDI1NTU1NCw5OTY2NjY5NTgsLTE3NT
-gzMjQzNzEsNzk2NjQzNTEyLC02NjAxMjU1NzcsMTYzMDQ4MzE5
-MSw2MzY3MTQwMTksLTEzMDgyOTcwMTRdfQ==
+eyJoaXN0b3J5IjpbMjAxNjMyMDMxNCwtNDA0MjU1NTU0LDk5Nj
+Y2Njk1OCwtMTc1ODMyNDM3MSw3OTY2NDM1MTIsLTY2MDEyNTU3
+NywxNjMwNDgzMTkxLDYzNjcxNDAxOSwtMTMwODI5NzAxNF19
 -->
