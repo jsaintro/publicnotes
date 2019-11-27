@@ -2,7 +2,7 @@
 ## Tune your hotend  
 1. Unload filament (So you don't cook it)
 2. You will be testing a full range of temps
-   XXX = 205,215,225,235,245,255,265
+   XXX = 195,205,215,225,235,245,255,265
    
 4. Run the following gcode
 ```
@@ -48,7 +48,7 @@ Edit the start gcode for the printer profile
     {endif}
     ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjMyMDMxNCwtNDA0MjU1NTU0LDk5Nj
+eyJoaXN0b3J5IjpbMTAxMzU4MjM2MywtNDA0MjU1NTU0LDk5Nj
 Y2Njk1OCwtMTc1ODMyNDM3MSw3OTY2NDM1MTIsLTY2MDEyNTU3
 NywxNjMwNDgzMTkxLDYzNjcxNDAxOSwtMTMwODI5NzAxNF19
 -->
