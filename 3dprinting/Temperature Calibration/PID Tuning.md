@@ -61,29 +61,26 @@ Recv:  Kd: 513.35
 Edit the start gcode for the printer profile
     ```
     ```
-    {if bed_temperature[0]>=260 && bed_temperature[0]<270}
+    {if bed_temperature[0]>=110 && bed_temperature[0]<120}
     M301 E0 PXXX IXXX DXXX
-    {elsif bed_temperature[0]>250}
+    {elsif bed_temperature[0]>100}
     M301 E0 PXXX IXXX DXXX
-    {elsif first_layer_temperature[0]>240}
+    {elsif first_layer_temperature[0]>90}
     M301 E0 PXXX IXXX DXXX
-    {elsif first_layer_temperature[0]>230}
+    {elsif first_layer_temperature[0]>80}
     M301 E0 PXXX IXXX DXXX
-    {elsif first_layer_temperature[0]>220}
+    {elsif first_layer_temperature[0]>70}
     M301 E0 PXXX IXXX DXXX
-    {elsif first_layer_temperature[0]>210}
+    {elsif first_layer_temperature[0]>60}
     M301 E0 PXXX IXXX DXXX
-    {elsif first_layer_temperature[0]>200}
+    {elsif first_layer_temperature[0]>50}
     M301 E0 PXXX IXXX DXXX
-    {elsif first_layer_temperature[0]>190}
-    M301 E0 PXXX IXXX DXXX
-    
     {if bed_temperature[0]>60 && bed_temperature[0]<70}
     M304 P122.48 I7.31 D513.35
     {endif}
     ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTg5MTg1MSwxMDEzNTgyMzYzLC00MD
+eyJoaXN0b3J5IjpbMTM5ODMxMTkwOSwxMDEzNTgyMzYzLC00MD
 QyNTU1NTQsOTk2NjY2OTU4LC0xNzU4MzI0MzcxLDc5NjY0MzUx
 MiwtNjYwMTI1NTc3LDE2MzA0ODMxOTEsNjM2NzE0MDE5LC0xMz
 A4Mjk3MDE0XX0=
