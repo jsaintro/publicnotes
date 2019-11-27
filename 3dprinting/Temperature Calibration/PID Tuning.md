@@ -77,9 +77,10 @@ Edit the start gcode for the printer profile
     M304 PXXX IXXX DXXX
     {endif}
     ``` 
+      Note: Replace the XXXs with our actual PID values that are output from the previous step
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTk5MTQxOSwxMDEzNTgyMzYzLC00MD
-QyNTU1NTQsOTk2NjY2OTU4LC0xNzU4MzI0MzcxLDc5NjY0MzUx
-MiwtNjYwMTI1NTc3LDE2MzA0ODMxOTEsNjM2NzE0MDE5LC0xMz
-A4Mjk3MDE0XX0=
+eyJoaXN0b3J5IjpbLTQwNTUwNDcxNCwtMjkxOTkxNDE5LDEwMT
+M1ODIzNjMsLTQwNDI1NTU1NCw5OTY2NjY5NTgsLTE3NTgzMjQz
+NzEsNzk2NjQzNTEyLC02NjAxMjU1NzcsMTYzMDQ4MzE5MSw2Mz
+Y3MTQwMTksLTEzMDgyOTcwMTRdfQ==
 -->
