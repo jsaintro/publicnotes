@@ -20,6 +20,7 @@
  
     
 [https://prusacommunity.com/set-your-bearing-straight/](https://prusacommunity.com/set-your-bearing-straight/)
+[https://www.youtube.com/watch?v=tUotzWVtQ2c&t=20s](https://www.youtube.com/watch?v=tUotzWVtQ2c&t=20s)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY4ODM2N119
+eyJoaXN0b3J5IjpbLTc3MjU3MzIxMF19
 -->
