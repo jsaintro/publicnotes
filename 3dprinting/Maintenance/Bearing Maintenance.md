@@ -23,6 +23,9 @@
 [https://prusacommunity.com/set-your-bearing-straight/](https://prusacommunity.com/set-your-bearing-straight/)
 [https://www.youtube.com/watch?v=tUotzWVtQ2c&t=20s](https://www.youtube.com/watch?v=tUotzWVtQ2c&t=20s)
 [https://www.youtube.com/watch?v=KQHugGSQd5M](https://www.youtube.com/watch?v=KQHugGSQd5M)
+
+[https://www.youtube.com/watch?v=Y-ytt9L724g&t=99s](https://www.youtube.com/watch?v=Y-ytt9L724g&t=99s)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3MzExNTk2LC03NzI1NzMyMTBdfQ==
+eyJoaXN0b3J5IjpbLTY2Mzc5OTAyNSwzMjczMTE1OTYsLTc3Mj
+U3MzIxMF19
 -->
