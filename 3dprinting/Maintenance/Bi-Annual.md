@@ -1,6 +1,6 @@
 
 
- - Regrease Linear Bearings
+ - Regrease Linear Bearings (See Maintenance/Bearing Main
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjE3MzM5NV19
+eyJoaXN0b3J5IjpbLTIxNDU0MjQ2ODddfQ==
 -->
