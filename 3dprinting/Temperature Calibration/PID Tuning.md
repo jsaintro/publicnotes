@@ -29,19 +29,20 @@ Edit the start gcode for the printer profile
     {elsif first_layer_temperature[0]>250}
     M301 E0 PXXX IXXX DXXX
     {elsif first_layer_temperature[0]>240}
-    M301 E0 P18.33 I1.27 D66.34
+    M301 E0 PXXX IXXX DXXX
     {elsif first_layer_temperature[0]>230}
-    M301 E0 P19.96 I1.43 D69.87
+    M301 E0 PXXX IXXX DXXX
     {elsif first_layer_temperature[0]>220}
-    M301 E0 P21.25 I1.56 D72.52
+    M301 E0 PXXX IXXX DXXX
     {elsif first_layer_temperature[0]>210}
-    M301 E0 P20.58 I1.48 D71.52
+    M301 E0 PXXX IXXX DXXX
     {elsif first_layer_temperature[0]>200}
-    M301 E0 P19.42 I1.38 D68.58
+    M301 E0 PXXX IXXX DXXX
     {elsif first_layer_temperature[0]>190}
-    M301 E0 P21.21 I1.50 D74.85
+    M301 E0 PXXX IXXX DXXX
     {endif}
-    ``` 
+    ```
+    Note: Replace the XXXs with our actual PID values that are output from the previous step
 ## Tune your heatbed  
 
 1. Run the following gcode
@@ -57,13 +58,30 @@ Recv:  Kd: 513.35
  3. Add the results to your slicer config
 Edit the start gcode for the printer profile
     ```
+    ```
+    {if first_layer_temperature[0]>=260 && first_layer_temperature[0]<270}
+    M301 E0 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>250}
+    M301 E0 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>240}
+    M301 E0 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>230}
+    M301 E0 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>220}
+    M301 E0 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>210}
+    M301 E0 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>200}
+    M301 E0 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>190}
+    M301 E0 PXXX IXXX DXXX
     {if bed_temperature[0]>60 && bed_temperature[0]<70}
     M304 P122.48 I7.31 D513.35
     {endif}
     ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjUzMDAxMywxMDEzNTgyMzYzLC00MD
-QyNTU1NTQsOTk2NjY2OTU4LC0xNzU4MzI0MzcxLDc5NjY0MzUx
-MiwtNjYwMTI1NTc3LDE2MzA0ODMxOTEsNjM2NzE0MDE5LC0xMz
-A4Mjk3MDE0XX0=
+eyJoaXN0b3J5IjpbMjYwNjU1NjUxLDEwMTM1ODIzNjMsLTQwND
+I1NTU1NCw5OTY2NjY5NTgsLTE3NTgzMjQzNzEsNzk2NjQzNTEy
+LC02NjAxMjU1NzcsMTYzMDQ4MzE5MSw2MzY3MTQwMTksLTEzMD
+gyOTcwMTRdfQ==
 -->
