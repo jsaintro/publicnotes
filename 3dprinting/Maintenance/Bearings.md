@@ -1,8 +1,8 @@
-# Linear Bearings De-re-grease
+# Linear Bearings Grease
 ## Prep List
 * Mason Jars
 * Denatured Alcohol
-* SuperLube 3oz
+* SuperLube 3oz    http://amzn.to/1Qc61nF or Ace Hardware
 * 3d printed grease nozzle
   [https://www.thingiverse.com/thing:3678611/files](https://www.thingiverse.com/thing:3678611/files)
    0.2mm fast PLA is fine.
@@ -15,17 +15,12 @@
 ## Re-grease
 1. Insert nozzle into bearings (Making sure to line up races with nozzle slits
 2. apply grease until it comes out top of bearing
-3. wipe off extra greprint out bearing greaser (8mm)
-   [https://www.thingiverse.com/thing:1128781](https://www.thingiverse.com/thing:1128781)
-   alt
-   [https://www.thingiverse.com/thing:3678611/files](https://www.thingiverse.com/thing:3678611/files)
-   0.2mm fast PLA is fine.
- 3. Use this grease (Superlube 3oz)
-    http://amzn.to/1Qc61nF
+3. wipe off extra grease
+4. Run bearing along rods and wipe off extra grease (Leave a little coating the rods)
  
     
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzODc1MTQwLDE4MzI2MzA1NjAsLTk5OD
-gzODY0LDEwMDcxODcxODgsLTE5Mjg5NjM2NTFdfQ==
+eyJoaXN0b3J5IjpbMjEzNzYxOTQwMiwxODMyNjMwNTYwLC05OT
+g4Mzg2NCwxMDA3MTg3MTg4LC0xOTI4OTYzNjUxXX0=
 -->
