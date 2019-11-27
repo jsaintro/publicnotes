@@ -3,6 +3,7 @@
 * Mason Jars
 * Denatured Alcohol
 * SuperLube 3oz    http://amzn.to/1Qc61nF or Ace Hardware
+* WD40??
 * 3d printed grease nozzle
   [https://www.thingiverse.com/thing:3678611/files](https://www.thingiverse.com/thing:3678611/files)
    0.2mm fast PLA is fine.
@@ -21,6 +22,7 @@
     
 [https://prusacommunity.com/set-your-bearing-straight/](https://prusacommunity.com/set-your-bearing-straight/)
 [https://www.youtube.com/watch?v=tUotzWVtQ2c&t=20s](https://www.youtube.com/watch?v=tUotzWVtQ2c&t=20s)
+[https://www.youtube.com/watch?v=KQHugGSQd5M](https://www.youtube.com/watch?v=KQHugGSQd5M)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjU3MzIxMF19
+eyJoaXN0b3J5IjpbMzI3MzExNTk2LC03NzI1NzMyMTBdfQ==
 -->
