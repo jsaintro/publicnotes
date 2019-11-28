@@ -9,7 +9,8 @@
 2. Get the current Steps
 ```
 M503
-Recv: echo: M92 X100.00 Y100.00 Z400.00 E280.00
+Recv: echo:Steps per unit:
+Recv: echo:  M92 X100.00 Y100.00 Z400.00 E280.00
 ```
 Note look for the M92 line those are your steps per mm
 
@@ -83,5 +84,5 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTE5ODExMl19
+eyJoaXN0b3J5IjpbMzI4ODc5Mzg3LC00NTExOTgxMTJdfQ==
 -->
