@@ -29,8 +29,8 @@ Note look for the M92 line those are your steps per mm
     Measure from top to upper surface of x or y arm (ideal is 45mm)
     Note: this is done because 1st layer can be inconsistent.
 8. Calculate the correction factor
-	X,Y-Axis: 100mm / [measured length in mm] _[current STEPS]  
-	Z-Axis: 45mm / [measured height in mm]_ [current STEPS]
+	X,Y-Axis: 100mm / [measured length in mm] x [current STEPS]  
+	Z-Axis: 45mm / [measured height in mm] x [current STEPS]
 	Ex.
 	  X: 100/ 99.35 * 100 = 100.65
 	  Y: 100/99.59 * 100 = 100.41
@@ -84,5 +84,6 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4ODc5Mzg3LC00NTExOTgxMTJdfQ==
+eyJoaXN0b3J5IjpbMjEyNTQ0ODIxNywzMjg4NzkzODcsLTQ1MT
+E5ODExMl19
 -->
