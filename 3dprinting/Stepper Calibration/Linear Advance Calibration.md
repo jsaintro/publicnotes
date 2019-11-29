@@ -1,6 +1,6 @@
 
-Use this tool to generate the gcode
-[http://marlinfw.org/tools/lin_advance/k-factor.html](http://marlinfw.org/tools/lin_advance/k-factor.html)
+1. Use this tool to generate the gcode
+  [http://marlinfw.org/tools/lin_advance/k-factor.html](http://marlinfw.org/tools/lin_advance/k-factor.html)
 For our prusa Mk3
 
  - Nozzle Temp: 215
@@ -26,7 +26,7 @@ Note: For prusa you don't have to add any ABL it'll do it automatically when it 
 2. File tune repeat above but set the scale  +-5 and steps to 0.5
 26
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTY0MTE2MiwyMDY5NTgxNTg1LDExMD
-c3OTQyMTcsMTk2NzA4NzIyNiwxMzA5MjYwNjQsMjE0NzMwMjQ1
-MSw5ODA2ODYwOTAsLTIwMzUxOTY4Nl19
+eyJoaXN0b3J5IjpbMTIwNjAxNDQzOSwxNjk1NjQxMTYyLDIwNj
+k1ODE1ODUsMTEwNzc5NDIxNywxOTY3MDg3MjI2LDEzMDkyNjA2
+NCwyMTQ3MzAyNDUxLDk4MDY4NjA5MCwtMjAzNTE5Njg2XX0=
 -->
