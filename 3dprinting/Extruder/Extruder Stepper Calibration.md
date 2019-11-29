@@ -12,8 +12,7 @@
 6. Heat filament to 215 (Natural RS)
 7. Extrude 100mm
     ```
-    ```gcode
-M104 S185 
+    M104 S215
     G91
     G1 E100 F100
    ```
@@ -32,5 +31,5 @@ M104 S185
 14. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk5OTA4NzBdfQ==
+eyJoaXN0b3J5IjpbODU1MzY5ODIwXX0=
 -->
