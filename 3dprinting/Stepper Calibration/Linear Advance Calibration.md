@@ -25,9 +25,13 @@ Note: For prusa you don't have to add any ABL it'll do it automatically when it 
 
 2. File tune repeat above but set the scale  +-5 and steps to 0.5
 26
+3. Add line into filament settings gcode
+    ```
+    M900 K{if perimeter_speed==60}26{else}30{endif} ; Filament gcode
+    ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODU4OTk5NTYsMTIwNjAxNDQzOSwxNj
-k1NjQxMTYyLDIwNjk1ODE1ODUsMTEwNzc5NDIxNywxOTY3MDg3
-MjI2LDEzMDkyNjA2NCwyMTQ3MzAyNDUxLDk4MDY4NjA5MCwtMj
-AzNTE5Njg2XX0=
+eyJoaXN0b3J5IjpbMjk2MTcyNDEsMTIwNjAxNDQzOSwxNjk1Nj
+QxMTYyLDIwNjk1ODE1ODUsMTEwNzc5NDIxNywxOTY3MDg3MjI2
+LDEzMDkyNjA2NCwyMTQ3MzAyNDUxLDk4MDY4NjA5MCwtMjAzNT
+E5Njg2XX0=
 -->
