@@ -4,8 +4,8 @@
 	* Metric Ruler
 	* Sharp Sharpie Ultra Fine Point
 2. Print Diagnostic print[https://www.thingiverse.com/thing:2975429/](https://www.thingiverse.com/thing:2975429/)
-3. **Resolution:**
-30% infill
+	*Resolution:30%
+	*infill
 0.1 lh
 thin walls
 
@@ -35,5 +35,5 @@ thin walls
 14. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzQxMjAzXX0=
+eyJoaXN0b3J5IjpbMTgwNzE1NjE0Nl19
 -->
