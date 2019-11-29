@@ -4,16 +4,11 @@
 	* Metric Ruler
 	* Sharp Sharpie Ultra Fine Point
 2. Print Diagnostic print[https://www.thingiverse.com/thing:2975429/](https://www.thingiverse.com/thing:2975429/)
-	*Resolution:30%
-	*infill
-0.1 lh
-thin walls
-
-**Infill:**
-
-30%
+	* layer height: 0.1
+	* infill: 30%
+    * Detect thin walls
 4. Disable Filament Sensor
-5. Measure 120mm on fliament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
+5. Measure 120mm on filament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
 6. Heat filament to 215 (Natural RS)
 7. Extrude 100mm
     ```
@@ -35,5 +30,5 @@ thin walls
 14. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzE1NjE0Nl19
+eyJoaXN0b3J5IjpbMTQzODg3MTI0N119
 -->
