@@ -26,10 +26,11 @@
 10. Calculate correction
 	Desired distance / measured distance * Current e steps = new e steps
 11. Temporarliy set new esteps
-12. M92 E{{ New E Steps}}
-13. 
+```
+M92 E{{ New E Steps}}
+```
 14. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1MzY5ODIwXX0=
+eyJoaXN0b3J5IjpbLTE5Mjc1MDExODcsODU1MzY5ODIwXX0=
 -->
