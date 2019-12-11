@@ -34,6 +34,8 @@ Install the TMC2130Stepper library
 ## Configure
 1. Copy the configuration file
      ```
+     cd Firmware
+     cp variants/1_75mm_MK3S-EINSy10a-E3Dv6full.h Configuration_prusa.h
 3. Run the build script
    ```
    ./PF-build.sh
@@ -46,8 +48,8 @@ Install the TMC2130Stepper library
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDcxNTk1NCwyMDY2NTg2MzExLC0xND
-U3ODk4NDExLC02NTEyMDM4NTksMTYyMDYxMTgzMiwtNDEyNzI2
-MTg2LC01ODYyMDczMzQsODAxNDczNzY1LC0zOTY1OTM1OTgsNj
-k4MTEzMjYxXX0=
+eyJoaXN0b3J5IjpbNzIxNjAwMjQsMjA2NjU4NjMxMSwtMTQ1Nz
+g5ODQxMSwtNjUxMjAzODU5LDE2MjA2MTE4MzIsLTQxMjcyNjE4
+NiwtNTg2MjA3MzM0LDgwMTQ3Mzc2NSwtMzk2NTkzNTk4LDY5OD
+ExMzI2MV19
 -->
