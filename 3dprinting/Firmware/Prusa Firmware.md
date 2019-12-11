@@ -16,7 +16,7 @@ Sketch/Include Library/Manage Libraries
 Search for `TMC2130Stepper`
 Install the TMC2130Stepper library
 
-# Build the Firmware
+## Get the Firmware
 1. Clone the repo
 	```
 	git clone https://github.com/prusa3d/Prusa-Firmware.git
@@ -30,19 +30,24 @@ Install the TMC2130Stepper library
       ```
    find . -type f -print0 | xargs -0 dos2unix
    ```
-4. Run the build script
+
+## Configure
+1. Copy the configuration file
+     ```
+3. Run the build script
    ```
    ./PF-build.sh
    ```
 	5. Select the MK3 variant (1)
 	6. Select Englist Only (2)
 	7. Dev_status (1) Language
-5. Bin will be in PF-Build-Hex directory named *.hex
-6. Flash using prusa slicer (or octopi)
+4. Bin will be in PF-Build-Hex directory named *.hex
+5. Flash using prusa slicer (or octopi)
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjU4NjMxMSwtMTQ1Nzg5ODQxMSwtNj
-UxMjAzODU5LDE2MjA2MTE4MzIsLTQxMjcyNjE4NiwtNTg2MjA3
-MzM0LDgwMTQ3Mzc2NSwtMzk2NTkzNTk4LDY5ODExMzI2MV19
+eyJoaXN0b3J5IjpbLTgxMDcxNTk1NCwyMDY2NTg2MzExLC0xND
+U3ODk4NDExLC02NTEyMDM4NTksMTYyMDYxMTgzMiwtNDEyNzI2
+MTg2LC01ODYyMDczMzQsODAxNDczNzY1LC0zOTY1OTM1OTgsNj
+k4MTEzMjYxXX0=
 -->
