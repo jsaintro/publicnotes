@@ -6,9 +6,16 @@
 2. Print Diagnostic print[https://www.thingiverse.com/thing:2975429/](https://www.thingiverse.com/thing:2975429/)
 	* layer height: 0.1
 	* infill: 30%
-    * Detect thin walls
+    * Detect thin walls3. **Resolution:**
+30% infill
+0.1 lh
+thin walls
+
+**Infill:**
+
+30%
 4. Disable Filament Sensor
-5. Measure 120mm on filament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
+5. Measure 120mm on filiament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
 6. Heat filament to 215 (Natural RS)
 7. Extrude 100mm
     ```
@@ -27,10 +34,11 @@
 	Desired distance / measured distance * Current e steps = new e steps
 11. Temporarliy set new esteps
 ```
-M92 E{{ New E Steps}}
-```
+12. M92 E{{ New E Steps}}
+```13. 
 14. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc1MDExODcsODU1MzY5ODIwXX0=
+eyJoaXN0b3J5IjpbMTg0Njc0NzY5MywtMTkyNzUwMTE4Nyw4NT
+UzNjk4MjBdfQ==
 -->
