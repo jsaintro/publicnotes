@@ -16,7 +16,7 @@ Sketch/Include Library/Manage Libraries
 Search for `TMC2130Stepper`
 Install the TMC2130Stepper library
 
-## Get the Firmware
+## Build the Firmware
 1. Clone the repo
 	```
 	git clone https://github.com/prusa3d/Prusa-Firmware.git
@@ -31,11 +31,6 @@ Install the TMC2130Stepper library
    find . -type f -print0 | xargs -0 dos2unix
    ```
 
-## Configure
-1. Copy the configuration file
-     ```
-     cd Firmware
-     cp variants/1_75mm_MK3S-EINSy10a-E3Dv6full.h Configuration_prusa.h
 3. Run the build script
    ```
    ./PF-build.sh
@@ -48,8 +43,8 @@ Install the TMC2130Stepper library
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxNjAwMjQsMjA2NjU4NjMxMSwtMTQ1Nz
-g5ODQxMSwtNjUxMjAzODU5LDE2MjA2MTE4MzIsLTQxMjcyNjE4
-NiwtNTg2MjA3MzM0LDgwMTQ3Mzc2NSwtMzk2NTkzNTk4LDY5OD
-ExMzI2MV19
+eyJoaXN0b3J5IjpbNDE3OTgxMzU5LDcyMTYwMDI0LDIwNjY1OD
+YzMTEsLTE0NTc4OTg0MTEsLTY1MTIwMzg1OSwxNjIwNjExODMy
+LC00MTI3MjYxODYsLTU4NjIwNzMzNCw4MDE0NzM3NjUsLTM5Nj
+U5MzU5OCw2OTgxMTMyNjFdfQ==
 -->
