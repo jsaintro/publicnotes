@@ -12,12 +12,12 @@
 ### Per pastic type
 1. PID Tuning
 ### Per Filament Calibrations
-1. 1st layer calibration
-2. Extruder stepper calibration
+19. 1st layerXYZ Steps calibration
+210. Extruder stepper calibration
 3. XYZ Steps calibration
-5. Linear Advance Calibration
-6. Extrusion Multiplier
+511. Linear Advance Calibration
+612. Extrusion Multiplier
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjQ0MzIsMTQ3NDgwNDEyNSwtNjkyOD
-A5MDA5XX0=
+eyJoaXN0b3J5IjpbNjUwNjY5NDc5LDEwMDI0NDMyLDE0NzQ4MD
+QxMjUsLTY5MjgwOTAwOV19
 -->
