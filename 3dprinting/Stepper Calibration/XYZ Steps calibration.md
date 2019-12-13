@@ -21,6 +21,8 @@ Note look for the M92 line those are your steps per mm
 		* .2mm layer height
 		* .2mm Speed MK3 profile
 		* 2 shells
+		* 3 bottom layers
+		* 4 top layers
 
 4. Once done label the X and Y axes on the print (So you don't loose them once you remove the part
 5. Measure x and y with digital calipers 
@@ -84,6 +86,6 @@ If you want to adjust your Z or E axis, please refer to the Instructables articl
 
 [http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/](http://www.instructables.com/id/Calibrating-your-3D-printer-using-minimal-filament/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODUwODU4NSwzMjg4NzkzODcsLTQ1MT
-E5ODExMl19
+eyJoaXN0b3J5IjpbMTc2MzcyNDgwMiwxOTg4NTA4NTg1LDMyOD
+g3OTM4NywtNDUxMTk4MTEyXX0=
 -->
