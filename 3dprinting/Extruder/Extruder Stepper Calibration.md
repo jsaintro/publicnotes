@@ -7,31 +7,33 @@
 	* layer height: 0.1
 	* infill: 30%
     * Detect thin walls
-4. Disable Filament Sensor
-5. Measure 120mm on filiament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
-6. Heat filament to 215 (Natural RS)
-7. Extrude 100mm
+3. Disable Filament Sensor
+4. Measure 120mm on filiament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
+5. Heat filament to 215 (Natural RS)
+6. Extrude 100mm
     ```
     M104 S215
     G91
     G1 E100 F100
    ```
-8. Measure filament mark (From same spot)
+7. Measure filament mark (From same spot)
     Desired distance / measured distance * Current e steps = new e steps
     120mm(1st measurement) - 20mm(2nd measurement) = 100 (measured distance)
-9. Retrieve number of esteps
-	6. M503
-	7. Look for M92
-	8.  EXXX where xx is steps for MM
-10. Calculate correction
-	   Desired distance / measured distance * Current e steps = new e steps
-11. Temporarliy set new esteps
+8. Retrieve number of esteps
+    ```
+    M503
+        ```
+	Look for M92
+	EXXX where xx is steps for MM
+9. Temporarliy set new esteps
 ```
-12. M92 E{{ New E Steps}}
-```13. 
-14. Enable filament Sensor
+    M92 E{{ New E Steps}}
+```
+10. Make the change permanent in the slicker settings
+     Add this area in from XYZ c 
+12. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTUyNjg3MSwxODQ2NzQ3NjkzLC0xOT
+eyJoaXN0b3J5IjpbMTgwNzk2NjE2NSwxODQ2NzQ3NjkzLC0xOT
 I3NTAxMTg3LDg1NTM2OTgyMF19
 -->
