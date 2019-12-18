@@ -2,7 +2,7 @@
 # PrusaSlicer
 
 ## Linux
-1. Download the appimage from [here](https://github.com/prusa3d/Slic3r/releases/tag/version_1.41.3)
+1. Download the appimage from [here]([https://github.com/prusa3d/PrusaSlicer/releases](https://github.com/prusa3d/PrusaSlicer/releases))
     
         user@workstation:~$ mkdir PrusaSlicer
         user@workstation:~$ cd PrusaSlicer
@@ -38,7 +38,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDA1MDQ1NjEsMTQyMzkzMTgxNiwxND
+eyJoaXN0b3J5IjpbLTIwNzUxMjA1MzYsMTQyMzkzMTgxNiwxND
 A5NTkzODE1LC0zOTYwNjQwODUsODcwOTAwMjc1LDM5NzI0OTEw
 LDMzOTAzOTAxOCwtMTM1MjA4MDgxOV19
 -->
