@@ -50,12 +50,12 @@
     ```
     G29 S1 // S1 for PLA S2 for ABS
     ```
- 8. Set Fade height
+8. Set Fade height
     ```
     G29 F10.0
     ```
      Gradually fade out the compensation by 10mm  
-     9. Activate the UBL
+9. Activate the UBL
   G29 A
   10. Save the settings
    M500
@@ -99,5 +99,5 @@ G29 L1 // Load mesh one
 G29 J
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTk3MTc5OCw0ODI1MjQzMzJdfQ==
+eyJoaXN0b3J5IjpbMTE0NzY4OTExMCw0ODI1MjQzMzJdfQ==
 -->
