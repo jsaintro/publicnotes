@@ -19,11 +19,11 @@
 
 2. Create the gnome desktop file
 
-        vi .local/share/applications/PrusaSlicer.desktop
+        vi ~/.local/share/applications/PrusaSlicer.desktop
         [Desktop Entry]
         Name=PrusaSlicer
         Exec=/home/jsaintrocc/PrusaSlicer/PrusaSlicer-2.1.1+linux64-201912101511.AppImage
-        Icon=/home/jsaintrocc/slic3rPE/Slic3r.png
+        Icon=/home/jsaintrocc/PrusaSlicer/PrusaSlicer.png
         Terminal=false
         Type=Application
         Categories=Graphics;3DGraphics;
@@ -38,7 +38,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1Mjc2NTY0LC0xODEzOTk1MTMsMTQyMz
+eyJoaXN0b3J5IjpbLTMyMTAyNTk0LC0xODEzOTk1MTMsMTQyMz
 kzMTgxNiwxNDA5NTkzODE1LC0zOTYwNjQwODUsODcwOTAwMjc1
 LDM5NzI0OTEwLDMzOTAzOTAxOCwtMTM1MjA4MDgxOV19
 -->
