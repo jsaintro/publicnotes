@@ -6,8 +6,8 @@
     
         user@workstation:~$ mkdir PrusaSlicer
         user@workstation:~$ cd PrusaSlicer
-        user@workstation:~$ wget https://github.com/prusa3d/PrusaSlicer/releases/download/version_2.0.0/PrusaSlicer-2.0.0+linux64-201905201652.AppImage
-        user@workstation:~$ chmod +x PrusaSlicer-2.0.0+linux64-201905201652.AppImage
+        user@workstation:~$ wget https://github.com/prusa3d/PrusaSlicer/releases/download/version_2.1.1/PrusaSlicer-2.1.1+linux64-201912101511.AppImage
+        user@workstation:~$ chmod -x PrusaSlicer-2.1.1+linux64-201912101511.AppImage
 2. Run
 
         user@workstation:~$ ./PrusaSlicer-2.0.0+linux64-201905201652.AppImage
@@ -38,7 +38,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzUxMjA1MzYsMTQyMzkzMTgxNiwxND
+eyJoaXN0b3J5IjpbLTEwNDMzNTk0NTQsMTQyMzkzMTgxNiwxND
 A5NTkzODE1LC0zOTYwNjQwODUsODcwOTAwMjc1LDM5NzI0OTEw
 LDMzOTAzOTAxOCwtMTM1MjA4MDgxOV19
 -->
