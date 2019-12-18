@@ -27,18 +27,18 @@
         Terminal=false
         Type=Application
         Categories=Graphics;3DGraphics;
-        #X-AppImage-Version=1.41.3+linux64.glibc2.14
-
+        
 3. Add to favorites
 
   1. Open activities window
   2. type `Prusa` into search window
-  3. Right click on `Prusa Slicer` search result
+  3. Right click on `PrusaSlicer` search result
   4. Select add to favorites
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTAyNTk0LC0xODEzOTk1MTMsMTQyMz
-kzMTgxNiwxNDA5NTkzODE1LC0zOTYwNjQwODUsODcwOTAwMjc1
-LDM5NzI0OTEwLDMzOTAzOTAxOCwtMTM1MjA4MDgxOV19
+eyJoaXN0b3J5IjpbNDY3OTIwMTgwLC0zMjEwMjU5NCwtMTgxMz
+k5NTEzLDE0MjM5MzE4MTYsMTQwOTU5MzgxNSwtMzk2MDY0MDg1
+LDg3MDkwMDI3NSwzOTcyNDkxMCwzMzkwMzkwMTgsLTEzNTIwOD
+A4MTldfQ==
 -->
