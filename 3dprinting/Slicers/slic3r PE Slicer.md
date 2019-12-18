@@ -10,7 +10,7 @@
         user@workstation:~$ chmod +x PrusaSlicer-2.1.1+linux64-201912101511.AppImage
 2. Run
 
-        user@workstation:~$ ./PrusaSlicer-2.0.0+linux64-201905201652.AppImage
+        user@workstation:~$ /PrusaSlicer-2.1.1+linux64-201912101511.AppImage
 
 ## Make Desktop Icon
 1. Download the slic3r icon image
@@ -38,7 +38,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDAwMTE4NCwxNDIzOTMxODE2LDE0MD
+eyJoaXN0b3J5IjpbLTE4MTM5OTUxMywxNDIzOTMxODE2LDE0MD
 k1OTM4MTUsLTM5NjA2NDA4NSw4NzA5MDAyNzUsMzk3MjQ5MTAs
 MzM5MDM5MDE4LC0xMzUyMDgwODE5XX0=
 -->
