@@ -1,5 +1,5 @@
 
-# Slic3r PE Install
+# PrusaSlicer
 
 ## Linux
 1. Download the appimage from [here](https://github.com/prusa3d/Slic3r/releases/tag/version_1.41.3)
@@ -38,7 +38,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzkzMTgxNiwxNDA5NTkzODE1LC0zOT
-YwNjQwODUsODcwOTAwMjc1LDM5NzI0OTEwLDMzOTAzOTAxOCwt
-MTM1MjA4MDgxOV19
+eyJoaXN0b3J5IjpbMTY1MTI3OTM3MSwxNDIzOTMxODE2LDE0MD
+k1OTM4MTUsLTM5NjA2NDA4NSw4NzA5MDAyNzUsMzk3MjQ5MTAs
+MzM5MDM5MDE4LC0xMzUyMDgwODE5XX0=
 -->
