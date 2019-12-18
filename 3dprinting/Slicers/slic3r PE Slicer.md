@@ -5,7 +5,7 @@
 1. Download the appimage from [here](https://github.com/prusa3d/Slic3r/releases/tag/version_1.41.3)
     
         user@workstation:~$ mkdir PrusaSlicer
-        user@workstation:~$ cd PrusaSlic
+        user@workstation:~$ cd PrusaSlicer
         user@workstation:~$ wget https://github.com/prusa3d/PrusaSlicer/releases/download/version_2.0.0/PrusaSlicer-2.0.0+linux64-201905201652.AppImage
         user@workstation:~$ chmod +x PrusaSlicer-2.0.0+linux64-201905201652.AppImage
 2. Run
@@ -38,7 +38,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTgwMTY3OTgsMTQyMzkzMTgxNiwxND
+eyJoaXN0b3J5IjpbLTIwNDA1MDQ1NjEsMTQyMzkzMTgxNiwxND
 A5NTkzODE1LC0zOTYwNjQwODUsODcwOTAwMjc1LDM5NzI0OTEw
 LDMzOTAzOTAxOCwtMTM1MjA4MDgxOV19
 -->
