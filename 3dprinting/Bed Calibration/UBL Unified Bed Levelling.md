@@ -54,7 +54,8 @@
     ```
     G29 F10.0
     ```
-     Gradually fade out the compensation by 10mm  9. Activate the UBL
+     Gradually fade out the compensation by 10mm  
+     9. Activate the UBL
   G29 A
   10. Save the settings
    M500
@@ -98,5 +99,5 @@ G29 L1 // Load mesh one
 G29 J
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyNTI0MzMyXX0=
+eyJoaXN0b3J5IjpbMTg0MTk3MTc5OCw0ODI1MjQzMzJdfQ==
 -->
