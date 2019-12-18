@@ -15,14 +15,14 @@
 ## Make Desktop Icon
 1. Download the slic3r icon image
 
-        wget https://github.com/prusa3d/Slic3r/raw/master/resources/icons/Slic3r.png
+        wget https://github.com/prusa3d/PrusaSlicer/raw/master/resources/icons/PrusaSlicer.png
 
 2. Create the gnome desktop file
 
-        vi .local/share/applications/slic3rPE.desktop
+        vi .local/share/applications/PrusaSlicer.desktop
         [Desktop Entry]
-        Name=Prusa Slicer
-        Exec=/home/jsaintrocc/slic3rPE/Slic3rPE-1.41.3+linux64-full-201902121303.AppImage
+        Name=PrusaSlicer
+        Exec=/home/jsaintrocc/PrusaSlicer/PrusaSlicer-2.1.1+linux64-201912101511.AppImage
         Icon=/home/jsaintrocc/slic3rPE/Slic3r.png
         Terminal=false
         Type=Application
@@ -38,7 +38,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM5OTUxMywxNDIzOTMxODE2LDE0MD
-k1OTM4MTUsLTM5NjA2NDA4NSw4NzA5MDAyNzUsMzk3MjQ5MTAs
-MzM5MDM5MDE4LC0xMzUyMDgwODE5XX0=
+eyJoaXN0b3J5IjpbMzE1Mjc2NTY0LC0xODEzOTk1MTMsMTQyMz
+kzMTgxNiwxNDA5NTkzODE1LC0zOTYwNjQwODUsODcwOTAwMjc1
+LDM5NzI0OTEwLDMzOTAzOTAxOCwtMTM1MjA4MDgxOV19
 -->
