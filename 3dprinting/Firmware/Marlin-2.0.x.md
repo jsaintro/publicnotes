@@ -15,9 +15,10 @@
 		Select Install
 5. Setup a git repository clone
 6. Select the Ant icon on the left bar
-7.  
+7. Select "Clone git project"
+8.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTA0MDY4LC0xMTUwNzI0NjIwLC03Mz
-g4Njg5OTQsMTEzNTc2MjMwNywxMjEzNTIyMTAxLDExNjI1NzM5
-NDcsLTQ4Mzg2Nzg5NV19
+eyJoaXN0b3J5IjpbMTA4ODkwODM1NiwtMTE1MDcyNDYyMCwtNz
+M4ODY4OTk0LDExMzU3NjIzMDcsMTIxMzUyMjEwMSwxMTYyNTcz
+OTQ3LC00ODM4Njc4OTVdfQ==
 -->
