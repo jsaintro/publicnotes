@@ -16,9 +16,9 @@
 5. Setup a git repository clone
 6. Select the Ant icon on the left bar
 7. Select "Clone git project"
-8.  
+8. https://github.com/MarlinFirmware/Marlin.git 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODkwODM1NiwtMTE1MDcyNDYyMCwtNz
-M4ODY4OTk0LDExMzU3NjIzMDcsMTIxMzUyMjEwMSwxMTYyNTcz
-OTQ3LC00ODM4Njc4OTVdfQ==
+eyJoaXN0b3J5IjpbLTEwMTg3MTczMjYsLTExNTA3MjQ2MjAsLT
+czODg2ODk5NCwxMTM1NzYyMzA3LDEyMTM1MjIxMDEsMTE2MjU3
+Mzk0NywtNDgzODY3ODk1XX0=
 -->
