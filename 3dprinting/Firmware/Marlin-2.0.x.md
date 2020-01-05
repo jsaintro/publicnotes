@@ -6,8 +6,9 @@
 3. Configure
 4. Install VScode for linux
 	5. sudo apt install snapd
-	6. 
+	6. sudo snap install --classic code
+	7. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzUyMjEwMSwxMTYyNTczOTQ3LC00OD
-M4Njc4OTVdfQ==
+eyJoaXN0b3J5IjpbMTEzNTc2MjMwNywxMjEzNTIyMTAxLDExNj
+I1NzM5NDcsLTQ4Mzg2Nzg5NV19
 -->
