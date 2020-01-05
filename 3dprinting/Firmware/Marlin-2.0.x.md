@@ -13,9 +13,11 @@
 7. Select "Clone git project"
 8. https://github.com/MarlinFirmware/Marlin.git
 9. Save somewhere sensible
-10. Configure  
+10. Select your branch
+11. From the blue status bar on the bottom left.  Select "2.0.1"
+12. Configure  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwODM4ODM4LC0xMTUwNzI0NjIwLC03Mz
-g4Njg5OTQsMTEzNTc2MjMwNywxMjEzNTIyMTAxLDExNjI1NzM5
-NDcsLTQ4Mzg2Nzg5NV19
+eyJoaXN0b3J5IjpbMTg0MDcwMjc1NywtMTE1MDcyNDYyMCwtNz
+M4ODY4OTk0LDExMzU3NjIzMDcsMTIxMzUyMjEwMSwxMTYyNTcz
+OTQ3LC00ODM4Njc4OTVdfQ==
 -->
