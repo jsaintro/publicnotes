@@ -13,9 +13,11 @@
 		10.select extensions from the Left bar
 		search for platformIO ide
 		Select Install
-		 
+5. Setup a git repository clone
+6. Select the Ant icon on the left bar
+7.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA3MjQ2MjAsLTczODg2ODk5NCwxMT
-M1NzYyMzA3LDEyMTM1MjIxMDEsMTE2MjU3Mzk0NywtNDgzODY3
-ODk1XX0=
+eyJoaXN0b3J5IjpbMTU3NTA0MDY4LC0xMTUwNzI0NjIwLC03Mz
+g4Njg5OTQsMTEzNTc2MjMwNywxMjEzNTIyMTAxLDExNjI1NzM5
+NDcsLTQ4Mzg2Nzg5NV19
 -->
