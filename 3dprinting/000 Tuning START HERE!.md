@@ -13,12 +13,13 @@
 1. PID Tuning
 ### Per Filament Calibrations
 1. 1st layer Calibration
-3. Extruder/Extruder stepper calibration
-4. Stepper Calibration/XYZ Steps calibration
-5. Stepper Calibration/Linear Advance Calibration
-6. Extrusion Multiplier
+2. Extruder/Extruder stepper calibration
+3. Stepper Calibration/XYZ Steps calibration
+4. Stepper Calibration/Linear Advance Calibration
+5. Extrusion Multiplier
+6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2OTY1MDg2LDkwMTQzNzA3Niw2NTA2Nj
-k0NzksMTAwMjQ0MzIsMTQ3NDgwNDEyNSwtNjkyODA5MDA5XX0=
-
+eyJoaXN0b3J5IjpbODE5NjYyMjA0LDU5Njk2NTA4Niw5MDE0Mz
+cwNzYsNjUwNjY5NDc5LDEwMDI0NDMyLDE0NzQ4MDQxMjUsLTY5
+MjgwOTAwOV19
 -->
