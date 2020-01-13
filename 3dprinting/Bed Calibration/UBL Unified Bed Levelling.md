@@ -28,7 +28,7 @@
 	 *PLA*
 	```	 
 	M140 S65
-	M104 S210
+	M104 S215
 	```
 	*ABS*
 	```	 
@@ -99,5 +99,6 @@ G29 L1 // Load mesh one
 G29 J
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NzY4OTExMCw0ODI1MjQzMzJdfQ==
+eyJoaXN0b3J5IjpbMjc0MjA1NjE3LDExNDc2ODkxMTAsNDgyNT
+I0MzMyXX0=
 -->
