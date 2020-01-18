@@ -13,30 +13,31 @@
         sudo apt dist-upgrade
         sudo reboot
         
-9. Setup Lastpass for firefox
-    6.  In firefox add-ons select lastpass
-8. Install commercial Chrome (Not Chromium)
-    4.  Download from https://www.google.com/chrome/browser
-
-    7. 
-10. Test netflix
-11. Test youtube
-12. Upgrade system76 firmware
+8. Setup Lastpass for firefox
+    1.  In firefox add-ons select lastpass
+9. Install commercial Chrome (Not Chromium)
+    1.  Download from https://www.google.com/chrome/browser
+10. Setup Lastpass for Chrome
+	1. chrome://extensions
+	12. 
+11. Test netflix
+12. Test youtube
+13. Upgrade system76 firmware
     9. Actions/System76 Firmware updater
         Note: Make sure ALL USB and external displays are disconnected
         Note: There's a scary moment when the system shutsdown completely.  Just wait a minute and then start with button
 
-13. Install advanced audio controller
+14. Install advanced audio controller
 
         sudo apt install pavucontrol   
 
-14. install gnome tweaks from app menu
-15. Add the printer (Built in driver works fine)
+15. install gnome tweaks from app menu
+16. Add the printer (Built in driver works fine)
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODYwMjAwOTEsMjA5ODc2ODU3NCwtMT
-g5NTQyODQzOSwtNjU4MzIxNTY0LC0xODU3NTkyODQwLDIxMjM2
-NjA0MTUsMTY1NzUyOTA1NiwtNzY0NDc1MDQzLC0yMDE2NDQxOT
-Y1LDQxNzU3ODg2MywtMTQ0MDMxMDgzNSwtMTYwMjM3NzkyNywz
-MDU3MzgwMTZdfQ==
+eyJoaXN0b3J5IjpbMTY1MzcxOTc2LDIwOTg3Njg1NzQsLTE4OT
+U0Mjg0MzksLTY1ODMyMTU2NCwtMTg1NzU5Mjg0MCwyMTIzNjYw
+NDE1LDE2NTc1MjkwNTYsLTc2NDQ3NTA0MywtMjAxNjQ0MTk2NS
+w0MTc1Nzg4NjMsLTE0NDAzMTA4MzUsLTE2MDIzNzc5MjcsMzA1
+NzM4MDE2XX0=
 -->
