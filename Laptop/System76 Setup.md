@@ -28,17 +28,13 @@
         Note: Make sure ALL USB and external displays are disconnected
         Note: There's a scary moment when the system shutsdown completely.  Just wait a minute and then start with button
 
-14. Install advanced audio controller
-
-        sudo apt install pavucontrol   
-
 15. install gnome tweaks from app menu
 16. Add the printer (Built in driver works fine)
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDUzNjM4NTYsMjA5ODc2ODU3NCwtMT
-g5NTQyODQzOSwtNjU4MzIxNTY0LC0xODU3NTkyODQwLDIxMjM2
-NjA0MTUsMTY1NzUyOTA1NiwtNzY0NDc1MDQzLC0yMDE2NDQxOT
-Y1LDQxNzU3ODg2MywtMTQ0MDMxMDgzNSwtMTYwMjM3NzkyNywz
-MDU3MzgwMTZdfQ==
+eyJoaXN0b3J5IjpbMTMyNzM5NjYwLC0xNTA1MzYzODU2LDIwOT
+g3Njg1NzQsLTE4OTU0Mjg0MzksLTY1ODMyMTU2NCwtMTg1NzU5
+Mjg0MCwyMTIzNjYwNDE1LDE2NTc1MjkwNTYsLTc2NDQ3NTA0My
+wtMjAxNjQ0MTk2NSw0MTc1Nzg4NjMsLTE0NDAzMTA4MzUsLTE2
+MDIzNzc5MjcsMzA1NzM4MDE2XX0=
 -->
