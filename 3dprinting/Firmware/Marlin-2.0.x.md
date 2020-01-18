@@ -1,12 +1,12 @@
 ## Dependencies
 1. Instally missing python modules
-    sudo apt-get install python3-distutils
-    
 
-3. Install VScode for linux
-	5. sudo apt install snapd
-	6. sudo snap install --classic code
-	7. Logout and log back in
+        sudo apt-get install python3-distutils
+   
+## Install VScode for linux
+1. sudo apt install snapd
+6. sudo snap install --classic code
+3. Logout and log back in
 	8. now search for vscode you should see the icon and when you run it you can then favorite it
 	9. Install the platformIO IDE plugin from inside the vscode
 		1. select extensions from the Left bar (Blocky thing)
@@ -25,7 +25,7 @@
 ## Flash
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjAzMjMyMSwtODA5NjM2Njg3LDU2OD
+eyJoaXN0b3J5IjpbMTI1MzQ3MjQ1MCwtODA5NjM2Njg3LDU2OD
 Q1MzAwMCwtMTM4NDYxMDEwLDE4NDA3MDI3NTcsLTExNTA3MjQ2
 MjAsLTczODg2ODk5NCwxMTM1NzYyMzA3LDEyMTM1MjIxMDEsMT
 E2MjU3Mzk0NywtNDgzODY3ODk1XX0=
