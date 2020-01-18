@@ -5,8 +5,9 @@ You're better off setting the display resolution to what you actually want and s
 
 For upstairs monitors
 1920x1080
-
-For laptop screen 
+For laptop screen
+1600x900
+Disable HiDPI Daemon 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzYwNjQ4NDEsLTY0NjQxNjAzNF19
+eyJoaXN0b3J5IjpbMTA5NzU5MTA5MSwtNjQ2NDE2MDM0XX0=
 -->
