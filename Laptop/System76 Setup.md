@@ -13,10 +13,12 @@
         sudo apt dist-upgrade
         sudo reboot
         
-8. Install commercial Chrome (Not Chromium)
-    4.  Download from https://www.google.com/chrome/browser
 9. Setup Lastpass for firefox
     6.  In firefox add-ons select lastpass
+8. Install commercial Chrome (Not Chromium)
+    4.  Download from https://www.google.com/chrome/browser
+
+    7. 
 10. Test netflix
 11. Test youtube
 12. Upgrade system76 firmware
@@ -32,9 +34,9 @@
 15. Add the printer (Built in driver works fine)
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODc2ODU3NCwtMTg5NTQyODQzOSwtNj
-U4MzIxNTY0LC0xODU3NTkyODQwLDIxMjM2NjA0MTUsMTY1NzUy
-OTA1NiwtNzY0NDc1MDQzLC0yMDE2NDQxOTY1LDQxNzU3ODg2My
-wtMTQ0MDMxMDgzNSwtMTYwMjM3NzkyNywzMDU3MzgwMTZdfQ==
-
+eyJoaXN0b3J5IjpbLTE5ODYwMjAwOTEsMjA5ODc2ODU3NCwtMT
+g5NTQyODQzOSwtNjU4MzIxNTY0LC0xODU3NTkyODQwLDIxMjM2
+NjA0MTUsMTY1NzUyOTA1NiwtNzY0NDc1MDQzLC0yMDE2NDQxOT
+Y1LDQxNzU3ODg2MywtMTQ0MDMxMDgzNSwtMTYwMjM3NzkyNywz
+MDU3MzgwMTZdfQ==
 -->
