@@ -22,16 +22,17 @@
 
         gitstuff
         
-9. Select your branch
-10. From the blue status bar on the bottom left.  Select "2.0.1"  
-11. edit platformio.ini and select your environment (Default for megaatimega2560 is fine for ramps.
-12. Configure
+9. Open the project
+10. Select your branch
+11. From the blue status bar on the bottom left.  Select "2.0.1"  
+12. edit platformio.ini and select your environment (Default for megaatimega2560 is fine for ramps.
+13. Configure
 
 ## Flash
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDU1MTM2MDgsLTgwOTYzNjY4Nyw1Nj
-g0NTMwMDAsLTEzODQ2MTAxMCwxODQwNzAyNzU3LC0xMTUwNzI0
-NjIwLC03Mzg4Njg5OTQsMTEzNTc2MjMwNywxMjEzNTIyMTAxLD
-ExNjI1NzM5NDcsLTQ4Mzg2Nzg5NV19
+eyJoaXN0b3J5IjpbLTU1NzYxNzM0NCwtODA5NjM2Njg3LDU2OD
+Q1MzAwMCwtMTM4NDYxMDEwLDE4NDA3MDI3NTcsLTExNTA3MjQ2
+MjAsLTczODg2ODk5NCwxMTM1NzYyMzA3LDEyMTM1MjIxMDEsMT
+E2MjU3Mzk0NywtNDgzODY3ODk1XX0=
 -->
