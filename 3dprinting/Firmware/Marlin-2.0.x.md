@@ -7,8 +7,8 @@
 1. sudo apt install snapd
 6. sudo snap install --classic code
 3. Logout and log back in
-	8. now search for vscode you should see the icon and when you run it you can then favorite it
-	9. Install the platformIO IDE plugin from inside the vscode
+8. now search for vscode you should see the icon and when you run it you can then favorite it
+9. Install the platformIO IDE plugin from inside the vscode
 		1. select extensions from the Left bar (Blocky thing)
 		2. Search for `PlatformIO IDE`
 		3. Select Install
@@ -25,8 +25,8 @@
 ## Flash
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzQ3MjQ1MCwtODA5NjM2Njg3LDU2OD
-Q1MzAwMCwtMTM4NDYxMDEwLDE4NDA3MDI3NTcsLTExNTA3MjQ2
-MjAsLTczODg2ODk5NCwxMTM1NzYyMzA3LDEyMTM1MjIxMDEsMT
-E2MjU3Mzk0NywtNDgzODY3ODk1XX0=
+eyJoaXN0b3J5IjpbLTEyODQ2MTI0NzgsLTgwOTYzNjY4Nyw1Nj
+g0NTMwMDAsLTEzODQ2MTAxMCwxODQwNzAyNzU3LC0xMTUwNzI0
+NjIwLC03Mzg4Njg5OTQsMTEzNTc2MjMwNywxMjEzNTIyMTAxLD
+ExNjI1NzM5NDcsLTQ4Mzg2Nzg5NV19
 -->
