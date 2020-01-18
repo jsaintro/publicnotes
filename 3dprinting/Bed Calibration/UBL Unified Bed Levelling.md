@@ -98,7 +98,7 @@ G29 L2 // to load 2nd slot
 G29 L1 // Load mesh one
 G29 J
 
-
+```
 Bed Topography Report:
     ( 13,187)                                                              (187,187)
         0       1       2       3       4       5       6       7       8       9
@@ -147,7 +147,9 @@ Bed Topography Report:
  0 |   .       .       .       .       .       .       .       .       .       .
         0       1       2       3       4       5       6       7       8       9
     ( 13, 13)                                                              (187, 13)
+```  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODM3MTg2MCwtMTA3MzQ5NTY3MiwyNz
-QyMDU2MTcsMTE0NzY4OTExMCw0ODI1MjQzMzJdfQ==
+eyJoaXN0b3J5IjpbLTY3NjgxOTg3NiwxMTU4MzcxODYwLC0xMD
+czNDk1NjcyLDI3NDIwNTYxNywxMTQ3Njg5MTEwLDQ4MjUyNDMz
+Ml19
 -->
