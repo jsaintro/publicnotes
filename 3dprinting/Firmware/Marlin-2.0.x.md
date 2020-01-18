@@ -1,5 +1,9 @@
+## Dependencies
+1. Instally missing python modules
+    sudo apt-get install python3-distutils
+    
 
-4. Install VScode for linux
+3. Install VScode for linux
 	5. sudo apt install snapd
 	6. sudo snap install --classic code
 	7. Logout and log back in
@@ -8,21 +12,21 @@
 		1. select extensions from the Left bar (Blocky thing)
 		2. Search for `PlatformIO IDE`
 		3. Select Install
-5. Setup a git repository clone
+4. Setup a git repository clone
 	1. Select the Ant icon on the left bar
-6. Select "Clone git project"
-7. https://github.com/MarlinFirmware/Marlin.git
-8. Save somewhere sensible
-9. Select your branch
-10. From the blue status bar on the bottom left.  Select "2.0.1"  
-11. edit platformio.ini and select your environment (Default for megaatimega2560 is fine for ramps.
-12. Configure
+5. Select "Clone git project"
+6. https://github.com/MarlinFirmware/Marlin.git
+7. Save somewhere sensible
+8. Select your branch
+9. From the blue status bar on the bottom left.  Select "2.0.1"  
+10. edit platformio.ini and select your environment (Default for megaatimega2560 is fine for ramps.
+11. Configure
 
 ## Flash
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTYzNjY4Nyw1Njg0NTMwMDAsLTEzOD
-Q2MTAxMCwxODQwNzAyNzU3LC0xMTUwNzI0NjIwLC03Mzg4Njg5
-OTQsMTEzNTc2MjMwNywxMjEzNTIyMTAxLDExNjI1NzM5NDcsLT
-Q4Mzg2Nzg5NV19
+eyJoaXN0b3J5IjpbMjEzMjAzMjMyMSwtODA5NjM2Njg3LDU2OD
+Q1MzAwMCwtMTM4NDYxMDEwLDE4NDA3MDI3NTcsLTExNTA3MjQ2
+MjAsLTczODg2ODk5NCwxMTM1NzYyMzA3LDEyMTM1MjIxMDEsMT
+E2MjU3Mzk0NywtNDgzODY3ODk1XX0=
 -->
