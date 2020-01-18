@@ -172,10 +172,33 @@ Bed Topography Report:
         0       1       2       3       4       5       6       7       8       9
     ( 13, 13)                                                              (187, 13)
 
-
+Bed Topography Report:
+    ( 13,187)                                                              (187,187)
+        0       1       2       3       4       5       6       7       8       9
+ 9 |   .       .       .       .       .       .       .       .       .       .
+   |
+ 8 |   .     +0.254  +0.292  +0.329  +0.344  +0.372  +0.379  +0.379  +0.400    .
+   |
+ 7 |   .     +0.134  +0.175  +0.194  +0.235  +0.250  +0.265  +0.287  +0.295    .
+   |
+ 6 |   .     +0.029  +0.072  +0.107  +0.137  +0.144  +0.177  +0.195  +0.205    .
+   |
+ 5 |   .     -0.067  -0.032  -0.010  +0.019  +0.042  +0.060  +0.087  +0.107    .
+   |
+ 4 |   .     -0.168  -0.141 [-0.093] -0.071  -0.063  -0.023  -0.012  +0.012    .
+   |
+ 3 |   .     -0.263  -0.228  -0.186  -0.161  -0.145  -0.123  -0.100  -0.080    .
+   |
+ 2 |   .     -0.308  -0.295  -0.255  -0.228  -0.203  -0.180  -0.163  -0.156    .
+   |
+ 1 |   .     -0.428  -0.378  -0.350  -0.312  -0.275  -0.277  -0.273  -0.273    .
+   |
+ 0 |   .       .       .       .       .       .       .       .       .       .
+        0       1       2       3       4       5       6       7       8       9
+    ( 13, 13)                                                              (187, 13)
 ```  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA3Mzg1NzksLTY3NjgxOTg3NiwxMT
-U4MzcxODYwLC0xMDczNDk1NjcyLDI3NDIwNTYxNywxMTQ3Njg5
-MTEwLDQ4MjUyNDMzMl19
+eyJoaXN0b3J5IjpbMjAyODE3MTY1OSwtMTcxMDczODU3OSwtNj
+c2ODE5ODc2LDExNTgzNzE4NjAsLTEwNzM0OTU2NzIsMjc0MjA1
+NjE3LDExNDc2ODkxMTAsNDgyNTI0MzMyXX0=
 -->
