@@ -26,15 +26,17 @@
 13. Upgrade system76 firmware
     9. Actions/System76 Firmware updater
         Note: Make sure ALL USB and external displays are disconnected
-        Note: There's a scary moment when the system shutsdown completely.  Just wait a minute and then start with button
+        Note: There's a scary moment when the system shuts down completely.
+        Just wait a minute and then start with button
 
-15. install gnome tweaks from app menu
+14. install gnome tweaks from app menu
+15. 
 16. Add the printer (Built in driver works fine)
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzM5NjYwLC0xNTA1MzYzODU2LDIwOT
-g3Njg1NzQsLTE4OTU0Mjg0MzksLTY1ODMyMTU2NCwtMTg1NzU5
-Mjg0MCwyMTIzNjYwNDE1LDE2NTc1MjkwNTYsLTc2NDQ3NTA0My
-wtMjAxNjQ0MTk2NSw0MTc1Nzg4NjMsLTE0NDAzMTA4MzUsLTE2
-MDIzNzc5MjcsMzA1NzM4MDE2XX0=
+eyJoaXN0b3J5IjpbLTkwOTA5MTc5NSwtMTUwNTM2Mzg1NiwyMD
+k4NzY4NTc0LC0xODk1NDI4NDM5LC02NTgzMjE1NjQsLTE4NTc1
+OTI4NDAsMjEyMzY2MDQxNSwxNjU3NTI5MDU2LC03NjQ0NzUwND
+MsLTIwMTY0NDE5NjUsNDE3NTc4ODYzLC0xNDQwMzEwODM1LC0x
+NjAyMzc3OTI3LDMwNTczODAxNl19
 -->
