@@ -29,14 +29,14 @@
         Note: There's a scary moment when the system shuts down completely.
         Just wait a minute and then start with button
 
-14. install gnome tweaks from app menu
-15. 
-16. Add the printer (Built in driver works fine)
+14. install gnome extensions
+	15. https://extensions.gnome.org
+15. Add the printer (Built in driver works fine)
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTA5MTc5NSwtMTUwNTM2Mzg1NiwyMD
-k4NzY4NTc0LC0xODk1NDI4NDM5LC02NTgzMjE1NjQsLTE4NTc1
-OTI4NDAsMjEyMzY2MDQxNSwxNjU3NTI5MDU2LC03NjQ0NzUwND
-MsLTIwMTY0NDE5NjUsNDE3NTc4ODYzLC0xNDQwMzEwODM1LC0x
-NjAyMzc3OTI3LDMwNTczODAxNl19
+eyJoaXN0b3J5IjpbMTMyNTI1NTI1MCwtOTA5MDkxNzk1LC0xNT
+A1MzYzODU2LDIwOTg3Njg1NzQsLTE4OTU0Mjg0MzksLTY1ODMy
+MTU2NCwtMTg1NzU5Mjg0MCwyMTIzNjYwNDE1LDE2NTc1MjkwNT
+YsLTc2NDQ3NTA0MywtMjAxNjQ0MTk2NSw0MTc1Nzg4NjMsLTE0
+NDAzMTA4MzUsLTE2MDIzNzc5MjcsMzA1NzM4MDE2XX0=
 -->
