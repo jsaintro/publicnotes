@@ -19,7 +19,8 @@
     1.  Download from https://www.google.com/chrome/browser
 10. Setup Lastpass for Chrome
 	1. chrome://extensions
-	12. 
+	2. open the chrome web store
+	3. search for lastpass
 11. Test netflix
 12. Test youtube
 13. Upgrade system76 firmware
@@ -35,9 +36,9 @@
 16. Add the printer (Built in driver works fine)
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzcxOTc2LDIwOTg3Njg1NzQsLTE4OT
-U0Mjg0MzksLTY1ODMyMTU2NCwtMTg1NzU5Mjg0MCwyMTIzNjYw
-NDE1LDE2NTc1MjkwNTYsLTc2NDQ3NTA0MywtMjAxNjQ0MTk2NS
-w0MTc1Nzg4NjMsLTE0NDAzMTA4MzUsLTE2MDIzNzc5MjcsMzA1
-NzM4MDE2XX0=
+eyJoaXN0b3J5IjpbLTE1MDUzNjM4NTYsMjA5ODc2ODU3NCwtMT
+g5NTQyODQzOSwtNjU4MzIxNTY0LC0xODU3NTkyODQwLDIxMjM2
+NjA0MTUsMTY1NzUyOTA1NiwtNzY0NDc1MDQzLC0yMDE2NDQxOT
+Y1LDQxNzU3ODg2MywtMTQ0MDMxMDgzNSwtMTYwMjM3NzkyNywz
+MDU3MzgwMTZdfQ==
 -->
