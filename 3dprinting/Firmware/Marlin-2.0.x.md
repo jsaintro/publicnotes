@@ -33,9 +33,12 @@ Add your user to the dialout group so that you can access the serial interface
 
     sudo adduser *myuserid* dialout
 
+You should now be able to build and flash without issue 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTIxMTQ2MywxOTYyNjEyMDI4LC04MD
-k2MzY2ODcsNTY4NDUzMDAwLC0xMzg0NjEwMTAsMTg0MDcwMjc1
-NywtMTE1MDcyNDYyMCwtNzM4ODY4OTk0LDExMzU3NjIzMDcsMT
-IxMzUyMjEwMSwxMTYyNTczOTQ3LC00ODM4Njc4OTVdfQ==
+eyJoaXN0b3J5IjpbLTc2ODQxMTUxNSwtNTA5MjExNDYzLDE5Nj
+I2MTIwMjgsLTgwOTYzNjY4Nyw1Njg0NTMwMDAsLTEzODQ2MTAx
+MCwxODQwNzAyNzU3LC0xMTUwNzI0NjIwLC03Mzg4Njg5OTQsMT
+EzNTc2MjMwNywxMjEzNTIyMTAxLDExNjI1NzM5NDcsLTQ4Mzg2
+Nzg5NV19
 -->
