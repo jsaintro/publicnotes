@@ -11,8 +11,9 @@
         https://www.balena.io/etcher/
 	3. Create a app folder and move the zip file there
 	   
-	   mkdir ~/etcher
-	   mv 
+	       mkdir ~/etcher
+	       mv balena-etcher-electron-1.5.71-linux-x64.zip ~/etcher/
+	   
 2. Download the latest image
     https://octopi.octoprint.org
 3. Uncompress the image
@@ -94,7 +95,7 @@ build.path=/home/jsaintrocc/ArduinoBins/
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTIyNzg3Myw0NDI5MTQyMDQsOTI3Nz
-E1NjgsOTU0ODAzMDMwLDg1NjMxNzM3NywxNzQ0MzYxMDkyLDE5
-NDM4NTczNDEsMTI1NTY3MzgzNF19
+eyJoaXN0b3J5IjpbLTEyNjY0MTQ1NTYsNDQyOTE0MjA0LDkyNz
+cxNTY4LDk1NDgwMzAzMCw4NTYzMTczNzcsMTc0NDM2MTA5Miwx
+OTQzODU3MzQxLDEyNTU2NzM4MzRdfQ==
 -->
