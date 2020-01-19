@@ -15,8 +15,12 @@
 	       mv balena-etcher-electron-1.5.71-linux-x64.zip ~/etcher/
 	       cd ~/etcher
 	       unzip balena-etcher-electron-1.5.71-linux-x64.zip
+	       chmod +x 
 	       
-	3. C        
+	3. Create a etcher.desktop shortcut
+	   Note: Do this nexttime or figure out how to have appimage automatically do this in gnome
+	4. Launch etcher
+	5.        
 2. Download the latest image
     https://octopi.octoprint.org
 3. Uncompress the image
@@ -98,7 +102,7 @@ build.path=/home/jsaintrocc/ArduinoBins/
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjMxODk2MywtMjgxMTk3ODc4LDQ0Mj
+eyJoaXN0b3J5IjpbLTQ1NzQ2MDY5MSwtMjgxMTk3ODc4LDQ0Mj
 kxNDIwNCw5Mjc3MTU2OCw5NTQ4MDMwMzAsODU2MzE3Mzc3LDE3
 NDQzNjEwOTIsMTk0Mzg1NzM0MSwxMjU1NjczODM0XX0=
 -->
