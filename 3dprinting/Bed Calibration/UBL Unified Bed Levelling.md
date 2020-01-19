@@ -98,6 +98,9 @@ G29 L2 // to load 2nd slot
 G29 L1 // Load mesh one
 G29 J
 
+### Troubleshooting
+[https://github.com/MarlinFirmware/Marlin/issues/7508](https://github.com/MarlinFirmware/Marlin/issues/7508)
+
 ```
 Bed Topography Report:
     ( 13,187)                                                              (187,187)
@@ -202,8 +205,8 @@ Bed Topography Report:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzczNDk2NSwyMDI4MTcxNjU5LC0xNz
-EwNzM4NTc5LC02NzY4MTk4NzYsMTE1ODM3MTg2MCwtMTA3MzQ5
-NTY3MiwyNzQyMDU2MTcsMTE0NzY4OTExMCw0ODI1MjQzMzJdfQ
-==
+eyJoaXN0b3J5IjpbMTg2NTk4MTM1LC00NjM3MzQ5NjUsMjAyOD
+E3MTY1OSwtMTcxMDczODU3OSwtNjc2ODE5ODc2LDExNTgzNzE4
+NjAsLTEwNzM0OTU2NzIsMjc0MjA1NjE3LDExNDc2ODkxMTAsND
+gyNTI0MzMyXX0=
 -->
