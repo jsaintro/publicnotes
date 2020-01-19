@@ -45,28 +45,30 @@
 3. Eject both partitions `boot` and `root`       ```
 # Boot raspberrypi
 1. install sd card
-1. Power on printer (So we don't power printer from raspberry pi)
+2. Power on printer (So we don't power printer from raspberry pi)
    Note: have to figure out how to configure this
-1. connect usb to printer
-1. Connect usb power to raspberry pi
-1. Should see lights bliking
-1. Check access point for ip address assigned to octopi
+3. connect usb to printer
+4. Connect usb power to raspberry pi
+5. Should see lights bliking
+6. Check access point for ip address assigned to octopi
    Note: for your AP it will get a DNS of octopi.saint-rossy.net automatically
-1. ssh into octopi (do this before accessing web interface)
+7. ssh into octopi (do this before accessing web interface)
+
+	ssh pi@octopi
    Note: if ssh is inaccessible do a hard reboot
    default credentials are: pi/raspberry
-1. Change the default password
+8. Change the default password
    passwd
-1. Initial Config
+9. Initial Config
    ```
    sudo raspi-config
    ```
    expand the filesystem
    select "Finish"
-1. Access via a web browser
+10. Access via a web browser
    http://octopi
-1. Set a username and password
-1. Login (ignore any updates for now)
+11. Set a username and password
+12. Login (ignore any updates for now)
 # Configure the raspberrypi
 1. ssh into the raspberry pi
 
@@ -94,8 +96,8 @@ build.path=/home/jsaintrocc/ArduinoBins/
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjQxNTA0NCwtNDU3NDYwNjkxLC0yOD
-ExOTc4NzgsNDQyOTE0MjA0LDkyNzcxNTY4LDk1NDgwMzAzMCw4
-NTYzMTczNzcsMTc0NDM2MTA5MiwxOTQzODU3MzQxLDEyNTU2Nz
-M4MzRdfQ==
+eyJoaXN0b3J5IjpbMjc3NjQ5MzE2LC03NDY0MTUwNDQsLTQ1Nz
+Q2MDY5MSwtMjgxMTk3ODc4LDQ0MjkxNDIwNCw5Mjc3MTU2OCw5
+NTQ4MDMwMzAsODU2MzE3Mzc3LDE3NDQzNjEwOTIsMTk0Mzg1Nz
+M0MSwxMjU1NjczODM0XX0=
 -->
