@@ -16,7 +16,7 @@
 
         M502
 
-3. Save to eeprom
+2. Save to eeprom
 
         M500
 
@@ -36,17 +36,20 @@
 	M104 S255
 	```
 	
-4. Probe bed
+3. Probe bed
     ```
     G28
     G29 P1 V3
     ```
     Note: 
-5. Check out the output
+4. Check out the output
     ```
     G29 T
     ```
-6. Save Mesh
+    Note: Any points listed with a `.` are probably outside the probe limits and ___must___ be interpolated
+5. Interpolate missing border points
+6. 
+7. Save Mesh
     ```
     G29 S1 // S1 for PLA S2 for ABS
     ```
@@ -206,8 +209,8 @@ Bed Topography Report:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjUyMDIwMCwtNDYzNzM0OTY1LDIwMj
-gxNzE2NTksLTE3MTA3Mzg1NzksLTY3NjgxOTg3NiwxMTU4Mzcx
-ODYwLC0xMDczNDk1NjcyLDI3NDIwNTYxNywxMTQ3Njg5MTEwLD
-Q4MjUyNDMzMl19
+eyJoaXN0b3J5IjpbMjgxMzczNjQxLC00NjM3MzQ5NjUsMjAyOD
+E3MTY1OSwtMTcxMDczODU3OSwtNjc2ODE5ODc2LDExNTgzNzE4
+NjAsLTEwNzM0OTU2NzIsMjc0MjA1NjE3LDExNDc2ODkxMTAsND
+gyNTI0MzMyXX0=
 -->
