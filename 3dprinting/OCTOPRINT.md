@@ -9,7 +9,10 @@
 1. Download/Install the imaging software (Etcher)
 	2. Download the latest version here
         https://www.balena.io/etcher/
-	2. Create a app folder 
+	3. Create a app folder and move the zip file there
+	   
+	   mkdir ~/etcher
+	   mv 
 2. Download the latest image
     https://octopi.octoprint.org
 3. Uncompress the image
@@ -91,7 +94,7 @@ build.path=/home/jsaintrocc/ArduinoBins/
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2Mjc4NzMyLDQ0MjkxNDIwNCw5Mjc3MT
-U2OCw5NTQ4MDMwMzAsODU2MzE3Mzc3LDE3NDQzNjEwOTIsMTk0
-Mzg1NzM0MSwxMjU1NjczODM0XX0=
+eyJoaXN0b3J5IjpbLTkzNTIyNzg3Myw0NDI5MTQyMDQsOTI3Nz
+E1NjgsOTU0ODAzMDMwLDg1NjMxNzM3NywxNzQ0MzYxMDkyLDE5
+NDM4NTczNDEsMTI1NTY3MzgzNF19
 -->
