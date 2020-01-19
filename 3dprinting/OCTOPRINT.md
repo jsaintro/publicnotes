@@ -16,7 +16,7 @@
 	       cd ~/etcher
 	       unzip balena-etcher-electron-1.5.71-linux-x64.zip
 	       
-	  3.         
+	3.         
 2. Download the latest image
     https://octopi.octoprint.org
 3. Uncompress the image
@@ -98,7 +98,7 @@ build.path=/home/jsaintrocc/ArduinoBins/
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwMzIxNjc0LDQ0MjkxNDIwNCw5Mjc3MT
-U2OCw5NTQ4MDMwMzAsODU2MzE3Mzc3LDE3NDQzNjEwOTIsMTk0
-Mzg1NzM0MSwxMjU1NjczODM0XX0=
+eyJoaXN0b3J5IjpbLTI4MTE5Nzg3OCw0NDI5MTQyMDQsOTI3Nz
+E1NjgsOTU0ODAzMDMwLDg1NjMxNzM3NywxNzQ0MzYxMDkyLDE5
+NDM4NTczNDEsMTI1NTY3MzgzNF19
 -->
