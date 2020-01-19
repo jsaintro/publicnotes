@@ -53,7 +53,8 @@
 	G29 P3
 	G29 T
 	```
-	Note: repeat 
+	Note: repeat all points are interpolated
+	
 6. Save Mesh
     ```
     G29 S1 // S1 for PLA S2 for ABS
@@ -214,8 +215,8 @@ Bed Topography Report:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU4MTA5MzAsLTQ2MzczNDk2NSwyMD
-I4MTcxNjU5LC0xNzEwNzM4NTc5LC02NzY4MTk4NzYsMTE1ODM3
-MTg2MCwtMTA3MzQ5NTY3MiwyNzQyMDU2MTcsMTE0NzY4OTExMC
-w0ODI1MjQzMzJdfQ==
+eyJoaXN0b3J5IjpbMTU0NjU5Njg3MywtNDYzNzM0OTY1LDIwMj
+gxNzE2NTksLTE3MTA3Mzg1NzksLTY3NjgxOTg3NiwxMTU4Mzcx
+ODYwLC0xMDczNDk1NjcyLDI3NDIwNTYxNywxMTQ3Njg5MTEwLD
+Q4MjUyNDMzMl19
 -->
