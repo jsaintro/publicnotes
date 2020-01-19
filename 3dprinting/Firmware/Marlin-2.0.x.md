@@ -29,10 +29,11 @@
 12. Configure
 
 ## Flash
+Add your user to the dialout group so that you can access the serial interface
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjYxMjAyOCwtODA5NjM2Njg3LDU2OD
-Q1MzAwMCwtMTM4NDYxMDEwLDE4NDA3MDI3NTcsLTExNTA3MjQ2
-MjAsLTczODg2ODk5NCwxMTM1NzYyMzA3LDEyMTM1MjIxMDEsMT
-E2MjU3Mzk0NywtNDgzODY3ODk1XX0=
+eyJoaXN0b3J5IjpbLTk1MjU5MDM5MiwxOTYyNjEyMDI4LC04MD
+k2MzY2ODcsNTY4NDUzMDAwLC0xMzg0NjEwMTAsMTg0MDcwMjc1
+NywtMTE1MDcyNDYyMCwtNzM4ODY4OTk0LDExMzU3NjIzMDcsMT
+IxMzUyMjEwMSwxMTYyNTczOTQ3LC00ODM4Njc4OTVdfQ==
 -->
