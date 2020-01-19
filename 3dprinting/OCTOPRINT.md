@@ -23,17 +23,9 @@
 	5.        
 2. Download the latest image
     https://octopi.octoprint.org
-3. Uncompress the image
+    Note: no need to decompress (etcher will do this automatically)
 
-       ununzip octopi-stretch-lite-0.15.1.zip 
-
-4. Flash img file to SD
-
-    https://octopi.octoprint.org
-5. Download the imaging software for windows
-   https://sourceforge.net/projects/win32diskimager/
-6. Create the Octopi image
-   Insert a suitable SD card and image using the softwarde
+3. Flash img file to SD
 # Configure Octopi Network
 1. Mount SD card on workstation and access the `boot` partition
 2. On card edit octopi-wpa-supplicant.txt
@@ -102,7 +94,8 @@ build.path=/home/jsaintrocc/ArduinoBins/
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzQ2MDY5MSwtMjgxMTk3ODc4LDQ0Mj
-kxNDIwNCw5Mjc3MTU2OCw5NTQ4MDMwMzAsODU2MzE3Mzc3LDE3
-NDQzNjEwOTIsMTk0Mzg1NzM0MSwxMjU1NjczODM0XX0=
+eyJoaXN0b3J5IjpbLTc0NjQxNTA0NCwtNDU3NDYwNjkxLC0yOD
+ExOTc4NzgsNDQyOTE0MjA0LDkyNzcxNTY4LDk1NDgwMzAzMCw4
+NTYzMTczNzcsMTc0NDM2MTA5MiwxOTQzODU3MzQxLDEyNTU2Nz
+M4MzRdfQ==
 -->
