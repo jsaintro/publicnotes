@@ -100,6 +100,7 @@ G29 J
 
 ### Troubleshooting
 [https://github.com/MarlinFirmware/Marlin/issues/7508](https://github.com/MarlinFirmware/Marlin/issues/7508)
+[http://marlinfw.org/docs/gcode/G029-ubl.html](http://marlinfw.org/docs/gcode/G029-ubl.html)
 
 ```
 Bed Topography Report:
@@ -205,8 +206,8 @@ Bed Topography Report:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTk4MTM1LC00NjM3MzQ5NjUsMjAyOD
-E3MTY1OSwtMTcxMDczODU3OSwtNjc2ODE5ODc2LDExNTgzNzE4
-NjAsLTEwNzM0OTU2NzIsMjc0MjA1NjE3LDExNDc2ODkxMTAsND
-gyNTI0MzMyXX0=
+eyJoaXN0b3J5IjpbLTQ2NjUyMDIwMCwtNDYzNzM0OTY1LDIwMj
+gxNzE2NTksLTE3MTA3Mzg1NzksLTY3NjgxOTg3NiwxMTU4Mzcx
+ODYwLC0xMDczNDk1NjcyLDI3NDIwNTYxNywxMTQ3Njg5MTEwLD
+Q4MjUyNDMzMl19
 -->
