@@ -31,8 +31,10 @@
 ## Flash
 Add your user to the dialout group so that you can access the serial interface
 
+    sudo adduser *myuserid* dialout
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MjU5MDM5MiwxOTYyNjEyMDI4LC04MD
+eyJoaXN0b3J5IjpbLTUwOTIxMTQ2MywxOTYyNjEyMDI4LC04MD
 k2MzY2ODcsNTY4NDUzMDAwLC0xMzg0NjEwMTAsMTg0MDcwMjc1
 NywtMTE1MDcyNDYyMCwtNzM4ODY4OTk0LDExMzU3NjIzMDcsMT
 IxMzUyMjEwMSwxMTYyNTczOTQ3LC00ODM4Njc4OTVdfQ==
