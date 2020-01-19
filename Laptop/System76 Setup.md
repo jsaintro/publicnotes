@@ -35,12 +35,18 @@
 	17. CPU Power Manager
 	18. Multi Monitors Add-On
 15. Add the printer (Built in driver works fine)
+
+## Misc
+
+Add some libs that stuff requires
+etcher complains about this one
+sudo apt-get install appmenu-gtk2-module appmenu-gtk3-module
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzYwNjA5MDUsMjA5MDc2NTM4MywxMz
-I1MjU1MjUwLC05MDkwOTE3OTUsLTE1MDUzNjM4NTYsMjA5ODc2
-ODU3NCwtMTg5NTQyODQzOSwtNjU4MzIxNTY0LC0xODU3NTkyOD
-QwLDIxMjM2NjA0MTUsMTY1NzUyOTA1NiwtNzY0NDc1MDQzLC0y
-MDE2NDQxOTY1LDQxNzU3ODg2MywtMTQ0MDMxMDgzNSwtMTYwMj
-M3NzkyNywzMDU3MzgwMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzNDM2MzY1NjYsLTE0MzYwNjA5MDUsMj
+A5MDc2NTM4MywxMzI1MjU1MjUwLC05MDkwOTE3OTUsLTE1MDUz
+NjM4NTYsMjA5ODc2ODU3NCwtMTg5NTQyODQzOSwtNjU4MzIxNT
+Y0LC0xODU3NTkyODQwLDIxMjM2NjA0MTUsMTY1NzUyOTA1Niwt
+NzY0NDc1MDQzLC0yMDE2NDQxOTY1LDQxNzU3ODg2MywtMTQ0MD
+MxMDgzNSwtMTYwMjM3NzkyNywzMDU3MzgwMTZdfQ==
 -->
