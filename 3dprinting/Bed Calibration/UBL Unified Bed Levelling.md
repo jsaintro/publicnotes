@@ -48,17 +48,22 @@
     ```
     Note: Any points listed with a `.` are probably outside the probe limits and ___must___ be interpolated
 5. Interpolate missing border points
-6. 
-7. Save Mesh
+
+	```
+	G29 P3
+	G29 T
+	```
+	Note: repeat 
+6. Save Mesh
     ```
     G29 S1 // S1 for PLA S2 for ABS
     ```
-8. Set Fade height
+7. Set Fade height
     ```
     G29 F10.0
     ```
      Gradually fade out the compensation by 10mm  
-9. Activate the UBL
+8. Activate the UBL
   G29 A
   10. Save the settings
    M500
@@ -209,8 +214,8 @@ Bed Topography Report:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxMzczNjQxLC00NjM3MzQ5NjUsMjAyOD
-E3MTY1OSwtMTcxMDczODU3OSwtNjc2ODE5ODc2LDExNTgzNzE4
-NjAsLTEwNzM0OTU2NzIsMjc0MjA1NjE3LDExNDc2ODkxMTAsND
-gyNTI0MzMyXX0=
+eyJoaXN0b3J5IjpbLTIwNDU4MTA5MzAsLTQ2MzczNDk2NSwyMD
+I4MTcxNjU5LC0xNzEwNzM4NTc5LC02NzY4MTk4NzYsMTE1ODM3
+MTg2MCwtMTA3MzQ5NTY3MiwyNzQyMDU2MTcsMTE0NzY4OTExMC
+w0ODI1MjQzMzJdfQ==
 -->
