@@ -7,14 +7,15 @@
 
 # Install Octopi
 1. Download the imaging software (Etcher)
-      https://www.balena.io/etcher/
+    https://www.balena.io/etcher/
 2. Download the latest image
-   https://octopi.octoprint.org
+    https://octopi.octoprint.org
 3. Uncompress the image
 
-        ununzip octopi-stretch-lite-0.15.1.zip 
+       ununzip octopi-stretch-lite-0.15.1.zip 
+
 4. Flash img file to SD clatest image
-   https://octopi.octoprint.org
+    https://octopi.octoprint.org
 1. Download the imaging software for windows
    https://sourceforge.net/projects/win32diskimager/
 1. Create the Octopi image
@@ -87,7 +88,7 @@ build.path=/home/jsaintrocc/ArduinoBins/
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyOTE0MjA0LDkyNzcxNTY4LDk1NDgwMz
-AzMCw4NTYzMTczNzcsMTc0NDM2MTA5MiwxOTQzODU3MzQxLDEy
-NTU2NzM4MzRdfQ==
+eyJoaXN0b3J5IjpbNzE2MzQzMjM4LDQ0MjkxNDIwNCw5Mjc3MT
+U2OCw5NTQ4MDMwMzAsODU2MzE3Mzc3LDE3NDQzNjEwOTIsMTk0
+Mzg1NzM0MSwxMjU1NjczODM0XX0=
 -->
