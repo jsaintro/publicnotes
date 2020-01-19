@@ -6,8 +6,10 @@
 
 
 # Install Octopi
-1. Download the imaging software (Etcher)
-    https://www.balena.io/etcher/
+1. Download/Install the imaging software (Etcher)
+	2. Download the latest version here
+        https://www.balena.io/etcher/
+	2. Create a app folder 
 2. Download the latest image
     https://octopi.octoprint.org
 3. Uncompress the image
@@ -17,9 +19,9 @@
 4. Flash img file to SD
 
     https://octopi.octoprint.org
-6. Download the imaging software for windows
+5. Download the imaging software for windows
    https://sourceforge.net/projects/win32diskimager/
-7. Create the Octopi image
+6. Create the Octopi image
    Insert a suitable SD card and image using the softwarde
 # Configure Octopi Network
 1. Mount SD card on workstation and access the `boot` partition
@@ -89,7 +91,7 @@ build.path=/home/jsaintrocc/ArduinoBins/
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1MzA2MDI0LDQ0MjkxNDIwNCw5Mjc3MT
+eyJoaXN0b3J5IjpbNjY2Mjc4NzMyLDQ0MjkxNDIwNCw5Mjc3MT
 U2OCw5NTQ4MDMwMzAsODU2MzE3Mzc3LDE3NDQzNjEwOTIsMTk0
 Mzg1NzM0MSwxMjU1NjczODM0XX0=
 -->
