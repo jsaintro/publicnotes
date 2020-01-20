@@ -21,6 +21,8 @@ pip3 install --user pyglet
 Install git, clone this repository:
 
 ```
+mkdir ~/printrun
+cd printrun
 sudo apt install git
 git clone https://github.com/kliment/Printrun.git
 cd Printrun
@@ -50,6 +52,6 @@ cd Printrun
 
 4. You can now search and use pronterface like any other application and also make a favoriate out of it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODAyOTYyMSwxMDUzODI4MDIxLC0xNz
-cyMzMyNDkzLDEzMjQxMzA1NjBdfQ==
+eyJoaXN0b3J5IjpbLTEzMTk0OTE4MTgsLTY4ODAyOTYyMSwxMD
+UzODI4MDIxLC0xNzcyMzMyNDkzLDEzMjQxMzA1NjBdfQ==
 -->
