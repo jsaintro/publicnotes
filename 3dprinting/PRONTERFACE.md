@@ -23,11 +23,10 @@ Install git, clone this repository:
 ```
 mkdir ~/printrun
 cd printrun
-sudo apt install git
 git clone https://github.com/kliment/Printrun.git
 cd Printrun
-
 ```
+
 2. Run
 
          ./pronterface.py
@@ -52,6 +51,6 @@ cd Printrun
 
 4. You can now search and use pronterface like any other application and also make a favoriate out of it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTk0OTE4MTgsLTY4ODAyOTYyMSwxMD
+eyJoaXN0b3J5IjpbLTE2MzQyNjg3MjUsLTY4ODAyOTYyMSwxMD
 UzODI4MDIxLC0xNzcyMzMyNDkzLDEzMjQxMzA1NjBdfQ==
 -->
