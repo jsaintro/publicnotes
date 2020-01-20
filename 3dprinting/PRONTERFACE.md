@@ -1,4 +1,6 @@
 # Pronterface Notes
+Note: printrun project is dead.  Should probably find an alternative at some point.
+
 pronterface lets you control your 3dprinter via the usb
 
 1. Install
@@ -51,6 +53,6 @@ cd Printrun
 
 4. You can now search and use pronterface like any other application and also make a favoriate out of it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQyNjg3MjUsLTY4ODAyOTYyMSwxMD
-UzODI4MDIxLC0xNzcyMzMyNDkzLDEzMjQxMzA1NjBdfQ==
+eyJoaXN0b3J5IjpbLTMxNzk1MzI1OCwtNjg4MDI5NjIxLDEwNT
+M4MjgwMjEsLTE3NzIzMzI0OTMsMTMyNDEzMDU2MF19
 -->
