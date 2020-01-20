@@ -236,10 +236,30 @@ Recv:    |
 Recv:  0 |   .       .       .       .       .       .       .       .       .       . 
 Recv:         0       1       2       3       4       5       6       7       8       9 
 Recv:     (  1,  1)                                                              (199,  1)
+
+Recv: Bed Topography Report: Recv: Recv:     (  1,199)                                                              (199,199) 
+Recv:         0       1       2       3       4       5       6       7       8       9 
+Recv:  9 | +0.273  +0.273  +0.287  +0.335  +0.373  +0.365  +0.360  +0.413  +0.470  +0.527 
+Recv:    | 
+Recv:  8 | +0.198  +0.194  +0.190  +0.223  +0.250  +0.253  +0.267  +0.322  +0.402  +0.482 
+Recv:    | 
+Recv:  7 | +0.138  +0.115  +0.092  +0.110  +0.127  +0.140  +0.175  +0.232  +0.335  +0.437 
+Recv:    | 
+Recv:  6 | +0.118  +0.070  +0.022  +0.042  +0.070  +0.080  +0.101  +0.170  +0.270  +0.370 
+Recv:    | 
+Recv:  5 | +0.079  +0.031  -0.018  -0.013  +0.003  +0.022 [+0.053] +0.110  +0.212  +0.313 
+Recv:    | 
+Recv:  4 | +0.058  +0.005  -0.048  -0.040  -0.035  -0.023  +0.015  +0.077  +0.162  +0.246 
+Recv:    | 
+Recv:  3 | +0.048  -0.002  -0.053  -0.065  -0.065  -0.055  -0.020  +0.017  +0.115  +0.213 Recv:    | Recv:  2 | +0.060  +0.015  -0.030  -0.043  -0.033  -0.040  -0.014  +0.010  +0.069  +0.128 Recv:    | Recv:  1 | +0.038  -0.001  -0.040  -0.035  -0.035  -0.047  -0.050  -0.038  +0.007  +0.052 Recv:    | Recv:  0 | +0.038  -0.001  -0.040  -0.027  -0.035  -0.047  -0.050  -0.038  +0.007  +0.052 Recv:         0       1       2       3       4       5       6       7       8       9 Recv:     (  1,  1)                                                              (199,  1) Recv: Recv: ok [...] 
+
+Send
+
+Autoscroll  showing 256 lines (227 of 483 tota
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0MzQ2NTUyLDE1NDY1OTY4NzMsLTQ2Mz
-czNDk2NSwyMDI4MTcxNjU5LC0xNzEwNzM4NTc5LC02NzY4MTk4
-NzYsMTE1ODM3MTg2MCwtMTA3MzQ5NTY3MiwyNzQyMDU2MTcsMT
-E0NzY4OTExMCw0ODI1MjQzMzJdfQ==
+eyJoaXN0b3J5IjpbMTAwNTIzNjk3Myw1MzQzNDY1NTIsMTU0Nj
+U5Njg3MywtNDYzNzM0OTY1LDIwMjgxNzE2NTksLTE3MTA3Mzg1
+NzksLTY3NjgxOTg3NiwxMTU4MzcxODYwLC0xMDczNDk1NjcyLD
+I3NDIwNTYxNywxMTQ3Njg5MTEwLDQ4MjUyNDMzMl19
 -->
