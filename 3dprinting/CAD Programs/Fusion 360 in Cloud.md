@@ -13,6 +13,9 @@ $5/mo for 50GB of storage recurring and $0.18/hr for the Advanced instance
 7. 50GB of storage
 8. Auto-Shutdown 1hr
 9. No AutoSnapshot No Public IP
+10.When machine starts the time is 1 hour off to begin with.  Undo automatic time set and set time manually
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTc4MzU3MCwtMTkzMDY2MTk0MV19
+eyJoaXN0b3J5IjpbMTk3ODMyNjgzNiwtNTMxNzgzNTcwLC0xOT
+MwNjYxOTQxXX0=
 -->
