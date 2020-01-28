@@ -20,8 +20,11 @@ Or Select "Core"
 ## Download the paperspace client
 This is optional because you can use your web browser.
 
+Download from https://www.paperspace.com/download
+
+
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODk0NjAyODEsMTk3ODMyNjgzNiwtNT
-MxNzgzNTcwLC0xOTMwNjYxOTQxXX0=
+eyJoaXN0b3J5IjpbMTQxMDg1Nzk2MSwtMTI4OTQ2MDI4MSwxOT
+c4MzI2ODM2LC01MzE3ODM1NzAsLTE5MzA2NjE5NDFdfQ==
 -->
