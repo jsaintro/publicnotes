@@ -23,9 +23,10 @@ This is optional because you can use your web browser.
 Download from https://www.paperspace.com/download
 chmod +x PaperspaceInstaller-7.2.0.6
 ./PaperspaceInstaller-7.2.0.6
-
+To run `sh ./Paperspace.sh
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE4MDU2ODAsLTEyODk0NjAyODEsMT
-k3ODMyNjgzNiwtNTMxNzgzNTcwLC0xOTMwNjYxOTQxXX0=
+eyJoaXN0b3J5IjpbLTE0NjkyMjMwMjEsLTE1NTE4MDU2ODAsLT
+EyODk0NjAyODEsMTk3ODMyNjgzNiwtNTMxNzgzNTcwLC0xOTMw
+NjYxOTQxXX0=
 -->
