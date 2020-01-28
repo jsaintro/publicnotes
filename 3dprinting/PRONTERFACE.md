@@ -39,9 +39,9 @@ git clone https://github.com/kliment/Printrun.git
         Name=Pronterface
         GenericName=Printer Interface
         Comment=Controls your 3D printer
-        Icon=/home/<<username>>/printrun/pronterface.ico
-        Exec=/home/<<username>>/printrun/pronterface.py %f
-        Path=/home/<<username>>/printrun/
+        Icon=/home/<<username>>/Printrun/pronterface.ico
+        Exec=/home/<<username>>/Printrun/pronterface.py %f
+        Path=/home/<<username>>/Printrun/
         StartupNotify=true
         Terminal=false
         Categories=GNOME;GTK;Utility;Graphics;3DGraphics;
@@ -49,7 +49,7 @@ git clone https://github.com/kliment/Printrun.git
 
 4. You can now search and use pronterface like any other application and also make a favoriate out of it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njc4ODI0MjgsLTE3MjUzNTM1MzksLT
-Y4ODAyOTYyMSwxMDUzODI4MDIxLC0xNzcyMzMyNDkzLDEzMjQx
-MzA1NjBdfQ==
+eyJoaXN0b3J5IjpbMTYwODEyMjUzMiwtMTQ2Nzg4MjQyOCwtMT
+cyNTM1MzUzOSwtNjg4MDI5NjIxLDEwNTM4MjgwMjEsLTE3NzIz
+MzI0OTMsMTMyNDEzMDU2MF19
 -->
