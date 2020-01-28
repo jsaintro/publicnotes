@@ -21,10 +21,11 @@ Or Select "Core"
 This is optional because you can use your web browser.
 
 Download from https://www.paperspace.com/download
-
+chmod +x PaperspaceInstaller-7.2.0.6
+./PaperspaceInstaller-7.2.0.6
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDg1Nzk2MSwtMTI4OTQ2MDI4MSwxOT
-c4MzI2ODM2LC01MzE3ODM1NzAsLTE5MzA2NjE5NDFdfQ==
+eyJoaXN0b3J5IjpbLTE1NTE4MDU2ODAsLTEyODk0NjAyODEsMT
+k3ODMyNjgzNiwtNTMxNzgzNTcwLC0xOTMwNjYxOTQxXX0=
 -->
