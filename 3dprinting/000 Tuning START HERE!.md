@@ -10,7 +10,7 @@
 7. PRONTERFACE
 
 ### Per pastic type
-1. PID Tuning
+1. Temperature Calibration/PID Tuning
 ### Per Filament Calibrations
 1. 1st layer Calibration
 2. Extruder/Extruder stepper calibration
@@ -19,7 +19,7 @@
 5. Extrusion Multiplier
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5NjYyMjA0LDU5Njk2NTA4Niw5MDE0Mz
-cwNzYsNjUwNjY5NDc5LDEwMDI0NDMyLDE0NzQ4MDQxMjUsLTY5
-MjgwOTAwOV19
+eyJoaXN0b3J5IjpbNTEwNDcwMDYxLDgxOTY2MjIwNCw1OTY5Nj
+UwODYsOTAxNDM3MDc2LDY1MDY2OTQ3OSwxMDAyNDQzMiwxNDc0
+ODA0MTI1LC02OTI4MDkwMDldfQ==
 -->
