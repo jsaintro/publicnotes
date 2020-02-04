@@ -31,6 +31,7 @@
    Don't exceed a reading of 139C on the thermocuple
 
 | adc temp | adc value | measured temp |
+Recv:  T:18.57 /0.00 (988.00) B:25.00 /25.00 (977.00) @:0 B@:0 | 26
 
  ADC B:25.6C->975.75000 26C
 ADC B:30.8C->964.18750 32C 31.2C R
@@ -62,7 +63,7 @@ ADC B:130.2C->443.87500 129C 130.5C R2
    `#define BED_MAXTEMP 125`
     **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjM3MTE4NiwtMTI2MTkwNDQ3MiwzOD
+eyJoaXN0b3J5IjpbMTM5NzMxNzk2OSwtMTI2MTkwNDQ3MiwzOD
 EzNjcxMywtNTI1MzYyMTUsLTE3OTQyNDUxNzAsNDQyMTI1ODY2
 LDI5NzA3MjgxMSw0ODU2OTM5OTMsLTkyMTc4OTI1NywxMTU2Mz
 U1Mzc3LDIwNTEwODE1ODAsLTQwMDY5NjEyMiwxMzkwMDgxNTks
