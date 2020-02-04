@@ -28,7 +28,7 @@
     
 7. Go in 5 deg C increments up to 120 (on the termocouple
    Wait 3min between to allow temp to stabilize
-   Don't exceed a reading of 139C on the thermocuple
+   Don't exceed a reading of 139C on the thermocouple
 
 | adc temp | adc value | measured temp |
 Recv:  T:18.57 /0.00 (988.00) B:25.00 /25.00 (977.00) @:0 B@:0 | 26
@@ -84,7 +84,7 @@ ADC B:130.2C->443.87500 129C 130.5C R2
    `#define BED_MAXTEMP 125`
     **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDYxNjUzODIsMzY2MTAxMjU0LDkyND
+eyJoaXN0b3J5IjpbLTIwNzEwMDYzMDEsMzY2MTAxMjU0LDkyND
 A3Mjc2MSwtMjY2NDI0NzMwLDQ3MDA1NDI0MCwtNTE5MTgzNTA2
 LDE5MzMxMjI0NzgsLTEwMjQ0MTE1MTcsLTExNTUzMTUyMTQsLT
 EyNjE5MDQ0NzIsMzgxMzY3MTMsLTUyNTM2MjE1LC0xNzk0MjQ1
