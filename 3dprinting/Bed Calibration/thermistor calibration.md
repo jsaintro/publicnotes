@@ -21,7 +21,7 @@
     M500
     ```
 5. Use the gcode file `bedthermocouple.gcode` to automate the process
-	6. Record the output of octopi terminal when prompe
+	6. Record the output of octopi terminal when prompted along with the temp from the thermocouple
 6. Use M105 to get values
     ```
     ADC B:24.2C->978.31250
@@ -86,11 +86,11 @@ ADC B:130.2C->443.87500 129C 130.5C R2
    `#define BED_MAXTEMP 125`
     **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODc4Njk1NiwtMjA3MTAwNjMwMSwzNj
-YxMDEyNTQsOTI0MDcyNzYxLC0yNjY0MjQ3MzAsNDcwMDU0MjQw
-LC01MTkxODM1MDYsMTkzMzEyMjQ3OCwtMTAyNDQxMTUxNywtMT
-E1NTMxNTIxNCwtMTI2MTkwNDQ3MiwzODEzNjcxMywtNTI1MzYy
-MTUsLTE3OTQyNDUxNzAsNDQyMTI1ODY2LDI5NzA3MjgxMSw0OD
-U2OTM5OTMsLTkyMTc4OTI1NywxMTU2MzU1Mzc3LDIwNTEwODE1
-ODBdfQ==
+eyJoaXN0b3J5IjpbLTE4MzgwODIyMDQsLTIwNzEwMDYzMDEsMz
+Y2MTAxMjU0LDkyNDA3Mjc2MSwtMjY2NDI0NzMwLDQ3MDA1NDI0
+MCwtNTE5MTgzNTA2LDE5MzMxMjI0NzgsLTEwMjQ0MTE1MTcsLT
+ExNTUzMTUyMTQsLTEyNjE5MDQ0NzIsMzgxMzY3MTMsLTUyNTM2
+MjE1LC0xNzk0MjQ1MTcwLDQ0MjEyNTg2NiwyOTcwNzI4MTEsND
+g1NjkzOTkzLC05MjE3ODkyNTcsMTE1NjM1NTM3NywyMDUxMDgx
+NTgwXX0=
 -->
