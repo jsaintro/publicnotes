@@ -7,7 +7,7 @@
 	* layer height: 0.1
 	* infill: 30%
     * Detect thin walls
-3. Disable Filament Sensor
+3. Disable Filament Sensor (If you have one)
 4. Measure 120mm on filiament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
 5. Heat filament to 215 (Natural RS)
 6. Extrude 100mm
@@ -34,13 +34,20 @@ Ex. `M92 E100`
 10. Update in firmware
    Add firmware line here!!!
 11. Flash firmware
-12. Rese
-13. Make the change permanent in the slicker settings
+12. Reset NVRAM
+```
+M502
+M500
+```
+Note: Flashing doesn't remove this setting that's why you have to do it twice
+
+14. Make the change permanent in the slicker settings
      Add this area in from XYZ calibration 
-14. Enable filament Sensor
+
+15. Enable filament Sensor (If you have one)
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjUyODA5MDAsLTE4ODQxMTY1NCwtND
-U0NzA3MDQ0LDE4NDY3NDc2OTMsLTE5Mjc1MDExODcsODU1MzY5
-ODIwXX0=
+eyJoaXN0b3J5IjpbODA1NDM4MzMzLC0xODg0MTE2NTQsLTQ1ND
+cwNzA0NCwxODQ2NzQ3NjkzLC0xOTI3NTAxMTg3LDg1NTM2OTgy
+MF19
 -->
