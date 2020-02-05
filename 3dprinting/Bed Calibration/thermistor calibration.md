@@ -87,6 +87,9 @@ Rt = 10,000 * ((1023 / 366) – 1)
 
 Beta equation
 [https://en.wikipedia.org/wiki/Thermistor#B_or_%CE%B2_parameter_equation](https://en.wikipedia.org/wiki/Thermistor#B_or_%CE%B2_parameter_equation)
+Or better yet
+[https://reprap.org/wiki/MeasuringThermistorBeta](https://reprap.org/wiki/MeasuringThermistorBeta)
+
 
  
 ADC B:25.6C->975.75000 26C
@@ -119,11 +122,11 @@ ADC B:130.2C->443.87500 129C 130.5C R2
    `#define BED_MAXTEMP 125`
     **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTY0ODA2MSwtMTM4NzI1NjQwLDEzMD
-Q5Mzk5NjksMTc4NTUxOTM0NCwtNDA0ODEwNDQzLC05ODA4ODQx
-NTMsNDkyODUzNjkwLC0xMzY2NzUzNjYzLDgxNTg2MzY3NiwxND
-E5MTY2ODE4LC0yMjk2MDAyNTgsLTExODcxMzA5MjEsMTA5OTM4
-NzYxNywtMTk2ODE1MTc5NSwyMTMwMTY0MzQxLC0xODM4MDgyMj
-A0LC0yMDcxMDA2MzAxLDM2NjEwMTI1NCw5MjQwNzI3NjEsLTI2
-NjQyNDczMF19
+eyJoaXN0b3J5IjpbLTE5ODQ5MDk2NDcsLTIyMTY0ODA2MSwtMT
+M4NzI1NjQwLDEzMDQ5Mzk5NjksMTc4NTUxOTM0NCwtNDA0ODEw
+NDQzLC05ODA4ODQxNTMsNDkyODUzNjkwLC0xMzY2NzUzNjYzLD
+gxNTg2MzY3NiwxNDE5MTY2ODE4LC0yMjk2MDAyNTgsLTExODcx
+MzA5MjEsMTA5OTM4NzYxNywtMTk2ODE1MTc5NSwyMTMwMTY0Mz
+QxLC0xODM4MDgyMjA0LC0yMDcxMDA2MzAxLDM2NjEwMTI1NCw5
+MjQwNzI3NjFdfQ==
 -->
