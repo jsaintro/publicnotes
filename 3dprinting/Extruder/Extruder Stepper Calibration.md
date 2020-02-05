@@ -29,11 +29,13 @@
 ```
     M92 E{{ New E Steps}}
 ```
+Ex. `M92 E100`
+
 10. Make the change permanent in the slicker settings
      Add this area in from XYZ calibration 
-12. Enable filament Sensor
+11. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDcwNzA0NCwxODQ2NzQ3NjkzLC0xOT
-I3NTAxMTg3LDg1NTM2OTgyMF19
+eyJoaXN0b3J5IjpbLTE4ODQxMTY1NCwtNDU0NzA3MDQ0LDE4ND
+Y3NDc2OTMsLTE5Mjc1MDExODcsODU1MzY5ODIwXX0=
 -->
