@@ -31,11 +31,16 @@
 ```
 Ex. `M92 E100`
 
-10. Make the change permanent in the slicker settings
+10. Update in firmware
+   Add firmware line here!!!
+11. Flash firmware
+12. Rese
+13. Make the change permanent in the slicker settings
      Add this area in from XYZ calibration 
-11. Enable filament Sensor
+14. Enable filament Sensor
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQxMTY1NCwtNDU0NzA3MDQ0LDE4ND
-Y3NDc2OTMsLTE5Mjc1MDExODcsODU1MzY5ODIwXX0=
+eyJoaXN0b3J5IjpbLTE0MjUyODA5MDAsLTE4ODQxMTY1NCwtND
+U0NzA3MDQ0LDE4NDY3NDc2OTMsLTE5Mjc1MDExODcsODU1MzY5
+ODIwXX0=
 -->
