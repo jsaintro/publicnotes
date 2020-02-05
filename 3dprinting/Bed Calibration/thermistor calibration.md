@@ -71,7 +71,7 @@ Recv:  T:265.00 /265.00 (29.00) B:20.00 /0.00 (985.00) @:45 B@:0 | 230
 Line decoded
 T:150.12 /150.00 (229.50) B:17.50 /0.00 (989.00) @:21 B@:0
 T=Hotend:150.12 = current temp / 150.00 = set temp (ADC value)
-B=Bed:17.50 = current temp /0.00 = set temp (ADC value) @:21 B@:0
+B=Bed:17.50 = current temp /0.00 = set temp (ADClhkhj) @:21 B@:0
 
 
 
@@ -107,7 +107,7 @@ ADC B:130.2C->443.87500 129C 130.5C R2
    `#define BED_MAXTEMP 125`
     **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjM0NDc1OCwtNDA0ODEwNDQzLC05OD
+eyJoaXN0b3J5IjpbMTc4NTUxOTM0NCwtNDA0ODEwNDQzLC05OD
 A4ODQxNTMsNDkyODUzNjkwLC0xMzY2NzUzNjYzLDgxNTg2MzY3
 NiwxNDE5MTY2ODE4LC0yMjk2MDAyNTgsLTExODcxMzA5MjEsMT
 A5OTM4NzYxNywtMTk2ODE1MTc5NSwyMTMwMTY0MzQxLC0xODM4
