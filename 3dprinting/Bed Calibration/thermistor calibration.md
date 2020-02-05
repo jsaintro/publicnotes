@@ -75,11 +75,15 @@ B=Bed:17.50 = current temp /0.00 = set temp (ADC value) @:21 B@:0
 ADC value represents the voltage observed on a pin?
 0 -> 1023 where 0 = 0V and 1023 = 5V
 
+[https://www.jameco.com/Jameco/workshop/TechTip/temperature-measurement-ntc-thermistors.html](https://www.jameco.com/Jameco/workshop/TechTip/temperature-measurement-ntc-thermistors.html)
 Determining voltage value
 Rt = R0 * ((Vs/Vo) -1)
 Rt = R0 * ((adcMax / adcVal) -1)
 
-
+Ex. 
+Rt = 10,000 * ((1023 / 366) – 1)  
+= 10,000 * (2.03)  
+= 17,951 ohms
 
 
 
@@ -114,7 +118,7 @@ ADC B:130.2C->443.87500 129C 130.5C R2
    `#define BED_MAXTEMP 125`
     **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDQ3NzIxNywxMzA0OTM5OTY5LDE3OD
+eyJoaXN0b3J5IjpbLTEzODcyNTY0MCwxMzA0OTM5OTY5LDE3OD
 U1MTkzNDQsLTQwNDgxMDQ0MywtOTgwODg0MTUzLDQ5Mjg1MzY5
 MCwtMTM2Njc1MzY2Myw4MTU4NjM2NzYsMTQxOTE2NjgxOCwtMj
 I5NjAwMjU4LC0xMTg3MTMwOTIxLDEwOTkzODc2MTcsLTE5Njgx
