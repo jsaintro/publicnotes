@@ -89,7 +89,7 @@ Beta equation
 [https://en.wikipedia.org/wiki/Thermistor#B_or_%CE%B2_parameter_equation](https://en.wikipedia.org/wiki/Thermistor#B_or_%CE%B2_parameter_equation)
 Or better yet
 [https://reprap.org/wiki/MeasuringThermistorBeta](https://reprap.org/wiki/MeasuringThermistorBeta)
-
+Math equations are in latex Use [https://www.quicklatex.com/](https://www.quicklatex.com/) to render
 
  
 ADC B:25.6C->975.75000 26C
@@ -122,11 +122,11 @@ ADC B:130.2C->443.87500 129C 130.5C R2
    `#define BED_MAXTEMP 125`
     **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQ5MDk2NDcsLTIyMTY0ODA2MSwtMT
-M4NzI1NjQwLDEzMDQ5Mzk5NjksMTc4NTUxOTM0NCwtNDA0ODEw
-NDQzLC05ODA4ODQxNTMsNDkyODUzNjkwLC0xMzY2NzUzNjYzLD
-gxNTg2MzY3NiwxNDE5MTY2ODE4LC0yMjk2MDAyNTgsLTExODcx
-MzA5MjEsMTA5OTM4NzYxNywtMTk2ODE1MTc5NSwyMTMwMTY0Mz
-QxLC0xODM4MDgyMjA0LC0yMDcxMDA2MzAxLDM2NjEwMTI1NCw5
-MjQwNzI3NjFdfQ==
+eyJoaXN0b3J5IjpbLTE5MTUxNjEyMzgsLTE5ODQ5MDk2NDcsLT
+IyMTY0ODA2MSwtMTM4NzI1NjQwLDEzMDQ5Mzk5NjksMTc4NTUx
+OTM0NCwtNDA0ODEwNDQzLC05ODA4ODQxNTMsNDkyODUzNjkwLC
+0xMzY2NzUzNjYzLDgxNTg2MzY3NiwxNDE5MTY2ODE4LC0yMjk2
+MDAyNTgsLTExODcxMzA5MjEsMTA5OTM4NzYxNywtMTk2ODE1MT
+c5NSwyMTMwMTY0MzQxLC0xODM4MDgyMjA0LC0yMDcxMDA2MzAx
+LDM2NjEwMTI1NF19
 -->
