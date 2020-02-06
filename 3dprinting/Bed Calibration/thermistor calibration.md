@@ -85,6 +85,9 @@ Rt = 10,000 * ((1023 / 366) – 1)
 = 10,000 * (2.03)  
 = 17,951 ohms
 
+Use this tool to generate the table
+[https://code.google.com/archive/p/tltgen/](https://code.google.com/archive/p/tltgen/)
+
 Beta equation
 [https://en.wikipedia.org/wiki/Thermistor#B_or_%CE%B2_parameter_equation](https://en.wikipedia.org/wiki/Thermistor#B_or_%CE%B2_parameter_equation)
 Or better yet
@@ -122,11 +125,11 @@ ADC B:130.2C->443.87500 129C 130.5C R2
    `#define BED_MAXTEMP 125`
     **NOTE REALLY IMPORTANT!!**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTUxNjEyMzgsLTE5ODQ5MDk2NDcsLT
-IyMTY0ODA2MSwtMTM4NzI1NjQwLDEzMDQ5Mzk5NjksMTc4NTUx
-OTM0NCwtNDA0ODEwNDQzLC05ODA4ODQxNTMsNDkyODUzNjkwLC
-0xMzY2NzUzNjYzLDgxNTg2MzY3NiwxNDE5MTY2ODE4LC0yMjk2
-MDAyNTgsLTExODcxMzA5MjEsMTA5OTM4NzYxNywtMTk2ODE1MT
-c5NSwyMTMwMTY0MzQxLC0xODM4MDgyMjA0LC0yMDcxMDA2MzAx
-LDM2NjEwMTI1NF19
+eyJoaXN0b3J5IjpbMjExNzMzODgzOSwtMTkxNTE2MTIzOCwtMT
+k4NDkwOTY0NywtMjIxNjQ4MDYxLC0xMzg3MjU2NDAsMTMwNDkz
+OTk2OSwxNzg1NTE5MzQ0LC00MDQ4MTA0NDMsLTk4MDg4NDE1My
+w0OTI4NTM2OTAsLTEzNjY3NTM2NjMsODE1ODYzNjc2LDE0MTkx
+NjY4MTgsLTIyOTYwMDI1OCwtMTE4NzEzMDkyMSwxMDk5Mzg3Nj
+E3LC0xOTY4MTUxNzk1LDIxMzAxNjQzNDEsLTE4MzgwODIyMDQs
+LTIwNzEwMDYzMDFdfQ==
 -->
