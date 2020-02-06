@@ -128,12 +128,15 @@ ADC B:130.2C->443.87500 129C 130.5C R2
 ## Generate the table
 1. download the tltgen utility
    [https://code.google.com/archive/p/tltgen/downloads](https://code.google.com/archive/p/tltgen/downloads)
+   Try this python one instead
+   [https://github.com/nophead/Marlin/blob/Marlin_v1/Marlin/MakeTempTable.py](https://github.com/nophead/Marlin/blob/Marlin_v1/Marlin/MakeTempTable.py)
+   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzQzNTg3OCwyMTE3MzM4ODM5LC0xOT
-E1MTYxMjM4LC0xOTg0OTA5NjQ3LC0yMjE2NDgwNjEsLTEzODcy
-NTY0MCwxMzA0OTM5OTY5LDE3ODU1MTkzNDQsLTQwNDgxMDQ0My
-wtOTgwODg0MTUzLDQ5Mjg1MzY5MCwtMTM2Njc1MzY2Myw4MTU4
-NjM2NzYsMTQxOTE2NjgxOCwtMjI5NjAwMjU4LC0xMTg3MTMwOT
-IxLDEwOTkzODc2MTcsLTE5NjgxNTE3OTUsMjEzMDE2NDM0MSwt
-MTgzODA4MjIwNF19
+eyJoaXN0b3J5IjpbLTE4NDM4MzA1MzYsMTYxMzQzNTg3OCwyMT
+E3MzM4ODM5LC0xOTE1MTYxMjM4LC0xOTg0OTA5NjQ3LC0yMjE2
+NDgwNjEsLTEzODcyNTY0MCwxMzA0OTM5OTY5LDE3ODU1MTkzND
+QsLTQwNDgxMDQ0MywtOTgwODg0MTUzLDQ5Mjg1MzY5MCwtMTM2
+Njc1MzY2Myw4MTU4NjM2NzYsMTQxOTE2NjgxOCwtMjI5NjAwMj
+U4LC0xMTg3MTMwOTIxLDEwOTkzODc2MTcsLTE5NjgxNTE3OTUs
+MjEzMDE2NDM0MV19
 -->
