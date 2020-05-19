@@ -1,7 +1,7 @@
 
-# Manual Bed Levelling
+# Manual Bed Leveling
 
-Using the inductive probe get the bed as level as possible (This way the SW bed levelling won't have to work as hard)
+Using the inductive probe get the bed as level as possible (This way the SW bed leveling won't have to work as hard)
 
 1. Sync the Z axis steppers
 	1. Run z-axis up to top of frame until both Z-steppers start skipping on top
@@ -29,6 +29,6 @@ Using the inductive probe get the bed as level as possible (This way the SW bed 
    6. Repeat Calibration loop until left and right sides match
 1/4 turn is .1mm Shoot for +/- .05
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc4MTc0MCw0NzU0NTc4MTYsLTcyNj
-IwODc4OF19
+eyJoaXN0b3J5IjpbNjkwNzQzNzc2LC0xOTQ3ODE3NDAsNDc1ND
+U3ODE2LC03MjYyMDg3ODhdfQ==
 -->
