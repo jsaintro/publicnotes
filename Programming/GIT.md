@@ -1,5 +1,16 @@
 # GIT
 ## Resync Branch with Master
+
+git checkout master
+git pull
+git branch -v
+git checkout VREX-5940
+git merge master
+git branch -v
+git status
+git commit -am "merge with latest master"
+git status
+git push
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTg3OTA4OV19
+eyJoaXN0b3J5IjpbMjgwMjM5NDExLDE5NjU4NzkwODldfQ==
 -->
