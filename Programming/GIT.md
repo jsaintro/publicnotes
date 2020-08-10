@@ -11,6 +11,10 @@ git status
 git commit -am "merge with latest master"
 git status
 git push
+
+## Merging a branch into another branch
+git checkout target
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwMjM5NDExLDE5NjU4NzkwODldfQ==
+eyJoaXN0b3J5IjpbMTEzMTkxNzcxMSwyODAyMzk0MTEsMTk2NT
+g3OTA4OV19
 -->
