@@ -13,8 +13,9 @@ git status
 git push
 
 ## Merging a branch into another branch
-git checkout target
+git checkout targetbranch
+git merge sourcebranch
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTkxNzcxMSwyODAyMzk0MTEsMTk2NT
+eyJoaXN0b3J5IjpbLTExMDkzMTk2MCwyODAyMzk0MTEsMTk2NT
 g3OTA4OV19
 -->
