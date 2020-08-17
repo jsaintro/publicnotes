@@ -11,7 +11,9 @@ Ubuntu does not work (Don't bother)
 There's a complex process to try and get Ubuntu to work here
 [https://medium.com/@realzedgoat/a-sorta-beginners-guide-to-installing-ubuntu-linux-on-32-bit-uefi-machines-d39b1d1961ec](https://medium.com/@realzedgoat/a-sorta-beginners-guide-to-installing-ubuntu-linux-on-32-bit-uefi-machines-d39b1d1961ec)
 You tried it but it it didn't work
+
+#
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1NTMxNzAxLDE4MjQ2OTk0MjIsOTQyMD
-MyNzcxXX0=
+eyJoaXN0b3J5IjpbLTIwMTc3ODA1NzYsNDI1NTMxNzAxLDE4Mj
+Q2OTk0MjIsOTQyMDMyNzcxXX0=
 -->
