@@ -7,8 +7,12 @@ Install instructions sourced from here
 [https://github.com/openhab/openhabian/releases](https://github.com/openhab/openhabian/releases)
 2. uncompress the xz file
 ```
-x
+xz -d openhabian-pi-raspbian....img.xz
+```
+Note: brew install xz if you don't have it.
+3. Use balenaetcher to write the image to a Sd card
+4. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzY2NDI4OTBdfQ==
+eyJoaXN0b3J5IjpbLTEyNjU1ODU4NjNdfQ==
 -->
