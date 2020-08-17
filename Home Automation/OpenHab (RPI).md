@@ -18,7 +18,9 @@ Note: brew install xz if you don't have it. Note try just useing the xz file wit
 2. Connect HDMI monitor
 3. Insert SD Card
 4. Add Power
+5. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTEzNTQ4OSwtMTI2NTU4NTg2M119
+eyJoaXN0b3J5IjpbLTE2NTkxNzUwMTQsMTE2MTEzNTQ4OSwtMT
+I2NTU4NTg2M119
 -->
