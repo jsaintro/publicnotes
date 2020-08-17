@@ -10,8 +10,8 @@ https://cdimage.debian.org/debian-cd/current/multi-arch/iso-cd/debian-10.5.0-amd
 Ubuntu does not work (Don't bother)
 There's a complex process to try and get Ubuntu to work here
 [https://medium.com/@realzedgoat/a-sorta-beginners-guide-to-installing-ubuntu-linux-on-32-bit-uefi-machines-d39b1d1961ec](https://medium.com/@realzedgoat/a-sorta-beginners-guide-to-installing-ubuntu-linux-on-32-bit-uefi-machines-d39b1d1961ec)
-You tried it but it 
+You tried it but it it didn't work
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDU0Nzg1MzksMTgyNDY5OTQyMiw5ND
-IwMzI3NzFdfQ==
+eyJoaXN0b3J5IjpbNDI1NTMxNzAxLDE4MjQ2OTk0MjIsOTQyMD
+MyNzcxXX0=
 -->
