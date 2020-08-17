@@ -9,10 +9,10 @@ Install instructions sourced from here
 ```
 xz -d openhabian-pi-raspbian....img.xz
 ```
-Note: brew install xz if you don't have it.
+Note: brew install xz if you don't have it. Note try just useing the xz file with etcher next time
 3. Use balenaetcher to write the image to a Sd card
 4. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjU1ODU4NjNdfQ==
+eyJoaXN0b3J5IjpbLTc1NjU0NzA1OSwtMTI2NTU4NTg2M119
 -->
