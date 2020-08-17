@@ -1,5 +1,5 @@
 ## ScrewUP
-Don't disable the internal graphics card You'll never get it back and it essentailly means the device is bricked
+Don't disable the internal graphics card You'll never get it back and it essentailly means the device is bricked. Also you might need an HDMI dummy connector to run headless.
 
 ## Linux Install
 
@@ -28,6 +28,7 @@ apt-get install sudo
 add user to sudoers
 usermod -aG sudo jsaintrocc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTg1ODY4OSwxNjgwNTk4MzEsNDI1NT
-MxNzAxLDE4MjQ2OTk0MjIsOTQyMDMyNzcxXX0=
+eyJoaXN0b3J5IjpbLTk1NzIwOTg5OSwxNzU1ODU4Njg5LDE2OD
+A1OTgzMSw0MjU1MzE3MDEsMTgyNDY5OTQyMiw5NDIwMzI3NzFd
+fQ==
 -->
