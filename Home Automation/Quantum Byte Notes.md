@@ -6,7 +6,9 @@ Note: This has a 32 bit eufi boot loader and 64 bit processor so you need specia
 Debian has support for this in the multi-arch installer [http://mirrors.gigenet.com/debian-cd/10.5.0/multi-arch/iso-cd/](http://mirrors.gigenet.com/debian-cd/10.5.0/multi-arch/iso-cd/)
 It must be multiarch (Say both amd64-i386 (only the netinstall appears to do this)
 https://cdimage.debian.org/debian-cd/current/multi-arch/iso-cd/debian-10.5.0-amd64-i386-netinst.iso
-Do the net inst
+Do the net install (Used the wired nic)
+Deselect everything accept for SSH server and core utilities
+
 ### Fedora
 Fedora can do this no problem
 
@@ -18,7 +20,11 @@ There's a complex process to try and get Ubuntu to work here
 You tried it but it it didn't work
 
 ## Initial System Config (Debian)
+Install sudo
+apt-get install sudo
+add user to sudoers
+usermod -aG sudo jsaintrocc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTMwNTg0Nyw0MjU1MzE3MDEsMTgyND
-Y5OTQyMiw5NDIwMzI3NzFdfQ==
+eyJoaXN0b3J5IjpbMTY4MDU5ODMxLDQyNTUzMTcwMSwxODI0Nj
+k5NDIyLDk0MjAzMjc3MV19
 -->
