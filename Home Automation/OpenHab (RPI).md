@@ -5,8 +5,10 @@ Install instructions sourced from here
 
 1. Download the image
 [https://github.com/openhab/openhabian/releases](https://github.com/openhab/openhabian/releases)
-uncompress the xz file
+2. uncompress the xz file
+```
+x
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjcxMTAyNl19
+eyJoaXN0b3J5IjpbLTE2NzY2NDI4OTBdfQ==
 -->
