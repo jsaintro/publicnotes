@@ -1,3 +1,6 @@
+## ScrewUP
+Don't disable the internal graphics card You'll never get it back and it essentailly means the device is bricked
+
 ## Linux Install
 
 Note: This has a 32 bit eufi boot loader and 64 bit processor so you need special os builds that support mixed 32 bit eufi with 64 bit oses. Fedora and Debain can do this but Ubuntu doesn't work
@@ -25,6 +28,6 @@ apt-get install sudo
 add user to sudoers
 usermod -aG sudo jsaintrocc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDU5ODMxLDQyNTUzMTcwMSwxODI0Nj
-k5NDIyLDk0MjAzMjc3MV19
+eyJoaXN0b3J5IjpbMTc1NTg1ODY4OSwxNjgwNTk4MzEsNDI1NT
+MxNzAxLDE4MjQ2OTk0MjIsOTQyMDMyNzcxXX0=
 -->
