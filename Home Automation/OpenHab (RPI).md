@@ -28,9 +28,12 @@ http://openhab:8080
 username openhabian Password openhabian
 ## Log Viewer
 http://openhab:9001
+## SSH
+ssh://openhab
+user: openhabian pass:openhabian
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzMzA4ODk2LC0xNjU5MTc1MDE0LDExNj
-ExMzU0ODksLTEyNjU1ODU4NjNdfQ==
+eyJoaXN0b3J5IjpbLTIwMzI2MDk5MDMsLTE2NTkxNzUwMTQsMT
+E2MTEzNTQ4OSwtMTI2NTU4NTg2M119
 -->
