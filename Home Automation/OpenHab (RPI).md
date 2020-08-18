@@ -20,12 +20,13 @@ Note: brew install xz if you don't have it. Note try just useing the xz file wit
 4. Add Power
 5. Will take about 30 minutes?
 6. You can watch the progress at http://openhab/ this will shutdown when it's done
-## Connecting
-### Web Interface
+## Web Setup
+1. Access the Web Interface
 http://openhab:8080
+2. Select "Standard"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4ODg5MzE3LC0xNjU5MTc1MDE0LDExNj
-ExMzU0ODksLTEyNjU1ODU4NjNdfQ==
+eyJoaXN0b3J5IjpbLTQ1Njk4MjM3MCwtMTY1OTE3NTAxNCwxMT
+YxMTM1NDg5LC0xMjY1NTg1ODYzXX0=
 -->
