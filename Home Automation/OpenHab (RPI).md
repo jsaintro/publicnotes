@@ -30,10 +30,12 @@ username openhabian Password openhabian
 http://openhab:9001
 ## SSH
 ssh openhabian@openhab
-user: openhabian pass:openhabian
+ Note: user: openhabian pass:openhabian
+sudo openhabian-config
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTI4NDAyMTIsLTE2NTkxNzUwMTQsMT
-E2MTEzNTQ4OSwtMTI2NTU4NTg2M119
+eyJoaXN0b3J5IjpbLTIwMDk2NDE3MTMsLTE1NTI4NDAyMTIsLT
+E2NTkxNzUwMTQsMTE2MTEzNTQ4OSwtMTI2NTU4NTg2M119
 -->
