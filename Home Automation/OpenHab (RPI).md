@@ -24,9 +24,13 @@ Note: brew install xz if you don't have it. Note try just useing the xz file wit
 1. Access the Web Interface
 http://openhab:8080
 2. Select "Standard"
+## Samba Shares
+username openhabian Password openhabian
+## Log Viewer
+http://openhab:9001
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1Njk4MjM3MCwtMTY1OTE3NTAxNCwxMT
-YxMTM1NDg5LC0xMjY1NTg1ODYzXX0=
+eyJoaXN0b3J5IjpbODMzMzA4ODk2LC0xNjU5MTc1MDE0LDExNj
+ExMzU0ODksLTEyNjU1ODU4NjNdfQ==
 -->
