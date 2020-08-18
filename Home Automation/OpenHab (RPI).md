@@ -15,12 +15,17 @@ Note: brew install xz if you don't have it. Note try just useing the xz file wit
 
 ## Initial Boot
 1. Connect wired ethernet
-2. Connect HDMI monitor
+2. Connect HDMI monitor (Isn't required but can be convenient to see where you are
 3. Insert SD Card
 4. Add Power
-5. 
+5. Will take about 30 minutes?
+6. You can watch the progress at http://openhab/ this will shutdown when it's done
+## Connecting
+### Web Interface
+http://openhab:8080
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTkxNzUwMTQsMTE2MTEzNTQ4OSwtMT
-I2NTU4NTg2M119
+eyJoaXN0b3J5IjpbNDA4ODg5MzE3LC0xNjU5MTc1MDE0LDExNj
+ExMzU0ODksLTEyNjU1ODU4NjNdfQ==
 -->
