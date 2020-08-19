@@ -7,6 +7,7 @@
 2. Load up the web ui
 	3. http://IP:8080
 	4. select paperUI (This does configuration
+
 3. Setup network binding
 	4. Select "Add-ons"
 	5. Select "Bindings"
@@ -22,6 +23,7 @@
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjYzNzc4OCwtNTAxOTI0ODE1LDIxMT
-k4NjUzMCw4NjkyNzUzOTcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjA5NjE5MTIxNCwxNjYyNjM3Nzg4LC01MD
+E5MjQ4MTUsMjExOTg2NTMwLDg2OTI3NTM5Nyw3MzA5OTgxMTZd
+fQ==
 -->
