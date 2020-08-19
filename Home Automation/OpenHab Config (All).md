@@ -27,12 +27,12 @@
 1. Add the binding
 	4. Select "Add-ons"
 	5. Select "Bindings"
-	6. Search for "Zwave"
+	6. Search for "Z-wave"
 	7. Select "Install"
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTIzMjcyMjEsNTUxNzMzMjI3LC02MT
-Y4MzY3NiwxNjYyNjM3Nzg4LC01MDE5MjQ4MTUsMjExOTg2NTMw
-LDg2OTI3NTM5Nyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNTg1NzMwMjY2LC0xNzEyMzI3MjIxLDU1MT
+czMzIyNywtNjE2ODM2NzYsMTY2MjYzNzc4OCwtNTAxOTI0ODE1
+LDIxMTk4NjUzMCw4NjkyNzUzOTcsNzMwOTk4MTE2XX0=
 -->
