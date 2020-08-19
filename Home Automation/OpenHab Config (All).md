@@ -21,10 +21,11 @@
 	8. From the list find your iphone (you can see your ip by clicking on wifi and info)
 	9. Select the check
 	10.Change the name to "James's Iphone"
+6. Create links
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjgzNjc2LDE2NjI2Mzc3ODgsLTUwMT
-kyNDgxNSwyMTE5ODY1MzAsODY5Mjc1Mzk3LDczMDk5ODExNl19
-
+eyJoaXN0b3J5IjpbNTUxNzMzMjI3LC02MTY4MzY3NiwxNjYyNj
+M3Nzg4LC01MDE5MjQ4MTUsMjExOTg2NTMwLDg2OTI3NTM5Nyw3
+MzA5OTgxMTZdfQ==
 -->
