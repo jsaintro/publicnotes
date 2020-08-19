@@ -7,13 +7,14 @@
 2. Load up the web ui
 	3. http://IP:8080
 	4. select paperUI (This does configuration
-
-3. Setup network binding
+3. Disable simple mode (This seems to be the default for you)
+	4. Configuration/System/Item Linking/Simple Mode (Off)
+4. Setup network binding
 	4. Select "Add-ons"
 	5. Select "Bindings"
 	6. Search for "Network Binding"
 	7. Select "Install"
-4. Add things
+5. Add things
 	5. Select "Inbox"
 	6. Select "+"
 	7. Select "Network Binding"
@@ -23,7 +24,7 @@
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjE5MTIxNCwxNjYyNjM3Nzg4LC01MD
-E5MjQ4MTUsMjExOTg2NTMwLDg2OTI3NTM5Nyw3MzA5OTgxMTZd
-fQ==
+eyJoaXN0b3J5IjpbLTYxNjgzNjc2LDE2NjI2Mzc3ODgsLTUwMT
+kyNDgxNSwyMTE5ODY1MzAsODY5Mjc1Mzk3LDczMDk5ODExNl19
+
 -->
