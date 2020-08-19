@@ -17,8 +17,11 @@
 	6. Select "+"
 	7. Select "Network Binding"
 	8. From the list find your iphone (you can see your ip by clicking on wifi and info)
+	9. Select the check
+	10.Change the name to "James's Iphone"
+	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTkyNDgxNSwyMTE5ODY1MzAsODY5Mj
-c1Mzk3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTY2MjYzNzc4OCwtNTAxOTI0ODE1LDIxMT
+k4NjUzMCw4NjkyNzUzOTcsNzMwOTk4MTE2XX0=
 -->
