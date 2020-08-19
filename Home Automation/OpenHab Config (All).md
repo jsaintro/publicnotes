@@ -11,8 +11,13 @@
 	4. Select "Add-ons"
 	5. Select "Bindings"
 	6. Search for "Network Binding"
+	7. Select "Install"
+4. Add things
+	5. Select "Inbox"
+	6. Select "+"
+	7. Select "Network Binding"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzIzNTIzNzYsODY5Mjc1Mzk3LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbMjExOTg2NTMwLDg2OTI3NTM5Nyw3MzA5OT
+gxMTZdfQ==
 -->
