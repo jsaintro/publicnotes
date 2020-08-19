@@ -16,8 +16,9 @@
 	5. Select "Inbox"
 	6. Select "+"
 	7. Select "Network Binding"
+	8. From the list find your iphone (you can see your ip by clicking on wifi and info)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTg2NTMwLDg2OTI3NTM5Nyw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbLTUwMTkyNDgxNSwyMTE5ODY1MzAsODY5Mj
+c1Mzk3LDczMDk5ODExNl19
 -->
