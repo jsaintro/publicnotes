@@ -30,14 +30,14 @@
 	6. Search for "Z-wave"
 	7. Select "Install"
 2. Configure the serial port
-	3. Go into inbox
-	4. Start scan
+	3. Select Things
+	4. Select Z-Wave Serial Controller
 	5. Select z-wave
-	6. Configure and specify /dev/tty
+	6. Configure and specify /dev/ttyACM0 as the binding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDY0Mzg5LDU4NTczMDI2NiwtMTcxMj
-MyNzIyMSw1NTE3MzMyMjcsLTYxNjgzNjc2LDE2NjI2Mzc3ODgs
-LTUwMTkyNDgxNSwyMTE5ODY1MzAsODY5Mjc1Mzk3LDczMDk5OD
-ExNl19
+eyJoaXN0b3J5IjpbMTYzNjUxOTcxMCw1ODU3MzAyNjYsLTE3MT
+IzMjcyMjEsNTUxNzMzMjI3LC02MTY4MzY3NiwxNjYyNjM3Nzg4
+LC01MDE5MjQ4MTUsMjExOTg2NTMwLDg2OTI3NTM5Nyw3MzA5OT
+gxMTZdfQ==
 -->
