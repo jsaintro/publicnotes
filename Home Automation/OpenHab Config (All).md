@@ -22,10 +22,17 @@
 	9. Select the check
 	10.Change the name to "James's Iphone"
 6. Create links
+
+# Zwave setup
+1. Add the binding
+	4. Select "Add-ons"
+	5. Select "Bindings"
+	6. Search for "Zwave"
+	7. Select "Install"
 	 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNzMzMjI3LC02MTY4MzY3NiwxNjYyNj
-M3Nzg4LC01MDE5MjQ4MTUsMjExOTg2NTMwLDg2OTI3NTM5Nyw3
-MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3MTIzMjcyMjEsNTUxNzMzMjI3LC02MT
+Y4MzY3NiwxNjYyNjM3Nzg4LC01MDE5MjQ4MTUsMjExOTg2NTMw
+LDg2OTI3NTM5Nyw3MzA5OTgxMTZdfQ==
 -->
