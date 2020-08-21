@@ -28,7 +28,13 @@ sitemap default label="My first sitemap"
 
 The important part is the item= which associates it with the item defined in the items table
 desc is arbitrary
+
+5. Configure Basic UI to use default sitemap
+	6. go into paperUI
+	7. Select services
+	8. Select Configure for BasicUI
+	9. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczNjA5NTMwLC03NDI1ODYzMzMsNjc3OD
-c2OTk4LC0xNTQxNzM2ODM5XX0=
+eyJoaXN0b3J5IjpbLTExMjcxMjQwNzYsLTc0MjU4NjMzMyw2Nz
+c4NzY5OTgsLTE1NDE3MzY4MzldfQ==
 -->
