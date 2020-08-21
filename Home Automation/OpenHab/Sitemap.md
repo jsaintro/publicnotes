@@ -18,7 +18,17 @@ ItemType ItemName "ItemDescription" <ItemIcon> { ItemToThingChannelLink }
 ```
 icons are here
 [https://www.openhab.org/docs/configuration/iconsets/classic/](https://www.openhab.org/docs/configuration/iconsets/classic/)
+
+4. Create the sitemap
+sitemap default label="My first sitemap"
+{
+    Switch item=Presence_Mobile_James "James's Iphone"
+    Switch item=Wallplug_FF_LR_Lamp "Living Room Lamp"
+}
+
+The important part is the item= which associates it with the item defined in the items table
+desc is arbitrar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjU4NjMzMyw2Nzc4NzY5OTgsLTE1ND
-E3MzY4MzldfQ==
+eyJoaXN0b3J5IjpbLTE5Nzg3NTQwMDMsLTc0MjU4NjMzMyw2Nz
+c4NzY5OTgsLTE1NDE3MzY4MzldfQ==
 -->
