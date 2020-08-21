@@ -10,7 +10,7 @@ DCSML-1584768:items jsaint201$ touch sitemaps/default.sitemap
 
 3. create some default items
 Switch Presence_Mobile_James "James's Iphone" <presence> { channel="network:device:192_168_86_37:online" }
-Switch Wallplug_FF_LR_Lamp "Living Room Lamp" <poweroutlet> { channel="zwave:device:93caa54f:node4:switch_binary" }
+Switch Wallplug_FF_LR_Lamp "Living Room Lamp" <poweroutlet> { channel="zwave:device:93caa54f:node4:switch_binary"}
 
 Channel is the important bit you can find that out in paperUI
 ```
@@ -22,13 +22,13 @@ icons are here
 4. Create the sitemap
 sitemap default label="My first sitemap"
 {
-    Switch item=Presence_Mobile_James "James's Iphone"
-    Switch item=Wallplug_FF_LR_Lamp "Living Room Lamp"
+    Switch item=Presence_Mobile_James label="James's Iphone"
+    Switch item=Wallplug_FF_LR_Lamp label="Living Room Lamp"
 }
 
 The important part is the item= which associates it with the item defined in the items table
-desc is arbitrar
+desc is arbitrary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg3NTQwMDMsLTc0MjU4NjMzMyw2Nz
-c4NzY5OTgsLTE1NDE3MzY4MzldfQ==
+eyJoaXN0b3J5IjpbNjczNjA5NTMwLC03NDI1ODYzMzMsNjc3OD
+c2OTk4LC0xNTQxNzM2ODM5XX0=
 -->
