@@ -31,10 +31,10 @@ desc is arbitrary
 
 5. Configure Basic UI to use default sitemap
 	6. go into paperUI
-	7. Select services
+	7. Select services/UI
 	8. Select Configure for BasicUI
-	9. 
+	9. Under "Default Sitemap" specify "default"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjcxMjQwNzYsLTc0MjU4NjMzMyw2Nz
-c4NzY5OTgsLTE1NDE3MzY4MzldfQ==
+eyJoaXN0b3J5IjpbMTYyODMwNTE5OSwtNzQyNTg2MzMzLDY3Nz
+g3Njk5OCwtMTU0MTczNjgzOV19
 -->
