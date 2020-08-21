@@ -1,7 +1,8 @@
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
+1. Connect to openHAB-conf samba share
+2. go to the sitemaps folder
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE1NDE3MzY4MzldfQ==
 -->
