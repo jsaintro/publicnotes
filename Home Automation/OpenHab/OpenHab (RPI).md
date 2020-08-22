@@ -32,9 +32,11 @@ http://openhab:9001
 ssh openhabian@openhab
  Note: user: openhabian pass:openhabian
 sudo openhabian-config
+Enable SSH
+Also enable NTP!!
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk2NDE3MTNdfQ==
+eyJoaXN0b3J5IjpbMTE1Njc5ODg4MiwtMjAwOTY0MTcxM119
 -->
