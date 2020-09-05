@@ -20,6 +20,7 @@ watch  "nmcli -f "CHAN,BARS,SIGNAL,SSID" d wifi list ifname wlx10feed21ae1d  | s
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjE4MDEwNl19
+eyJoaXN0b3J5IjpbMjA2ODY4ODgyNCwxNTA2MTgwMTA2XX0=
 -->
