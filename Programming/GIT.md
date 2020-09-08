@@ -15,7 +15,17 @@ git push
 ## Merging a branch into another branch
 git checkout targetbranch
 git merge sourcebranch
+
+## Different ssh keys (I.E. jsaintrocc) for different repos
+vi ~/.ssh/config
+Host gitjsaintrocc
+    Hostname github.com
+    IdentityFile ~/.ssh/id_rsa_jsaintrocc
+    IdentitiesOnly yes
+
+Replace github.com with gitjsaintrocc
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDkzMTk2MCwyODAyMzk0MTEsMTk2NT
-g3OTA4OV19
+eyJoaXN0b3J5IjpbLTYyMzQ3ODI1LC0xMTA5MzE5NjAsMjgwMj
+M5NDExLDE5NjU4NzkwODldfQ==
 -->
