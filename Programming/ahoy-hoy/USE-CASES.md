@@ -8,6 +8,13 @@ Success Scenario:
 4. System sends notification email to engineer
 
 Title: Create On-Call Schedule
+Primary Actor: Manager
+5. Manager authenticates to application
+6. Manager creates a new On-Call schedule
+7. Manger adds On-Call members to the schedule
+8. Manger selects how often to rotate On-Call based on schedule
+
+Tit
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTU1MDc0N119
+eyJoaXN0b3J5IjpbMTA0ODAwMTA1Ml19
 -->
