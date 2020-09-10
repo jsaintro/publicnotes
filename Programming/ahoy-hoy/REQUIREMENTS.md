@@ -9,11 +9,11 @@
  - Allow administrative user to display the on-call schedule
  - Allow administrative user to trigger the on-call notification
  - send notifications via email
+ - Remember on-call members/schedules in between program restarts
 
 ## Non-Functional Requirements
 
 - Accessible via the CLI
-- Remember on-call members/schedules in between program restarts
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDEyNDc0OF19
+eyJoaXN0b3J5IjpbLTk1MjUyNTUwOF19
 -->
