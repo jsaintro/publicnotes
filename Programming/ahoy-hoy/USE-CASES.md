@@ -20,11 +20,12 @@ Primary Actor: Manager
 10. Manager selects an On-Call schedule 
 11. Manger adds engineer to On-Call schedule
 
-
 Title: Delete On-Call member
 Primary Actor: Manager
 12. Manager authenticates to application
-10.Manager selects  
+10.Manager selects  an On-Call schedule
+11. System displays a list Engineers for this on-Call schedule
+11. Manager select teh 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU4NDM5MThdfQ==
+eyJoaXN0b3J5IjpbMTk0Mjk0NjYyOV19
 -->
