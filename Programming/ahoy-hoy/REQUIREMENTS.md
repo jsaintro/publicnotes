@@ -8,10 +8,12 @@
  - Allow administrative user to delete on-call members
  - Allow administrative user to display the on-call schedule
  - Allow administrative user to trigger the on-call notification
+ - send notifications via email
 
 ## Non-Functional Requirements
 
--
+- Accessible via the CLI
+- Store on-call schedules 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxMzc1NTMxXX0=
+eyJoaXN0b3J5IjpbLTE2MDYyODA1NjFdfQ==
 -->
