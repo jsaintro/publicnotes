@@ -25,12 +25,18 @@ Primary Actor: Manager
 Success Scenario:
 
 1. Manager authenticates to application
-16. Manager selects an on-call schedule
-17. Selects On-Call to Notify
-18. System looks at On-Call schedule and selects engineer
-19. System sends notification email to engineer
+2. Manager selects an on-call schedule
+3. Selects On-Call to Notify
+4. System looks at On-Call schedule and selects engineer
+5. System sends notification email to engineer
 
-Display Schedule:
+Title: Display Schedule
+Primary Actor: Engineer
+Success Scenario:
+
+1. Engineer authenticates to application
+7. 
+
 Title: Trade Places
 Primary Actor: Engineer
 Success Scenario:
@@ -39,5 +45,5 @@ Success Scenario:
 21. Engineer selects On-Call schedule
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5NTY0MDQzXX0=
+eyJoaXN0b3J5IjpbLTMzMjU3ODM5MF19
 -->
