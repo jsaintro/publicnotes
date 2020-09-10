@@ -13,7 +13,7 @@
 ## Non-Functional Requirements
 
 - Accessible via the CLI
-- Store on-call schedules 
+- Remember on-call members/schedules in between program restarts
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDYyODA1NjFdfQ==
+eyJoaXN0b3J5IjpbLTMyMDEyNDc0OF19
 -->
