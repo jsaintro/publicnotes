@@ -35,7 +35,7 @@ Primary Actor: Engineer
 Success Scenario:
 
 1. Engineer authenticates to application
-2. Engineer select an on-call schedule
+2. Engineer picks an on-call schedule
 3. System displays selected schedule
 
 Title: Trade Places
@@ -43,11 +43,11 @@ Primary Actor: Engineer
 Success Scenario:
 
 1. Engineer authenticates to application
-2. Engineer selects On-Call schedule
+2. Engineer picks an On-Call schedule
 3. System displays selected schedule
-4. Engineer selects person to trade with
+4. Engineer chooses an Engineer to trade places with
 5. System notifies both Engineers that the swap was made via email
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk5OTM4NjIsMTE5MzA3Mjc0XX0=
+eyJoaXN0b3J5IjpbLTE1Njg4MjYxNjYsMTE5MzA3Mjc0XX0=
 -->
