@@ -1,5 +1,6 @@
 
 ## Functional Requirements
+"The system must"
 
  - Notify scheduled on-call user when on-call is triggered
  - Notify on-call user when their shift begins
@@ -12,8 +13,9 @@
  - Remember on-call members/schedules in between program restarts
 
 ## Non-Functional Requirements
+"The system should be"
 
 - Accessible via the CLI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTM1MTIxNjJdfQ==
+eyJoaXN0b3J5IjpbMTYzMTQxMjk0NV19
 -->
