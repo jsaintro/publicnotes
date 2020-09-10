@@ -12,13 +12,19 @@ Title: Create On-Call Schedule
 Primary Actor: Manager
 6. Manager authenticates to application
 7. Manager creates a new On-Call schedule
-8. Manger adds On-Call members to the schedule
-9. Manger selects how often to rotate On-Call based on schedule
+8. 12. Manger selects how often to rotate On-Call based on schedule
+
+Title: Add Engineer to On-Call Schedule
+Primary Actor: Manager
+9. Manager authenticates to application
+10. Manager selects an On-Call schedule 
+11. Manger adds engineer to On-Call schedule
+
 
 Title: Delete On-Call member
 Primary Actor: Manager
-10. Manager authenticates to application
+12. Manager authenticates to application
 10.Manager selects  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDU1NTkxN119
+eyJoaXN0b3J5IjpbLTIwMDU4NDM5MThdfQ==
 -->
