@@ -17,11 +17,13 @@ As an astronaut, I want to schedule when I heat my food, so it will be ready lat
 - As a manager I want to add and delete engineers from my on-call schedule so that I can update the schedule when engineers enter and leave the team
 - As a manager I want to notify the on-call engineer so that they can take care of the issue
 - As a engineer I want to notify the on-call engineer so that they can take care of the issue
-- As a 
+- As a manager I want to display the on-call schedule so that I can see which engineer is scheduled and when
+- As a engineer I want to display the on-call schedule to see when I am scheduled to be on-call
+- As a engineer I want to trade places 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg3NzIyNzFdfQ==
+eyJoaXN0b3J5IjpbODk1Mjg4Nzc5XX0=
 -->
