@@ -14,11 +14,11 @@ As an astronaut, I want to schedule when I heat my food, so it will be ready lat
 ## User Stories
 
  - As a manager I want to create an on-call schedule so that evenly distribute the on-call responsibility between my engineering team.
-- As a manager I want to add engineers to my on-call schedule 
+- As a manager I want to add engineers to my on-call schedule so that 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQ5NDQ3MTNdfQ==
+eyJoaXN0b3J5IjpbODI5ODA3NTU0XX0=
 -->
