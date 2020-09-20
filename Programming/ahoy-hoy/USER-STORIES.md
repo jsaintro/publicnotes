@@ -12,9 +12,13 @@ As a nutritionist I want to see what astronauts eat so that I can monitor their 
 As an astronaut, I want to schedule when I heat my food, so it will be ready later.
 
 ## User Stories
-As a manager I want to create an on-call schedule so that evenly dist
+
+ - As a manager I want to create an on-call schedule so that evenly distribute the on-call responsibility between my engineering team.
+- As a manager I want to add engineers to my on-call schedule 
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDA0MDg4NjhdfQ==
+eyJoaXN0b3J5IjpbLTE3OTQ5NDQ3MTNdfQ==
 -->
