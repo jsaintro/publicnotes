@@ -17,16 +17,16 @@ Primary Actor: Manager
 
 1. **Manager** authenticates to **application**
 10. **Manager** picks an **On-Call** **schedule**
-13. **System** displays a list **Engineers** for this **On-Call** **schedule**
-14. Manager chooses the engineer to be removed
+13. **System** displays a **list** **Engineers** for this **On-Call** **schedule**
+14. **Manager** chooses the **engineer** to be removed
 
 Title: Notify On-Call
 Primary Actor: Manager
 Success Scenario:
 
-1. Manager authenticates to application
-2. Manager picks an on-call schedule
-3. Selects On-Call to Notify
+1. **Manager** authenticates to **application**
+2. **Manager** picks an **on-call** schedule
+3. Selects **On-Call** to Notify
 4. System looks at On-Call schedule and selects engineer
 5. System sends notification email to engineer
 
@@ -49,6 +49,6 @@ Success Scenario:
 5. System notifies both Engineers that the swap was made via email
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc3NzA5NjYsLTE1Njg4MjYxNjYsMT
+eyJoaXN0b3J5IjpbLTE4MTA3MjIxMzQsLTE1Njg4MjYxNjYsMT
 E5MzA3Mjc0XX0=
 -->
