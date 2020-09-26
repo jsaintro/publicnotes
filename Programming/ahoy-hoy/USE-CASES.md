@@ -12,14 +12,14 @@ Success Scenario:
 Primary Actor: Manager
 Success Scenario:
 1. **Manager** *authenticates* to application
-10. **Manager** *picks* an **On-Call** **schedule** 
+10. **Manager** *picks* an **On-Call** **schedule** from **schedules**
 11. **Manger** *adds* **engineer** to **On-Call** **schedule**
 
 ### Title: Delete On-Call member
 Primary Actor: Manager
 Success Scenario:
 1. **Manager** authenticates to **application**
-10. **Manager** *picks* an **On-Call** **schedule**
+10. **Manager** *picks* an **On-Call** **schedule** from **schedules**
 13. **System** *displays* a **list** **Engineers** for this **On-Call** **schedule**
 14. **Manager** *chooses* the **engineer** to be removed
 
@@ -27,7 +27,7 @@ Success Scenario:
 Primary Actor: Manager
 Success Scenario:
 1. **Manager** *authenticates* to **application**
-2. **Manager** *picks* an **on-call** schedule
+2. **Manager** *picks* an **on-call** schedule from **schedules**
 3. Selects **On-Call** to Notify
 4. **System** *looks at* **On-Call** **schedule** and *selects* **engineer**
 5. **System** *sends notification* **email** to **engineer**
@@ -36,19 +36,19 @@ Success Scenario:
 Primary Actor: Engineer
 Success Scenario:
 1. **Engineer** *authenticates* to **application**
-2. **Engineer** *picks* an **on-call** **schedule**
+2. **Engineer** *picks* an **on-call** **schedule** from **schedules**
 3. **System** *displays* selected **schedule**
 
 ### Title: Trade Places
 Primary Actor: Engineer
 Success Scenario:
 1. **Engineer** *authenticates* to **application**
-2. **Engineer** *picks* an **On-Call** **schedule**
+2. **Engineer** *picks* an **On-Call** **schedule** from **schedules**
 3. **System** *displays* selected **schedule**
 4. **Engineer** *chooses* an **Engineer** to *trade* **places** with
 5. **System** *notifies* both **Engineers** that the *swap* was made via **email**
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDYzODM5MywxOTg0NTcyOTA1LC0xNT
-Y4ODI2MTY2LDExOTMwNzI3NF19
+eyJoaXN0b3J5IjpbMTY4NzAzNjY5LDE2OTQ2MzgzOTMsMTk4ND
+U3MjkwNSwtMTU2ODgyNjE2NiwxMTkzMDcyNzRdfQ==
 -->
