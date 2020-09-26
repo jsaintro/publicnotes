@@ -9,15 +9,15 @@ Title: Add Engineer to On-Call Schedule
 Primary Actor: Manager
 
 1. **Manager** authenticates to application
-10. **Manager** picks an On-Call schedule 
-11. **Manger** adds engineer to On-Call schedule
+10. **Manager** picks an **On-Call** **schedule** 
+11. **Manger** adds engineer to **On-Call** **schedule**
 
 Title: Delete On-Call member
 Primary Actor: Manager
 
-1. Manager authenticates to application
-10. Manager picks an On-Call schedule
-13. System displays a list Engineers for this on-Call schedule
+1. **Manager** authenticates to **application**
+10. **Manager** picks an **On-Call** **schedule**
+13. **System** displays a list **Engineers** for this **On-Call** **schedule**
 14. Manager chooses the engineer to be removed
 
 Title: Notify On-Call
@@ -49,6 +49,6 @@ Success Scenario:
 5. System notifies both Engineers that the swap was made via email
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4NTA5MDAyLC0xNTY4ODI2MTY2LDExOT
-MwNzI3NF19
+eyJoaXN0b3J5IjpbLTIwNDc3NzA5NjYsLTE1Njg4MjYxNjYsMT
+E5MzA3Mjc0XX0=
 -->
