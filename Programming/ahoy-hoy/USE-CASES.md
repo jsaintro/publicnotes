@@ -29,26 +29,26 @@ Success Scenario:
 1. **Manager** *authenticates* to **application**
 2. **Manager** *picks* an **on-call** schedule
 3. Selects **On-Call** to Notify
-4. **System** looks at **On-Call** **schedule** and selects **engineer**
-5. **System** sends notification **email** to **engineer**
+4. **System** *looks at* **On-Call** **schedule** and *selects* **engineer**
+5. **System** *sends notification* **email** to **engineer**
 
 ### Title: Display Schedule
 Primary Actor: Engineer
 Success Scenario:
-1. **Engineer** authenticates to **application**
-2. **Engineer** picks an **on-call** **schedule**
-3. **System** displays selected **schedule**
+1. **Engineer** *authenticates* to **application**
+2. **Engineer** *picks* an **on-call** **schedule**
+3. **System** *displays* selected **schedule**
 
 ### Title: Trade Places
 Primary Actor: Engineer
 Success Scenario:
-1. **Engineer** authenticates to **application**
-2. **Engineer** picks an **On-Call** **schedule**
-3. **System** displays selected **schedule**
-4. **Engineer** chooses an **Engineer** to trade **places** with
-5. **System** notifies both **Engineers** that the swap was made via **email**
+1. **Engineer** *authenticates* to **application**
+2. **Engineer** *picks* an **On-Call** **schedule**
+3. **System** *displays* selected **schedule**
+4. **Engineer** *chooses* an **Engineer** to *trade* **places** with
+5. **System** *notifies* both **Engineers** that the *swap* was made via **email**
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDgyMjYxNSwxOTg0NTcyOTA1LC0xNT
+eyJoaXN0b3J5IjpbMTY5NDYzODM5MywxOTg0NTcyOTA1LC0xNT
 Y4ODI2MTY2LDExOTMwNzI3NF19
 -->
