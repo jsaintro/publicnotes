@@ -1,4 +1,5 @@
 # Use Cases
+Note: Nouns are Bolded an
 
 ### Title: Create On-Call Schedule
 Primary Actor: Manager
@@ -46,10 +47,8 @@ Success Scenario:
 3. **System** displays selected **schedule**
 4. **Engineer** chooses an **Engineer** to trade **places** with
 5. **System** notifies both **Engineers** that the swap was made via **email**
-
-# Object List
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4ODQyOTAwLC0xNTY4ODI2MTY2LDExOT
+eyJoaXN0b3J5IjpbMjYwNjY5OTMyLC0xNTY4ODI2MTY2LDExOT
 MwNzI3NF19
 -->
