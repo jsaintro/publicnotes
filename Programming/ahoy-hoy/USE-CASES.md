@@ -1,8 +1,8 @@
 Title: Create On-Call Schedule
 Primary Actor: Manager
 
-1. Manager authenticates to application
-1. Manager creates a new On-Call schedule
+1. **Manager** authenticates to application
+1. **Manager** creates a new On-Call schedule
 1. Manger chooses how often to rotate On-Call based on schedule
 
 Title: Add Engineer to On-Call Schedule
@@ -49,5 +49,6 @@ Success Scenario:
 5. System notifies both Engineers that the swap was made via email
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg4MjYxNjYsMTE5MzA3Mjc0XX0=
+eyJoaXN0b3J5IjpbMjA4NTUyMTIyNiwtMTU2ODgyNjE2NiwxMT
+kzMDcyNzRdfQ==
 -->
