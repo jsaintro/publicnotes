@@ -1,5 +1,5 @@
 # Use Cases
-Note: Nouns are Bolded an
+Nouns are bolded as potential objects and verbs are italicised as potential methods.
 
 ### Title: Create On-Call Schedule
 Primary Actor: Manager
@@ -49,6 +49,6 @@ Success Scenario:
 5. **System** notifies both **Engineers** that the swap was made via **email**
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwNjY5OTMyLC0xNTY4ODI2MTY2LDExOT
-MwNzI3NF19
+eyJoaXN0b3J5IjpbMTk4NDU3MjkwNSwtMTU2ODgyNjE2NiwxMT
+kzMDcyNzRdfQ==
 -->
