@@ -1,16 +1,16 @@
 Title: Create On-Call Schedule
 Primary Actor: Manager
 
-1. **Manager** authenticates to application
-1. **Manager** creates a new On-Call schedule
-1. Manger chooses how often to rotate On-Call based on schedule
+1. **Manager** authenticates to **application**
+1. **Manager** creates a new **On-Call** **schedule**
+1. **Manger** chooses how often to rotate **On-Call** based on **schedule**
 
 Title: Add Engineer to On-Call Schedule
 Primary Actor: Manager
 
-1. Manager authenticates to application
-10. Manager picks an On-Call schedule 
-11. Manger adds engineer to On-Call schedule
+1. **Manager** authenticates to application
+10. **Manager** picks an On-Call schedule 
+11. **Manger** adds engineer to On-Call schedule
 
 Title: Delete On-Call member
 Primary Actor: Manager
@@ -49,6 +49,6 @@ Success Scenario:
 5. System notifies both Engineers that the swap was made via email
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTUyMTIyNiwtMTU2ODgyNjE2NiwxMT
-kzMDcyNzRdfQ==
+eyJoaXN0b3J5IjpbNDg4NTA5MDAyLC0xNTY4ODI2MTY2LDExOT
+MwNzI3NF19
 -->
