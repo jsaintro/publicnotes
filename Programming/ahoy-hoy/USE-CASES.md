@@ -4,30 +4,30 @@ Nouns are bolded as potential objects and verbs are italicised as potential meth
 ### Title: Create On-Call Schedule
 Primary Actor: Manager
 Success Scenario:
-1. **Manager** authenticates to **application**
-1. **Manager** creates a new **On-Call** **schedule**
-1. **Manger** chooses how often to rotate **On-Call** based on **schedule**
+1. **Manager** *authenticates* to **application**
+1. **Manager** *creates* a new **On-Call** **schedule**
+1. **Manger** *chooses how often to rotate* **On-Call** based on **schedule**
 
 ### Title: Add Engineer to On-Call Schedule
 Primary Actor: Manager
 Success Scenario:
-1. **Manager** authenticates to application
-10. **Manager** picks an **On-Call** **schedule** 
-11. **Manger** adds engineer to **On-Call** **schedule**
+1. **Manager** *authenticates* to application
+10. **Manager** *picks* an **On-Call** **schedule** 
+11. **Manger** *adds* **engineer** to **On-Call** **schedule**
 
 ### Title: Delete On-Call member
 Primary Actor: Manager
 Success Scenario:
 1. **Manager** authenticates to **application**
-10. **Manager** picks an **On-Call** **schedule**
-13. **System** displays a **list** **Engineers** for this **On-Call** **schedule**
-14. **Manager** chooses the **engineer** to be removed
+10. **Manager** *picks* an **On-Call** **schedule**
+13. **System** *displays* a **list** **Engineers** for this **On-Call** **schedule**
+14. **Manager** *chooses* the **engineer** to be removed
 
 ### Title: Notify On-Call
 Primary Actor: Manager
 Success Scenario:
-1. **Manager** authenticates to **application**
-2. **Manager** picks an **on-call** schedule
+1. **Manager** *authenticates* to **application**
+2. **Manager** *picks* an **on-call** schedule
 3. Selects **On-Call** to Notify
 4. **System** looks at **On-Call** **schedule** and selects **engineer**
 5. **System** sends notification **email** to **engineer**
@@ -49,6 +49,6 @@ Success Scenario:
 5. **System** notifies both **Engineers** that the swap was made via **email**
   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDU3MjkwNSwtMTU2ODgyNjE2NiwxMT
-kzMDcyNzRdfQ==
+eyJoaXN0b3J5IjpbLTcwMDgyMjYxNSwxOTg0NTcyOTA1LC0xNT
+Y4ODI2MTY2LDExOTMwNzI3NF19
 -->
