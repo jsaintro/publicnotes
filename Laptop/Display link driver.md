@@ -1,4 +1,4 @@
-Get ubuntu version
+# Get ubuntu version
 
 lsb_release -a
 
@@ -12,6 +12,10 @@ cd ds/
 unzip DisplayLink\ USB\ Graphics\ Software\ for\ Ubuntu\ 5.2.zip 
 chmod +x displaylink-driver-5.2.14.run 
 sudo ./displaylink-driver-5.2.14.run 
+
+# OSX Version
+https://www.displaylink.com/downloads/macos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjM0MzY5Miw5MDMxMTI5NjFdfQ==
+eyJoaXN0b3J5IjpbLTIwMjQwNjkzMTUsMTY0MjM0MzY5Miw5MD
+MxMTI5NjFdfQ==
 -->
