@@ -15,7 +15,10 @@ sudo ./displaylink-driver-5.2.14.run
 
 # OSX Version
 https://www.displaylink.com/downloads/macos
+Note: 
+
+In chrome disable hardware accelleration (For youtube to work)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQwNjkzMTUsMTY0MjM0MzY5Miw5MD
-MxMTI5NjFdfQ==
+eyJoaXN0b3J5IjpbLTE5MTI5NjM4ODcsLTIwMjQwNjkzMTUsMT
+Y0MjM0MzY5Miw5MDMxMTI5NjFdfQ==
 -->
