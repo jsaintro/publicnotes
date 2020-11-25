@@ -14,12 +14,14 @@ chmod +x displaylink-driver-5.2.14.run
 sudo ./displaylink-driver-5.2.14.run 
 
 # OSX Version
-Note: Don't upgrade to Big Sur 11.0 until DisplayLink Mana
+Note: Don't upgrade to Big Sur 11.0 until DisplayLink Manager Graphics Connectivity supports clamshell mode.
+
+## 
 https://www.displaylink.com/downloads/macos
 Note: 
 
 In chrome disable hardware accelleration (For youtube to work)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjk2NTQ3NDcsLTIwMjQwNjkzMTUsMT
-Y0MjM0MzY5Miw5MDMxMTI5NjFdfQ==
+eyJoaXN0b3J5IjpbMTEzMjI2MTk3OSwtMjAyNDA2OTMxNSwxNj
+QyMzQzNjkyLDkwMzExMjk2MV19
 -->
