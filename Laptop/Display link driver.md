@@ -1,4 +1,9 @@
 # Get ubuntu version
+## Linux (Ubuntu 20.10)
+Note: Currently you need to get the master release
+https://support.displaylink.com/knowledgebase/articles/679060-porting-the-displaylink-ubuntu-driver-to-other-lin
+
+For Ubuntu
 
 lsb_release -a
 
@@ -23,6 +28,7 @@ https://www.displaylink.com/downloads/macos
 
 In chrome disable hardware accelleration (For youtube to work)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzY1ODE5MywxMTMyMjYxOTc5LC0yMD
-I0MDY5MzE1LDE2NDIzNDM2OTIsOTAzMTEyOTYxXX0=
+eyJoaXN0b3J5IjpbMTgxODYxMjkzLDE5NzM2NTgxOTMsMTEzMj
+I2MTk3OSwtMjAyNDA2OTMxNSwxNjQyMzQzNjkyLDkwMzExMjk2
+MV19
 -->
