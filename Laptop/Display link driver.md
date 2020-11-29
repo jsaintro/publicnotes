@@ -7,6 +7,7 @@ https://support.displaylink.com/knowledgebase/articles/679060-porting-the-displa
 ```
 ./displaylink-driver-5.3.1.34.run --noexec --keep
 ```
+
 For Ubuntu
 
 lsb_release -a
@@ -32,7 +33,7 @@ https://www.displaylink.com/downloads/macos
 
 In chrome disable hardware accelleration (For youtube to work)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTc2Njg5NiwxODE4NjEyOTMsMTk3Mz
-Y1ODE5MywxMTMyMjYxOTc5LC0yMDI0MDY5MzE1LDE2NDIzNDM2
-OTIsOTAzMTEyOTYxXX0=
+eyJoaXN0b3J5IjpbLTE1MTUyNzgyNDIsMTE2MTc2Njg5NiwxOD
+E4NjEyOTMsMTk3MzY1ODE5MywxMTMyMjYxOTc5LC0yMDI0MDY5
+MzE1LDE2NDIzNDM2OTIsOTAzMTEyOTYxXX0=
 -->
