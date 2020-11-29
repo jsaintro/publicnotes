@@ -10,6 +10,29 @@ cd displaylik-driver-5.3.1.34
 sudo ./displaylist-installer install
 ```
 
+Error
+```
+Installing
+
+[ Installing EVDI ]
+[[ Installing EVDI DKMS module ]]
+
+Creating symlink /var/lib/dkms/evdi/1.7.0/source ->
+                 /usr/src/evdi-1.7.0
+
+DKMS: add completed.
+
+Kernel preparation unnecessary for this kernel.  Skipping...
+
+Building module:
+cleaning build area...
+make -j8 KERNELRELEASE=5.8.0-7630-generic all INCLUDEDIR=/lib/modules/5.8.0-7630-generic/build/include KVERSION=5.8.0-7630-generic DKMS_BUILD=1...(bad exit status: 2)
+ERROR (dkms apport): binary package for evdi: 1.7.0 not found
+Error! Bad return status for module build on kernel: 5.8.0-7630-generic (x86_64)
+Consult /var/lib/dkms/evdi/1.7.0/build/make.log for more information.
+ERROR: Failed to install evdi/5.3.1.34 to the kernel tree.
+```
+
 
 For Ubuntu
 
@@ -36,7 +59,7 @@ https://www.displaylink.com/downloads/macos
 
 In chrome disable hardware accelleration (For youtube to work)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzc3NzYxNywxMTYxNzY2ODk2LDE4MT
-g2MTI5MywxOTczNjU4MTkzLDExMzIyNjE5NzksLTIwMjQwNjkz
-MTUsMTY0MjM0MzY5Miw5MDMxMTI5NjFdfQ==
+eyJoaXN0b3J5IjpbNjMzMzk4ODIxLDExNjE3NjY4OTYsMTgxOD
+YxMjkzLDE5NzM2NTgxOTMsMTEzMjI2MTk3OSwtMjAyNDA2OTMx
+NSwxNjQyMzQzNjkyLDkwMzExMjk2MV19
 -->
