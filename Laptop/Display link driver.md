@@ -2,10 +2,12 @@
 ## Linux (Ubuntu 20.10)
 1. Install the latest driver
     displaylik-driver-5.3.1.34 (As of this writing)
-3. Use patched version of Xserver
+2. Use patched version of Xserver
 	https://www.displaylink.org/forum/showthread.php?t=67148
     Note: This is for 20.04 but also works for 20.10
-    
+3. Lock this version with 
+    `sudo apt-mark hold xserver-xorg-core` should work.
+     To undo this, do `apt-mark unhold xserver-xorg-core`
 
 ## Troubleshooting
 1. Extract the drivers
@@ -73,8 +75,8 @@ https://www.displaylink.com/downloads/macos
 
 In chrome disable hardware accelleration (For youtube to work)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTU2NDQxNywtMTEwNjgzMzM4NiwtMT
-g5OTYyMDI5OCwtMTUwMjc1NDM4Niw2MzMzOTg4MjEsMTE2MTc2
-Njg5NiwxODE4NjEyOTMsMTk3MzY1ODE5MywxMTMyMjYxOTc5LC
-0yMDI0MDY5MzE1LDE2NDIzNDM2OTIsOTAzMTEyOTYxXX0=
+eyJoaXN0b3J5IjpbNzQ0NDkwMzE2LC0xMTA2ODMzMzg2LC0xOD
+k5NjIwMjk4LC0xNTAyNzU0Mzg2LDYzMzM5ODgyMSwxMTYxNzY2
+ODk2LDE4MTg2MTI5MywxOTczNjU4MTkzLDExMzIyNjE5NzksLT
+IwMjQwNjkzMTUsMTY0MjM0MzY5Miw5MDMxMTI5NjFdfQ==
 -->
