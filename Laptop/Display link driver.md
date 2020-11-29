@@ -6,7 +6,8 @@ https://support.displaylink.com/knowledgebase/articles/679060-porting-the-displa
 1. Extract the drivers
 ```
 ./displaylink-driver-5.3.1.34.run --noexec --keep
-cd displa
+cd displaylik-driver-5.3.1.34
+sudo ./displaylist-installer install
 ```
 
 
@@ -35,7 +36,7 @@ https://www.displaylink.com/downloads/macos
 
 In chrome disable hardware accelleration (For youtube to work)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Njc1MDQyLDExNjE3NjY4OTYsMTgxOD
-YxMjkzLDE5NzM2NTgxOTMsMTEzMjI2MTk3OSwtMjAyNDA2OTMx
-NSwxNjQyMzQzNjkyLDkwMzExMjk2MV19
+eyJoaXN0b3J5IjpbMTYyNzc3NzYxNywxMTYxNzY2ODk2LDE4MT
+g2MTI5MywxOTczNjU4MTkzLDExMzIyNjE5NzksLTIwMjQwNjkz
+MTUsMTY0MjM0MzY5Miw5MDMxMTI5NjFdfQ==
 -->
