@@ -13,6 +13,10 @@ sudo ./displaylist-installer install
 Full procedure here
 https://www.displaylink.org/forum/showpost.php?p=90853&postcount=2
 
+https://www.displaylink.org/forum/showthread.php?t=67148
+https://gitlab.freedesktop.org/xorg/xserver/-/issues/1028
+https://bugs.launchpad.net/xorg-server/+bug/1875015
+
 
 Error
 ```
@@ -63,7 +67,8 @@ https://www.displaylink.com/downloads/macos
 
 In chrome disable hardware accelleration (For youtube to work)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI3NTQzODYsNjMzMzk4ODIxLDExNj
-E3NjY4OTYsMTgxODYxMjkzLDE5NzM2NTgxOTMsMTEzMjI2MTk3
-OSwtMjAyNDA2OTMxNSwxNjQyMzQzNjkyLDkwMzExMjk2MV19
+eyJoaXN0b3J5IjpbLTE4OTk2MjAyOTgsLTE1MDI3NTQzODYsNj
+MzMzk4ODIxLDExNjE3NjY4OTYsMTgxODYxMjkzLDE5NzM2NTgx
+OTMsMTEzMjI2MTk3OSwtMjAyNDA2OTMxNSwxNjQyMzQzNjkyLD
+kwMzExMjk2MV19
 -->
