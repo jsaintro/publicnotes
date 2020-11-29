@@ -10,6 +10,10 @@ cd displaylik-driver-5.3.1.34
 sudo ./displaylist-installer install
 ```
 
+Full procedure here
+https://www.displaylink.org/forum/showpost.php?p=90853&postcount=2
+
+
 Error
 ```
 Installing
@@ -59,7 +63,7 @@ https://www.displaylink.com/downloads/macos
 
 In chrome disable hardware accelleration (For youtube to work)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzMzk4ODIxLDExNjE3NjY4OTYsMTgxOD
-YxMjkzLDE5NzM2NTgxOTMsMTEzMjI2MTk3OSwtMjAyNDA2OTMx
-NSwxNjQyMzQzNjkyLDkwMzExMjk2MV19
+eyJoaXN0b3J5IjpbLTE1MDI3NTQzODYsNjMzMzk4ODIxLDExNj
+E3NjY4OTYsMTgxODYxMjkzLDE5NzM2NTgxOTMsMTEzMjI2MTk3
+OSwtMjAyNDA2OTMxNSwxNjQyMzQzNjkyLDkwMzExMjk2MV19
 -->
