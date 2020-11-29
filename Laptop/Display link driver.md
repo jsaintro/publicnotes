@@ -17,6 +17,7 @@ https://www.displaylink.org/forum/showthread.php?t=67148
 https://gitlab.freedesktop.org/xorg/xserver/-/issues/1028
 https://bugs.launchpad.net/xorg-server/+bug/1875015
 
+https://www.displaylink.org/forum/showthread.php?t=67148
 
 Error
 ```
@@ -67,8 +68,8 @@ https://www.displaylink.com/downloads/macos
 
 In chrome disable hardware accelleration (For youtube to work)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTk2MjAyOTgsLTE1MDI3NTQzODYsNj
-MzMzk4ODIxLDExNjE3NjY4OTYsMTgxODYxMjkzLDE5NzM2NTgx
-OTMsMTEzMjI2MTk3OSwtMjAyNDA2OTMxNSwxNjQyMzQzNjkyLD
-kwMzExMjk2MV19
+eyJoaXN0b3J5IjpbLTExMDY4MzMzODYsLTE4OTk2MjAyOTgsLT
+E1MDI3NTQzODYsNjMzMzk4ODIxLDExNjE3NjY4OTYsMTgxODYx
+MjkzLDE5NzM2NTgxOTMsMTEzMjI2MTk3OSwtMjAyNDA2OTMxNS
+wxNjQyMzQzNjkyLDkwMzExMjk2MV19
 -->
