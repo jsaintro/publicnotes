@@ -1,8 +1,9 @@
 # Get ubuntu version
 ## Linux (Ubuntu 20.10)
-Note: Currently you need to get the master release
-https://support.displaylink.com/knowledgebase/articles/679060-porting-the-displaylink-ubuntu-driver-to-other-lin
+1. Install the latest driver
+2. Use patched version of X
 
+## Troubleshooting
 1. Extract the drivers
 ```
 ./displaylink-driver-5.3.1.34.run --noexec --keep
@@ -68,8 +69,8 @@ https://www.displaylink.com/downloads/macos
 
 In chrome disable hardware accelleration (For youtube to work)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDY4MzMzODYsLTE4OTk2MjAyOTgsLT
-E1MDI3NTQzODYsNjMzMzk4ODIxLDExNjE3NjY4OTYsMTgxODYx
-MjkzLDE5NzM2NTgxOTMsMTEzMjI2MTk3OSwtMjAyNDA2OTMxNS
-wxNjQyMzQzNjkyLDkwMzExMjk2MV19
+eyJoaXN0b3J5IjpbMTUwMjA4NjEwNiwtMTEwNjgzMzM4NiwtMT
+g5OTYyMDI5OCwtMTUwMjc1NDM4Niw2MzMzOTg4MjEsMTE2MTc2
+Njg5NiwxODE4NjEyOTMsMTk3MzY1ODE5MywxMTMyMjYxOTc5LC
+0yMDI0MDY5MzE1LDE2NDIzNDM2OTIsOTAzMTEyOTYxXX0=
 -->
