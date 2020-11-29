@@ -3,6 +3,10 @@
 Note: Currently you need to get the master release
 https://support.displaylink.com/knowledgebase/articles/679060-porting-the-displaylink-ubuntu-driver-to-other-lin
 
+1. Extract the drivers
+```
+./displaylink-driver-5.3.1.34.run --noexec --keep
+```
 For Ubuntu
 
 lsb_release -a
@@ -28,7 +32,7 @@ https://www.displaylink.com/downloads/macos
 
 In chrome disable hardware accelleration (For youtube to work)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODYxMjkzLDE5NzM2NTgxOTMsMTEzMj
-I2MTk3OSwtMjAyNDA2OTMxNSwxNjQyMzQzNjkyLDkwMzExMjk2
-MV19
+eyJoaXN0b3J5IjpbMTE2MTc2Njg5NiwxODE4NjEyOTMsMTk3Mz
+Y1ODE5MywxMTMyMjYxOTc5LC0yMDI0MDY5MzE1LDE2NDIzNDM2
+OTIsOTAzMTEyOTYxXX0=
 -->
