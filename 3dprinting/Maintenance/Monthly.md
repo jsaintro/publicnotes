@@ -15,8 +15,8 @@ Same as `Linear Rods` process
 
 ## Grease
 Use Super Lube Multi-Purpose Synthetic Grease with Syncolon (PTFE)
-This is available at Logan hardware in a 3 oz tube (You keep it with the glues in the carriage house)
+This is available at Logan hardware in a 3 oz tube (You keep it with the glues in the workshop)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0NzkxMTc3LC0xNjY2Njg5NzA3LDE4Nj
-EzNTIyMzMsMTg3ODIwMTQyMF19
+eyJoaXN0b3J5IjpbLTE0MjExNTAyNzYsLTE2NjY2ODk3MDcsMT
+g2MTM1MjIzMywxODc4MjAxNDIwXX0=
 -->
