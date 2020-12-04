@@ -1,9 +1,10 @@
 ## Checklist
 1. bontech gears free of plastic
-1. filament spool on holder
-1. no kinks in filament
-1. end of filament prepped for loading
-1. Check wiring (Frayed too tight/broken cable management
+2. filament spool on holder
+3. no kinks in filament
+4. end of filament prepped for loading
+5. Check wiring (Frayed too tight/broken cable management
+6. Home all axis, especially z
 
 ## Prep Hot End
 Note: Plastic stuck to hot End can cause print failure
@@ -21,6 +22,6 @@ Note: Oil from last print/removal process can contaminate bed
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjQwNDY5MSwyMDQ2NTU2OTgwLC0yMj
-M4MDM0NzJdfQ==
+eyJoaXN0b3J5IjpbMTEwNDkxMzYxOSwxNzM2NDA0NjkxLDIwND
+Y1NTY5ODAsLTIyMzgwMzQ3Ml19
 -->
