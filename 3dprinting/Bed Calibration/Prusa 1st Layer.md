@@ -9,18 +9,14 @@
 3. Manually tune temperatures from step one
     Tune/Bed Temp, Tune/Hotend Temp
 
+	Knob
+	 CCW is down
+	 CW is up
 
-Knob
- CCW is down
- CW is up
-
-Temp for PLA is 3 Deg lower than what is reported
-For RS Red PLAtry 65 for bed and 215 for extruder
-Success with Bed 70 and Nozzle 220
-For RS Red ABS 105 bed and 255 extruder Note you'll need to manual set temps.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU3NDYyNTgsLTE1Njg2NDIyMDEsMT
-g1MzY5ODY4NCwxNzUwNzUwMDgyLDI0MjY2MTI5NywyMDI2NTk2
-ODM2LDE5ODkxMjY5NDMsMTE4NzE1OTI5Nl19
+eyJoaXN0b3J5IjpbMTAzMzA1Mzk3MSwtMTU4NTc0NjI1OCwtMT
+U2ODY0MjIwMSwxODUzNjk4Njg0LDE3NTA3NTAwODIsMjQyNjYx
+Mjk3LDIwMjY1OTY4MzYsMTk4OTEyNjk0MywxMTg3MTU5Mjk2XX
+0=
 -->
