@@ -10,13 +10,13 @@
     Tune/Bed Temp, Tune/Hotend Temp
 
 	Knob
-	 CCW is down
-	 CW is up
+	 CCW is down, smaller number is closer
+	 CW is up, larger number is up
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzA1Mzk3MSwtMTU4NTc0NjI1OCwtMT
-U2ODY0MjIwMSwxODUzNjk4Njg0LDE3NTA3NTAwODIsMjQyNjYx
-Mjk3LDIwMjY1OTY4MzYsMTk4OTEyNjk0MywxMTg3MTU5Mjk2XX
-0=
+eyJoaXN0b3J5IjpbNTA1MTcwMzUzLDEwMzMwNTM5NzEsLTE1OD
+U3NDYyNTgsLTE1Njg2NDIyMDEsMTg1MzY5ODY4NCwxNzUwNzUw
+MDgyLDI0MjY2MTI5NywyMDI2NTk2ODM2LDE5ODkxMjY5NDMsMT
+E4NzE1OTI5Nl19
 -->
