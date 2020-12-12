@@ -16,10 +16,10 @@
 2. Extruder/Extruder stepper calibration
 3. Stepper Calibration/XYZ Steps calibration
 4. Stepper Calibration/Linear Advance Calibration
-5. Extrusion Multiplier
+5. Extruder/Extrusion Multiplier
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwNDcwMDYxLDgxOTY2MjIwNCw1OTY5Nj
-UwODYsOTAxNDM3MDc2LDY1MDY2OTQ3OSwxMDAyNDQzMiwxNDc0
-ODA0MTI1LC02OTI4MDkwMDldfQ==
+eyJoaXN0b3J5IjpbMTA5MDA3OTg2MSw1MTA0NzAwNjEsODE5Nj
+YyMjA0LDU5Njk2NTA4Niw5MDE0MzcwNzYsNjUwNjY5NDc5LDEw
+MDI0NDMyLDE0NzQ4MDQxMjUsLTY5MjgwOTAwOV19
 -->
