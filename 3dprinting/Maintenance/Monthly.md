@@ -19,7 +19,13 @@ wrap lead screw with lint free cloth below brushing to prevent debris from falli
 ## Grease
 Use Super Lube Multi-Purpose Synthetic Grease with Syncolon (PTFE)
 This is available at Logan hardware in a 3 oz tube (You keep it with the glues in the workshop)
+
+## Tighten Screws
+Especially Y-Axis rails and idler pulley 
+Also check some of the frame angle brackets
+M5's are the ones to focus on.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTM4NzU4MiwtMTQyMTE1MDI3NiwtMT
-Y2NjY4OTcwNywxODYxMzUyMjMzLDE4NzgyMDE0MjBdfQ==
+eyJoaXN0b3J5IjpbLTMxMjkxNzQ2MSwyMTAxMzg3NTgyLC0xND
+IxMTUwMjc2LC0xNjY2Njg5NzA3LDE4NjEzNTIyMzMsMTg3ODIw
+MTQyMF19
 -->
