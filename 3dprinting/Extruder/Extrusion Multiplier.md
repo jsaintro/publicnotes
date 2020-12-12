@@ -11,6 +11,7 @@ Slice cube from here
 * Perimiters 10mm
 * Small Perimiters 10mm
 * External Perimiters 10mm
+* /Documents/3dprinter/calibration/cube/extrusion_cubeABS.3mf
 
 Print cube
 
@@ -26,7 +27,7 @@ adjust extrusion multiplier
 etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjIyMjEwMiwtMTE5MDY4MjQ3NywxNT
-MyNjIwOTc1LC0xNDgwOTY0ODIsLTI2OTEwNjU2OCwtMTYyNTMy
-OTkzMSwxOTQ1OTkwNTU0XX0=
+eyJoaXN0b3J5IjpbLTE1MTkwMTAwNDYsLTg4MjIyMjEwMiwtMT
+E5MDY4MjQ3NywxNTMyNjIwOTc1LC0xNDgwOTY0ODIsLTI2OTEw
+NjU2OCwtMTYyNTMyOTkzMSwxOTQ1OTkwNTU0XX0=
 -->
