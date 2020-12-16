@@ -65,8 +65,8 @@
     ```
      Gradually fade out the compensation by 10mm  
 8. Activate the UBL
-  G29 A
-  10. Save the settings
+        G29 A
+ 10. Save the settings
    M500
 
 # Set probe offset
@@ -268,9 +268,9 @@ Send
 Autoscroll  showing 256 lines (227 of 483 tota
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDAzMTYyOSwtMTQzMDQ4MTkzOSwxMD
-A1MjM2OTczLDUzNDM0NjU1MiwxNTQ2NTk2ODczLC00NjM3MzQ5
-NjUsMjAyODE3MTY1OSwtMTcxMDczODU3OSwtNjc2ODE5ODc2LD
-ExNTgzNzE4NjAsLTEwNzM0OTU2NzIsMjc0MjA1NjE3LDExNDc2
-ODkxMTAsNDgyNTI0MzMyXX0=
+eyJoaXN0b3J5IjpbMTU0NDU2MzI5MSwxNTUwMDMxNjI5LC0xND
+MwNDgxOTM5LDEwMDUyMzY5NzMsNTM0MzQ2NTUyLDE1NDY1OTY4
+NzMsLTQ2MzczNDk2NSwyMDI4MTcxNjU5LC0xNzEwNzM4NTc5LC
+02NzY4MTk4NzYsMTE1ODM3MTg2MCwtMTA3MzQ5NTY3MiwyNzQy
+MDU2MTcsMTE0NzY4OTExMCw0ODI1MjQzMzJdfQ==
 -->
