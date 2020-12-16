@@ -79,7 +79,7 @@ M211 S0
 4. Adjust down till you touch paper
 5. See setting
 M114
-That's your offset Z-0.71 Z-2.56
+That's your offset Z-0.71 Z-2.56 Z-1.0
 6. Set in firmware
 #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.71
 7. Do in terminal
@@ -268,9 +268,9 @@ Send
 Autoscroll  showing 256 lines (227 of 483 tota
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA0ODE5MzksMTAwNTIzNjk3Myw1Mz
-QzNDY1NTIsMTU0NjU5Njg3MywtNDYzNzM0OTY1LDIwMjgxNzE2
-NTksLTE3MTA3Mzg1NzksLTY3NjgxOTg3NiwxMTU4MzcxODYwLC
-0xMDczNDk1NjcyLDI3NDIwNTYxNywxMTQ3Njg5MTEwLDQ4MjUy
-NDMzMl19
+eyJoaXN0b3J5IjpbMTU1MDAzMTYyOSwtMTQzMDQ4MTkzOSwxMD
+A1MjM2OTczLDUzNDM0NjU1MiwxNTQ2NTk2ODczLC00NjM3MzQ5
+NjUsMjAyODE3MTY1OSwtMTcxMDczODU3OSwtNjc2ODE5ODc2LD
+ExNTgzNzE4NjAsLTEwNzM0OTU2NzIsMjc0MjA1NjE3LDExNDc2
+ODkxMTAsNDgyNTI0MzMyXX0=
 -->
