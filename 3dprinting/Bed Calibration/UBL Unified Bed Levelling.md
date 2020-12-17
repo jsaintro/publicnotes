@@ -90,9 +90,11 @@ That's your offset Z-0.71 Z-2.56 Z-1.0
 M851 Z-0.71
 M500 //to save
 8. Run mesh validation print
-G28
-G26 P5 //P10 primes with 10 mm of filament
-9. Resave
+    ```
+    G28
+    G26 P10 //P10 primes with 10 mm of filament
+    ```
+10. Resave
  G29 S1
  M500
  # Fine Tuning Mesh
@@ -272,9 +274,10 @@ Send
 Autoscroll  showing 256 lines (227 of 483 tota
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMTMzODksMTU1MDAzMTYyOSwtMTQzMD
-Q4MTkzOSwxMDA1MjM2OTczLDUzNDM0NjU1MiwxNTQ2NTk2ODcz
-LC00NjM3MzQ5NjUsMjAyODE3MTY1OSwtMTcxMDczODU3OSwtNj
-c2ODE5ODc2LDExNTgzNzE4NjAsLTEwNzM0OTU2NzIsMjc0MjA1
-NjE3LDExNDc2ODkxMTAsNDgyNTI0MzMyXX0=
+eyJoaXN0b3J5IjpbMTE3NzY5MTc5MywyNDIxMzM4OSwxNTUwMD
+MxNjI5LC0xNDMwNDgxOTM5LDEwMDUyMzY5NzMsNTM0MzQ2NTUy
+LDE1NDY1OTY4NzMsLTQ2MzczNDk2NSwyMDI4MTcxNjU5LC0xNz
+EwNzM4NTc5LC02NzY4MTk4NzYsMTE1ODM3MTg2MCwtMTA3MzQ5
+NTY3MiwyNzQyMDU2MTcsMTE0NzY4OTExMCw0ODI1MjQzMzJdfQ
+==
 -->
