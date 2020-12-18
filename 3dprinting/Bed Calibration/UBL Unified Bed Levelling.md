@@ -34,14 +34,14 @@
 	```
 	*ABS*
 	```	 
-	M140 S100
-	M104 S255
+	M140 S100 ; heat up the bed
+	M104 S255 ; heat up the hot end
 	```
 	
 3. Probe bed
     ```
-    G28
-    G29 P1 V3
+    G28 ; Home Z
+    G29 P1 V3 ; Pro
     ```
     Note: 
 4. Check out the output
@@ -276,10 +276,10 @@ Send
 Autoscroll  showing 256 lines (227 of 483 tota
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODQ4NywxMTc3NjkxNzkzLDI0MjEzMz
-g5LDE1NTAwMzE2MjksLTE0MzA0ODE5MzksMTAwNTIzNjk3Myw1
-MzQzNDY1NTIsMTU0NjU5Njg3MywtNDYzNzM0OTY1LDIwMjgxNz
-E2NTksLTE3MTA3Mzg1NzksLTY3NjgxOTg3NiwxMTU4MzcxODYw
-LC0xMDczNDk1NjcyLDI3NDIwNTYxNywxMTQ3Njg5MTEwLDQ4Mj
-UyNDMzMl19
+eyJoaXN0b3J5IjpbLTQyNTY2NDk1NCwxMTc3NjkxNzkzLDI0Mj
+EzMzg5LDE1NTAwMzE2MjksLTE0MzA0ODE5MzksMTAwNTIzNjk3
+Myw1MzQzNDY1NTIsMTU0NjU5Njg3MywtNDYzNzM0OTY1LDIwMj
+gxNzE2NTksLTE3MTA3Mzg1NzksLTY3NjgxOTg3NiwxMTU4Mzcx
+ODYwLC0xMDczNDk1NjcyLDI3NDIwNTYxNywxMTQ3Njg5MTEwLD
+Q4MjUyNDMzMl19
 -->
