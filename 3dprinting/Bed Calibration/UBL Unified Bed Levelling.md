@@ -24,11 +24,12 @@
  
         M501
          
- 5. Preheat bed and hotend
+ 4. Preheat bed and hotend
+     Note: Wait for the bed to come up to temp before 
 	 *PLA*
 	```	 
-	M140 S65
-	M104 S215
+	M140 S65 ; heat up the bed
+	M104 S215 ; heat up the hot end
 	```
 	*ABS*
 	```	 
@@ -274,10 +275,10 @@ Send
 Autoscroll  showing 256 lines (227 of 483 tota
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzY5MTc5MywyNDIxMzM4OSwxNTUwMD
-MxNjI5LC0xNDMwNDgxOTM5LDEwMDUyMzY5NzMsNTM0MzQ2NTUy
-LDE1NDY1OTY4NzMsLTQ2MzczNDk2NSwyMDI4MTcxNjU5LC0xNz
-EwNzM4NTc5LC02NzY4MTk4NzYsMTE1ODM3MTg2MCwtMTA3MzQ5
-NTY3MiwyNzQyMDU2MTcsMTE0NzY4OTExMCw0ODI1MjQzMzJdfQ
-==
+eyJoaXN0b3J5IjpbNDU3MjI2NzIzLDExNzc2OTE3OTMsMjQyMT
+MzODksMTU1MDAzMTYyOSwtMTQzMDQ4MTkzOSwxMDA1MjM2OTcz
+LDUzNDM0NjU1MiwxNTQ2NTk2ODczLC00NjM3MzQ5NjUsMjAyOD
+E3MTY1OSwtMTcxMDczODU3OSwtNjc2ODE5ODc2LDExNTgzNzE4
+NjAsLTEwNzM0OTU2NzIsMjc0MjA1NjE3LDExNDc2ODkxMTAsND
+gyNTI0MzMyXX0=
 -->
