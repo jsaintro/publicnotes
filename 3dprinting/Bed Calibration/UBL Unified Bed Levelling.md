@@ -77,28 +77,38 @@
 
 # Set probe offset
 1. Clear current
-M851 Z0
-2. Home and center
-G28 
-3. Disable software endstops
-M211 S0
-4. Adjust down till you touch paper
-5. See setting
-M114
+    ```
+    M851 Z0
+    ```
+3. Home and center
+    ```
+    G28
+    ``` 
+4. Disable software endstops
+    ```
+    M211 S0
+    ```
+5. Adjust down till you touch paper
+6. See setting
+    ```
+    M114
+    ```
 That's your offset Z-0.71 Z-2.56 Z-1.0
-6. Set in firmware
+7. Set in firmware
 #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.71
-7. Do in terminal
+8. Do in terminal
 M851 Z-0.71
 M500 //to save
-8. Run mesh validation print
+9. Run mesh validation print
     ```
     G28
     G26 P10 //P10 primes with 10 mm of filament
     ```
 10. Resave
- G29 S1
- M500
+
+    G29 S1
+    M500
+
  # Fine Tuning Mesh
  Use LCD go into mesh edit
  scroll to point and adjust using paper
@@ -275,11 +285,12 @@ Send
 
 Autoscroll  showing 256 lines (227 of 483 tota
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzA3OTc3NywxMTc3NjkxNzkzLDI0Mj
-EzMzg5LDE1NTAwMzE2MjksLTE0MzA0ODE5MzksMTAwNTIzNjk3
-Myw1MzQzNDY1NTIsMTU0NjU5Njg3MywtNDYzNzM0OTY1LDIwMj
-gxNzE2NTksLTE3MTA3Mzg1NzksLTY3NjgxOTg3NiwxMTU4Mzcx
-ODYwLC0xMDczNDk1NjcyLDI3NDIwNTYxNywxMTQ3Njg5MTEwLD
-Q4MjUyNDMzMl19
+eyJoaXN0b3J5IjpbODQwNjIxMzIyLC03NzcwNzk3NzcsMTE3Nz
+Y5MTc5MywyNDIxMzM4OSwxNTUwMDMxNjI5LC0xNDMwNDgxOTM5
+LDEwMDUyMzY5NzMsNTM0MzQ2NTUyLDE1NDY1OTY4NzMsLTQ2Mz
+czNDk2NSwyMDI4MTcxNjU5LC0xNzEwNzM4NTc5LC02NzY4MTk4
+NzYsMTE1ODM3MTg2MCwtMTA3MzQ5NTY3MiwyNzQyMDU2MTcsMT
+E0NzY4OTExMCw0ODI1MjQzMzJdfQ==
 -->
