@@ -41,7 +41,7 @@
 3. Probe bed
     ```
     G28 ; Home Z
-    G29 P1 V3 ; Pro
+    G29 P1 V3 ; Probe the bed 
     ```
     Note: 
 4. Check out the output
@@ -276,7 +276,7 @@ Send
 Autoscroll  showing 256 lines (227 of 483 tota
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTY2NDk1NCwxMTc3NjkxNzkzLDI0Mj
+eyJoaXN0b3J5IjpbLTc3NzA3OTc3NywxMTc3NjkxNzkzLDI0Mj
 EzMzg5LDE1NTAwMzE2MjksLTE0MzA0ODE5MzksMTAwNTIzNjk3
 Myw1MzQzNDY1NTIsMTU0NjU5Njg3MywtNDYzNzM0OTY1LDIwMj
 gxNzE2NTksLTE3MTA3Mzg1NzksLTY3NjgxOTg3NiwxMTU4Mzcx
