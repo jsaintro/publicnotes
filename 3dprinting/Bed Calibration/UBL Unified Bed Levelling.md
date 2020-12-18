@@ -25,7 +25,8 @@
         M501
          
  4. Preheat bed and hotend
-     Note: Wait for the bed to come up to temp before 
+     Note: Wait for the bed to come up to temp before starting on the hot end. No reason to cook plastic. Also if possible remove the filament before doing this.
+     
 	 *PLA*
 	```	 
 	M140 S65 ; heat up the bed
@@ -275,10 +276,10 @@ Send
 Autoscroll  showing 256 lines (227 of 483 tota
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3MjI2NzIzLDExNzc2OTE3OTMsMjQyMT
-MzODksMTU1MDAzMTYyOSwtMTQzMDQ4MTkzOSwxMDA1MjM2OTcz
-LDUzNDM0NjU1MiwxNTQ2NTk2ODczLC00NjM3MzQ5NjUsMjAyOD
-E3MTY1OSwtMTcxMDczODU3OSwtNjc2ODE5ODc2LDExNTgzNzE4
-NjAsLTEwNzM0OTU2NzIsMjc0MjA1NjE3LDExNDc2ODkxMTAsND
-gyNTI0MzMyXX0=
+eyJoaXN0b3J5IjpbMTI4ODQ4NywxMTc3NjkxNzkzLDI0MjEzMz
+g5LDE1NTAwMzE2MjksLTE0MzA0ODE5MzksMTAwNTIzNjk3Myw1
+MzQzNDY1NTIsMTU0NjU5Njg3MywtNDYzNzM0OTY1LDIwMjgxNz
+E2NTksLTE3MTA3Mzg1NzksLTY3NjgxOTg3NiwxMTU4MzcxODYw
+LC0xMDczNDk1NjcyLDI3NDIwNTYxNywxMTQ3Njg5MTEwLDQ4Mj
+UyNDMzMl19
 -->
