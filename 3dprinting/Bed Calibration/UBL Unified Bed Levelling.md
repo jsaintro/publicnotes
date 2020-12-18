@@ -103,21 +103,24 @@
     #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.71
     ```
     
-8. Do in terminal
-M851 Z-0.71
-M500 //to save
-
-9. Run mesh validation print
+7. Do in terminal
+   ```
+    M851 Z-0.71
+    M500 //to save
+    ```
+    
+8. Run mesh validation print
     ```
     G28
     G26 P10 //P10 primes with 10 mm of filament
     ```
     
-10. Resave
+9. Resave
     ```
     G29 S1
     M500
     ```
+    
  # Fine Tuning Mesh
  Use LCD go into mesh edit
  scroll to point and adjust using paper
@@ -296,7 +299,7 @@ Autoscroll  showing 256 lines (227 of 483 tota
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDQzOTE5Nyw4NDA2MjEzMjIsLTc3Nz
+eyJoaXN0b3J5IjpbMTIwNDUwMDQxOSw4NDA2MjEzMjIsLTc3Nz
 A3OTc3NywxMTc3NjkxNzkzLDI0MjEzMzg5LDE1NTAwMzE2Mjks
 LTE0MzA0ODE5MzksMTAwNTIzNjk3Myw1MzQzNDY1NTIsMTU0Nj
 U5Njg3MywtNDYzNzM0OTY1LDIwMjgxNzE2NTksLTE3MTA3Mzg1
