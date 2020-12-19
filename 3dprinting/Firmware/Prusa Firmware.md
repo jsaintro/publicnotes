@@ -31,20 +31,24 @@ Install the TMC2130Stepper library
    find . -type f -print0 | xargs -0 dos2unix
    ```
 
-3. Run the build script
+4. Run the build script
    ```
    ./PF-build.sh
    ```
 	5. Select the MK3 variant (1)
 	6. Select Englist Only (2)
 	7. Dev_status (1) Language
-4. Bin will be in PF-Build-Hex directory named *.hex
-5. Flash using prusa slicer (or octopi)
+5. Bin will be in PF-Build-Hex directory named *.hex
+6. Flash using prusa slicer (or octopi)
+
+## Updating
+```
+git 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3OTgxMzU5LDcyMTYwMDI0LDIwNjY1OD
-YzMTEsLTE0NTc4OTg0MTEsLTY1MTIwMzg1OSwxNjIwNjExODMy
-LC00MTI3MjYxODYsLTU4NjIwNzMzNCw4MDE0NzM3NjUsLTM5Nj
-U5MzU5OCw2OTgxMTMyNjFdfQ==
+eyJoaXN0b3J5IjpbMTMxMzc3MDg0Niw0MTc5ODEzNTksNzIxNj
+AwMjQsMjA2NjU4NjMxMSwtMTQ1Nzg5ODQxMSwtNjUxMjAzODU5
+LDE2MjA2MTE4MzIsLTQxMjcyNjE4NiwtNTg2MjA3MzM0LDgwMT
+Q3Mzc2NSwtMzk2NTkzNTk4LDY5ODExMzI2MV19
 -->
