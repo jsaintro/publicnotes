@@ -94,7 +94,7 @@ Exit the arduino IDE (it overwrites the preferences file on exit)
 build.path=/home/jsaintrocc/ArduinoBins/
 
 ## To install FW
-### Marlin
+### Marlin (Verified!!)
 #### Plugin config
 Flash method: avrdude (Atmel AVR Family)
 AVR MCU: ATmega2560
@@ -104,7 +104,7 @@ AVR Programmer Type: stk500v2
 #### Path
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
 
-### Prusa
+### Prusa (Verified!!)
 #### Plugin config
 Flash method: avrdude (Atmel AVR Family)
 AVR MCU: ATmega2560
@@ -116,9 +116,9 @@ AVR Programmer Type: wiring
     /Documents/gitstuff/PF-build-hex/FW392-Build3524/BOARD_EINSY_1_0a/FW392-Build3524-1_75mm_MK3S-EINSy10a-E3Dv6full-EN_ONLY.hex
     ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTgzOTMxMTgsLTgyMTY0NTA2NywtMT
-Q4MTg5ODcyNiwyNzc2NDkzMTYsLTc0NjQxNTA0NCwtNDU3NDYw
-NjkxLC0yODExOTc4NzgsNDQyOTE0MjA0LDkyNzcxNTY4LDk1ND
-gwMzAzMCw4NTYzMTczNzcsMTc0NDM2MTA5MiwxOTQzODU3MzQx
-LDEyNTU2NzM4MzRdfQ==
+eyJoaXN0b3J5IjpbMjA2ODAxMjQzNCwtMTQ1ODM5MzExOCwtOD
+IxNjQ1MDY3LC0xNDgxODk4NzI2LDI3NzY0OTMxNiwtNzQ2NDE1
+MDQ0LC00NTc0NjA2OTEsLTI4MTE5Nzg3OCw0NDI5MTQyMDQsOT
+I3NzE1NjgsOTU0ODAzMDMwLDg1NjMxNzM3NywxNzQ0MzYxMDky
+LDE5NDM4NTczNDEsMTI1NTY3MzgzNF19
 -->
