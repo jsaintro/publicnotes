@@ -36,9 +36,9 @@ Install the TMC2130Stepper library
    ```
    ./PF-build.sh
    ```
-	5. Select the MK3 variant (Firmware/variants/1_75mm_MK3-EINSy10a-E3Dv6full.h)
+	5. Select the MK3S variant (Firmware/variants/1_75mm_MK3S-EINSy10a-E3Dv6full.h) (6)
 	6. Select English Only (2)
-	7. Dev_status (1) Language
+	7.  Set DEV_STATUS to gold (1)
 5. Bin will be in PF-Build-Hex directory named *.hex
 6. Flash using prusa slicer (or octopi)
 
@@ -50,7 +50,7 @@ git chechout
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDI5MjgzNSwtMTc5ODI1ODQ4NCwxMz
+eyJoaXN0b3J5IjpbMTQyOTUxODAzOSwtMTc5ODI1ODQ4NCwxMz
 EzNzcwODQ2LDQxNzk4MTM1OSw3MjE2MDAyNCwyMDY2NTg2MzEx
 LC0xNDU3ODk4NDExLC02NTEyMDM4NTksMTYyMDYxMTgzMiwtND
 EyNzI2MTg2LC01ODYyMDczMzQsODAxNDczNzY1LC0zOTY1OTM1
