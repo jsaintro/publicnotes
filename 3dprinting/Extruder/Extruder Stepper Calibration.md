@@ -9,7 +9,7 @@
     * Detect thin walls
 3. Disable Filament Sensor (If you have one)
 4. Measure 120mm on filiament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
-5. Heat filament to 215 (Natural RS)
+5. Heat filament to 215 (PLA)
 6. Extrude 100mm
     ```
     M104 S215
@@ -53,7 +53,7 @@ Note: Flashing doesn't remove this setting that's why you have to do it twice
 16. Enable filament Sensor (If you have one)
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0Mzk5NDU4MSw4MDU0MzgzMzMsLTE4OD
-QxMTY1NCwtNDU0NzA3MDQ0LDE4NDY3NDc2OTMsLTE5Mjc1MDEx
-ODcsODU1MzY5ODIwXX0=
+eyJoaXN0b3J5IjpbNjIyMTQ3NzMyLC00NDM5OTQ1ODEsODA1ND
+M4MzMzLC0xODg0MTE2NTQsLTQ1NDcwNzA0NCwxODQ2NzQ3Njkz
+LC0xOTI3NTAxMTg3LDg1NTM2OTgyMF19
 -->
