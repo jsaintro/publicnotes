@@ -43,12 +43,15 @@ Install the TMC2130Stepper library
 
 ## Updating
 ```
-git 
+git pull
+```
+git chechout 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzc3MDg0Niw0MTc5ODEzNTksNzIxNj
-AwMjQsMjA2NjU4NjMxMSwtMTQ1Nzg5ODQxMSwtNjUxMjAzODU5
-LDE2MjA2MTE4MzIsLTQxMjcyNjE4NiwtNTg2MjA3MzM0LDgwMT
-Q3Mzc2NSwtMzk2NTkzNTk4LDY5ODExMzI2MV19
+eyJoaXN0b3J5IjpbLTE3OTgyNTg0ODQsMTMxMzc3MDg0Niw0MT
+c5ODEzNTksNzIxNjAwMjQsMjA2NjU4NjMxMSwtMTQ1Nzg5ODQx
+MSwtNjUxMjAzODU5LDE2MjA2MTE4MzIsLTQxMjcyNjE4NiwtNT
+g2MjA3MzM0LDgwMTQ3Mzc2NSwtMzk2NTkzNTk4LDY5ODExMzI2
+MV19
 -->
