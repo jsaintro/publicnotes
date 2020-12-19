@@ -97,11 +97,13 @@ build.path=/home/jsaintrocc/ArduinoBins/
 ### Marlin
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
 ### Prusa
-
+    ```
+    /Documents/gitstuff/PF-build-hex/FW392-Build3524/BOARD_EINSY_1_0a/FW392-Build3524-1_75mm_MK3S-EINSy10a-E3Dv6full-EN_ONLY.hex
+    ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTI0MjA3OTQsLTE0ODE4OTg3MjYsMj
-c3NjQ5MzE2LC03NDY0MTUwNDQsLTQ1NzQ2MDY5MSwtMjgxMTk3
-ODc4LDQ0MjkxNDIwNCw5Mjc3MTU2OCw5NTQ4MDMwMzAsODU2Mz
-E3Mzc3LDE3NDQzNjEwOTIsMTk0Mzg1NzM0MSwxMjU1NjczODM0
-XX0=
+eyJoaXN0b3J5IjpbLTgyMTY0NTA2NywtMTQ4MTg5ODcyNiwyNz
+c2NDkzMTYsLTc0NjQxNTA0NCwtNDU3NDYwNjkxLC0yODExOTc4
+NzgsNDQyOTE0MjA0LDkyNzcxNTY4LDk1NDgwMzAzMCw4NTYzMT
+czNzcsMTc0NDM2MTA5MiwxOTQzODU3MzQxLDEyNTU2NzM4MzRd
+fQ==
 -->
