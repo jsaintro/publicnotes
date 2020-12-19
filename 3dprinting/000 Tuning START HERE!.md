@@ -14,7 +14,7 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 ### Initial printer calibration
 1. Frame https://teachingtechyt.github.io/calibration.html#frame
 2. Temperature Calibration/PID Tuning
-3. 
+3. `Bed Calibration/Marlin 1st Layer` or 
 ### Per plastic type
 1. 
 
@@ -26,8 +26,8 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 5. Extruder/Extrusion Multiplier
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzMwMzA1NCwtNzY5NDcyNzU3LC03Mj
-kzNzQwNjQsNTEwNDcwMDYxLDgxOTY2MjIwNCw1OTY5NjUwODYs
-OTAxNDM3MDc2LDY1MDY2OTQ3OSwxMDAyNDQzMiwxNDc0ODA0MT
-I1LC02OTI4MDkwMDldfQ==
+eyJoaXN0b3J5IjpbLTIwMTU5MTI5MTEsLTc2OTQ3Mjc1NywtNz
+I5Mzc0MDY0LDUxMDQ3MDA2MSw4MTk2NjIyMDQsNTk2OTY1MDg2
+LDkwMTQzNzA3Niw2NTA2Njk0NzksMTAwMjQ0MzIsMTQ3NDgwND
+EyNSwtNjkyODA5MDA5XX0=
 -->
