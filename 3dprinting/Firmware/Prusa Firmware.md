@@ -30,6 +30,7 @@ Install the TMC2130Stepper library
       ```
    find . -type f -print0 | xargs -0 dos2unix
    ```
+      Note: For Linux do `apt-get install dos2unix` to install the utility
 
 4. Run the build script
    ```
@@ -49,9 +50,9 @@ git chechout
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTgyNTg0ODQsMTMxMzc3MDg0Niw0MT
-c5ODEzNTksNzIxNjAwMjQsMjA2NjU4NjMxMSwtMTQ1Nzg5ODQx
-MSwtNjUxMjAzODU5LDE2MjA2MTE4MzIsLTQxMjcyNjE4NiwtNT
-g2MjA3MzM0LDgwMTQ3Mzc2NSwtMzk2NTkzNTk4LDY5ODExMzI2
-MV19
+eyJoaXN0b3J5IjpbMTY3Mzg4NjMyOCwtMTc5ODI1ODQ4NCwxMz
+EzNzcwODQ2LDQxNzk4MTM1OSw3MjE2MDAyNCwyMDY2NTg2MzEx
+LC0xNDU3ODk4NDExLC02NTEyMDM4NTksMTYyMDYxMTgzMiwtND
+EyNzI2MTg2LC01ODYyMDczMzQsODAxNDczNzY1LC0zOTY1OTM1
+OTgsNjk4MTEzMjYxXX0=
 -->
