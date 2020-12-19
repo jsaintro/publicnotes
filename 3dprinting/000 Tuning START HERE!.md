@@ -13,7 +13,7 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 
 ### Initial printer calibration
 1. Frame https://teachingtechyt.github.io/calibration.html#frame
-2. 
+2. PID t
 ### Per pastic type
 1. Temperature Calibration/PID Tuning
 
@@ -25,8 +25,8 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 5. Extruder/Extrusion Multiplier
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTQ3Mjc1NywtNzI5Mzc0MDY0LDUxMD
-Q3MDA2MSw4MTk2NjIyMDQsNTk2OTY1MDg2LDkwMTQzNzA3Niw2
-NTA2Njk0NzksMTAwMjQ0MzIsMTQ3NDgwNDEyNSwtNjkyODA5MD
-A5XX0=
+eyJoaXN0b3J5IjpbLTE5MjA3OTcxOCwtNzY5NDcyNzU3LC03Mj
+kzNzQwNjQsNTEwNDcwMDYxLDgxOTY2MjIwNCw1OTY5NjUwODYs
+OTAxNDM3MDc2LDY1MDY2OTQ3OSwxMDAyNDQzMiwxNDc0ODA0MT
+I1LC02OTI4MDkwMDldfQ==
 -->
