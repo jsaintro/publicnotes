@@ -1,6 +1,8 @@
 
 ## Soup to Nuts of Tuning your 3D Printer
 
+Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. Looks good!:w
+
 1. ARDUINO
 2. MARLIN-1.1.9
 3. Maintenance/Monthly
@@ -11,6 +13,7 @@
 
 ### Per pastic type
 1. Temperature Calibration/PID Tuning
+
 ### Per Filament Calibrations
 1. 1st layer Calibration
 2. Extruder/Extruder stepper calibration
@@ -19,7 +22,7 @@
 5. Extruder/Extrusion Multiplier
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDA3OTg2MSw1MTA0NzAwNjEsODE5Nj
-YyMjA0LDU5Njk2NTA4Niw5MDE0MzcwNzYsNjUwNjY5NDc5LDEw
-MDI0NDMyLDE0NzQ4MDQxMjUsLTY5MjgwOTAwOV19
+eyJoaXN0b3J5IjpbNDc3MDk4MDM1LDUxMDQ3MDA2MSw4MTk2Nj
+IyMDQsNTk2OTY1MDg2LDkwMTQzNzA3Niw2NTA2Njk0NzksMTAw
+MjQ0MzIsMTQ3NDgwNDEyNSwtNjkyODA5MDA5XX0=
 -->
