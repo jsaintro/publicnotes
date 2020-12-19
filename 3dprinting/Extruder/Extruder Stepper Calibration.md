@@ -14,7 +14,7 @@
     ```
     M104 S215
     G91
-    G1 E100 F100
+    G1 E100 F50
    ```
 7. Measure filament mark (From same spot)
     Desired distance / measured distance * Current e steps = new e steps
@@ -47,7 +47,7 @@ Note: Flashing doesn't remove this setting that's why you have to do it twice
 15. Enable filament Sensor (If you have one)
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1NDM4MzMzLC0xODg0MTE2NTQsLTQ1ND
-cwNzA0NCwxODQ2NzQ3NjkzLC0xOTI3NTAxMTg3LDg1NTM2OTgy
-MF19
+eyJoaXN0b3J5IjpbMTIwODMxNzIyOSw4MDU0MzgzMzMsLTE4OD
+QxMTY1NCwtNDU0NzA3MDQ0LDE4NDY3NDc2OTMsLTE5Mjc1MDEx
+ODcsODU1MzY5ODIwXX0=
 -->
