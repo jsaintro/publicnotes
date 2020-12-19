@@ -31,23 +31,25 @@
 ```
 Ex. `M92 E100`
 
-10. Update in firmware
+10. Set in slicer printer gcode for this filament type
+
+12. Update in firmware
    Add firmware line here!!!
-11. Flash firmware
-12. Reset NVRAM
+13. Flash firmware
+14. Reset NVRAM
 ```
 M502
 M500
 ```
 Note: Flashing doesn't remove this setting that's why you have to do it twice
 
-14. Make the change permanent in the slicker settings
+15. Make the change permanent in the slicker settings
      Add this area in from XYZ calibration 
 
-15. Enable filament Sensor (If you have one)
+16. Enable filament Sensor (If you have one)
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODMxNzIyOSw4MDU0MzgzMzMsLTE4OD
+eyJoaXN0b3J5IjpbLTE0MDEyNzMyNiw4MDU0MzgzMzMsLTE4OD
 QxMTY1NCwtNDU0NzA3MDQ0LDE4NDY3NDc2OTMsLTE5Mjc1MDEx
 ODcsODU1MzY5ODIwXX0=
 -->
