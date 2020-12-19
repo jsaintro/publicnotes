@@ -95,22 +95,30 @@ build.path=/home/jsaintrocc/ArduinoBins/
 
 ## To install FW
 ### Marlin
-Plugin config
+#### Plugin config
 Flash method: avrdude (Atmel AVR Family)
 AVR MCU: ATmega2560
 Path to avrdude: /usr/bin/avrdude
 AVR Programmer Type: stk500v2
 
+#### Path
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
 
 ### Prusa
+#### Plugin config
+Flash method: avrdude (Atmel AVR Family)
+AVR MCU: ATmega2560
+Path to avrdude: /usr/bin/avrdude
+AVR Programmer Type: wiring
+
+#### Path
     ```
     /Documents/gitstuff/PF-build-hex/FW392-Build3524/BOARD_EINSY_1_0a/FW392-Build3524-1_75mm_MK3S-EINSy10a-E3Dv6full-EN_ONLY.hex
     ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDg0MzY0NywtODIxNjQ1MDY3LC0xND
-gxODk4NzI2LDI3NzY0OTMxNiwtNzQ2NDE1MDQ0LC00NTc0NjA2
-OTEsLTI4MTE5Nzg3OCw0NDI5MTQyMDQsOTI3NzE1NjgsOTU0OD
-AzMDMwLDg1NjMxNzM3NywxNzQ0MzYxMDkyLDE5NDM4NTczNDEs
-MTI1NTY3MzgzNF19
+eyJoaXN0b3J5IjpbLTE0NTgzOTMxMTgsLTgyMTY0NTA2NywtMT
+Q4MTg5ODcyNiwyNzc2NDkzMTYsLTc0NjQxNTA0NCwtNDU3NDYw
+NjkxLC0yODExOTc4NzgsNDQyOTE0MjA0LDkyNzcxNTY4LDk1ND
+gwMzAzMCw4NTYzMTczNzcsMTc0NDM2MTA5MiwxOTQzODU3MzQx
+LDEyNTU2NzM4MzRdfQ==
 -->
