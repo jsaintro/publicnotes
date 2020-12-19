@@ -11,7 +11,9 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 6. Z Stepper Calibration
 7. PRONTERFACE
 
-### Initial ac
+### Initial printer calibration
+1. Frame https://teachingtechyt.github.io/calibration.html#frame
+2. 
 ### Per pastic type
 1. Temperature Calibration/PID Tuning
 
@@ -23,7 +25,7 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 5. Extruder/Extrusion Multiplier
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTc1OTY4MywtNzI5Mzc0MDY0LDUxMD
+eyJoaXN0b3J5IjpbLTc2OTQ3Mjc1NywtNzI5Mzc0MDY0LDUxMD
 Q3MDA2MSw4MTk2NjIyMDQsNTk2OTY1MDg2LDkwMTQzNzA3Niw2
 NTA2Njk0NzksMTAwMjQ0MzIsMTQ3NDgwNDEyNSwtNjkyODA5MD
 A5XX0=
