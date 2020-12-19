@@ -32,7 +32,11 @@
 Ex. `M92 E100`
 
 10. Set in slicer printer gcode for this filament type
+```
+{elsif filament_notes[0]=~/.*RS_BLACK_PLA.*/}
+M92 X100.46 Y100.41 Z398.58 E280.00 ; fine tune steps per mm JSR
 
+```
 12. Update in firmware
    Add firmware line here!!!
 13. Flash firmware
@@ -49,7 +53,7 @@ Note: Flashing doesn't remove this setting that's why you have to do it twice
 16. Enable filament Sensor (If you have one)
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDEyNzMyNiw4MDU0MzgzMzMsLTE4OD
+eyJoaXN0b3J5IjpbMTYwOTg3MzIwNyw4MDU0MzgzMzMsLTE4OD
 QxMTY1NCwtNDU0NzA3MDQ0LDE4NDY3NDc2OTMsLTE5Mjc1MDEx
 ODcsODU1MzY5ODIwXX0=
 -->
