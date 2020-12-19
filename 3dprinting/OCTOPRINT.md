@@ -96,28 +96,19 @@ build.path=/home/jsaintrocc/ArduinoBins/
 ## To install FW
 ### Marlin
 Plugin config
-Flash method: avrdude (Atmel AVR Family)  bossac (Atmel SAM Family)  dfu-programmer (Atmel AVR with DFU)  lpc1768 (LPC1768-based Boards)  stm32flash (STM32 built-in bootloader)
+Flash method: avrdude (Atmel AVR Family)
+AVR MCU: ATmega2560
+Path to avrdude: /usr/bin/avrdude
+AVR Programmer Type: stk500v2
 
-----------
-
-AVR MCU
-
-ATmega328p  ATmega644p  ATmega1280  ATmega1284p  ATmega2560
-
-Path to avrdude
-
-Test
-
-AVR Programmer Type
-
-arduino  usbasp  stk500v2  wiring  linuxgpio
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
+
 ### Prusa
     ```
     /Documents/gitstuff/PF-build-hex/FW392-Build3524/BOARD_EINSY_1_0a/FW392-Build3524-1_75mm_MK3S-EINSy10a-E3Dv6full-EN_ONLY.hex
     ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDk2ODA2MCwtODIxNjQ1MDY3LC0xND
+eyJoaXN0b3J5IjpbMTI3NDg0MzY0NywtODIxNjQ1MDY3LC0xND
 gxODk4NzI2LDI3NzY0OTMxNiwtNzQ2NDE1MDQ0LC00NTc0NjA2
 OTEsLTI4MTE5Nzg3OCw0NDI5MTQyMDQsOTI3NzE1NjgsOTU0OD
 AzMDMwLDg1NjMxNzM3NywxNzQ0MzYxMDkyLDE5NDM4NTczNDEs
