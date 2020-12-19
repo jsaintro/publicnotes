@@ -94,11 +94,14 @@ Exit the arduino IDE (it overwrites the preferences file on exit)
 build.path=/home/jsaintrocc/ArduinoBins/
 
 ## To install FW
+### Marlin
 Select from filesystem /home/jsaintrocc/ArduinoBins/Marlin.ino.hex
+### Prusa
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODE4OTg3MjYsMjc3NjQ5MzE2LC03ND
-Y0MTUwNDQsLTQ1NzQ2MDY5MSwtMjgxMTk3ODc4LDQ0MjkxNDIw
-NCw5Mjc3MTU2OCw5NTQ4MDMwMzAsODU2MzE3Mzc3LDE3NDQzNj
-EwOTIsMTk0Mzg1NzM0MSwxMjU1NjczODM0XX0=
+eyJoaXN0b3J5IjpbLTE3OTI0MjA3OTQsLTE0ODE4OTg3MjYsMj
+c3NjQ5MzE2LC03NDY0MTUwNDQsLTQ1NzQ2MDY5MSwtMjgxMTk3
+ODc4LDQ0MjkxNDIwNCw5Mjc3MTU2OCw5NTQ4MDMwMzAsODU2Mz
+E3Mzc3LDE3NDQzNjEwOTIsMTk0Mzg1NzM0MSwxMjU1NjczODM0
+XX0=
 -->
