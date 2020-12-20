@@ -16,7 +16,8 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 2. Temperature Calibration/PID Tuning
 3. `Bed Calibration/(Prusa/Marlin) 1st Layer` also look at https://teachingtechyt.github.io/calibration.html#firstlayer
 4. Baseline print https://teachingtechyt.github.io/calibration.html#baseline
-5. Extruder Esteps calibration https://teachingtechyt.github.io/calibration.html#esteps
+5. Extruder/Esteps Stepper Calibration alt: https://teachingtechyt.github.io/calibration.html#esteps
+6. 
 ### Per plastic type
 1. 
 
@@ -28,8 +29,8 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 5. Extruder/Extrusion Multiplier
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjIwODQ5LC0xMTQwMTUzNSwtNzY5ND
-cyNzU3LC03MjkzNzQwNjQsNTEwNDcwMDYxLDgxOTY2MjIwNCw1
-OTY5NjUwODYsOTAxNDM3MDc2LDY1MDY2OTQ3OSwxMDAyNDQzMi
-wxNDc0ODA0MTI1LC02OTI4MDkwMDldfQ==
+eyJoaXN0b3J5IjpbNTI2MTAwMzYyLDE2NDYyMDg0OSwtMTE0MD
+E1MzUsLTc2OTQ3Mjc1NywtNzI5Mzc0MDY0LDUxMDQ3MDA2MSw4
+MTk2NjIyMDQsNTk2OTY1MDg2LDkwMTQzNzA3Niw2NTA2Njk0Nz
+ksMTAwMjQ0MzIsMTQ3NDgwNDEyNSwtNjkyODA5MDA5XX0=
 -->
