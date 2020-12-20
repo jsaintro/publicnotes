@@ -16,6 +16,7 @@
     G91
     G1 E100 F50
    ```
+   Note: G91 doesn't seem to work so just run G92 E0 to reset extruder to 0 if you want to redo
 7. Measure filament mark (From same spot)
     Desired distance / measured distance * Current e steps = new e steps
     120mm(1st measurement) - 20mm(2nd measurement) = 100 (measured distance)
@@ -53,7 +54,7 @@ Note: Flashing doesn't remove this setting that's why you have to do it twice
 16. Enable filament Sensor (If you have one)
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyMTQ3NzMyLC00NDM5OTQ1ODEsODA1ND
-M4MzMzLC0xODg0MTE2NTQsLTQ1NDcwNzA0NCwxODQ2NzQ3Njkz
-LC0xOTI3NTAxMTg3LDg1NTM2OTgyMF19
+eyJoaXN0b3J5IjpbLTYwNjkwODQ4Miw2MjIxNDc3MzIsLTQ0Mz
+k5NDU4MSw4MDU0MzgzMzMsLTE4ODQxMTY1NCwtNDU0NzA3MDQ0
+LDE4NDY3NDc2OTMsLTE5Mjc1MDExODcsODU1MzY5ODIwXX0=
 -->
