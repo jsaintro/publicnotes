@@ -36,12 +36,14 @@
   4. Select add to favorites
 
 ## Updating
-
+1. Copy the .Prusaslicer directory
+2. export the config
+3. export the configbundle
 Download the app image
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDA5OTYzMSwtODEwMTQwMDQ0LDQ2Nz
-kyMDE4MCwtMzIxMDI1OTQsLTE4MTM5OTUxMywxNDIzOTMxODE2
-LDE0MDk1OTM4MTUsLTM5NjA2NDA4NSw4NzA5MDAyNzUsMzk3Mj
-Q5MTAsMzM5MDM5MDE4LC0xMzUyMDgwODE5XX0=
+eyJoaXN0b3J5IjpbMjQxMDkxMTY5LC04MTAxNDAwNDQsNDY3OT
+IwMTgwLC0zMjEwMjU5NCwtMTgxMzk5NTEzLDE0MjM5MzE4MTYs
+MTQwOTU5MzgxNSwtMzk2MDY0MDg1LDg3MDkwMDI3NSwzOTcyND
+kxMCwzMzkwMzkwMTgsLTEzNTIwODA4MTldfQ==
 -->
