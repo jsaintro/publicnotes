@@ -40,10 +40,13 @@
 2. export the config
 3. export the configbundle
 Download the app image
+Follow the install directions above. When you launch it it should update the config if it needs to
+Don't forget to change the icon to the new bin
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzQxNDU5NSwtODEwMTQwMDQ0LDQ2Nz
-kyMDE4MCwtMzIxMDI1OTQsLTE4MTM5OTUxMywxNDIzOTMxODE2
-LDE0MDk1OTM4MTUsLTM5NjA2NDA4NSw4NzA5MDAyNzUsMzk3Mj
-Q5MTAsMzM5MDM5MDE4LC0xMzUyMDgwODE5XX0=
+eyJoaXN0b3J5IjpbLTU1MTY3NjMzMywtNDM3NDE0NTk1LC04MT
+AxNDAwNDQsNDY3OTIwMTgwLC0zMjEwMjU5NCwtMTgxMzk5NTEz
+LDE0MjM5MzE4MTYsMTQwOTU5MzgxNSwtMzk2MDY0MDg1LDg3MD
+kwMDI3NSwzOTcyNDkxMCwzMzkwMzkwMTgsLTEzNTIwODA4MTld
+fQ==
 -->
