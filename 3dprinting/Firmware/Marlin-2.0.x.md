@@ -25,7 +25,7 @@
 9. Open the project
 10. Select your branch
 	1. From the blue status bar on the bottom left most (Says "2.0.x" initially).  Select "2.0.1"  
-11. edit platformio.ini and select your environment (Default for megaatimega2560 is fine for ramps.
+11. edit platformio.ini and select your environment (Default for mega2560 is fine for ramps.
 12. Configure
 
 ## Flash
@@ -36,9 +36,9 @@ Add your user to the dialout group so that you can access the serial interface
 You should now be able to build and flash without issue 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODQxMTUxNSwtNTA5MjExNDYzLDE5Nj
-I2MTIwMjgsLTgwOTYzNjY4Nyw1Njg0NTMwMDAsLTEzODQ2MTAx
-MCwxODQwNzAyNzU3LC0xMTUwNzI0NjIwLC03Mzg4Njg5OTQsMT
-EzNTc2MjMwNywxMjEzNTIyMTAxLDExNjI1NzM5NDcsLTQ4Mzg2
-Nzg5NV19
+eyJoaXN0b3J5IjpbMTA0NDU2MTc0NSwtNzY4NDExNTE1LC01MD
+kyMTE0NjMsMTk2MjYxMjAyOCwtODA5NjM2Njg3LDU2ODQ1MzAw
+MCwtMTM4NDYxMDEwLDE4NDA3MDI3NTcsLTExNTA3MjQ2MjAsLT
+czODg2ODk5NCwxMTM1NzYyMzA3LDEyMTM1MjIxMDEsMTE2MjU3
+Mzk0NywtNDgzODY3ODk1XX0=
 -->
