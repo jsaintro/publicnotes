@@ -21,6 +21,13 @@ youtube.com/watch?v=Q4L4FFwA7Gc
     Name: SmartStick+
     Interface Model: HomeSeer SmartStick +
     Serial Port: /dev/ttyACM0
+
+3. Enable the interface
+
+### Add the Outdoor switch
+Under actions in the Z-Wave Interfaces
+`Add/Include a Node`
+
 Enable the Z-wave plugin (Which is preinstalled)
 
 Follow the Web UI steps in 
@@ -28,7 +35,7 @@ https://helpdesk.homeseer.com/article/97-z-wave-network-setup
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDc1OTAwOSwxMzkxMzkwMTQzLC0xNz
-IxNDgwODMwLDcyOTI3MTU1NCwtMTk3MTU5MDA1NSwxNjYzNjgz
-MzQ5LDg5MzQyNDM0NiwzNjc1MzkyMTBdfQ==
+eyJoaXN0b3J5IjpbMjQzMDIwODkwLDEzOTEzOTAxNDMsLTE3Mj
+E0ODA4MzAsNzI5MjcxNTU0LC0xOTcxNTkwMDU1LDE2NjM2ODMz
+NDksODkzNDI0MzQ2LDM2NzUzOTIxMF19
 -->
