@@ -4,8 +4,13 @@ Once your order processes you need to go to the invoice on the web to see your t
 in the email link download the software
 Note the pdf instruction they provided are in https://drive.google.com/drive/folders/1m_vBEfAGRF5KHUhow7n0Gjo8DtMLx9Zt?usp=sharing
 
+ONce flashed you have to hardware device initially
+
+Once registered here is the quick start guide
+youtube.com/watch?v=Q4L4FFwA7Gc
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzY4MzM0OSw4OTM0MjQzNDYsMzY3NT
-M5MjEwXX0=
+eyJoaXN0b3J5IjpbMjEzNTAwNzk0MywxNjYzNjgzMzQ5LDg5Mz
+QyNDM0NiwzNjc1MzkyMTBdfQ==
 -->
