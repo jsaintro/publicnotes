@@ -15,12 +15,12 @@ youtube.com/watch?v=Q4L4FFwA7Gc
 ## Setup
 Enable the Z-wave plugin (Which is preinstalled)
 
-https://docs.homeseer.com/display/HS4/HS4+Knowledge+Base
-For detailed instructions on setting up the zwave
+Follow the Web UI steps in 
+https://helpdesk.homeseer.com/article/97-z-wave-network-setup
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTM5MDE0MywtMTcyMTQ4MDgzMCw3Mj
-kyNzE1NTQsLTE5NzE1OTAwNTUsMTY2MzY4MzM0OSw4OTM0MjQz
-NDYsMzY3NTM5MjEwXX0=
+eyJoaXN0b3J5IjpbLTE2NDAxODkwMDIsMTM5MTM5MDE0MywtMT
+cyMTQ4MDgzMCw3MjkyNzE1NTQsLTE5NzE1OTAwNTUsMTY2MzY4
+MzM0OSw4OTM0MjQzNDYsMzY3NTM5MjEwXX0=
 -->
