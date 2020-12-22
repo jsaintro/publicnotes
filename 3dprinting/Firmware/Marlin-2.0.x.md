@@ -38,10 +38,17 @@ Add your user to the dialout group so that you can access the serial interface
 
 You should now be able to build and flash without issue 
 
+Select the ant
+Under project tasks
+default
+build all
+upload all
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDAzMTg0OCw5NTMwMjMzMzYsLTc2OD
-QxMTUxNSwtNTA5MjExNDYzLDE5NjI2MTIwMjgsLTgwOTYzNjY4
-Nyw1Njg0NTMwMDAsLTEzODQ2MTAxMCwxODQwNzAyNzU3LC0xMT
-UwNzI0NjIwLC03Mzg4Njg5OTQsMTEzNTc2MjMwNywxMjEzNTIy
-MTAxLDExNjI1NzM5NDcsLTQ4Mzg2Nzg5NV19
+eyJoaXN0b3J5IjpbMTQxMTM4OTQwOSwtODcwMDMxODQ4LDk1Mz
+AyMzMzNiwtNzY4NDExNTE1LC01MDkyMTE0NjMsMTk2MjYxMjAy
+OCwtODA5NjM2Njg3LDU2ODQ1MzAwMCwtMTM4NDYxMDEwLDE4ND
+A3MDI3NTcsLTExNTA3MjQ2MjAsLTczODg2ODk5NCwxMTM1NzYy
+MzA3LDEyMTM1MjIxMDEsMTE2MjU3Mzk0NywtNDgzODY3ODk1XX
+0=
 -->
