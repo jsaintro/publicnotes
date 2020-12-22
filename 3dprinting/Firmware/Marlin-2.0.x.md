@@ -24,7 +24,7 @@
         
 9. Open the project
 10. Select your branch
-	1. From the blue status bar on the bottom left most (Says "2.0.x" initially).  Select "2.0.1"  
+	1. From the blue status bar on the bottom left most (Says "2.0.x" initially).  Select "2.0.7.2" Currently  
 11. edit platformio.ini and select your environment (Default for mega2560 is fine for ramps.
 12. Configure
     1. Edit Marlin/Configuration.h
@@ -39,9 +39,9 @@ Add your user to the dialout group so that you can access the serial interface
 You should now be able to build and flash without issue 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzMDIzMzM2LC03Njg0MTE1MTUsLTUwOT
-IxMTQ2MywxOTYyNjEyMDI4LC04MDk2MzY2ODcsNTY4NDUzMDAw
-LC0xMzg0NjEwMTAsMTg0MDcwMjc1NywtMTE1MDcyNDYyMCwtNz
-M4ODY4OTk0LDExMzU3NjIzMDcsMTIxMzUyMjEwMSwxMTYyNTcz
-OTQ3LC00ODM4Njc4OTVdfQ==
+eyJoaXN0b3J5IjpbLTg3MDAzMTg0OCw5NTMwMjMzMzYsLTc2OD
+QxMTUxNSwtNTA5MjExNDYzLDE5NjI2MTIwMjgsLTgwOTYzNjY4
+Nyw1Njg0NTMwMDAsLTEzODQ2MTAxMCwxODQwNzAyNzU3LC0xMT
+UwNzI0NjIwLC03Mzg4Njg5OTQsMTEzNTc2MjMwNywxMjEzNTIy
+MTAxLDExNjI1NzM5NDcsLTQ4Mzg2Nzg5NV19
 -->
