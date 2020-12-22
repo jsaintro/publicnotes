@@ -44,8 +44,11 @@ default
 build all
 upload all
 
+or ... click the check mark on the botton task bar followed by the right arrow on the bottom task bar
+probably have to be connected to usb first.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTM4OTQwOSwtODcwMDMxODQ4LDk1Mz
+eyJoaXN0b3J5IjpbMjA4NDY3NDUyMSwtODcwMDMxODQ4LDk1Mz
 AyMzMzNiwtNzY4NDExNTE1LC01MDkyMTE0NjMsMTk2MjYxMjAy
 OCwtODA5NjM2Njg3LDU2ODQ1MzAwMCwtMTM4NDYxMDEwLDE4ND
 A3MDI3NTcsLTExNTA3MjQ2MjAsLTczODg2ODk5NCwxMTM1NzYy
