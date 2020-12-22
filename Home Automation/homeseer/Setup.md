@@ -12,7 +12,9 @@ youtube.com/watch?v=Q4L4FFwA7Gc
 1. Register a myhs account
 2. https://myhs.homeseer.com/ click register note: lastpass myhs.homeseer.com (This is different than the shop account)
 
-## Setup
+## Z-Wave Setup
+1. Enabled the plugin
+    `Plugins\Installe
 Enable the Z-wave plugin (Which is preinstalled)
 
 Follow the Web UI steps in 
@@ -20,7 +22,7 @@ https://helpdesk.homeseer.com/article/97-z-wave-network-setup
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAxODkwMDIsMTM5MTM5MDE0MywtMT
-cyMTQ4MDgzMCw3MjkyNzE1NTQsLTE5NzE1OTAwNTUsMTY2MzY4
-MzM0OSw4OTM0MjQzNDYsMzY3NTM5MjEwXX0=
+eyJoaXN0b3J5IjpbMTgxMDA1NDMxOCwxMzkxMzkwMTQzLC0xNz
+IxNDgwODMwLDcyOTI3MTU1NCwtMTk3MTU5MDA1NSwxNjYzNjgz
+MzQ5LDg5MzQyNDM0NiwzNjc1MzkyMTBdfQ==
 -->
