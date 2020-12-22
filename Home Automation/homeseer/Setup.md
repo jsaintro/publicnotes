@@ -10,10 +10,11 @@ Once registered here is the quick start guide
 youtube.com/watch?v=Q4L4FFwA7Gc
 
 1. Register a myhs account
-2. https://myhs.homeseer.com/ click register 
+2. https://myhs.homeseer.com/ click register note: lastpass myhs.homeseer.com (This is different than the shop account)
+3. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE1OTAwNTUsMTY2MzY4MzM0OSw4OT
-M0MjQzNDYsMzY3NTM5MjEwXX0=
+eyJoaXN0b3J5IjpbNzI5MjcxNTU0LC0xOTcxNTkwMDU1LDE2Nj
+M2ODMzNDksODkzNDI0MzQ2LDM2NzUzOTIxMF19
 -->
