@@ -19,7 +19,8 @@ youtube.com/watch?v=Q4L4FFwA7Gc
     `Plugins/Z-Wave/Controller Management`
     `Add Interface`
     Name: SmartStick+
-    Interface Model: HomeSeer
+    Interface Model: HomeSeer SmartStick +
+    Serial Port: /dev/ttyACM
 Enable the Z-wave plugin (Which is preinstalled)
 
 Follow the Web UI steps in 
@@ -27,7 +28,7 @@ https://helpdesk.homeseer.com/article/97-z-wave-network-setup
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1OTU3OTg3LDEzOTEzOTAxNDMsLTE3Mj
+eyJoaXN0b3J5IjpbNDc0MzI5MTE3LDEzOTEzOTAxNDMsLTE3Mj
 E0ODA4MzAsNzI5MjcxNTU0LC0xOTcxNTkwMDU1LDE2NjM2ODMz
 NDksODkzNDI0MzQ2LDM2NzUzOTIxMF19
 -->
