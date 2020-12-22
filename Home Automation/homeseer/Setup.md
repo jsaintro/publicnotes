@@ -28,15 +28,12 @@ youtube.com/watch?v=Q4L4FFwA7Gc
 1. Manage Z-Wave Controller
 `Plugins/Z-Wave/Controller Management`
 2. Start Include Mode
-
-Enable the Z-wave plugin (Which is preinstalled)
-
-Follow the Web UI steps in 
-https://helpdesk.homeseer.com/article/97-z-wave-network-setup
-
+`Expand Z-Wave Interfaces\Actions:\Add\Include Node
+3. Toggle outdoor switch to include it.
+4. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxNTA0OTYwLDEzOTEzOTAxNDMsLTE3Mj
-E0ODA4MzAsNzI5MjcxNTU0LC0xOTcxNTkwMDU1LDE2NjM2ODMz
-NDksODkzNDI0MzQ2LDM2NzUzOTIxMF19
+eyJoaXN0b3J5IjpbMTk1NDExOTA2OSwxMzkxMzkwMTQzLC0xNz
+IxNDgwODMwLDcyOTI3MTU1NCwtMTk3MTU5MDA1NSwxNjYzNjgz
+MzQ5LDg5MzQyNDM0NiwzNjc1MzkyMTBdfQ==
 -->
