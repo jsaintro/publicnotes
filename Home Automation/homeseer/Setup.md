@@ -17,7 +17,9 @@ youtube.com/watch?v=Q4L4FFwA7Gc
     `Plugins/Installed/Z-Wave/Enable`
 2. Add the smartstick controller
     `Plugins/Z-Wave/Controller Management`
-    `Add Interface
+    `Add Interface`
+    Name: SmartStick+
+    Interface Model: HomeSeer
 Enable the Z-wave plugin (Which is preinstalled)
 
 Follow the Web UI steps in 
@@ -25,7 +27,7 @@ https://helpdesk.homeseer.com/article/97-z-wave-network-setup
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxNDIwNzI2LDEzOTEzOTAxNDMsLTE3Mj
+eyJoaXN0b3J5IjpbNDE1OTU3OTg3LDEzOTEzOTAxNDMsLTE3Mj
 E0ODA4MzAsNzI5MjcxNTU0LC0xOTcxNTkwMDU1LDE2NjM2ODMz
 NDksODkzNDI0MzQ2LDM2NzUzOTIxMF19
 -->
