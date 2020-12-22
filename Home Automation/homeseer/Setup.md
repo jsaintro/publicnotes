@@ -25,8 +25,9 @@ youtube.com/watch?v=Q4L4FFwA7Gc
 3. Enable the interface
 
 ### Add the Outdoor switch
-Under actions in the Z-Wave Interfaces
-`Add/Include a Node`
+1. Manage Z-Wave Controller
+`Plugins/Z-Wave/Controller Management`
+2. Start Include Mode
 
 Enable the Z-wave plugin (Which is preinstalled)
 
@@ -35,7 +36,7 @@ https://helpdesk.homeseer.com/article/97-z-wave-network-setup
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzMDIwODkwLDEzOTEzOTAxNDMsLTE3Mj
+eyJoaXN0b3J5IjpbNzYxNTA0OTYwLDEzOTEzOTAxNDMsLTE3Mj
 E0ODA4MzAsNzI5MjcxNTU0LC0xOTcxNTkwMDU1LDE2NjM2ODMz
 NDksODkzNDI0MzQ2LDM2NzUzOTIxMF19
 -->
