@@ -9,8 +9,11 @@ ONce flashed you have to hardware device initially
 Once registered here is the quick start guide
 youtube.com/watch?v=Q4L4FFwA7Gc
 
+1. Register a myhs account
+2. https://myhs.homeseer.com/ click register 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTAwNzk0MywxNjYzNjgzMzQ5LDg5Mz
-QyNDM0NiwzNjc1MzkyMTBdfQ==
+eyJoaXN0b3J5IjpbLTE5NzE1OTAwNTUsMTY2MzY4MzM0OSw4OT
+M0MjQzNDYsMzY3NTM5MjEwXX0=
 -->
