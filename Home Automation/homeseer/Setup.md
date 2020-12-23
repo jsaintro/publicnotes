@@ -30,10 +30,11 @@ youtube.com/watch?v=Q4L4FFwA7Gc
 2. Start Include Mode
 `Expand Z-Wave Interfaces\Actions:\Add\Include Node
 3. Toggle outdoor switch to include it.
-4. 
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDExOTA2OSwxMzkxMzkwMTQzLC0xNz
-IxNDgwODMwLDcyOTI3MTU1NCwtMTk3MTU5MDA1NSwxNjYzNjgz
-MzQ5LDg5MzQyNDM0NiwzNjc1MzkyMTBdfQ==
+eyJoaXN0b3J5IjpbLTYyMDg0NDkzMywxOTU0MTE5MDY5LDEzOT
+EzOTAxNDMsLTE3MjE0ODA4MzAsNzI5MjcxNTU0LC0xOTcxNTkw
+MDU1LDE2NjM2ODMzNDksODkzNDI0MzQ2LDM2NzUzOTIxMF19
 -->
