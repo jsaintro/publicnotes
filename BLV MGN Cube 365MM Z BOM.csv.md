@@ -4,7 +4,10 @@
 
 
 Frame,,,,,,,,,,,
-DescriptionSource,Cost,Shipping,Tax,Total,Unit Cost,Ordered,Received,Note,
+|Description|Source|Cost|Shipping|Tax|Total|Unit Cost|Ordered,Received|Note||
+|-----------|---------------------------------------------------------------|
+|           |                                                               |
+
 2020 Bracket (Flush Mount) Qty 10,Aliexp,7.58,0,,7.58,7.58,X,X,"Need these when tabs get in the way ""20s 10pcs black""",,
 ,,,,,,,,,,,
 Frame Kits,,,,,,,,,,,
@@ -164,5 +167,5 @@ Blurolls Complete Kit,,$835.05,$171.60,,"$1,006.65",,,,,,
 ,,,,,,,,,,,
 Coupons,Triangelabs,Fysetc,,,,,,,,,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4ODc5NjgzXX0=
+eyJoaXN0b3J5IjpbLTkyNjU5MjA5OV19
 -->
