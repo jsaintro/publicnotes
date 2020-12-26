@@ -1,6 +1,6 @@
-|Frame||||||||||||
+Description|Source|Cost|Shipping|Tax|Total|Ordered|Received|Note|
 |--|--|--|--|--|--|--|--|--|--|--|--|
-Description|Source|Cost|Shipping|Tax|Total||Ordered|Received|Note||
+Frame|||||||||||
 2020 Bracket (Flush Mount) Qty 10|Aliexp|7.58|0||7.58|7.58|X|X|"Need these when tabs get in the way ""20s 10pcs black"""||
 |||||||||||
 Frame Kits|||||||||||
@@ -160,5 +160,5 @@ Blurolls Complete Kit||$835.05|$171.60||"$1|006.65"||||||
 |||||||||||
 Coupons|Triangelabs|Fysetc|||||||||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzU2ODY1MF19
+eyJoaXN0b3J5IjpbNTI0MTg3NjYyXX0=
 -->
