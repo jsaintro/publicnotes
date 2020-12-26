@@ -1,0 +1,164 @@
+|Frame||||||||||||
+|--|--|--|--|--|--|--|--|--|--|--|--|
+Description|Source|Cost|Shipping|Tax|Total||Ordered|Received|Note||
+2020 Bracket (Flush Mount) Qty 10|Aliexp|7.58|0||7.58|7.58|X|X|"Need these when tabs get in the way ""20s 10pcs black"""||
+|||||||||||
+Frame Kits|||||||||||
+|||||||||||
+Alumnium frame kit in 4 colors: Black/Blue/Red/Purple - anodized after cut+Brackets|Sealand (Aliexp)|$94.05|$83.77||$177.82|$177.82|X|X|"""Black"" ""Full Frame Kit"" comes with the hardware as well"||
+Fysetc - frame aluminum profiles Set / Full frame Kit|Fysetc (Aliexp)|$90.06|$71.05||$161.11||||||
+Funssor - frame Kit containing all the needed extrusions|Funssor (Aliexp)|$81.06|$102.60||$183.66||||||
+Reprap - Frame Kit with free DHL shipping - not tested yet||$183.46|$0.00||$183.46||||||
+Misumi|Direct|$174.38|$16.38||$190.76||||Extrusion Type:HFSB5 Doesn't include taxes||
+|||||$0.00||||||
+Motion System|||||$0.00||||||
+Rails|||||$0.00||||||
+5 x Mgn12H Carriage + 400mm Rails (Use Frame calculator for other Z sizes)||$81.65|$47.74||$129.39|$129.39|X|X|||
+Stepper Motors (Please ask them to give you a full D-cut shaft!)|||||$0.00||||||
+2 x X/Y Stepper motor: 17HM19-2004S Nema17 0.9deg 46Ncm 2A|Aliexpress|$34.18|$0.00||$34.18|$34.18|X|X|Ship from USA||
+2 x Z stepper motors: 17HS19-2004S1 59Ncm 1.8deg 2A|||||$0.00||||You're Kysan 1124090 Are OK for this||
+1 x Extruder stepper motor: 17HS16-2004S1 Nema17 45Ncm 1.8deg 2A|||||$0.00||||You're Kysan 1124090 Are OK for this (note as an alt try the stepper in your spares)||
+2 x GT2 Pulley 16 Teeth 5mm bore / excellent GT2 pully 16 Teeth (for X/Y steppers)|Aliexpress|$6.88|$0.00|$0.39|$7.27|$7.27|X|X|16T||
+Where to get the Steppers kit:|||||$0.00||||||
+Motor Kit for BLV mgn Cube 3D printer The manufacturer agreed to offer a kit with all the necessary steppers. Please ask for a full D-cut shaft!|Direct|$58.40|$34.72||$93.12||||||
+stepper kit for BLV mgn Cube - stepperonline store - not tested yet|Aliexpress|$51.50|$36.55||$88.05||||||
+Stepper motors kit from Blurolls store||$66.40|$0.00||$66.40||||||
+24 X F623 ZZ Flange Ball Bearings - number 2 or 3 option||$12.12|$2.11|$0.68|$14.91|$14.91|X|X|Option 2 Qty x 4 (Don't buy cheap amazon ones)||
+Belts & Threaded rods|||||$0.00||||||
+1 x 4m Gates 6mm GT2 Fiber Glass Reinforced Belt|Aliexpress|$18.04|$0.00||$18.04|$18.04|X|X|4m x 6mm||
+2 x 3D Printer Lead Screw Diameter 8mm Lead8mm 400mm|Aleexpress|$9.28|$5.00||$14.28|$14.28|X|X|Lead 8mm Length 400mm||
+2 x Aluminum Coupler 8x5x25mm (I prefer this option) or spider couplers|||||$0.00||||You have these already||
+Main Electronics|||||||||||
+1 x DuetWifi 32bit main board from Filastruder.com||$169.99|$0.00||$169.99||||||
+"1 x PanelDue 5"" screen (not the ""5i"") OR save 80$ and use your phone/Tablet !"||$69.16|$0.00||$69.16||||"5"" LCD with Control"||
+DuetWifi clone v1.03 + 4.3 lcd + contoller||$132.05|$0.00||$132.05||||Optonal but not ideal||
+Fysetc - DuetWifi v1.04 Clone + panel due + 4.3 / 5 lcd||$146.73|$0.00||$146.73||||"5"" LCD"||
+SKR v1.3 + TFT35 + 5xTMC2208 Kit|Aliexpress|$54.13|$0.00||$54.13|$54.13|X|X|"Select the ""V1.3 TMC2208 UARTTFT"""||
+|||||$0.00||||||
+1 x Mini differential IR Auto leveling sensor / Mini differential IR height sensor|Aliexpress|$14.71|$0.00||$14.71|$14.71|X|X|Get with Cable||
+1 x Power Supply DC 24V 20A/30A - i use it / Meanwell PSU 24V 450W|Amazon|$64.15|$0.00||$64.15|$64.15|X|X|24V meanwell (Amazon is cheaper and faster than aliexp here)||
+2 x 3-Pin endstop switch KW11-3Z / Omron high quality endstop switches||$0.71|$0.00||$0.71|$0.71|X|X|3P with handle||
+1 x Heat Insulation 300mm for the bed||$1.55|$0.00||$1.55|$1.55|X|X|||
+3 x NeoPixel Ring 16 leds WS2812 Module||$8.37|$1.61||$9.98|$9.98|X|X|||
+1 x 5M Silicone Wire Flexible 14AWG Stranded Copper Cables black\red|||||$0.00||||||
+1 x 22 awg wire 4\5 wires 5m||$2.09|$0.00||$2.09|$2.09|X|X|4 Wire||
+1 x 22 awg wire 4\5 wires 5m||$3.19|$0.00||$3.19|$3.19|X|X|5 Wire||
+1 x 16mm Momentary switch with led 110V/220V (wall voltage)- power icon|||||$0.00||||||
+2 x 16mm Momentary/locking latching switch with led 12/24V - optional|||||$0.00||||||
+3 x best 4010 24V-2Pin DB Bearing OR Cheap fan 24V add 4 for small air Scrubber.||$14.70|$3.96||$18.66||||Select 24v 2Pin DB Bearing||
+3 X 4010 24V 2Pin Cheap fan 24V add 4 for small air Scrubber.||$31.72|$0.00||$31.72|$31.72|X|X|Getting 10 so I have replacements||I don't think you needed this
+1 x 5015 Blower fan 24V ball bearings - 24V-2Pin DB Bearing||$2.10|$3.05||$5.15|$5.15|X|X|||
+2 x 4010 blower fans (dual ball bearings) 24v - only for the new twin blower shield||$3.40|$3.05||$6.45|$6.45|X|X|You bought this Alt||
+2 x 120mm fan 24V ball bearings 3000RPM (for the bigger Air Scrubber|||||$0.00||||You probably already have this||
+Note: Choose your PSU according to your specs|||||$0.00||||||
+Hotend options - 4 options:|||||$0.00||||||
+Trianglelab excellent Quality V6 hotend (1.75 24V PTFE) - had it|||||$0.00||||You already have this?||
+Mellow excellent hotend kit (24V teflon) - i use this|||||$0.00||||||
+Blurolls good quality V6 hotend|||||$0.00||||||
+Cheap v6 hotend clone|||||$0.00||||||
+Hotend optional upgrades:|||||$0.00||||||
+"Fantastic Ruby nozzle - for abrasive materials printing such as Carbon| glow.."|||||$0.00||||||
+spare part: Semitec 104GT-2 Thermistor / thermistor + connector / cheap Thermistor|||||$0.00||||||
+Plated Copper V6 Nozzle for high temp printing as peek..|||||$0.00||||||
+Hardened Steel V6 Nozzle for abrasive materials printing|||||$0.00||||||
+"Heated bed system| choose one of the 3 choices:"|||||$0.00||||||
+Funssor CR-10 Aluminum Heated Bed 24V - tested||$41.05|$0.00||$41.05||||||
+Fysetc CR-10 24V Magnetic Heated Bed / full set 300x300|Aliexpress|$57.67|$0.00||$57.67|$57.67|X|X|Check for warpage||
+please ask to replace the printing sticker to a clean black color.|||||$0.00||||||
+Anet E12 12V heated bed 300x300|||||$0.00||||||
+Thumb dial wheels M4-for CR bed or M3 for Anet bed|||||$0.00||||||
+Bed springs set or Silicone solid Column-need to cut 2mm of the long ones|||||$0.00||||||
+Mechanics|||||$0.00||||||
+1 x BMG Dual Drive extruder / good metal BMG dual extruder / BMG clone extruder||$39.05|$6.86||$45.91||||"""Right Set 1"" x Recommended by BLV"||
+BMG Extruder Clone (Plastic Gear)|Aliexpress|$29.19|$0.00||$29.19|$29.19|X|X|Trying this one||
+1 x 1m Capricorn clone PTFE tube 1.9mm or 2mm id|||||$0.00||X|X|Bought with Cutter||
+2 X optional: 635zz Ball Bearing for aligning the steppers shaft|||||$0.00||||||
+3 x Silicone sock - helps keep the nozzle temperature steady|||||$0.00||||||
+1 x Spring steel sheet 300x310+PEI sheet+magnetic sheet not needed if you got Fysetc full magnetic set!|||||$0.00||||Included with fysetc heatbed option||
+Screws|||||$0.00||||||
+note: Usually a large quantity of screws is sold in bulk so i rounded the quantities.|||||$0.00||||||
+300 x M5 10mm Button Head Socket Cap Screw (buy at least 300~350)|||||$0.00||||||
+2 x M5 16mm Button Head Socket Cap Screw|||||$0.00||||||
+4 x M5 35mm Button Head Socket Cap Screw|||||$0.00||||||
+200 x M5 washers|||||$0.00||||||
+4 x M4 40mm Flat Head Machine Screw - only using CR-10 24V bed|||||$0.00||||||
+2 x M4 30mm Hexagon head|||||$0.00||||||
+78 x M3 8mm Socket Head Cap Screw (buy at least 100)|||||$0.00||||||
+4 x M3 40mm Flat Head Machine Screw - only if using Anet E12 12V bed|||||$0.00||||||
+2 x M3 50mm Socket Head Cap Screw|||||$0.00||||||
+13 x M3 35mm Socket Head Cap Screw|||||$0.00||||||
+2 x M3 30mm Socket Head Cap Screw|||||$0.00||||||
+1 x M3 16mm Socket Head Cap Screw|||||$0.00||||||
+5 x M3 16mm Socket Head Cap Screw - Only if NOT using Block cover|||||$0.00||||||
+8 x M3 18mm Socket Head Cap Screw - Only if using the Block cover|||||$0.00||||||
+3 x M3 25mm Phillips round head|||||$0.00||||||
+1 x M3 22mm Phillips round head|||||$0.00||||||
+4 x M3 40mm Socket Head Cap Screw|||||$0.00||||||
+11 x M3 14mm Phillips round head|||||$0.00||||||
+2 x M3 18mm Phillips round head|||||$0.00||||||
+3 x M3 25mm Socket Head Cap Screw|||||$0.00||||||
+2 x M3 10mm Socket Head Cap Screw|||||$0.00||||||
+8 x M3 22mm Socket Head Cap Screw|||||$0.00||||||
+8 x M3 12mm Socket Head Cap Screw|||||$0.00||||||
+4 x M2.5 12mm Flat Head Machine Screw|||||$0.00||||||
+283 x M5 T-nut (buy at least 300)|||||$0.00||||||
+2 x M4 Nut|||||$0.00||||||
+40 x M3 T-nut|||||$0.00||||||
+62 x M3 0.5mm Washer (put 2pcs of 0.5mm or one of 1mm washer) (buy at least 100)|||||$0.00||||||
+26 x M3 Nut (buy at least 50)|||||$0.00||||||
+16 x M3 Nyloc|||||$0.00||||||
+Links To kits that can be useful:|||||$0.00||||||
+Full screws kit for the BLV mgn Cube from Blurolls|||||$0.00||||||
+"Hardware Kit Screws| Nuts and brackets for BLV mgn Cube Project"|||||$0.00||||||
+440pcs Set of M3 Socket Cap head DIN912 screws|||||$0.00||||||
+Optional and others|||||$0.00||||||
+Description|Source|Cost|Shipping||Total||||Note||
+easy fast wires connectors|||||$0.00||||||
+1M Corrugated tube|||||$0.00||||||
+optional: Mayitr Black Wrap Braided Cable Sleeve Wear Resistant like prusa|||||$0.00||||||
+solid state relay SSR-25DA to turn ON the printer with button||$3.34|$0.63||$3.97|$3.97|X||Overspec to 40A since counterfeit||
+SSR Heatsink||$1.64|$0.84||$2.48|$2.48|X|X|||
+optional: DC step-down module LM2596 (if you are going to use 12V fans/ Led strip)|Aliexpress|$0.88|$0.67||$1.55|$1.55|X|X|Try the Stable Voltage Model/Also test cheap one||
+5M LED strip 5050 60leds/m 44key waterproof|||||$0.00||||You have this||
+Wago Compact Wiring Connector|||||$0.00||||You have these||
+activated carbon filter (for the bigger air scrubber)|||||$0.00||||||
+500pcs replacment 3/32'' G10 Hardened Precision Steel balls for mgn12H rails|||||$0.00||||||
+100K NTC 3950 Thermistors (replacment if broken)|||||$0.00||||||
+Hepa Filter for ilife vacuum robots for the smaller air scrubber||$2.91|$0.00|$0.17|$3.08|$3.08|X|X|||
+Hepa Filter for eufy robovac 11c for the bigger air scrubber|||||$0.00||||||
+Soundproofing Foam Acoustic Sound Absorption Tile|||||$0.00||||||
+Brass brush for Hotend cleaner|||||$0.00||||||
+The filaments i used :|||||$0.00||||||
+Walls / enclosure|||||$0.00||||||
+How i created the walls / semi-enclosure?|||||$0.00||||||
+"Well| it's cheap and very easy.."|||||$0.00||||||
+You can choose one of those options:|||||$0.00||||||
+4mm Cardboard sheets (cheap)|||||$0.00||||||
+KAPA foam boards (cheap)|||||$0.00||||||
+aluminum composite panel|||||$0.00||||||
+4mm Plywood sheets|||||$0.00||||||
+Then apply this adorable Carbon Fiber Vinyl on the board.|||||$0.00||||||
+you can use M3/M5 screws to secure the board to the panels.|||||$0.00||||||
+Tools|||||$0.00||||||
+MUST have: 90 Degree Corner Clamps if you want a good printing results.||$12.69|$0.00||$12.69|$12.69|X|X|||
+Cable Cutter|||||$0.00||||||
+SN-28B dupont Crimping Tool|||||$0.00||||||
+"Tapping Kit M3|M4|M5|M6 - mainly for the corners holes"|||||$0.00||||||
+PTFE Tube Cutter||$3.02|$0.00||$3.02|$3.02|X|X|Tax ||
+Set Wire Copper Terminal|||||$0.00||||||
+10 pairs JST Plug Male to Female Wire Connector for Dupont wires.|||||$0.00||||||
+dehumidifier (moisture absorb) for your dry box The best i have tested in my drybox.|||||$0.00||||||
+Stainless Steel Digital Caliper|||||$0.00||||||
+Set Dupont Wire Jumper Pin Header Connector Housing Kit Male|||||$0.00||||||
+Cable Organizer|||||$0.00||||||
+TS100 Soldering iron (my favorite)|||||$0.00||||||
+Belt Tension Meter/gauge - 3d Printed tool|||||$0.00||||||
+|||||||||||
+|||||Grand total|$710.95|||||
+|||||||||||
+Blurolls Complete Kit||$835.05|$171.60||"$1|006.65"||||||
+|||||||||||
+Coupons|Triangelabs|Fysetc|||||||||
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTA2MzU2ODY1MF19
+-->
