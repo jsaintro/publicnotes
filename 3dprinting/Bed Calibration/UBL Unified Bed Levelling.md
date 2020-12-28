@@ -41,10 +41,10 @@
 3. Probe bed
     ```
     G28 ; Home Z
-    G29 P1 V3 ; Probe the bed 
+    G29 P1; Probe the bed 
     ```
     Note: 
-4. Check out the output
+4. Check out the output `.` are spots that will need to be interpolated
     ```
     G29 T
     ```
@@ -52,7 +52,7 @@
 5. Interpolate missing border points
 
 	```
-	G29 P3
+	G29 P3 T
 	G29 T
 	```
 	Note: repeat all points are interpolated
@@ -299,11 +299,11 @@ Autoscroll  showing 256 lines (227 of 483 tota
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5ODI4NDg4LDEyMDQ1MDA0MTksODQwNj
-IxMzIyLC03NzcwNzk3NzcsMTE3NzY5MTc5MywyNDIxMzM4OSwx
-NTUwMDMxNjI5LC0xNDMwNDgxOTM5LDEwMDUyMzY5NzMsNTM0Mz
-Q2NTUyLDE1NDY1OTY4NzMsLTQ2MzczNDk2NSwyMDI4MTcxNjU5
-LC0xNzEwNzM4NTc5LC02NzY4MTk4NzYsMTE1ODM3MTg2MCwtMT
-A3MzQ5NTY3MiwyNzQyMDU2MTcsMTE0NzY4OTExMCw0ODI1MjQz
-MzJdfQ==
+eyJoaXN0b3J5IjpbMTMwOTc0NjUyMCwxMjA0NTAwNDE5LDg0MD
+YyMTMyMiwtNzc3MDc5Nzc3LDExNzc2OTE3OTMsMjQyMTMzODks
+MTU1MDAzMTYyOSwtMTQzMDQ4MTkzOSwxMDA1MjM2OTczLDUzND
+M0NjU1MiwxNTQ2NTk2ODczLC00NjM3MzQ5NjUsMjAyODE3MTY1
+OSwtMTcxMDczODU3OSwtNjc2ODE5ODc2LDExNTgzNzE4NjAsLT
+EwNzM0OTU2NzIsMjc0MjA1NjE3LDExNDc2ODkxMTAsNDgyNTI0
+MzMyXX0=
 -->
