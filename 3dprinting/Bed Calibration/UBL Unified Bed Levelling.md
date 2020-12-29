@@ -44,7 +44,7 @@
     G28 ; Home Z
     G29 P1; Probe the bed 
     ```
-    Note:  If you did the mesh tips below you pro
+    Note:  If you did the mesh tips below you probably won't have any `.`s
 4. Check out the output `.` are spots that will need to be interpolated
     ```
     G29 T
@@ -58,20 +58,27 @@
 	```
 	Note: repeat all points are interpolated
 	
-6. Save Mesh
+6. Validate with a visualizer tool
+    Note: This is good to do right now as it shows you if you're bed is completely off
+    1. Get a computer parsable version of the mesh
+        ```
+        G29 T1
+        ```
+     2. Paste is a v
+8. Save Mesh
     ```
     G29 S1 // S1 for PLA S2 for ABS
     ```
-7. Set Fade height
+9. Set Fade height
     ```
     G29 F10.0
     ```
      Gradually fade out the compensation by 10mm  
-8. Activate the UBL
+10. Activate the UBL
     ```
     G29 A
     ```
-9. Save the settings
+11. Save the settings
     ```
     M500
     ```
@@ -170,7 +177,7 @@ G29 J
 6. Set slicer bed dimension to never print outside of probed mesh
 	Ex. For prusa slicer I have X min = 8 X max = 212 Ymin = 8 Ymax = 200 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTgzOTQ0OTMsMTk1OTg3MTkzOCw4MD
+eyJoaXN0b3J5IjpbLTExMDAwMDIyNTAsMTk1OTg3MTkzOCw4MD
 g1NjQ5OTMsMTA4Njk5MzA5NiwxNDQ0OTY3ODEsLTE3MzYyMDIy
 NywtMTU0ODg5MjY2MSwxNDIyNTI3MTkyLC0xNDEzNDY2NTk1LC
 0xNTcxMTM1NjYwLC0xMzcwOTkyMzE0LC0xNjU3OTM5NjUsMTMw
