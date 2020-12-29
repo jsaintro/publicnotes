@@ -49,7 +49,7 @@
     G29 T
     ```
     Note: Any points listed with a `.` are probably outside the probe limits and ___must___ be interpolated
-5. Interpolate missing border points
+5. Interpolate missing border points (Note this isn't great for edges, Consider tweaking bed dimensions to remove the need for this)
 
 	```
 	G29 P3 T
@@ -134,6 +134,7 @@
 G29 L2 // to load 2nd slot
 
 # Pre Print Mesh Tilt
+NOTE: This currenty sucks so 
 G29 L1 // Load mesh one
 G29 J
 
@@ -299,11 +300,11 @@ Autoscroll  showing 256 lines (227 of 483 tota
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDg4OTI2NjEsMTQyMjUyNzE5MiwtMT
-QxMzQ2NjU5NSwtMTU3MTEzNTY2MCwtMTM3MDk5MjMxNCwtMTY1
-NzkzOTY1LDEzMDk3NDY1MjAsMTIwNDUwMDQxOSw4NDA2MjEzMj
-IsLTc3NzA3OTc3NywxMTc3NjkxNzkzLDI0MjEzMzg5LDE1NTAw
-MzE2MjksLTE0MzA0ODE5MzksMTAwNTIzNjk3Myw1MzQzNDY1NT
-IsMTU0NjU5Njg3MywtNDYzNzM0OTY1LDIwMjgxNzE2NTksLTE3
-MTA3Mzg1NzldfQ==
+eyJoaXN0b3J5IjpbLTIwOTc3ODMyNDgsLTE1NDg4OTI2NjEsMT
+QyMjUyNzE5MiwtMTQxMzQ2NjU5NSwtMTU3MTEzNTY2MCwtMTM3
+MDk5MjMxNCwtMTY1NzkzOTY1LDEzMDk3NDY1MjAsMTIwNDUwMD
+QxOSw4NDA2MjEzMjIsLTc3NzA3OTc3NywxMTc3NjkxNzkzLDI0
+MjEzMzg5LDE1NTAwMzE2MjksLTE0MzA0ODE5MzksMTAwNTIzNj
+k3Myw1MzQzNDY1NTIsMTU0NjU5Njg3MywtNDYzNzM0OTY1LDIw
+MjgxNzE2NTldfQ==
 -->
