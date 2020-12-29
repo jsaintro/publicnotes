@@ -158,22 +158,23 @@ G29 J
     #define  Y_MAX_POS  Y_BED_SIZE
     #define  Z_MAX_POS  220
     ```
-5. Make sure probe offset is exactly right
+4. Make sure probe offset is exactly right
     ```
     #define  NOZZLE_TO_PROBE_OFFSET { 23, 5, -1.3 } // My probe is 23mm X, 5mm Y, and 1.3 Higher than Z
     ```
-	6. To calculate your mesh border probe point must be within travel limits of nozzle + probe offsets.
-	7. Ex. My probe is 23mm offset from nozzle. Nozzle can only get to -16mm in X axis. Therefore 23mm - 16mm = 7mm is the furthest I can probe on my X axis. So I should set my mesh inset to 8mm (+1mm to prevent accidental endstop triggers)
+5. To calculate your mesh border probe point must be within travel limits of nozzle + probe offsets.
+	    Ex. My probe is 23mm offset from nozzle. Nozzle can only get to -16mm in X axis. Therefore 23mm - 16mm = 7mm is the furthest I can probe on my X axis. So I should set my mesh inset to 8mm (+1mm to prevent accidental endstop triggers)
     ```
     #define MESH_INSET 8
     ```
-8.
+6. Set slicer bed dimension to never print outside of probed mesh
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDAyNDIzMCwtMTczNjIwMjI3LC0xNT
-Q4ODkyNjYxLDE0MjI1MjcxOTIsLTE0MTM0NjY1OTUsLTE1NzEx
-MzU2NjAsLTEzNzA5OTIzMTQsLTE2NTc5Mzk2NSwxMzA5NzQ2NT
-IwLDEyMDQ1MDA0MTksODQwNjIxMzIyLC03NzcwNzk3NzcsMTE3
-NzY5MTc5MywyNDIxMzM4OSwxNTUwMDMxNjI5LC0xNDMwNDgxOT
-M5LDEwMDUyMzY5NzMsNTM0MzQ2NTUyLDE1NDY1OTY4NzMsLTQ2
-MzczNDk2NV19
+eyJoaXN0b3J5IjpbMTQ0NDk2NzgxLC0xNzM2MjAyMjcsLTE1ND
+g4OTI2NjEsMTQyMjUyNzE5MiwtMTQxMzQ2NjU5NSwtMTU3MTEz
+NTY2MCwtMTM3MDk5MjMxNCwtMTY1NzkzOTY1LDEzMDk3NDY1Mj
+AsMTIwNDUwMDQxOSw4NDA2MjEzMjIsLTc3NzA3OTc3NywxMTc3
+NjkxNzkzLDI0MjEzMzg5LDE1NTAwMzE2MjksLTE0MzA0ODE5Mz
+ksMTAwNTIzNjk3Myw1MzQzNDY1NTIsMTU0NjU5Njg3MywtNDYz
+NzM0OTY1XX0=
 -->
