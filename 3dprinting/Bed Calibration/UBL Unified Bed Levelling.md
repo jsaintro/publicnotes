@@ -112,7 +112,7 @@
 8. Run mesh validation print
     ```
     G28
-    G26 I0 P10 //P10 primes with 10 mm of filament using PLA settings??
+    G26 I0 P2 //P2 primes with 2 mm of filament using PLA settings??
     ```
     
 9. Resave
@@ -299,11 +299,11 @@ Autoscroll  showing 256 lines (227 of 483 tota
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjUyNzE5MiwtMTQxMzQ2NjU5NSwtMT
-U3MTEzNTY2MCwtMTM3MDk5MjMxNCwtMTY1NzkzOTY1LDEzMDk3
-NDY1MjAsMTIwNDUwMDQxOSw4NDA2MjEzMjIsLTc3NzA3OTc3Ny
-wxMTc3NjkxNzkzLDI0MjEzMzg5LDE1NTAwMzE2MjksLTE0MzA0
-ODE5MzksMTAwNTIzNjk3Myw1MzQzNDY1NTIsMTU0NjU5Njg3My
-wtNDYzNzM0OTY1LDIwMjgxNzE2NTksLTE3MTA3Mzg1NzksLTY3
-NjgxOTg3Nl19
+eyJoaXN0b3J5IjpbLTE1NDg4OTI2NjEsMTQyMjUyNzE5MiwtMT
+QxMzQ2NjU5NSwtMTU3MTEzNTY2MCwtMTM3MDk5MjMxNCwtMTY1
+NzkzOTY1LDEzMDk3NDY1MjAsMTIwNDUwMDQxOSw4NDA2MjEzMj
+IsLTc3NzA3OTc3NywxMTc3NjkxNzkzLDI0MjEzMzg5LDE1NTAw
+MzE2MjksLTE0MzA0ODE5MzksMTAwNTIzNjk3Myw1MzQzNDY1NT
+IsMTU0NjU5Njg3MywtNDYzNzM0OTY1LDIwMjgxNzE2NTksLTE3
+MTA3Mzg1NzldfQ==
 -->
