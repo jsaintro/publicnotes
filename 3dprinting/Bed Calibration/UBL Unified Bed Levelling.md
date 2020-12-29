@@ -146,15 +146,15 @@ G29 J
 
 # Perfect Mesh
 1. Try and get all points probed
-	2. Set bed dimensions to actual bed dimensions
-	3. 
+	2. Set bed dimensions to actual bed dimensions Ex. X= 0,220, 7=
+	3. Make sure probe offset is exactly right
 	4. If probe offset is less than calculated mesh probe point it won't probe that point. (Play with  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2NzA0Nzg2LC0xNTQ4ODkyNjYxLDE0Mj
-I1MjcxOTIsLTE0MTM0NjY1OTUsLTE1NzExMzU2NjAsLTEzNzA5
-OTIzMTQsLTE2NTc5Mzk2NSwxMzA5NzQ2NTIwLDEyMDQ1MDA0MT
-ksODQwNjIxMzIyLC03NzcwNzk3NzcsMTE3NzY5MTc5MywyNDIx
-MzM4OSwxNTUwMDMxNjI5LC0xNDMwNDgxOTM5LDEwMDUyMzY5Nz
-MsNTM0MzQ2NTUyLDE1NDY1OTY4NzMsLTQ2MzczNDk2NSwyMDI4
-MTcxNjU5XX0=
+eyJoaXN0b3J5IjpbLTE3ODQ2Mzk5MjYsLTE1NDg4OTI2NjEsMT
+QyMjUyNzE5MiwtMTQxMzQ2NjU5NSwtMTU3MTEzNTY2MCwtMTM3
+MDk5MjMxNCwtMTY1NzkzOTY1LDEzMDk3NDY1MjAsMTIwNDUwMD
+QxOSw4NDA2MjEzMjIsLTc3NzA3OTc3NywxMTc3NjkxNzkzLDI0
+MjEzMzg5LDE1NTAwMzE2MjksLTE0MzA0ODE5MzksMTAwNTIzNj
+k3Myw1MzQzNDY1NTIsMTU0NjU5Njg3MywtNDYzNzM0OTY1LDIw
+MjgxNzE2NTldfQ==
 -->
