@@ -162,9 +162,9 @@ G29 J
 	    ```
 	    #define  NOZZLE_TO_PROBE_OFFSET { 23, 5, -1.3 } // My probe is 23mm X, 5mm Y, and 1.3 Higher than Z
 	    ```
-	7. Probe offset + Mesh border needs to be within travel limits for it to be able to probe all points
+	7. To calculate your mesh border X/Y Probe offsets + Mesh border needs to be within travel limits for it to be able to probe all points
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjYyMzk3MiwtMTU0ODg5MjY2MSwxND
+eyJoaXN0b3J5IjpbMTgxMzU4MzgyOCwtMTU0ODg5MjY2MSwxND
 IyNTI3MTkyLC0xNDEzNDY2NTk1LC0xNTcxMTM1NjYwLC0xMzcw
 OTkyMzE0LC0xNjU3OTM5NjUsMTMwOTc0NjUyMCwxMjA0NTAwND
 E5LDg0MDYyMTMyMiwtNzc3MDc5Nzc3LDExNzc2OTE3OTMsMjQy
