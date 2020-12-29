@@ -4,6 +4,7 @@
 
 #define RESTORE_LEVELING_AFTER_G28
 
+// SKIP THIS ONE AND READ BELOW
 #define MESH_INSET (abs(X_PROBE_OFFSET_FROM_EXTRUDER) - 10)
 
 #define MESH_EDIT_GFX_OVERLAY   // Display a graphics overlay while editing the mesh
@@ -43,7 +44,7 @@
     G28 ; Home Z
     G29 P1; Probe the bed 
     ```
-    Note: 
+    Note:  If you did the mesh tips below you pro
 4. Check out the output `.` are spots that will need to be interpolated
     ```
     G29 T
@@ -169,11 +170,11 @@ G29 J
 6. Set slicer bed dimension to never print outside of probed mesh
 	Ex. For prusa slicer I have X min = 8 X max = 212 Ymin = 8 Ymax = 200 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTg3MTkzOCw4MDg1NjQ5OTMsMTA4Nj
-k5MzA5NiwxNDQ0OTY3ODEsLTE3MzYyMDIyNywtMTU0ODg5MjY2
-MSwxNDIyNTI3MTkyLC0xNDEzNDY2NTk1LC0xNTcxMTM1NjYwLC
-0xMzcwOTkyMzE0LC0xNjU3OTM5NjUsMTMwOTc0NjUyMCwxMjA0
-NTAwNDE5LDg0MDYyMTMyMiwtNzc3MDc5Nzc3LDExNzc2OTE3OT
-MsMjQyMTMzODksMTU1MDAzMTYyOSwtMTQzMDQ4MTkzOSwxMDA1
-MjM2OTczXX0=
+eyJoaXN0b3J5IjpbLTEyNTgzOTQ0OTMsMTk1OTg3MTkzOCw4MD
+g1NjQ5OTMsMTA4Njk5MzA5NiwxNDQ0OTY3ODEsLTE3MzYyMDIy
+NywtMTU0ODg5MjY2MSwxNDIyNTI3MTkyLC0xNDEzNDY2NTk1LC
+0xNTcxMTM1NjYwLC0xMzcwOTkyMzE0LC0xNjU3OTM5NjUsMTMw
+OTc0NjUyMCwxMjA0NTAwNDE5LDg0MDYyMTMyMiwtNzc3MDc5Nz
+c3LDExNzc2OTE3OTMsMjQyMTMzODksMTU1MDAzMTYyOSwtMTQz
+MDQ4MTkzOV19
 -->
