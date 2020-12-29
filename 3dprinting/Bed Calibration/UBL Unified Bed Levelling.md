@@ -167,15 +167,15 @@ G29 J
     ```
     #define MESH_INSET 8
     ```
-    Note: You can try something crafty like `#define MESH_INSET (abs(X_PROBE_OFFSET_FROM_EXTRUDER) + X_MIN_POS)`
+    Note: You can try something crafty like `#define MESH_INSET (X_PROBE_OFFSET_FROM_EXTRUDER + X_MIN_POS + 1)`
 6. Set slicer bed dimension to never print outside of probed mesh
 	Ex. For prusa slicer I have X min = 8 X max = 212 Ymin = 8 Ymax = 200 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDYxNzM3MiwxMDg2OTkzMDk2LDE0ND
-Q5Njc4MSwtMTczNjIwMjI3LC0xNTQ4ODkyNjYxLDE0MjI1Mjcx
-OTIsLTE0MTM0NjY1OTUsLTE1NzExMzU2NjAsLTEzNzA5OTIzMT
-QsLTE2NTc5Mzk2NSwxMzA5NzQ2NTIwLDEyMDQ1MDA0MTksODQw
-NjIxMzIyLC03NzcwNzk3NzcsMTE3NzY5MTc5MywyNDIxMzM4OS
-wxNTUwMDMxNjI5LC0xNDMwNDgxOTM5LDEwMDUyMzY5NzMsNTM0
-MzQ2NTUyXX0=
+eyJoaXN0b3J5IjpbODA4NTY0OTkzLDEwODY5OTMwOTYsMTQ0ND
+k2NzgxLC0xNzM2MjAyMjcsLTE1NDg4OTI2NjEsMTQyMjUyNzE5
+MiwtMTQxMzQ2NjU5NSwtMTU3MTEzNTY2MCwtMTM3MDk5MjMxNC
+wtMTY1NzkzOTY1LDEzMDk3NDY1MjAsMTIwNDUwMDQxOSw4NDA2
+MjEzMjIsLTc3NzA3OTc3NywxMTc3NjkxNzkzLDI0MjEzMzg5LD
+E1NTAwMzE2MjksLTE0MzA0ODE5MzksMTAwNTIzNjk3Myw1MzQz
+NDY1NTJdfQ==
 -->
