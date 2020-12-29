@@ -122,16 +122,14 @@
     ```
     
  # Fine Tuning Mesh
- Use LCD go into mesh edit
- scroll to point and adjust using paper
- Will 
- will automat Tuning the bed
-  
- 12. [https://www.youtube.com/watch?v=ONpKxkil16Q](https://www.youtube.com/watch?v=ONpKxkil16Q) 13.58
- 13.  
- 1
+ 1. Use LCD go into mesh edit
+ 2. Scroll to point and adjust using paper 
+ 3. Will automate Tuning the bed?
+     [https://www.youtube.com/watch?v=ONpKxkil16Q](https://www.youtube.com/watch?v=ONpKxkil16Q)
 # Loading a mesh
+```
 G29 L2 // to load 2nd slot
+```
 
 # Pre Print Mesh Tilt
 NOTE: This currently sucks so just fix the bed in place and don't bother.
@@ -171,11 +169,11 @@ G29 J
 6. Set slicer bed dimension to never print outside of probed mesh
 	Ex. For prusa slicer I have X min = 8 X max = 212 Ymin = 8 Ymax = 200 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA4NTY0OTkzLDEwODY5OTMwOTYsMTQ0ND
-k2NzgxLC0xNzM2MjAyMjcsLTE1NDg4OTI2NjEsMTQyMjUyNzE5
-MiwtMTQxMzQ2NjU5NSwtMTU3MTEzNTY2MCwtMTM3MDk5MjMxNC
-wtMTY1NzkzOTY1LDEzMDk3NDY1MjAsMTIwNDUwMDQxOSw4NDA2
-MjEzMjIsLTc3NzA3OTc3NywxMTc3NjkxNzkzLDI0MjEzMzg5LD
-E1NTAwMzE2MjksLTE0MzA0ODE5MzksMTAwNTIzNjk3Myw1MzQz
-NDY1NTJdfQ==
+eyJoaXN0b3J5IjpbMTk1OTg3MTkzOCw4MDg1NjQ5OTMsMTA4Nj
+k5MzA5NiwxNDQ0OTY3ODEsLTE3MzYyMDIyNywtMTU0ODg5MjY2
+MSwxNDIyNTI3MTkyLC0xNDEzNDY2NTk1LC0xNTcxMTM1NjYwLC
+0xMzcwOTkyMzE0LC0xNjU3OTM5NjUsMTMwOTc0NjUyMCwxMjA0
+NTAwNDE5LDg0MDYyMTMyMiwtNzc3MDc5Nzc3LDExNzc2OTE3OT
+MsMjQyMTMzODksMTU1MDAzMTYyOSwtMTQzMDQ4MTkzOSwxMDA1
+MjM2OTczXX0=
 -->
