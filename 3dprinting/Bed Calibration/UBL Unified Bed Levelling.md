@@ -64,7 +64,7 @@
         ```
         G29 T1
         ```
-     2. Paste is a v
+     2. Paste is a visualizer tool [This one](https://mkdev.co.uk/mesh-visualizer/) or [This one](https://i.chillrain.com/index.php/3d-printer-auto-bed-leveling-mesh-visualizer/)
 8. Save Mesh
     ```
     G29 S1 // S1 for PLA S2 for ABS
@@ -177,11 +177,11 @@ G29 J
 6. Set slicer bed dimension to never print outside of probed mesh
 	Ex. For prusa slicer I have X min = 8 X max = 212 Ymin = 8 Ymax = 200 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDAwMDIyNTAsMTk1OTg3MTkzOCw4MD
-g1NjQ5OTMsMTA4Njk5MzA5NiwxNDQ0OTY3ODEsLTE3MzYyMDIy
-NywtMTU0ODg5MjY2MSwxNDIyNTI3MTkyLC0xNDEzNDY2NTk1LC
-0xNTcxMTM1NjYwLC0xMzcwOTkyMzE0LC0xNjU3OTM5NjUsMTMw
-OTc0NjUyMCwxMjA0NTAwNDE5LDg0MDYyMTMyMiwtNzc3MDc5Nz
-c3LDExNzc2OTE3OTMsMjQyMTMzODksMTU1MDAzMTYyOSwtMTQz
-MDQ4MTkzOV19
+eyJoaXN0b3J5IjpbMTU3ODM2MjY5NSwxOTU5ODcxOTM4LDgwOD
+U2NDk5MywxMDg2OTkzMDk2LDE0NDQ5Njc4MSwtMTczNjIwMjI3
+LC0xNTQ4ODkyNjYxLDE0MjI1MjcxOTIsLTE0MTM0NjY1OTUsLT
+E1NzExMzU2NjAsLTEzNzA5OTIzMTQsLTE2NTc5Mzk2NSwxMzA5
+NzQ2NTIwLDEyMDQ1MDA0MTksODQwNjIxMzIyLC03NzcwNzk3Nz
+csMTE3NzY5MTc5MywyNDIxMzM4OSwxNTUwMDMxNjI5LC0xNDMw
+NDgxOTM5XX0=
 -->
