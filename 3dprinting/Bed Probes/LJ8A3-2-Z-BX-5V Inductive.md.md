@@ -17,7 +17,7 @@ With 3mm alu bed has about a 2mm detection distance.  So PEI sheet must be very 
 1. Lower extruder till it touches paper in 0.1mm increments
 2. Raise extruder .1mm
 3. put the thickness of 2 small zip ties under probe and drop probe till it touches zip ties
-4. See if sensor has triggered with M119 (Z endtop triggered)
+4. Verify that has triggered with M119 (Z endtop triggered)
 6. Raise in .1 mm increments until the prob stops triggering
 7. Remove a couple of slips of paper and faster there
 
@@ -33,6 +33,7 @@ With 3mm alu bed has about a 2mm detection distance.  So PEI sheet must be very 
     ```
 
 2. Trigger sensor
+    Metal pliers under sensor etc...
     ```
     Reporting endstop status
     x_min: open
@@ -40,11 +41,6 @@ With 3mm alu bed has about a 2mm detection distance.  So PEI sheet must be very 
     z_min: TRIGGERED
     ok
     ```
-
-3. Adjust pot ccw greater distance from bed cw shorter distance from bed.
-Adjust so it triggers at 2mm from bed.  Use stacked business cards to determine 2 mm
-
-Use G92Z{distance) to set position of z independent of probe
 
 # Calculate z height distance
 1. Disable min software endstops
@@ -117,6 +113,7 @@ Use G92Z{distance) to set position of z independent of probe
         Note: You can get the current offset by running `M851` without any arguments 
     3.  Save and upload (DON'T forget to disconnect PRONTERFACE from the serial first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0MjI3MjAxLDE0Mjg1MDY4OTEsLTE3Mj
-kwODEzMTgsLTM0OTkzOTI5Miw1NDQ1NDQ3ODVdfQ==
+eyJoaXN0b3J5IjpbLTQ4NzQ4ODAwLDcyNDIyNzIwMSwxNDI4NT
+A2ODkxLC0xNzI5MDgxMzE4LC0zNDk5MzkyOTIsNTQ0NTQ0Nzg1
+XX0=
 -->
