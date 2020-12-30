@@ -103,6 +103,8 @@
 
 # Set probe offset
 Try Firmware wizard Configuration/Advanced Settings/Probe Offsets/Z Probe Wizard
+Then Save Configuration/Store Settings
+
 
 1. Clear current
     ```
@@ -208,11 +210,11 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NDAxNzU0NCwtMTQwMzg4Mjk2OCwxMT
-Y5MzI0OTQyLC0xNTQxMzIwNDU4LC0xOTc2OTgwNjAxLC01NjIw
-NTkxOTMsLTE1NzA5NDU2MTAsLTE5NjA4MDc0MTYsMTU3ODM2Mj
-Y5NSwxOTU5ODcxOTM4LDgwODU2NDk5MywxMDg2OTkzMDk2LDE0
-NDQ5Njc4MSwtMTczNjIwMjI3LC0xNTQ4ODkyNjYxLDE0MjI1Mj
-cxOTIsLTE0MTM0NjY1OTUsLTE1NzExMzU2NjAsLTEzNzA5OTIz
-MTQsLTE2NTc5Mzk2NV19
+eyJoaXN0b3J5IjpbMTYyODYwMTk2MSwxNTY0MDE3NTQ0LC0xND
+AzODgyOTY4LDExNjkzMjQ5NDIsLTE1NDEzMjA0NTgsLTE5NzY5
+ODA2MDEsLTU2MjA1OTE5MywtMTU3MDk0NTYxMCwtMTk2MDgwNz
+QxNiwxNTc4MzYyNjk1LDE5NTk4NzE5MzgsODA4NTY0OTkzLDEw
+ODY5OTMwOTYsMTQ0NDk2NzgxLC0xNzM2MjAyMjcsLTE1NDg4OT
+I2NjEsMTQyMjUyNzE5MiwtMTQxMzQ2NjU5NSwtMTU3MTEzNTY2
+MCwtMTM3MDk5MjMxNF19
 -->
