@@ -102,7 +102,8 @@
     ```
 
 # Set probe offset
-Try Firmware wizard Configuration
+Try Firmware wizard Configuration/Advanced Settings/Probe Offsets/Z Probe Wizard
+
 1. Clear current
     ```
     M851 Z0
@@ -207,11 +208,11 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM4NTI3ODMsLTE0MDM4ODI5NjgsMT
-E2OTMyNDk0MiwtMTU0MTMyMDQ1OCwtMTk3Njk4MDYwMSwtNTYy
-MDU5MTkzLC0xNTcwOTQ1NjEwLC0xOTYwODA3NDE2LDE1NzgzNj
-I2OTUsMTk1OTg3MTkzOCw4MDg1NjQ5OTMsMTA4Njk5MzA5Niwx
-NDQ0OTY3ODEsLTE3MzYyMDIyNywtMTU0ODg5MjY2MSwxNDIyNT
-I3MTkyLC0xNDEzNDY2NTk1LC0xNTcxMTM1NjYwLC0xMzcwOTky
-MzE0LC0xNjU3OTM5NjVdfQ==
+eyJoaXN0b3J5IjpbMTU2NDAxNzU0NCwtMTQwMzg4Mjk2OCwxMT
+Y5MzI0OTQyLC0xNTQxMzIwNDU4LC0xOTc2OTgwNjAxLC01NjIw
+NTkxOTMsLTE1NzA5NDU2MTAsLTE5NjA4MDc0MTYsMTU3ODM2Mj
+Y5NSwxOTU5ODcxOTM4LDgwODU2NDk5MywxMDg2OTkzMDk2LDE0
+NDQ5Njc4MSwtMTczNjIwMjI3LC0xNTQ4ODkyNjYxLDE0MjI1Mj
+cxOTIsLTE0MTM0NjY1OTUsLTE1NzExMzU2NjAsLTEzNzA5OTIz
+MTQsLTE2NTc5Mzk2NV19
 -->
