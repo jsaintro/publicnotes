@@ -12,6 +12,13 @@
 #define EEPROM_SETTINGS // Enable for M500 and M501 commands
 ```
 
+# Preparation
+1. Test probe accuracy
+    ```
+    M48
+    ```
+    Note: Standard deviation below 0.01 is acceptable
+
 # Operation
 1. Reset to defaults
 
@@ -193,11 +200,11 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODMwODc1OCwtMTk3Njk4MDYwMSwtNT
-YyMDU5MTkzLC0xNTcwOTQ1NjEwLC0xOTYwODA3NDE2LDE1Nzgz
-NjI2OTUsMTk1OTg3MTkzOCw4MDg1NjQ5OTMsMTA4Njk5MzA5Ni
-wxNDQ0OTY3ODEsLTE3MzYyMDIyNywtMTU0ODg5MjY2MSwxNDIy
-NTI3MTkyLC0xNDEzNDY2NTk1LC0xNTcxMTM1NjYwLC0xMzcwOT
-kyMzE0LC0xNjU3OTM5NjUsMTMwOTc0NjUyMCwxMjA0NTAwNDE5
-LDg0MDYyMTMyMl19
+eyJoaXN0b3J5IjpbNTE2OTkzODc1LC0xOTc2OTgwNjAxLC01Nj
+IwNTkxOTMsLTE1NzA5NDU2MTAsLTE5NjA4MDc0MTYsMTU3ODM2
+MjY5NSwxOTU5ODcxOTM4LDgwODU2NDk5MywxMDg2OTkzMDk2LD
+E0NDQ5Njc4MSwtMTczNjIwMjI3LC0xNTQ4ODkyNjYxLDE0MjI1
+MjcxOTIsLTE0MTM0NjY1OTUsLTE1NzExMzU2NjAsLTEzNzA5OT
+IzMTQsLTE2NTc5Mzk2NSwxMzA5NzQ2NTIwLDEyMDQ1MDA0MTks
+ODQwNjIxMzIyXX0=
 -->
