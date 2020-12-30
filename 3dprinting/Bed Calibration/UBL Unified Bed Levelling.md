@@ -183,10 +183,10 @@ G29 J
 2. Run `G29 T1` for machine readable mesh
 3. Cut and paste mesh into sheet
 4. Select all rows and resize to 50 pixels
-5. Do the same for columns (Should already be 50 pixels)
-6. Select the cells and do `Conditional formatting` 
+5. Do the same for columns
+6. Select the cells and do `Conditional formatting` Select `Color scale
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk0NTI1NjcsLTE1NzA5NDU2MTAsLT
+eyJoaXN0b3J5IjpbLTE1MzM2ODg0OTMsLTE1NzA5NDU2MTAsLT
 E5NjA4MDc0MTYsMTU3ODM2MjY5NSwxOTU5ODcxOTM4LDgwODU2
 NDk5MywxMDg2OTkzMDk2LDE0NDQ5Njc4MSwtMTczNjIwMjI3LC
 0xNTQ4ODkyNjYxLDE0MjI1MjcxOTIsLTE0MTM0NjY1OTUsLTE1
