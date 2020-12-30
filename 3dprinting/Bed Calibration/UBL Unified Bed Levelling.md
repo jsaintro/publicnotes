@@ -18,7 +18,7 @@
     G28
     M48
     ```
-    Note: Standard deviation below 0.01 is acceptable (I get 0.008 when bed is heated)
+    Note: Standard deviation at or below 0.01 is good (I get 0.008 when bed is heated on the M8 inductive probe)
 
 # Operation
 1. Reset to defaults
@@ -201,11 +201,11 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5NDcxMTgzLC0xOTc2OTgwNjAxLC01Nj
-IwNTkxOTMsLTE1NzA5NDU2MTAsLTE5NjA4MDc0MTYsMTU3ODM2
-MjY5NSwxOTU5ODcxOTM4LDgwODU2NDk5MywxMDg2OTkzMDk2LD
-E0NDQ5Njc4MSwtMTczNjIwMjI3LC0xNTQ4ODkyNjYxLDE0MjI1
-MjcxOTIsLTE0MTM0NjY1OTUsLTE1NzExMzU2NjAsLTEzNzA5OT
-IzMTQsLTE2NTc5Mzk2NSwxMzA5NzQ2NTIwLDEyMDQ1MDA0MTks
-ODQwNjIxMzIyXX0=
+eyJoaXN0b3J5IjpbLTE1NDEzMjA0NTgsLTE5NzY5ODA2MDEsLT
+U2MjA1OTE5MywtMTU3MDk0NTYxMCwtMTk2MDgwNzQxNiwxNTc4
+MzYyNjk1LDE5NTk4NzE5MzgsODA4NTY0OTkzLDEwODY5OTMwOT
+YsMTQ0NDk2NzgxLC0xNzM2MjAyMjcsLTE1NDg4OTI2NjEsMTQy
+MjUyNzE5MiwtMTQxMzQ2NjU5NSwtMTU3MTEzNTY2MCwtMTM3MD
+k5MjMxNCwtMTY1NzkzOTY1LDEzMDk3NDY1MjAsMTIwNDUwMDQx
+OSw4NDA2MjEzMjJdfQ==
 -->
