@@ -182,15 +182,15 @@ G29 J
 1. Open google sheets
 2. Run `G29 T1` for machine readable mesh
 3. Cut and paste mesh into sheet
-4. Select all rows and resize to 100 pixels
-5. Do the same for columns (Should already be 100 pixels)
+4. Select all rows and resize to 50 pixels
+5. Do the same for columns (Should already be 50 pixels)
 6. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA4MDc0MTYsMTU3ODM2MjY5NSwxOT
-U5ODcxOTM4LDgwODU2NDk5MywxMDg2OTkzMDk2LDE0NDQ5Njc4
-MSwtMTczNjIwMjI3LC0xNTQ4ODkyNjYxLDE0MjI1MjcxOTIsLT
-E0MTM0NjY1OTUsLTE1NzExMzU2NjAsLTEzNzA5OTIzMTQsLTE2
-NTc5Mzk2NSwxMzA5NzQ2NTIwLDEyMDQ1MDA0MTksODQwNjIxMz
-IyLC03NzcwNzk3NzcsMTE3NzY5MTc5MywyNDIxMzM4OSwxNTUw
-MDMxNjI5XX0=
+eyJoaXN0b3J5IjpbLTE1NzA5NDU2MTAsLTE5NjA4MDc0MTYsMT
+U3ODM2MjY5NSwxOTU5ODcxOTM4LDgwODU2NDk5MywxMDg2OTkz
+MDk2LDE0NDQ5Njc4MSwtMTczNjIwMjI3LC0xNTQ4ODkyNjYxLD
+E0MjI1MjcxOTIsLTE0MTM0NjY1OTUsLTE1NzExMzU2NjAsLTEz
+NzA5OTIzMTQsLTE2NTc5Mzk2NSwxMzA5NzQ2NTIwLDEyMDQ1MD
+A0MTksODQwNjIxMzIyLC03NzcwNzk3NzcsMTE3NzY5MTc5Mywy
+NDIxMzM4OV19
 -->
