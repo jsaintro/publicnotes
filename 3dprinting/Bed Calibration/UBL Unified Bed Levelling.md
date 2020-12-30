@@ -183,13 +183,14 @@ G29 J
 2. Run `G29 T1` for machine readable mesh
 3. Cut and paste mesh into sheet
 4. Select all rows and resize to 100 pixels
-5. Do the same for columns (Should already be 100 pix
+5. Do the same for columns (Should already be 100 pixels)
+6. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDAwMzk0OSwxNTc4MzYyNjk1LDE5NT
-k4NzE5MzgsODA4NTY0OTkzLDEwODY5OTMwOTYsMTQ0NDk2Nzgx
-LC0xNzM2MjAyMjcsLTE1NDg4OTI2NjEsMTQyMjUyNzE5MiwtMT
-QxMzQ2NjU5NSwtMTU3MTEzNTY2MCwtMTM3MDk5MjMxNCwtMTY1
-NzkzOTY1LDEzMDk3NDY1MjAsMTIwNDUwMDQxOSw4NDA2MjEzMj
-IsLTc3NzA3OTc3NywxMTc3NjkxNzkzLDI0MjEzMzg5LDE1NTAw
-MzE2MjldfQ==
+eyJoaXN0b3J5IjpbLTE5NjA4MDc0MTYsMTU3ODM2MjY5NSwxOT
+U5ODcxOTM4LDgwODU2NDk5MywxMDg2OTkzMDk2LDE0NDQ5Njc4
+MSwtMTczNjIwMjI3LC0xNTQ4ODkyNjYxLDE0MjI1MjcxOTIsLT
+E0MTM0NjY1OTUsLTE1NzExMzU2NjAsLTEzNzA5OTIzMTQsLTE2
+NTc5Mzk2NSwxMzA5NzQ2NTIwLDEyMDQ1MDA0MTksODQwNjIxMz
+IyLC03NzcwNzk3NzcsMTE3NzY5MTc5MywyNDIxMzM4OSwxNTUw
+MDMxNjI5XX0=
 -->
