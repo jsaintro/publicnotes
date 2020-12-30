@@ -13,11 +13,12 @@
 ```
 
 # Preparation
-1. Test probe accuracy
+1. Test repeatability test accuracy
     ```
+    G28
     M48
     ```
-    Note: Standard deviation below 0.01 is acceptable
+    Note: Standard deviation below 0.01 is acceptable (I get 0.008 when bed is heated)
 
 # Operation
 1. Reset to defaults
@@ -200,7 +201,7 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2OTkzODc1LC0xOTc2OTgwNjAxLC01Nj
+eyJoaXN0b3J5IjpbODM5NDcxMTgzLC0xOTc2OTgwNjAxLC01Nj
 IwNTkxOTMsLTE1NzA5NDU2MTAsLTE5NjA4MDc0MTYsMTU3ODM2
 MjY5NSwxOTU5ODcxOTM4LDgwODU2NDk5MywxMDg2OTkzMDk2LD
 E0NDQ5Njc4MSwtMTczNjIwMjI3LC0xNTQ4ODkyNjYxLDE0MjI1
