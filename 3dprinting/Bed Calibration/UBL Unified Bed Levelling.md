@@ -1,7 +1,7 @@
 # Config
 ```
 #define AUTO_BED_LEVELING_UBL
-
+#define FILAMENT_LOAD_UNLOAD_GCODES
 #define RESTORE_LEVELING_AFTER_G28
 
 // SKIP THIS ONE AND READ BELOW
@@ -25,7 +25,12 @@
  
         M501
          
- 4. Preheat bed and hotend
+ 4. Unload current filament (If present)
+     Note: We'll be keeping the hotend hot for a while better not to cook filament
+     ```
+     M702
+     ```
+ 6. Preheat bed and hotend
      Note: Wait for the bed to come up to temp before starting on the hot end. No reason to cook plastic. Also if possible remove the filament before doing this.
      
 	 *PLA*
@@ -187,11 +192,11 @@ G29 J
 6. Select the cells and do `Conditional formatting` Select `Color scale` from the right menu bar
 7. Pick your favorite color gradient from the `preview`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjA1OTE5MywtMTU3MDk0NTYxMCwtMT
-k2MDgwNzQxNiwxNTc4MzYyNjk1LDE5NTk4NzE5MzgsODA4NTY0
-OTkzLDEwODY5OTMwOTYsMTQ0NDk2NzgxLC0xNzM2MjAyMjcsLT
-E1NDg4OTI2NjEsMTQyMjUyNzE5MiwtMTQxMzQ2NjU5NSwtMTU3
-MTEzNTY2MCwtMTM3MDk5MjMxNCwtMTY1NzkzOTY1LDEzMDk3ND
-Y1MjAsMTIwNDUwMDQxOSw4NDA2MjEzMjIsLTc3NzA3OTc3Nywx
-MTc3NjkxNzkzXX0=
+eyJoaXN0b3J5IjpbLTE5NzY5ODA2MDEsLTU2MjA1OTE5MywtMT
+U3MDk0NTYxMCwtMTk2MDgwNzQxNiwxNTc4MzYyNjk1LDE5NTk4
+NzE5MzgsODA4NTY0OTkzLDEwODY5OTMwOTYsMTQ0NDk2NzgxLC
+0xNzM2MjAyMjcsLTE1NDg4OTI2NjEsMTQyMjUyNzE5MiwtMTQx
+MzQ2NjU5NSwtMTU3MTEzNTY2MCwtMTM3MDk5MjMxNCwtMTY1Nz
+kzOTY1LDEzMDk3NDY1MjAsMTIwNDUwMDQxOSw4NDA2MjEzMjIs
+LTc3NzA3OTc3N119
 -->
