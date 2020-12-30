@@ -176,12 +176,20 @@ G29 J
     Note: You can try something crafty like `#define MESH_INSET (X_PROBE_OFFSET_FROM_EXTRUDER + X_MIN_POS + 1)`
 6. Set slicer bed dimension to never print outside of probed mesh
 	Ex. For prusa slicer I have X min = 8 X max = 212 Ymin = 8 Ymax = 200 
+
+
+### DIY Heat Map
+1. Open google sheets
+2. Run `G29 T1` for machine readable mesh
+3. Cut and paste mesh into sheet
+4. Select all rows and resize to 100 pixels
+5. Do the same for columns (Should already be 100 pix
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODM2MjY5NSwxOTU5ODcxOTM4LDgwOD
-U2NDk5MywxMDg2OTkzMDk2LDE0NDQ5Njc4MSwtMTczNjIwMjI3
-LC0xNTQ4ODkyNjYxLDE0MjI1MjcxOTIsLTE0MTM0NjY1OTUsLT
-E1NzExMzU2NjAsLTEzNzA5OTIzMTQsLTE2NTc5Mzk2NSwxMzA5
-NzQ2NTIwLDEyMDQ1MDA0MTksODQwNjIxMzIyLC03NzcwNzk3Nz
-csMTE3NzY5MTc5MywyNDIxMzM4OSwxNTUwMDMxNjI5LC0xNDMw
-NDgxOTM5XX0=
+eyJoaXN0b3J5IjpbLTg0MDAwMzk0OSwxNTc4MzYyNjk1LDE5NT
+k4NzE5MzgsODA4NTY0OTkzLDEwODY5OTMwOTYsMTQ0NDk2Nzgx
+LC0xNzM2MjAyMjcsLTE1NDg4OTI2NjEsMTQyMjUyNzE5MiwtMT
+QxMzQ2NjU5NSwtMTU3MTEzNTY2MCwtMTM3MDk5MjMxNCwtMTY1
+NzkzOTY1LDEzMDk3NDY1MjAsMTIwNDUwMDQxOSw4NDA2MjEzMj
+IsLTc3NzA3OTc3NywxMTc3NjkxNzkzLDI0MjEzMzg5LDE1NTAw
+MzE2MjldfQ==
 -->
