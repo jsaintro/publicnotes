@@ -22,7 +22,7 @@
 2. Manual bed truing
   Note: This is to get it close to level
   Make a copy of this [Heat Map Spreadsheet](https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing)
-3. Run test with bed and hotend cold and adjust 4 points until all points are the same height/color (Maybe 0.1mm)
+3. Run test with bed and hotend cold and adjust 4 points until all points are the same height/color (Maybe 0.5mm or less)
 4. Note: drop the prob points to 4 so this goes quicker.  
 
 # Operation
@@ -206,11 +206,11 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTMyNDk0MiwtMTU0MTMyMDQ1OCwtMT
-k3Njk4MDYwMSwtNTYyMDU5MTkzLC0xNTcwOTQ1NjEwLC0xOTYw
-ODA3NDE2LDE1NzgzNjI2OTUsMTk1OTg3MTkzOCw4MDg1NjQ5OT
-MsMTA4Njk5MzA5NiwxNDQ0OTY3ODEsLTE3MzYyMDIyNywtMTU0
-ODg5MjY2MSwxNDIyNTI3MTkyLC0xNDEzNDY2NTk1LC0xNTcxMT
-M1NjYwLC0xMzcwOTkyMzE0LC0xNjU3OTM5NjUsMTMwOTc0NjUy
-MCwxMjA0NTAwNDE5XX0=
+eyJoaXN0b3J5IjpbLTE0MDM4ODI5NjgsMTE2OTMyNDk0MiwtMT
+U0MTMyMDQ1OCwtMTk3Njk4MDYwMSwtNTYyMDU5MTkzLC0xNTcw
+OTQ1NjEwLC0xOTYwODA3NDE2LDE1NzgzNjI2OTUsMTk1OTg3MT
+kzOCw4MDg1NjQ5OTMsMTA4Njk5MzA5NiwxNDQ0OTY3ODEsLTE3
+MzYyMDIyNywtMTU0ODg5MjY2MSwxNDIyNTI3MTkyLC0xNDEzND
+Y2NTk1LC0xNTcxMTM1NjYwLC0xMzcwOTkyMzE0LC0xNjU3OTM5
+NjUsMTMwOTc0NjUyMF19
 -->
