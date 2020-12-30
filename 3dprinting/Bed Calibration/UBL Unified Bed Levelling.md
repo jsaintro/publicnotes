@@ -184,13 +184,14 @@ G29 J
 3. Cut and paste mesh into sheet
 4. Select all rows and resize to 50 pixels
 5. Do the same for columns
-6. Select the cells and do `Conditional formatting` Select `Color scale
+6. Select the cells and do `Conditional formatting` Select `Color scale` from the right menu bar
+7. Pick your favorite color gradient from the `preview`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM2ODg0OTMsLTE1NzA5NDU2MTAsLT
-E5NjA4MDc0MTYsMTU3ODM2MjY5NSwxOTU5ODcxOTM4LDgwODU2
-NDk5MywxMDg2OTkzMDk2LDE0NDQ5Njc4MSwtMTczNjIwMjI3LC
-0xNTQ4ODkyNjYxLDE0MjI1MjcxOTIsLTE0MTM0NjY1OTUsLTE1
-NzExMzU2NjAsLTEzNzA5OTIzMTQsLTE2NTc5Mzk2NSwxMzA5Nz
-Q2NTIwLDEyMDQ1MDA0MTksODQwNjIxMzIyLC03NzcwNzk3Nzcs
-MTE3NzY5MTc5M119
+eyJoaXN0b3J5IjpbLTU2MjA1OTE5MywtMTU3MDk0NTYxMCwtMT
+k2MDgwNzQxNiwxNTc4MzYyNjk1LDE5NTk4NzE5MzgsODA4NTY0
+OTkzLDEwODY5OTMwOTYsMTQ0NDk2NzgxLC0xNzM2MjAyMjcsLT
+E1NDg4OTI2NjEsMTQyMjUyNzE5MiwtMTQxMzQ2NjU5NSwtMTU3
+MTEzNTY2MCwtMTM3MDk5MjMxNCwtMTY1NzkzOTY1LDEzMDk3ND
+Y1MjAsMTIwNDUwMDQxOSw4NDA2MjEzMjIsLTc3NzA3OTc3Nywx
+MTc3NjkxNzkzXX0=
 -->
