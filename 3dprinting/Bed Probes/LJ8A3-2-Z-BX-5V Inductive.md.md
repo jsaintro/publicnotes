@@ -16,10 +16,9 @@ With 3mm alu bed has about a 2mm detection distance.  So PEI sheet must be very 
 # Mechanical Placement
 1. Lower extruder till it touches paper in 0.1mm increments
 2. Raise extruder .1mm
-3. put the thickness of 2 small zip
+3. put the thickness of 2 small zip ties under probe and drop probe till it touches zip ties
 4. See if sensor has triggered with M119 (Z endtop triggered)
-5. If not then rotate sensor 1/4 and check M119 repeat till triggered
-6. Repeat steps 1 till sensor triggers
+6. Raise in .1 mm increments until the prob stops triggering
 7. Remove a couple of slips of paper and faster there
 
 # Test sensor functionality
@@ -118,6 +117,6 @@ Use G92Z{distance) to set position of z independent of probe
         Note: You can get the current offset by running `M851` without any arguments 
     3.  Save and upload (DON'T forget to disconnect PRONTERFACE from the serial first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0NzU1MDAyLDE0Mjg1MDY4OTEsLTE3Mj
+eyJoaXN0b3J5IjpbNzI0MjI3MjAxLDE0Mjg1MDY4OTEsLTE3Mj
 kwODEzMTgsLTM0OTkzOTI5Miw1NDQ1NDQ3ODVdfQ==
 -->
