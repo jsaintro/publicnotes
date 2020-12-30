@@ -19,6 +19,10 @@
     M48
     ```
     Note: Standard deviation at or below 0.01 is good (I get 0.008 when bed is heated on the M8 inductive probe)
+2. Manual bed truing
+  Note: This is to get it close to level
+  Make a copy of this [Heat Pahttps://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing 
+  https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 
 # Operation
 1. Reset to defaults
@@ -201,11 +205,11 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDEzMjA0NTgsLTE5NzY5ODA2MDEsLT
-U2MjA1OTE5MywtMTU3MDk0NTYxMCwtMTk2MDgwNzQxNiwxNTc4
-MzYyNjk1LDE5NTk4NzE5MzgsODA4NTY0OTkzLDEwODY5OTMwOT
-YsMTQ0NDk2NzgxLC0xNzM2MjAyMjcsLTE1NDg4OTI2NjEsMTQy
-MjUyNzE5MiwtMTQxMzQ2NjU5NSwtMTU3MTEzNTY2MCwtMTM3MD
-k5MjMxNCwtMTY1NzkzOTY1LDEzMDk3NDY1MjAsMTIwNDUwMDQx
-OSw4NDA2MjEzMjJdfQ==
+eyJoaXN0b3J5IjpbLTgzMDk3NDIxNCwtMTU0MTMyMDQ1OCwtMT
+k3Njk4MDYwMSwtNTYyMDU5MTkzLC0xNTcwOTQ1NjEwLC0xOTYw
+ODA3NDE2LDE1NzgzNjI2OTUsMTk1OTg3MTkzOCw4MDg1NjQ5OT
+MsMTA4Njk5MzA5NiwxNDQ0OTY3ODEsLTE3MzYyMDIyNywtMTU0
+ODg5MjY2MSwxNDIyNTI3MTkyLC0xNDEzNDY2NTk1LC0xNTcxMT
+M1NjYwLC0xMzcwOTkyMzE0LC0xNjU3OTM5NjUsMTMwOTc0NjUy
+MCwxMjA0NTAwNDE5XX0=
 -->
