@@ -10,22 +10,22 @@ Note: Don't use the Ubuntu package it's buggy
 
     ```
 
-```
-sudo apt install python3-pip
-pip3 install --user pyglet
+    ```
+    sudo apt install python3-pip
+    pip3 install --user pyglet
 
-```
+     ```
 
-Install git, clone this repository:
-
-```
-cd ~
-git clone https://github.com/kliment/Printrun.git
-```
+2. Clone the printrun repository:
+    ```
+    cd ~
+    git clone https://github.com/kliment/Printrun.git
+    ```
 
 2. Run
 
          ./pronterface.py
+
 ## Gome Setup
 2. Create the gnome configuration file
 
@@ -45,7 +45,7 @@ git clone https://github.com/kliment/Printrun.git
 
 4. You can now search and use pronterface like any other application and also make a favoriate out of it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTUxOTkwNywxNjA4MTIyNTMyLC0xND
-Y3ODgyNDI4LC0xNzI1MzUzNTM5LC02ODgwMjk2MjEsMTA1Mzgy
-ODAyMSwtMTc3MjMzMjQ5MywxMzI0MTMwNTYwXX0=
+eyJoaXN0b3J5IjpbMTUwMjI4NzYzLDE2MDgxMjI1MzIsLTE0Nj
+c4ODI0MjgsLTE3MjUzNTM1MzksLTY4ODAyOTYyMSwxMDUzODI4
+MDIxLC0xNzcyMzMyNDkzLDEzMjQxMzA1NjBdfQ==
 -->
