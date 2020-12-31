@@ -132,11 +132,12 @@ This mesh will limit printing to only those points that can be physically probed
 
 # Set probe offset
 1. Preheat hotend/heat bed for plastic being used (I.E. PLA/PETG/ABS)
+2. Place paper under hotend 
 2. Use Marlin Firmware Wizard
 
        Configuration/Advanced Settings/Probe Offsets/Z Probe Wizard
 
-3. Save Co
+3. Save Confuration to EEProm
 Then Save Configuration/Store Settings
 
 
@@ -217,7 +218,7 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTAzMzcwNSwtNDI4MzUwOSwtMTQ4Nz
+eyJoaXN0b3J5IjpbMTQ3NTAyMTUxNSwtNDI4MzUwOSwtMTQ4Nz
 IwMTIxMiw2MjU5ODQ4NDksLTE3MTI5MDcwNywtMTQ1OTU4MDIx
 MSwtMTA3NDIyNDYyLDE5MTE2MjM1MTAsLTExNTY0OTk1MjYsLT
 EwMTU1ODQ0MjgsLTEzMjI5NTQ1NjddfQ==
