@@ -168,7 +168,8 @@ G29 J
 [https://github.com/MarlinFirmware/Marlin/issues/7508](https://github.com/MarlinFirmware/Marlin/issues/7508)
 [http://marlinfw.org/docs/gcode/G029-ubl.html](http://marlinfw.org/docs/gcode/G029-ubl.html)
 
-# Perfect Mesh
+## Physically Compatible Mesh
+This mesh will limit printing to only those points that can be physically probed. Non proped points can be interpolated on on edges this is highly inaccurate.
 1. Try and get all points probed
 2. Set bed dimensions to actual bed dimensions
     ```
@@ -208,6 +209,6 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTYyMzUxMCwtMTE1NjQ5OTUyNiwtMT
-AxNTU4NDQyOCwtMTMyMjk1NDU2N119
+eyJoaXN0b3J5IjpbLTE3ODAyNzUwMjQsMTkxMTYyMzUxMCwtMT
+E1NjQ5OTUyNiwtMTAxNTU4NDQyOCwtMTMyMjk1NDU2N119
 -->
