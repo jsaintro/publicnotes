@@ -25,20 +25,8 @@
 3. Run test with bed and hotend cold and adjust 4 points until all points are the same height/color (Maybe 0.5mm or less)
 4. Note: drop the prob points to 4 so this goes quicker.  
 
-# Operation
-1. Reset to defaults
-
-        M502
-
-2. Save to eeprom
-
-        M500
-
- 3. Current eeprom settings
- 
-        M501
-         
- 4. Unload current filament (If present)
+# Operation  
+ 1. Unload current filament (If present)
      Note: We'll be keeping the hotend hot for a while better not to cook filament
      ```
      M702
@@ -210,11 +198,11 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODYwMTk2MSwxNTY0MDE3NTQ0LC0xND
-AzODgyOTY4LDExNjkzMjQ5NDIsLTE1NDEzMjA0NTgsLTE5NzY5
-ODA2MDEsLTU2MjA1OTE5MywtMTU3MDk0NTYxMCwtMTk2MDgwNz
-QxNiwxNTc4MzYyNjk1LDE5NTk4NzE5MzgsODA4NTY0OTkzLDEw
-ODY5OTMwOTYsMTQ0NDk2NzgxLC0xNzM2MjAyMjcsLTE1NDg4OT
-I2NjEsMTQyMjUyNzE5MiwtMTQxMzQ2NjU5NSwtMTU3MTEzNTY2
-MCwtMTM3MDk5MjMxNF19
+eyJoaXN0b3J5IjpbLTEzMjI5NTQ1NjcsMTYyODYwMTk2MSwxNT
+Y0MDE3NTQ0LC0xNDAzODgyOTY4LDExNjkzMjQ5NDIsLTE1NDEz
+MjA0NTgsLTE5NzY5ODA2MDEsLTU2MjA1OTE5MywtMTU3MDk0NT
+YxMCwtMTk2MDgwNzQxNiwxNTc4MzYyNjk1LDE5NTk4NzE5Mzgs
+ODA4NTY0OTkzLDEwODY5OTMwOTYsMTQ0NDk2NzgxLC0xNzM2Mj
+AyMjcsLTE1NDg4OTI2NjEsMTQyMjUyNzE5MiwtMTQxMzQ2NjU5
+NSwtMTU3MTEzNTY2MF19
 -->
