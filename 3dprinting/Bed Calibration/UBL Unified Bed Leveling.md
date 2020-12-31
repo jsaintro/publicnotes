@@ -1,6 +1,6 @@
 # Comprehensive UBL Guide for Marlin
 
-## Config
+## Marling Config
 ```
 #define AUTO_BED_LEVELING_UBL
 #define FILAMENT_LOAD_UNLOAD_GCODES
@@ -13,6 +13,36 @@
 #define G26_MESH_VALIDATION
 #define EEPROM_SETTINGS // Enable for M500 and M501 commands
 ```
+
+## Physically Compatible Mesh
+This mesh will limit printing to only those points that can be physically probed. Non proped points can be interpolated on on edges this is highly inaccurate.
+1. Try and get all points probed
+2. Set bed dimensions to actual bed dimensions
+    ```
+    #define  X_BED_SIZE  220
+    #define  Y_BED_SIZE  208
+    ```
+3. Set Travel Limits
+    ```
+    #define  X_MIN_POS  -16 // X End stop is 16mm past X=0
+    #define  Y_MIN_POS  -3 // Y End stop is 3mm past Y=0
+    #define  Z_MIN_POS  0 // Going through the bed with the hotend is never a good idea ;-)
+    #define  X_MAX_POS  X_BED_SIZE
+    #define  Y_MAX_POS  Y_BED_SIZE
+    #define  Z_MAX_POS  220
+    ```
+4. Make sure probe offset is exactly right
+    ```
+    #define  NOZZLE_TO_PROBE_OFFSET { 23, 5, -1.3 } // My probe is 23mm X, 5mm Y, and 1.3 Higher than Z
+    ```
+5. To calculate your mesh border probe point must be within travel limits of nozzle + probe offsets.
+	    Ex. My probe is 23mm offset from nozzle. Nozzle can only get to -16mm in X axis. Therefore 23mm - 16mm = 7mm is the furthest I can probe on my X axis. So I should set my mesh inset to 8mm (+1mm to prevent accidental endstop triggers)
+    ```
+    #define MESH_INSET 8
+    ```
+    Note: You can try something crafty like `#define MESH_INSET (X_PROBE_OFFSET_FROM_EXTRUDER + X_MIN_POS + 1)`
+6. Set slicer bed dimension to never print outside of probed mesh
+	Ex. For prusa slicer I have X min = 8 X max = 212 Ymin = 8 Ymax = 200 
 
 ## Preparation
 1. Test repeatability test accuracy
@@ -168,35 +198,7 @@ G29 J
 [https://github.com/MarlinFirmware/Marlin/issues/7508](https://github.com/MarlinFirmware/Marlin/issues/7508)
 [http://marlinfw.org/docs/gcode/G029-ubl.html](http://marlinfw.org/docs/gcode/G029-ubl.html)
 
-## Physically Compatible Mesh
-This mesh will limit printing to only those points that can be physically probed. Non proped points can be interpolated on on edges this is highly inaccurate.
-1. Try and get all points probed
-2. Set bed dimensions to actual bed dimensions
-    ```
-    #define  X_BED_SIZE  220
-    #define  Y_BED_SIZE  208
-    ```
-3. Set Travel Limits
-    ```
-    #define  X_MIN_POS  -16 // X End stop is 16mm past X=0
-    #define  Y_MIN_POS  -3 // Y End stop is 3mm past Y=0
-    #define  Z_MIN_POS  0 // Going through the bed with the hotend is never a good idea ;-)
-    #define  X_MAX_POS  X_BED_SIZE
-    #define  Y_MAX_POS  Y_BED_SIZE
-    #define  Z_MAX_POS  220
-    ```
-4. Make sure probe offset is exactly right
-    ```
-    #define  NOZZLE_TO_PROBE_OFFSET { 23, 5, -1.3 } // My probe is 23mm X, 5mm Y, and 1.3 Higher than Z
-    ```
-5. To calculate your mesh border probe point must be within travel limits of nozzle + probe offsets.
-	    Ex. My probe is 23mm offset from nozzle. Nozzle can only get to -16mm in X axis. Therefore 23mm - 16mm = 7mm is the furthest I can probe on my X axis. So I should set my mesh inset to 8mm (+1mm to prevent accidental endstop triggers)
-    ```
-    #define MESH_INSET 8
-    ```
-    Note: You can try something crafty like `#define MESH_INSET (X_PROBE_OFFSET_FROM_EXTRUDER + X_MIN_POS + 1)`
-6. Set slicer bed dimension to never print outside of probed mesh
-	Ex. For prusa slicer I have X min = 8 X max = 212 Ymin = 8 Ymax = 200 
+
 
 
 ### DIY Heat Map
@@ -209,6 +211,6 @@ This mesh will limit printing to only those points that can be physically probed
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODAyNzUwMjQsMTkxMTYyMzUxMCwtMT
-E1NjQ5OTUyNiwtMTAxNTU4NDQyOCwtMTMyMjk1NDU2N119
+eyJoaXN0b3J5IjpbLTEwNzQyMjQ2MiwxOTExNjIzNTEwLC0xMT
+U2NDk5NTI2LC0xMDE1NTg0NDI4LC0xMzIyOTU0NTY3XX0=
 -->
