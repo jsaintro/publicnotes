@@ -12,9 +12,9 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 7. PRONTERFACE
 
 ### Initial printer calibration
-1. Frame https://teachingtechyt.github.io/calibration.html#frame
+1. [See Teaching Tech's Frame Check](https://teachingtechyt.github.io/calibration.html#frame
 2. Temperature Calibration/PID Tuning
-3. `Bed Calibration/(Prusa/Marlin) 1st Layer` also look at https://teachingtechyt.github.io/calibration.html#firstlayer
+3. `Bed Calibration/(Prusa/Marlin) 1st Layer` also look at [Teching Tech's First Layer Guide](https://teachingtechyt.github.io/calibration.html#firstlayer)
 4. Baseline print https://teachingtechyt.github.io/calibration.html#baseline
 5. Extruder/Esteps Stepper Calibration alt: https://teachingtechyt.github.io/calibration.html#esteps
 6. Extruder/Extrusion Multiplier https://teachingtechyt.github.io/calibration.html#flow (This is different from MK3s and Gen1.5)
@@ -31,9 +31,9 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 5. Extruder/Extrusion Multiplier
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODExOTY3ODUsMTExNzc4NjYwNiw1Mj
-YxMDAzNjIsMTY0NjIwODQ5LC0xMTQwMTUzNSwtNzY5NDcyNzU3
-LC03MjkzNzQwNjQsNTEwNDcwMDYxLDgxOTY2MjIwNCw1OTY5Nj
-UwODYsOTAxNDM3MDc2LDY1MDY2OTQ3OSwxMDAyNDQzMiwxNDc0
-ODA0MTI1LC02OTI4MDkwMDldfQ==
+eyJoaXN0b3J5IjpbLTE5NTQwNzczMDcsLTEwODExOTY3ODUsMT
+ExNzc4NjYwNiw1MjYxMDAzNjIsMTY0NjIwODQ5LC0xMTQwMTUz
+NSwtNzY5NDcyNzU3LC03MjkzNzQwNjQsNTEwNDcwMDYxLDgxOT
+Y2MjIwNCw1OTY5NjUwODYsOTAxNDM3MDc2LDY1MDY2OTQ3OSwx
+MDAyNDQzMiwxNDc0ODA0MTI1LC02OTI4MDkwMDldfQ==
 -->
