@@ -19,6 +19,7 @@
     M48
     ```
     Note: Standard deviation at or below 0.01 is good (I get 0.008 when bed is heated on the M8 inductive probe)
+    
 2. Manual bed truing
   Note: This is to get it close to level
   Make a copy of this [Heat Map Spreadsheet](https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing)
@@ -198,5 +199,5 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI5NTQ1NjddfQ==
+eyJoaXN0b3J5IjpbMTI2MjMzODMxNSwtMTMyMjk1NDU2N119
 -->
