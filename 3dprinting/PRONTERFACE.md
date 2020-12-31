@@ -24,7 +24,10 @@ Note: Don't use the Ubuntu package it's buggy
     ```
 
 3. Checkout latest tagged release
-    git branch -v
+
+       git tag -l
+       git checkout 
+
 5. Run
 
        ./pronterface.py
@@ -57,9 +60,9 @@ Note: Don't use the Ubuntu package it's buggy
 
 2. Checkout the latest tag
 
-       git checkout 
+       git checkout printrun-2.0.0rc7
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0MzU5ODk0LDE2MDgxMjI1MzIsLTE0Nj
-c4ODI0MjgsLTE3MjUzNTM1MzksLTY4ODAyOTYyMSwxMDUzODI4
-MDIxLC0xNzcyMzMyNDkzLDEzMjQxMzA1NjBdfQ==
+eyJoaXN0b3J5IjpbMjc5ODk4Myw5ODQzNTk4OTQsMTYwODEyMj
+UzMiwtMTQ2Nzg4MjQyOCwtMTcyNTM1MzUzOSwtNjg4MDI5NjIx
+LDEwNTM4MjgwMjEsLTE3NzIzMzI0OTMsMTMyNDEzMDU2MF19
 -->
