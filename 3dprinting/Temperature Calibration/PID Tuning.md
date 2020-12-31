@@ -1,7 +1,8 @@
 # PID Tuning
 ## Tune your hotend  
 1. Unload filament (So you don't cook it)
-2. You will be testing a full range of temps
+    `Change Filament/`
+3. You will be testing a full range of temps
    XXX = 180,190,210,220,230,240,250,260,270
    
 4. Run the following gcode
@@ -79,9 +80,9 @@ Edit the start gcode for the printer profile
     ``` 
       Note: Replace the XXXs with our actual PID values that are output from the previous step
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODEwMjM2NCwtOTUxMDc2NTIsLTQwNT
-UwNDcxNCwtMjkxOTkxNDE5LDEwMTM1ODIzNjMsLTQwNDI1NTU1
-NCw5OTY2NjY5NTgsLTE3NTgzMjQzNzEsNzk2NjQzNTEyLC02Nj
-AxMjU1NzcsMTYzMDQ4MzE5MSw2MzY3MTQwMTksLTEzMDgyOTcw
-MTRdfQ==
+eyJoaXN0b3J5IjpbLTIwODQyNjc5NTYsLTk1MTA3NjUyLC00MD
+U1MDQ3MTQsLTI5MTk5MTQxOSwxMDEzNTgyMzYzLC00MDQyNTU1
+NTQsOTk2NjY2OTU4LC0xNzU4MzI0MzcxLDc5NjY0MzUxMiwtNj
+YwMTI1NTc3LDE2MzA0ODMxOTEsNjM2NzE0MDE5LC0xMzA4Mjk3
+MDE0XX0=
 -->
