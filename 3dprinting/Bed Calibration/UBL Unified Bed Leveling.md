@@ -35,13 +35,18 @@
 
 ## Operation  
 
-6. Preheat bed and hotend
+1. Preheat bed and hotend
      Note: Wait for the bed to come up to temp before starting on the hot end. No reason to cook plastic. Also if possible remove the filament before doing this.
      
 	 *PLA*
 	```	 
 	M140 S65 ; heat up the bed
 	M104 S190 ; heat up the hot end
+	```
+	 *PETG*
+	```	 
+	M140 S85 ; heat up the bed
+	M104 S230 ; heat up the hot end
 	```
 	*ABS*
 	```	 
@@ -77,7 +82,7 @@
      2. Paste is a visualizer tool [This one](https://mkdev.co.uk/mesh-visualizer/) or [This one](https://i.chillrain.com/index.php/3d-printer-auto-bed-leveling-mesh-visualizer/)
 8. Save Mesh
     ```
-    G29 S1 // S1 for PLA S2 for ABS
+    G29 S1 // S1 for PLA, S2 for PETG, S3 for ABS
     ```
 9. Set Fade height
     ```
@@ -202,6 +207,6 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTk0Njc5NiwtMTE1NjQ5OTUyNiwtMT
+eyJoaXN0b3J5IjpbMTkwMTY5OTk1NSwtMTE1NjQ5OTUyNiwtMT
 AxNTU4NDQyOCwtMTMyMjk1NDU2N119
 -->
