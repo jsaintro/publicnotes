@@ -20,9 +20,9 @@
 
     Note: Standard deviation at or below 0.01 is good (I get 0.008 when bed is heated on the M8 inductive probe)
     
-3. Manual bed truing
-  Note: This is to get it close to level
-  Make a copy of this [Heat Map Spreadsheet](https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing)
+2. Manual bed truing (Get bed close to mechanical true)
+    1. Configure firmware to only probe 4 points in X/Y (Will make the process go quicker)
+    2. Make a copy of this [Heat Map Spreadsheet](https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing)
    1. Run test with bed and hotend cold and adjust 4 points until all points are the same height/color (Maybe 0.5mm or less)
       Note: drop the prob points to 4 so this goes quicker.  
 
@@ -199,5 +199,6 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA1MDc0ODU0LC0xMzIyOTU0NTY3XX0=
+eyJoaXN0b3J5IjpbLTExMDQ3OTM5MTAsLTEzMjI5NTQ1NjddfQ
+==
 -->
