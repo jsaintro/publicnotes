@@ -11,7 +11,8 @@
     |Bed Y dimension (mm)|208||
     |Extra margin from edge (mm)|8||
     |Hot end temperature (deg C)|230||
-    |Bed temperature (deg C)
+    |Bed temperature (deg C)|85||
+    |Audo Bed Levelling|No ABL||
     Note: L2 is the mesh to load (L1 = PLA/L2 = PETG/L3 = ABS)
 	2. [https://www.thingiverse.com/thing:3730866](https://www.thingiverse.com/thing:3730866)
 	3. Search for and set the correct temperatures 
@@ -25,7 +26,7 @@ M109 Sxxx; wait hotend temp
 4. Select "Change Filament" From menu and load PLA
 5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQyNDMyNCwxODg3MTU2OTI4LC0xMj
-E3OTIwNjYzLC03MDYzMzU2OTUsOTM3Nzc1MTU0LC0xNjIzMTY1
-NjM4XX0=
+eyJoaXN0b3J5IjpbLTE1OTMyMDkyODMsMTg4NzE1NjkyOCwtMT
+IxNzkyMDY2MywtNzA2MzM1Njk1LDkzNzc3NTE1NCwtMTYyMzE2
+NTYzOF19
 -->
