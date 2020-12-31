@@ -18,13 +18,14 @@ Note: Don't use the Ubuntu package it's buggy
 
 2. Clone the printrun repository:
     ```
-  mkdir ~/Printrun  
     cd ~
     git clone https://github.com/kliment/Printrun.git
+    cd Printrun
     ```
 
-2. Checkout latests tagged release
-2. Run
+3. Checkout latest tagged release
+    git branch -v
+5. Run
 
        ./pronterface.py
 
@@ -47,7 +48,7 @@ Note: Don't use the Ubuntu package it's buggy
 
 4. You can now search and use pronterface like any other application and also make a favoriate out of it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NjQ4NjgwNCwxNjA4MTIyNTMyLC0xND
-Y3ODgyNDI4LC0xNzI1MzUzNTM5LC02ODgwMjk2MjEsMTA1Mzgy
-ODAyMSwtMTc3MjMzMjQ5MywxMzI0MTMwNTYwXX0=
+eyJoaXN0b3J5IjpbLTEzMDQ0OTYyNDUsMTYwODEyMjUzMiwtMT
+Q2Nzg4MjQyOCwtMTcyNTM1MzUzOSwtNjg4MDI5NjIxLDEwNTM4
+MjgwMjEsLTE3NzIzMzI0OTMsMTMyNDEzMDU2MF19
 -->
