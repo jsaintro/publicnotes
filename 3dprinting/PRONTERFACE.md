@@ -49,15 +49,17 @@ Note: Don't use the Ubuntu package it's buggy
 3. You can now search and use pronterface like any other application and also make a favoriate out of it
 
 ## Upgrading
-1. View the latest branches
+1. View the latest tag
 
        cd ~/Printrun
        git fetch
-       git branch -r
+       git tag -l
 
-2.
+2. Checkout the latest tag
+
+       git checkout 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTM0NzAwOCwxNjA4MTIyNTMyLC0xND
-Y3ODgyNDI4LC0xNzI1MzUzNTM5LC02ODgwMjk2MjEsMTA1Mzgy
-ODAyMSwtMTc3MjMzMjQ5MywxMzI0MTMwNTYwXX0=
+eyJoaXN0b3J5IjpbOTg0MzU5ODk0LDE2MDgxMjI1MzIsLTE0Nj
+c4ODI0MjgsLTE3MjUzNTM1MzksLTY4ODAyOTYyMSwxMDUzODI4
+MDIxLC0xNzcyMzMyNDkzLDEzMjQxMzA1NjBdfQ==
 -->
