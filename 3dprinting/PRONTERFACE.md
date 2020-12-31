@@ -55,8 +55,9 @@ Note: Don't use the Ubuntu package it's buggy
        git fetch
        git branch -r
 
+2.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE0NDY5NjIsMTYwODEyMjUzMiwtMT
-Q2Nzg4MjQyOCwtMTcyNTM1MzUzOSwtNjg4MDI5NjIxLDEwNTM4
-MjgwMjEsLTE3NzIzMzI0OTMsMTMyNDEzMDU2MF19
+eyJoaXN0b3J5IjpbMTc2OTM0NzAwOCwxNjA4MTIyNTMyLC0xND
+Y3ODgyNDI4LC0xNzI1MzUzNTM5LC02ODgwMjk2MjEsMTA1Mzgy
+ODAyMSwtMTc3MjMzMjQ5MywxMzI0MTMwNTYwXX0=
 -->
