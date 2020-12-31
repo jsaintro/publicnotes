@@ -1,18 +1,14 @@
 # Pronterface Notes
-Note: printrun project is dead.  Should probably find an alternative at some point.
+Pronterface lets you control your 3dprinter via the usb
 
-pronterface lets you control your 3dprinter via the usb
-
-1. Install
-
+## Install
 Note: Don't use the Ubuntu package it's buggy
 
-Install the dependencies:
+1. Install the dependencies:
+    ```
+    sudo apt install python3-serial python3-numpy cython3 python3-libxml2 python3-gi python3-dbus python3-psutil python3-cairosvg libpython3-dev python3-appdirs python3-wxgtk4.0
 
-```
-sudo apt install python3-serial python3-numpy cython3 python3-libxml2 python3-gi python3-dbus python3-psutil python3-cairosvg libpython3-dev python3-appdirs python3-wxgtk4.0
-
-```
+    ```
 
 ```
 sudo apt install python3-pip
@@ -49,7 +45,7 @@ git clone https://github.com/kliment/Printrun.git
 
 4. You can now search and use pronterface like any other application and also make a favoriate out of it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODEyMjUzMiwtMTQ2Nzg4MjQyOCwtMT
-cyNTM1MzUzOSwtNjg4MDI5NjIxLDEwNTM4MjgwMjEsLTE3NzIz
-MzI0OTMsMTMyNDEzMDU2MF19
+eyJoaXN0b3J5IjpbLTQ0NTUxOTkwNywxNjA4MTIyNTMyLC0xND
+Y3ODgyNDI4LC0xNzI1MzUzNTM5LC02ODgwMjk2MjEsMTA1Mzgy
+ODAyMSwtMTc3MjMzMjQ5MywxMzI0MTMwNTYwXX0=
 -->
