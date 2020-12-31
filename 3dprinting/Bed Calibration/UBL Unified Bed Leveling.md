@@ -77,8 +77,10 @@
     Note: This is good to do right now as it shows you if you're bed is completely off
     1. Get a computer parsable version of the mesh
 
-       G29 T1
+           G29 T1
+       
     2. Paste in this  [Heat Map Spreadsheet](https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing)
+
 8. Save Mesh
     ```
     G29 S1 // S1 for PLA, S2 for PETG, S3 for ABS
@@ -206,6 +208,6 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2Nzc0NjQ0LC0xMTU2NDk5NTI2LC0xMD
-E1NTg0NDI4LC0xMzIyOTU0NTY3XX0=
+eyJoaXN0b3J5IjpbMTkxMTYyMzUxMCwtMTE1NjQ5OTUyNiwtMT
+AxNTU4NDQyOCwtMTMyMjk1NDU2N119
 -->
