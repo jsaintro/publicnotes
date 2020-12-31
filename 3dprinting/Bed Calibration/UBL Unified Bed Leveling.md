@@ -27,7 +27,7 @@
     2. Copy this [Heat Map Spreadsheet](https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing)
    1. Run `G29 P1` with bed and hotend cold and adjust 4 corners until all points are the same height/color (Maybe 0.5mm or less)
 
-# Operation  
+## Operation  
  1. Unload current filament (If present)
      Note: We'll be keeping the hotend hot for a while better not to cook filament
      ```
@@ -200,6 +200,6 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzk5MzIyNDMsLTEzMjI5NTQ1NjddfQ
+eyJoaXN0b3J5IjpbLTEwMTU1ODQ0MjgsLTEzMjI5NTQ1NjddfQ
 ==
 -->
