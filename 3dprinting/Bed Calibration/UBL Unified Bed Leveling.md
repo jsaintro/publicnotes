@@ -131,50 +131,55 @@ This mesh will limit printing to only those points that can be physically probed
 12. Repeat this procedure for all the plastics you might use I.E. PETG/ABS etc..
 
 # Set probe offset
-Try Firmware wizard Configuration/Advanced Settings/Probe Offsets/Z Probe Wizard
+1. Preheat hotend/heat bed for plastic being used (I.E. PLA/PETG/ABS)
+2. Use Marlin Firmware Wizard
+
+       Configuration/Advanced Settings/Probe Offsets/Z Probe Wizard
+
+3. Save Co
 Then Save Configuration/Store Settings
 
 
-1. Clear current
+4. Clear current
     ```
     M851 Z0
     ```
 
-2. Home and center
+5. Home and center
     ```
     G28
     ``` 
 
-3. Disable software endstops
+6. Disable software endstops
     ```
     M211 S0
     ```
 
-4. Adjust down till you touch paper
-5. See setting
+7. Adjust down till you touch paper
+8. See setting
     ```
     M114
     ```
     Note: That's your offset Z-0.71 Z-2.56 Z-1.0
 
-6. Set in firmware
+9. Set in firmware
     ```
     #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.71
     ```
     
-7. Do in terminal
+10. Do in terminal
    ```
     M851 Z-0.71
     M500 //to save
     ```
     
-8. Run mesh validation print
+11. Run mesh validation print
     ```
     G28
     G26 I0 P2 //P2 primes with 2 mm of filament using PLA settings??
     ```
     
-9. Resave
+12. Resave
     ```
     G29 S1
     M500
@@ -212,8 +217,8 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODM1MDksLTE0ODcyMDEyMTIsNjI1OT
-g0ODQ5LC0xNzEyOTA3MDcsLTE0NTk1ODAyMTEsLTEwNzQyMjQ2
-MiwxOTExNjIzNTEwLC0xMTU2NDk5NTI2LC0xMDE1NTg0NDI4LC
-0xMzIyOTU0NTY3XX0=
+eyJoaXN0b3J5IjpbLTI4NTAzMzcwNSwtNDI4MzUwOSwtMTQ4Nz
+IwMTIxMiw2MjU5ODQ4NDksLTE3MTI5MDcwNywtMTQ1OTU4MDIx
+MSwtMTA3NDIyNDYyLDE5MTE2MjM1MTAsLTExNTY0OTk1MjYsLT
+EwMTU1ODQ0MjgsLTEzMjI5NTQ1NjddfQ==
 -->
