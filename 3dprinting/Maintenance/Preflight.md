@@ -4,8 +4,9 @@
 3. no kinks in filament
 4. end of filament prepped for loading
 5. Check wiring (Frayed too tight/broken cable management
-6. Home all axis, especially z
-7. Do 1st layer calibration if this is a new filament
+6. 
+7. Home all axis, especially z
+8. Do 1st layer calibration if this is a new filament
 
 ## Prep Hot End
 Note: Plastic stuck to hot End can cause print failure
@@ -23,6 +24,6 @@ Note: Oil from last print/removal process can contaminate bed
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3NDI4MDQyLDExMDQ5MTM2MTksMTczNj
-QwNDY5MSwyMDQ2NTU2OTgwLC0yMjM4MDM0NzJdfQ==
+eyJoaXN0b3J5IjpbLTE5NjkzNDMwNCwxMTA0OTEzNjE5LDE3Mz
+Y0MDQ2OTEsMjA0NjU1Njk4MCwtMjIzODAzNDcyXX0=
 -->
