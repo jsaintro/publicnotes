@@ -1,10 +1,46 @@
 # PID Tuning
 ## Pre-flight
 1. Unload filament (So you don't cook it)
-    `Change Filament/Unload Filament`
+    `Change Filament/Unload Filament` (Marlin LCD)
     
+## Tune your heatbed  
+
+1. You will be testing a full range bed temps
+   XXX = 55,65,75,85,95,105,115
+2. Run the following gcode
+```
+M303 E-1 S65 C8
+Recv:  Classic PID
+Recv:  Kp: 122.48
+Recv:  Ki: 7.31
+Recv:  Kd: 513.35
+```
+ This will heat the heat bed (E-1), and cycle around the target temperature 8 times (C8) at the given temperature (S65) ,65 C, and return values for P I and D
+  
+ 3. Add the results to your slicer config
+Edit the start gcode for the printer profile
+
+    ```
+    {if bed_temperature[0]>=110 && bed_temperature[0]<120}
+    M304 PXXX IXXX DXXX
+    {elsif bed_temperature[0]>100}
+    M304 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>90}
+    M304 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>80}
+    M304 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>70}
+    M304 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>60}
+    M304 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>50}
+    M304 PXXX IXXX DXXX
+    {endif}
+    ``` 
+      Note: Replace the XXXs with our actual PID values that are output from the previous step
+
 ## Tune your hotend  
-3. You will be testing a full range of temps
+1. You will be testing a full range of temps
    XXX = 180,190,210,220,230,240,250,260,270
    
 4. Run the following gcode
@@ -46,45 +82,12 @@ Edit the start gcode for the printer profile
     {endif}
     ```
     Note: Replace the XXXs with our actual PID values that are output from the previous step
-## Tune your heatbed  
 
-2. You will be testing a full range bed temps
-   XXX = 55,65,75,85,95,105,115
-1. Run the following gcode
-```
-M303 E-1 S65 C8
-Recv:  Classic PID
-Recv:  Kp: 122.48
-Recv:  Ki: 7.31
-Recv:  Kd: 513.35
-```
- This will heat the heat bed (E-1), and cycle around the target temperature 8 times (C8) at the given temperature (S65) ,65 C, and return values for P I and D
-  
- 3. Add the results to your slicer config
-Edit the start gcode for the printer profile
-    ```
-    ```
-    {if bed_temperature[0]>=110 && bed_temperature[0]<120}
-    M304 PXXX IXXX DXXX
-    {elsif bed_temperature[0]>100}
-    M304 PXXX IXXX DXXX
-    {elsif first_layer_temperature[0]>90}
-    M304 PXXX IXXX DXXX
-    {elsif first_layer_temperature[0]>80}
-    M304 PXXX IXXX DXXX
-    {elsif first_layer_temperature[0]>70}
-    M304 PXXX IXXX DXXX
-    {elsif first_layer_temperature[0]>60}
-    M304 PXXX IXXX DXXX
-    {elsif first_layer_temperature[0]>50}
-    M304 PXXX IXXX DXXX
-    {endif}
-    ``` 
-      Note: Replace the XXXs with our actual PID values that are output from the previous step
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDUxNzc3ODEsLTIwODQyNjc5NTYsLT
-k1MTA3NjUyLC00MDU1MDQ3MTQsLTI5MTk5MTQxOSwxMDEzNTgy
-MzYzLC00MDQyNTU1NTQsOTk2NjY2OTU4LC0xNzU4MzI0MzcxLD
-c5NjY0MzUxMiwtNjYwMTI1NTc3LDE2MzA0ODMxOTEsNjM2NzE0
-MDE5LC0xMzA4Mjk3MDE0XX0=
+eyJoaXN0b3J5IjpbLTkzMjA4NzExOCwtMjA4NDI2Nzk1NiwtOT
+UxMDc2NTIsLTQwNTUwNDcxNCwtMjkxOTkxNDE5LDEwMTM1ODIz
+NjMsLTQwNDI1NTU1NCw5OTY2NjY5NTgsLTE3NTgzMjQzNzEsNz
+k2NjQzNTEyLC02NjAxMjU1NzcsMTYzMDQ4MzE5MSw2MzY3MTQw
+MTksLTEzMDgyOTcwMTRdfQ==
 -->
