@@ -46,9 +46,17 @@ Note: Don't use the Ubuntu package it's buggy
         Categories=GNOME;GTK;Utility;Graphics;3DGraphics;
         MimeType=application/sla;model/x.stl-binary;model/x.stl-ascii;text/x.gcode;
 
-4. You can now search and use pronterface like any other application and also make a favoriate out of it
+3. You can now search and use pronterface like any other application and also make a favoriate out of it
+
+## Upgrading
+1. View the latest branches
+
+       cd ~/Printrun
+       git fetch
+       git branch -r
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ0OTYyNDUsMTYwODEyMjUzMiwtMT
+eyJoaXN0b3J5IjpbLTE1OTE0NDY5NjIsMTYwODEyMjUzMiwtMT
 Q2Nzg4MjQyOCwtMTcyNTM1MzUzOSwtNjg4MDI5NjIxLDEwNTM4
 MjgwMjEsLTE3NzIzMzI0OTMsMTMyNDEzMDU2MF19
 -->
