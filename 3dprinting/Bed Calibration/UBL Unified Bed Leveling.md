@@ -80,7 +80,7 @@ This mesh will limit printing to only those points that can be physically probed
 	```
 	*ABS*
 	```	 
-	M104 S110 ; heat up the bed
+	M190 S110 ; heat up the bed
 	M109 S255 ; heat up the hot end
 	```
 	
@@ -212,7 +212,8 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1OTg0ODQ5LC0xNzEyOTA3MDcsLTE0NT
-k1ODAyMTEsLTEwNzQyMjQ2MiwxOTExNjIzNTEwLC0xMTU2NDk5
-NTI2LC0xMDE1NTg0NDI4LC0xMzIyOTU0NTY3XX0=
+eyJoaXN0b3J5IjpbLTQzNTU0Njg0NCw2MjU5ODQ4NDksLTE3MT
+I5MDcwNywtMTQ1OTU4MDIxMSwtMTA3NDIyNDYyLDE5MTE2MjM1
+MTAsLTExNTY0OTk1MjYsLTEwMTU1ODQ0MjgsLTEzMjI5NTQ1Nj
+ddfQ==
 -->
