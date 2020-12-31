@@ -128,6 +128,7 @@ This mesh will limit printing to only those points that can be physically probed
     ```
     M500
     ```
+12. Repeat this procedure for all the plastics you might use I.E. PETG/ABS etc..
 
 # Set probe offset
 Try Firmware wizard Configuration/Advanced Settings/Probe Offsets/Z Probe Wizard
@@ -211,6 +212,7 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQyMjQ2MiwxOTExNjIzNTEwLC0xMT
-U2NDk5NTI2LC0xMDE1NTg0NDI4LC0xMzIyOTU0NTY3XX0=
+eyJoaXN0b3J5IjpbLTE0NTk1ODAyMTEsLTEwNzQyMjQ2MiwxOT
+ExNjIzNTEwLC0xMTU2NDk5NTI2LC0xMDE1NTg0NDI4LC0xMzIy
+OTU0NTY3XX0=
 -->
