@@ -39,7 +39,8 @@ Edit the start gcode for the printer profile
     ``` 
       Note: Replace the XXXs with our actual PID values that are output from the previous step
 
-## Tune your hotend  
+## Tune your hotend
+Note: Hotend should should be at room temp before starting this  
 1. You will be testing a full range of temps
    XXX = 180,190,210,220,230,240,250,260,270
    
@@ -85,9 +86,9 @@ Edit the start gcode for the printer profile
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjA4NzExOCwtMjA4NDI2Nzk1NiwtOT
-UxMDc2NTIsLTQwNTUwNDcxNCwtMjkxOTkxNDE5LDEwMTM1ODIz
-NjMsLTQwNDI1NTU1NCw5OTY2NjY5NTgsLTE3NTgzMjQzNzEsNz
-k2NjQzNTEyLC02NjAxMjU1NzcsMTYzMDQ4MzE5MSw2MzY3MTQw
-MTksLTEzMDgyOTcwMTRdfQ==
+eyJoaXN0b3J5IjpbLTkxODk5NTc2LC0yMDg0MjY3OTU2LC05NT
+EwNzY1MiwtNDA1NTA0NzE0LC0yOTE5OTE0MTksMTAxMzU4MjM2
+MywtNDA0MjU1NTU0LDk5NjY2Njk1OCwtMTc1ODMyNDM3MSw3OT
+Y2NDM1MTIsLTY2MDEyNTU3NywxNjMwNDgzMTkxLDYzNjcxNDAx
+OSwtMTMwODI5NzAxNF19
 -->
