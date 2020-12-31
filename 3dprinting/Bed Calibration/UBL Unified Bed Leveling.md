@@ -25,14 +25,16 @@
 2. Manual bed truing (Get bed close to mechanical true)
     1. Configure firmware to only probe 4 points in X/Y (Will make the process go quicker)
     2. Copy this [Heat Map Spreadsheet](https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing)
-   1. Run `G29 P1` with bed and hotend cold and adjust 4 corners until all points are the same height/color (Maybe 0.5mm or less)
+    1. Run `G29 P1` with bed and hotend cold and adjust 4 corners until all points are the same height/color (Maybe 0.5mm or less)
 
-## Operation  
  1. Unload current filament (If present)
      Note: We'll be keeping the hotend hot for a while better not to cook filament
      ```
      M702
      ```
+
+## Operation  
+
  6. Preheat bed and hotend
      Note: Wait for the bed to come up to temp before starting on the hot end. No reason to cook plastic. Also if possible remove the filament before doing this.
      
@@ -200,6 +202,6 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTU1ODQ0MjgsLTEzMjI5NTQ1NjddfQ
-==
+eyJoaXN0b3J5IjpbLTExNTY0OTk1MjYsLTEwMTU1ODQ0MjgsLT
+EzMjI5NTQ1NjddfQ==
 -->
