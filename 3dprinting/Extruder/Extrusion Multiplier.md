@@ -1,5 +1,7 @@
-Slice cube from here
-[https://www.thingiverse.com/thing:3071464](https://www.thingiverse.com/thing:3071464)
+# Extrusion Multiplier
+1. Download this [cube STL](https://www.thingiverse.com/thing:3071464)
+2. Use theses settings in Prusa Slicer
+|
 * 1 perimiter
 * 0 top/bottom layer
 * 0 infill
@@ -35,8 +37,8 @@ adjust extrusion multiplier
 etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAyNjM3NzMsLTE1MDAxODMwNzYsLT
-E1MTkwMTAwNDYsLTg4MjIyMjEwMiwtMTE5MDY4MjQ3NywxNTMy
-NjIwOTc1LC0xNDgwOTY0ODIsLTI2OTEwNjU2OCwtMTYyNTMyOT
-kzMSwxOTQ1OTkwNTU0XX0=
+eyJoaXN0b3J5IjpbLTQyOTAwNDI5MSwtMTcwMDI2Mzc3MywtMT
+UwMDE4MzA3NiwtMTUxOTAxMDA0NiwtODgyMjIyMTAyLC0xMTkw
+NjgyNDc3LDE1MzI2MjA5NzUsLTE0ODA5NjQ4MiwtMjY5MTA2NT
+Y4LC0xNjI1MzI5OTMxLDE5NDU5OTA1NTRdfQ==
 -->
