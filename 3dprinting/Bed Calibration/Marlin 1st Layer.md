@@ -14,19 +14,11 @@
     |Bed temperature (deg C)|85||
     |Audo Bed Levelling|No ABL||
     Note: L2 is the mesh to load (L1 = PLA/L2 = PETG/L3 = ABS)
-	2. [https://www.thingiverse.com/thing:3730866](https://www.thingiverse.com/thing:3730866)
-	3. Search for and set the correct temperatures 
-```
-M104 Sxxx; set hotend temp to xxx  
-M140 Syyy; set bed temp to yyy  
-M190 Syyy; wait bed temp  
-M109 Sxxx; wait hotend temp
-```
-2
-4. Select "Change Filament" From menu and load PLA
-5. 
+3. Do the test print
+    * If it's not 
+    * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTMyMDkyODMsMTg4NzE1NjkyOCwtMT
-IxNzkyMDY2MywtNzA2MzM1Njk1LDkzNzc3NTE1NCwtMTYyMzE2
-NTYzOF19
+eyJoaXN0b3J5IjpbMTM3NDEzMzM0NywtMTU5MzIwOTI4MywxOD
+g3MTU2OTI4LC0xMjE3OTIwNjYzLC03MDYzMzU2OTUsOTM3Nzc1
+MTU0LC0xNjIzMTY1NjM4XX0=
 -->
