@@ -38,24 +38,11 @@ Ex. `M92 E100`
 M92 X100.46 Y100.41 Z398.58 E280.00 ; fine tune steps per mm JSR
 {endif}
 ```
-12. Update in firmware
-   Add firmware line here!!!
-13. Flash firmware
-14. Reset NVRAM
-```
-M502
-M500
-```
-Note: Flashing doesn't remove this setting that's why you have to do it twice
-
-15. Make the change permanent in the slicker settings
-     Add this area in from XYZ calibration 
-
-16. Enable filament Sensor (If you have one)
-	
+11. Also add a note in the filament notes section for the slicer saying you've done this calibration for this filament
+12. E steps calibrated
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4NjI4MDI5LC0zNDg2MTA4ODYsLTYwNj
-kwODQ4Miw2MjIxNDc3MzIsLTQ0Mzk5NDU4MSw4MDU0MzgzMzMs
-LTE4ODQxMTY1NCwtNDU0NzA3MDQ0LDE4NDY3NDc2OTMsLTE5Mj
-c1MDExODcsODU1MzY5ODIwXX0=
+eyJoaXN0b3J5IjpbLTc3ODQ3MzY0OCwtMzQ4NjEwODg2LC02MD
+Y5MDg0ODIsNjIyMTQ3NzMyLC00NDM5OTQ1ODEsODA1NDM4MzMz
+LC0xODg0MTE2NTQsLTQ1NDcwNzA0NCwxODQ2NzQ3NjkzLC0xOT
+I3NTAxMTg3LDg1NTM2OTgyMF19
 -->
