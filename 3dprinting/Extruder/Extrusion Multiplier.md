@@ -19,7 +19,12 @@ Take an average of multiple points and sides
 56
 48
 52
-5
+50
+54
+49
+50
+57
+56
 
 desired wall thickness/measured wall thickness * extrusion multiplier = new extrusion multiplier
 
@@ -30,7 +35,7 @@ adjust extrusion multiplier
 etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjYwMzkwMywtMTUwMDE4MzA3NiwtMT
+eyJoaXN0b3J5IjpbMTA2MDA1NTAwMSwtMTUwMDE4MzA3NiwtMT
 UxOTAxMDA0NiwtODgyMjIyMTAyLC0xMTkwNjgyNDc3LDE1MzI2
 MjA5NzUsLTE0ODA5NjQ4MiwtMjY5MTA2NTY4LC0xNjI1MzI5OT
 MxLDE5NDU5OTA1NTRdfQ==
