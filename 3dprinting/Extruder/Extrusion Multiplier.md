@@ -16,7 +16,7 @@
 
 3. Print cube
 4. Measure
-    * Inspect model for layer accuracy (Is each layer on top of the other) If there is a problem with one direction
+    * Inspect model for layer accuracy (Is each layer consistently on top of the otheron top of the other) If there is a problem with one direction
     * Take measurements from each side
     * only measure from top 3rd of print (To avoid elephant foot)
     * 
@@ -43,8 +43,9 @@ adjust extrusion multiplier
 etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTE2MTc2LC0xNzAwMjYzNzczLC0xNT
-AwMTgzMDc2LC0xNTE5MDEwMDQ2LC04ODIyMjIxMDIsLTExOTA2
-ODI0NzcsMTUzMjYyMDk3NSwtMTQ4MDk2NDgyLC0yNjkxMDY1Nj
-gsLTE2MjUzMjk5MzEsMTk0NTk5MDU1NF19
+eyJoaXN0b3J5IjpbMzU3NDMyNjg1LC01NjkxNjE3NiwtMTcwMD
+I2Mzc3MywtMTUwMDE4MzA3NiwtMTUxOTAxMDA0NiwtODgyMjIy
+MTAyLC0xMTkwNjgyNDc3LDE1MzI2MjA5NzUsLTE0ODA5NjQ4Mi
+wtMjY5MTA2NTY4LC0xNjI1MzI5OTMxLDE5NDU5OTA1NTRdfQ==
+
 -->
