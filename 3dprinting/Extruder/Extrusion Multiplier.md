@@ -1,7 +1,15 @@
 # Extrusion Multiplier
 1. Download this [cube STL](https://www.thingiverse.com/thing:3071464)
 2. Use theses settings in Prusa Slicer
-|
+|Key|Value|
+|--|--|
+|Slicing Profile
+|Perimiters|1|
+|top layers|0|
+|bottom layers|0|
+|infill|0|
+|default extrusion width|0.45|
+
 * 1 perimiter
 * 0 top/bottom layer
 * 0 infill
@@ -37,8 +45,8 @@ adjust extrusion multiplier
 etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTAwNDI5MSwtMTcwMDI2Mzc3MywtMT
-UwMDE4MzA3NiwtMTUxOTAxMDA0NiwtODgyMjIyMTAyLC0xMTkw
-NjgyNDc3LDE1MzI2MjA5NzUsLTE0ODA5NjQ4MiwtMjY5MTA2NT
-Y4LC0xNjI1MzI5OTMxLDE5NDU5OTA1NTRdfQ==
+eyJoaXN0b3J5IjpbLTE0NDcyNTkzODUsLTE3MDAyNjM3NzMsLT
+E1MDAxODMwNzYsLTE1MTkwMTAwNDYsLTg4MjIyMjEwMiwtMTE5
+MDY4MjQ3NywxNTMyNjIwOTc1LC0xNDgwOTY0ODIsLTI2OTEwNj
+U2OCwtMTYyNTMyOTkzMSwxOTQ1OTkwNTU0XX0=
 -->
