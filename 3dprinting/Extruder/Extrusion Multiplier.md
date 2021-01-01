@@ -14,6 +14,10 @@ Print cube
 
 measure 
 Note there always seems to be one wall that's a little thinner.  as long as you have one x and one y consistent go for it.
+Take an average of multiple points and sides
+50
+58
+
 
 desired wall thickness/measured wall thickness * extrusion multiplier = new extrusion multiplier
 
@@ -24,8 +28,8 @@ adjust extrusion multiplier
 etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDAxODMwNzYsLTE1MTkwMTAwNDYsLT
-g4MjIyMjEwMiwtMTE5MDY4MjQ3NywxNTMyNjIwOTc1LC0xNDgw
-OTY0ODIsLTI2OTEwNjU2OCwtMTYyNTMyOTkzMSwxOTQ1OTkwNT
-U0XX0=
+eyJoaXN0b3J5IjpbMTExMTE5NjQsLTE1MDAxODMwNzYsLTE1MT
+kwMTAwNDYsLTg4MjIyMjEwMiwtMTE5MDY4MjQ3NywxNTMyNjIw
+OTc1LC0xNDgwOTY0ODIsLTI2OTEwNjU2OCwtMTYyNTMyOTkzMS
+wxOTQ1OTkwNTU0XX0=
 -->
