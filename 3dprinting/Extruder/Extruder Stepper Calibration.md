@@ -9,7 +9,7 @@
     * Detect thin walls
 3. Disable Filament Sensor (If you have one)
 4. Measure 120mm on filiament from extruder entry point (Doesn't have to be exact, just consistent) and mark filament with sharpie
-5. Heat filament 10 degrees higher than normal 200 (PLA)
+5. Heat filament 10 degrees higher than normal 200 (PLA) 250 (PETG) 260? ABS?
 6. Extrude 100mm
     ```
     M104 S215
@@ -54,8 +54,8 @@ Note: Flashing doesn't remove this setting that's why you have to do it twice
 16. Enable filament Sensor (If you have one)
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyMDcyMjUyLC02MDY5MDg0ODIsNjIyMT
-Q3NzMyLC00NDM5OTQ1ODEsODA1NDM4MzMzLC0xODg0MTE2NTQs
-LTQ1NDcwNzA0NCwxODQ2NzQ3NjkzLC0xOTI3NTAxMTg3LDg1NT
-M2OTgyMF19
+eyJoaXN0b3J5IjpbLTM0ODYxMDg4NiwtNjA2OTA4NDgyLDYyMj
+E0NzczMiwtNDQzOTk0NTgxLDgwNTQzODMzMywtMTg4NDExNjU0
+LC00NTQ3MDcwNDQsMTg0Njc0NzY5MywtMTkyNzUwMTE4Nyw4NT
+UzNjk4MjBdfQ==
 -->
