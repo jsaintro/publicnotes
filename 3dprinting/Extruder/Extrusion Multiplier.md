@@ -3,12 +3,18 @@
 2. Use theses settings in Prusa Slicer
 |Key|Value|
 |--|--|
-|Slicing Profile
+|Slicing Profile|0.2mm Quality|
 |Perimiters|1|
 |top layers|0|
 |bottom layers|0|
 |infill|0|
 |default extrusion width|0.45|
+|Spiral Vase Mode|True|
+|Filament Gcode|Comment out K values|
+|extrusion multiplier|1|
+
+
+
 
 * 1 perimiter
 * 0 top/bottom layer
@@ -45,8 +51,8 @@ adjust extrusion multiplier
 etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDcyNTkzODUsLTE3MDAyNjM3NzMsLT
-E1MDAxODMwNzYsLTE1MTkwMTAwNDYsLTg4MjIyMjEwMiwtMTE5
-MDY4MjQ3NywxNTMyNjIwOTc1LC0xNDgwOTY0ODIsLTI2OTEwNj
-U2OCwtMTYyNTMyOTkzMSwxOTQ1OTkwNTU0XX0=
+eyJoaXN0b3J5IjpbLTc3ODg1NzA5NCwtMTcwMDI2Mzc3MywtMT
+UwMDE4MzA3NiwtMTUxOTAxMDA0NiwtODgyMjIyMTAyLC0xMTkw
+NjgyNDc3LDE1MzI2MjA5NzUsLTE0ODA5NjQ4MiwtMjY5MTA2NT
+Y4LC0xNjI1MzI5OTMxLDE5NDU5OTA1NTRdfQ==
 -->
