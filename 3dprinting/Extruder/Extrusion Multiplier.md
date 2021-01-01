@@ -16,8 +16,10 @@
 
 3. Print cube
 4. Measure
+    * Inspect model for layer accuracy (Is each layer on top of the other) If there is a problem with one direction
     * Take measurements from each side
-    * only measure from top 3rd of print (To avoid ele
+    * only measure from top 3rd of print (To avoid elephant foot)
+    * 
 measure 
 Note there always seems to be one wall that's a little thinner.  as long as you have one x and one y consistent go for it.
 Take an average of multiple points and sides
@@ -41,8 +43,8 @@ adjust extrusion multiplier
 etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI5Mjk5MDUsLTE3MDAyNjM3NzMsLT
-E1MDAxODMwNzYsLTE1MTkwMTAwNDYsLTg4MjIyMjEwMiwtMTE5
-MDY4MjQ3NywxNTMyNjIwOTc1LC0xNDgwOTY0ODIsLTI2OTEwNj
-U2OCwtMTYyNTMyOTkzMSwxOTQ1OTkwNTU0XX0=
+eyJoaXN0b3J5IjpbLTU2OTE2MTc2LC0xNzAwMjYzNzczLC0xNT
+AwMTgzMDc2LC0xNTE5MDEwMDQ2LC04ODIyMjIxMDIsLTExOTA2
+ODI0NzcsMTUzMjYyMDk3NSwtMTQ4MDk2NDgyLC0yNjkxMDY1Nj
+gsLTE2MjUzMjk5MzEsMTk0NTk5MDU1NF19
 -->
