@@ -15,10 +15,11 @@
     |Audo Bed Levelling|No ABL||
     Note: L2 is the mesh to load (L1 = PLA/L2 = PETG/L3 = ABS)
 3. Do the test print
-    * If it's not 
-    * 
+    * If it's not sticking baby step closer to the bed
+    * If you see ridges baby step further from the bed
+    * If the pads aren't consistent look at the mesh bed leveling
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDEzMzM0NywtMTU5MzIwOTI4MywxOD
-g3MTU2OTI4LC0xMjE3OTIwNjYzLC03MDYzMzU2OTUsOTM3Nzc1
-MTU0LC0xNjIzMTY1NjM4XX0=
+eyJoaXN0b3J5IjpbLTE3NTExMjAwODUsLTE1OTMyMDkyODMsMT
+g4NzE1NjkyOCwtMTIxNzkyMDY2MywtNzA2MzM1Njk1LDkzNzc3
+NTE1NCwtMTYyMzE2NTYzOF19
 -->
