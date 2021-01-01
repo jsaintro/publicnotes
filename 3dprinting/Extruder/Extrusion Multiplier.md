@@ -28,14 +28,11 @@
        desired wall thickness/measured wall thickness * extrusion multiplier = new extrusion multiplier
         Ex. 0.45/0.48 * 1 = .9375
 
-adjust extrusion multiplier
-
-etc...
-
+6. adjust extrusion multiplier in slicer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5NzAzNzc3LC01NjkxNjE3NiwtMTcwMD
-I2Mzc3MywtMTUwMDE4MzA3NiwtMTUxOTAxMDA0NiwtODgyMjIy
-MTAyLC0xMTkwNjgyNDc3LDE1MzI2MjA5NzUsLTE0ODA5NjQ4Mi
-wtMjY5MTA2NTY4LC0xNjI1MzI5OTMxLDE5NDU5OTA1NTRdfQ==
+eyJoaXN0b3J5IjpbLTc3NTEyMDQxOCwtNTY5MTYxNzYsLTE3MD
+AyNjM3NzMsLTE1MDAxODMwNzYsLTE1MTkwMTAwNDYsLTg4MjIy
+MjEwMiwtMTE5MDY4MjQ3NywxNTMyNjIwOTc1LC0xNDgwOTY0OD
+IsLTI2OTEwNjU2OCwtMTYyNTMyOTkzMSwxOTQ1OTkwNTU0XX0=
 
 -->
