@@ -1,6 +1,7 @@
 # Extrusion Multiplier
 1. Download this [cube STL](https://www.thingiverse.com/thing:3071464)
 2. Use theses settings in Prusa Slicer
+
 |Key|Value|
 |--|--|
 |Slicing Profile|0.2mm Quality|
@@ -13,21 +14,10 @@
 |Filament Gcode|Comment out K values|
 |extrusion multiplier|1|
 
-
-
-
-* 1 perimiter
-* 0 top/bottom layer
-* 0 infill
-* default extrusion width 0.45 (print settings/advanced) this should be the default
-* Use .2mm Quality MK3 profile
-* spiral vase mode
-* Disable K value (Comment out line in filament gcode)
-* Disable any current extrusion multiplier 
-/Documents/3dprinter/calibration/cube/extrusion_cubeABS.3mf
-
-Print cube
-
+3. Print cube
+4. Measure
+    * Take measurements from each side
+    * only measure from top 3rd of print (To avoid ele
 measure 
 Note there always seems to be one wall that's a little thinner.  as long as you have one x and one y consistent go for it.
 Take an average of multiple points and sides
@@ -51,8 +41,8 @@ adjust extrusion multiplier
 etc...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODg1NzA5NCwtMTcwMDI2Mzc3MywtMT
-UwMDE4MzA3NiwtMTUxOTAxMDA0NiwtODgyMjIyMTAyLC0xMTkw
-NjgyNDc3LDE1MzI2MjA5NzUsLTE0ODA5NjQ4MiwtMjY5MTA2NT
-Y4LC0xNjI1MzI5OTMxLDE5NDU5OTA1NTRdfQ==
+eyJoaXN0b3J5IjpbLTEwMDI5Mjk5MDUsLTE3MDAyNjM3NzMsLT
+E1MDAxODMwNzYsLTE1MTkwMTAwNDYsLTg4MjIyMjEwMiwtMTE5
+MDY4MjQ3NywxNTMyNjIwOTc1LC0xNDgwOTY0ODIsLTI2OTEwNj
+U2OCwtMTYyNTMyOTkzMSwxOTQ1OTkwNTU0XX0=
 -->
