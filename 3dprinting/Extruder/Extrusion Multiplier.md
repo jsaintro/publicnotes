@@ -1,8 +1,9 @@
 # Extrusion Multiplier
 1. Measure filament thickness using digital calipers
 	2. Measure several points around the circumerence (Might not be perfectly round)
-	3. Might be easier to do if you cut a 
-	4. Try and apply similar pressure)
+	3. Might be easier to do if you cut a 30cm length and measure is several spots (avoiding the ends)
+	4. Try and apply similar pressure when measuring
+	5. Ideally you want to use a micrometer like a (Mitutoyo 102-301)
 2. Download this [calibration model](https://www.thingiverse.com/thing:3405991)
 3. Use theses settings in Prusa Slicer
 
@@ -34,9 +35,9 @@
 
 6. adjust extrusion multiplier in slicer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjUyOTEzNCwtMTY5NzIzNDE0LC03Nz
-UxMjA0MTgsLTU2OTE2MTc2LC0xNzAwMjYzNzczLC0xNTAwMTgz
-MDc2LC0xNTE5MDEwMDQ2LC04ODIyMjIxMDIsLTExOTA2ODI0Nz
-csMTUzMjYyMDk3NSwtMTQ4MDk2NDgyLC0yNjkxMDY1NjgsLTE2
-MjUzMjk5MzEsMTk0NTk5MDU1NF19
+eyJoaXN0b3J5IjpbOTk0MDc4MTQ5LC0xNjk3MjM0MTQsLTc3NT
+EyMDQxOCwtNTY5MTYxNzYsLTE3MDAyNjM3NzMsLTE1MDAxODMw
+NzYsLTE1MTkwMTAwNDYsLTg4MjIyMjEwMiwtMTE5MDY4MjQ3Ny
+wxNTMyNjIwOTc1LC0xNDgwOTY0ODIsLTI2OTEwNjU2OCwtMTYy
+NTMyOTkzMSwxOTQ1OTkwNTU0XX0=
 -->
