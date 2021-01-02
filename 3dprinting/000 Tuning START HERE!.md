@@ -18,7 +18,7 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 4. `Bed Calibration/(Prusa/Marlin) 1st Layer` also look at [Teching Tech's First Layer Guide](https://teachingtechyt.github.io/calibration.html#firstlayer)
 5. Baseline print https://teachingtechyt.github.io/calibration.html#baseline
 6. Extruder/Esteps Stepper Calibration alt: https://teachingtechyt.github.io/calibration.html#esteps
-7. Extruder/Extrusion Multiplier https://teachingtechyt.github.io/calibration.html#flow (This is different from MK3s and Gen1.5)
+7. Extruder/Extrusion Multiplier https://teachingtechyt.github.io/calibration.html#flow (This is different from MK3s and Gen1.5) This guide may be better https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8?lang=en
 8. Retraction tuning https://teachingtechyt.github.io/calibration.html#retraction
 9. Stepper Calibration/Linear Advance Calibration
 ### Per plastic type
@@ -32,10 +32,10 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 5. Extruder/Extrusion Multiplier
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQyOTQ0NTIsMTk2MTYwMDI3MywtND
-I4NzE4NjkwLC0xMDgxMTk2Nzg1LDExMTc3ODY2MDYsNTI2MTAw
-MzYyLDE2NDYyMDg0OSwtMTE0MDE1MzUsLTc2OTQ3Mjc1NywtNz
-I5Mzc0MDY0LDUxMDQ3MDA2MSw4MTk2NjIyMDQsNTk2OTY1MDg2
-LDkwMTQzNzA3Niw2NTA2Njk0NzksMTAwMjQ0MzIsMTQ3NDgwND
-EyNSwtNjkyODA5MDA5XX0=
+eyJoaXN0b3J5IjpbMTQyOTQwMTQxLDE5NjE2MDAyNzMsLTQyOD
+cxODY5MCwtMTA4MTE5Njc4NSwxMTE3Nzg2NjA2LDUyNjEwMDM2
+MiwxNjQ2MjA4NDksLTExNDAxNTM1LC03Njk0NzI3NTcsLTcyOT
+M3NDA2NCw1MTA0NzAwNjEsODE5NjYyMjA0LDU5Njk2NTA4Niw5
+MDE0MzcwNzYsNjUwNjY5NDc5LDEwMDI0NDMyLDE0NzQ4MDQxMj
+UsLTY5MjgwOTAwOV19
 -->
