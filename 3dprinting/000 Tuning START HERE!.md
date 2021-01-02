@@ -12,6 +12,7 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 7. PRONTERFACE
 
 ### Initial printer calibration
+1. Steps calculators https://blog.prusaprinters.org/calculator_3416/ (Also other useful calculators)
 1. [See Teaching Tech's Frame Check](https://teachingtechyt.github.io/calibration.html#frame)
 2. Temperature Calibration/PID Tuning
 3. `Bed Calibration/UBL Unified Bed Leveling` (Marlin Only)
@@ -32,10 +33,11 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 5. Extruder/Extrusion Multiplier
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTkxNzYyMSwxNDI5NDAxNDEsMTk2MT
-YwMDI3MywtNDI4NzE4NjkwLC0xMDgxMTk2Nzg1LDExMTc3ODY2
-MDYsNTI2MTAwMzYyLDE2NDYyMDg0OSwtMTE0MDE1MzUsLTc2OT
-Q3Mjc1NywtNzI5Mzc0MDY0LDUxMDQ3MDA2MSw4MTk2NjIyMDQs
-NTk2OTY1MDg2LDkwMTQzNzA3Niw2NTA2Njk0NzksMTAwMjQ0Mz
-IsMTQ3NDgwNDEyNSwtNjkyODA5MDA5XX0=
+eyJoaXN0b3J5IjpbLTIyOTUzNzk3OSwxNjI5OTE3NjIxLDE0Mj
+k0MDE0MSwxOTYxNjAwMjczLC00Mjg3MTg2OTAsLTEwODExOTY3
+ODUsMTExNzc4NjYwNiw1MjYxMDAzNjIsMTY0NjIwODQ5LC0xMT
+QwMTUzNSwtNzY5NDcyNzU3LC03MjkzNzQwNjQsNTEwNDcwMDYx
+LDgxOTY2MjIwNCw1OTY5NjUwODYsOTAxNDM3MDc2LDY1MDY2OT
+Q3OSwxMDAyNDQzMiwxNDc0ODA0MTI1LC02OTI4MDkwMDldfQ==
+
 -->
