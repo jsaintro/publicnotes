@@ -1,10 +1,10 @@
 # Extrusion Multiplier
-1. Download this [calibration model fromthingiverse.com/thing:3405991](https://www.thingiverse.com/thing:3405991) or from [github.com/gregsaun/.../test/cube](https://github.com/gregsaun/bear_extruder_and_x_axis/tree/master/test/cube))
+1. Download this [calibration model](https://www.thingiverse.com/thing:3405991)
 2. Use theses settings in Prusa Slicer
 
 |Key|Value|
 |--|--|
-|Slicing Profile|0.2mm Quality|
+|Print Settings Profile|0.2mm Quality|
 |Perimiters|1|
 |top layers|0|
 |bottom layers|0|
@@ -30,9 +30,9 @@
 
 6. adjust extrusion multiplier in slicer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDczOTExOTMsLTc3NTEyMDQxOCwtNT
-Y5MTYxNzYsLTE3MDAyNjM3NzMsLTE1MDAxODMwNzYsLTE1MTkw
-MTAwNDYsLTg4MjIyMjEwMiwtMTE5MDY4MjQ3NywxNTMyNjIwOT
-c1LC0xNDgwOTY0ODIsLTI2OTEwNjU2OCwtMTYyNTMyOTkzMSwx
-OTQ1OTkwNTU0XX0=
+eyJoaXN0b3J5IjpbMTczNTI4MDUwNCwtNzc1MTIwNDE4LC01Nj
+kxNjE3NiwtMTcwMDI2Mzc3MywtMTUwMDE4MzA3NiwtMTUxOTAx
+MDA0NiwtODgyMjIyMTAyLC0xMTkwNjgyNDc3LDE1MzI2MjA5Nz
+UsLTE0ODA5NjQ4MiwtMjY5MTA2NTY4LC0xNjI1MzI5OTMxLDE5
+NDU5OTA1NTRdfQ==
 -->
