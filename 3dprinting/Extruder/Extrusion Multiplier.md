@@ -5,7 +5,7 @@
 |Key|Value|Note|
 |--|--|--|
 |Print Settings Profile|0.2mm Quality|
-|Spiral vase|Check|Accepts the defaults|
+|Spiral vase|Check|Accept adjusted values|
 |Perimeters|1|
 |top layers|0|
 |bottom layers|0|
@@ -20,7 +20,7 @@
 	    * Is each layer consistently on top of the other for X and Y axis
 	    * If not check belts and bearings
     * Take measurements from each side then average all 4 sides together
-	    * only measure from top 3rd of print (To avoid elephant foot)
+	    * only measure from top 1/2 of print (To avoid elephant foot)
 	    * Take average of all measurements
 
 5. Calculate Multiplier
@@ -30,9 +30,9 @@
 
 6. adjust extrusion multiplier in slicer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTUwNzA5LC03NzUxMjA0MTgsLTU2OT
-E2MTc2LC0xNzAwMjYzNzczLC0xNTAwMTgzMDc2LC0xNTE5MDEw
-MDQ2LC04ODIyMjIxMDIsLTExOTA2ODI0NzcsMTUzMjYyMDk3NS
-wtMTQ4MDk2NDgyLC0yNjkxMDY1NjgsLTE2MjUzMjk5MzEsMTk0
-NTk5MDU1NF19
+eyJoaXN0b3J5IjpbLTE2OTcyMzQxNCwtNzc1MTIwNDE4LC01Nj
+kxNjE3NiwtMTcwMDI2Mzc3MywtMTUwMDE4MzA3NiwtMTUxOTAx
+MDA0NiwtODgyMjIyMTAyLC0xMTkwNjgyNDc3LDE1MzI2MjA5Nz
+UsLTE0ODA5NjQ4MiwtMjY5MTA2NTY4LC0xNjI1MzI5OTMxLDE5
+NDU5OTA1NTRdfQ==
 -->
