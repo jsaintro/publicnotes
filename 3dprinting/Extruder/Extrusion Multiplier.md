@@ -1,6 +1,7 @@
 # Extrusion Multiplier
-1. Download this [calibration model](https://www.thingiverse.com/thing:3405991)
-2. Use theses settings in Prusa Slicer
+1. Mea
+2. Download this [calibration model](https://www.thingiverse.com/thing:3405991)
+3. Use theses settings in Prusa Slicer
 
 |Key|Value|Note|
 |--|--|--|
@@ -30,9 +31,9 @@
 
 6. adjust extrusion multiplier in slicer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTcyMzQxNCwtNzc1MTIwNDE4LC01Nj
-kxNjE3NiwtMTcwMDI2Mzc3MywtMTUwMDE4MzA3NiwtMTUxOTAx
-MDA0NiwtODgyMjIyMTAyLC0xMTkwNjgyNDc3LDE1MzI2MjA5Nz
-UsLTE0ODA5NjQ4MiwtMjY5MTA2NTY4LC0xNjI1MzI5OTMxLDE5
-NDU5OTA1NTRdfQ==
+eyJoaXN0b3J5IjpbLTIzNDMwNTQ3MCwtMTY5NzIzNDE0LC03Nz
+UxMjA0MTgsLTU2OTE2MTc2LC0xNzAwMjYzNzczLC0xNTAwMTgz
+MDc2LC0xNTE5MDEwMDQ2LC04ODIyMjIxMDIsLTExOTA2ODI0Nz
+csMTUzMjYyMDk3NSwtMTQ4MDk2NDgyLC0yNjkxMDY1NjgsLTE2
+MjUzMjk5MzEsMTk0NTk5MDU1NF19
 -->
