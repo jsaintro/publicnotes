@@ -20,7 +20,7 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 6. Extruder/Esteps Stepper Calibration alt: https://teachingtechyt.github.io/calibration.html#esteps
 7. Extruder/Extrusion Multiplier https://teachingtechyt.github.io/calibration.html#flow (This is different from MK3s and Gen1.5)
 8. Retraction tuning https://teachingtechyt.github.io/calibration.html#retraction
-9. 
+9. Stepper Calibration/Linear Advance Calibration
 ### Per plastic type
 1. Look through the guides
 
@@ -32,10 +32,10 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 5. Extruder/Extrusion Multiplier
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTYwMDI3MywtNDI4NzE4NjkwLC0xMD
-gxMTk2Nzg1LDExMTc3ODY2MDYsNTI2MTAwMzYyLDE2NDYyMDg0
-OSwtMTE0MDE1MzUsLTc2OTQ3Mjc1NywtNzI5Mzc0MDY0LDUxMD
-Q3MDA2MSw4MTk2NjIyMDQsNTk2OTY1MDg2LDkwMTQzNzA3Niw2
-NTA2Njk0NzksMTAwMjQ0MzIsMTQ3NDgwNDEyNSwtNjkyODA5MD
-A5XX0=
+eyJoaXN0b3J5IjpbLTE4NTQyOTQ0NTIsMTk2MTYwMDI3MywtND
+I4NzE4NjkwLC0xMDgxMTk2Nzg1LDExMTc3ODY2MDYsNTI2MTAw
+MzYyLDE2NDYyMDg0OSwtMTE0MDE1MzUsLTc2OTQ3Mjc1NywtNz
+I5Mzc0MDY0LDUxMDQ3MDA2MSw4MTk2NjIyMDQsNTk2OTY1MDg2
+LDkwMTQzNzA3Niw2NTA2Njk0NzksMTAwMjQ0MzIsMTQ3NDgwND
+EyNSwtNjkyODA5MDA5XX0=
 -->
