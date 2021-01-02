@@ -1,5 +1,5 @@
 # Extrusion Multiplier
-1. Download this [cube STL](https://www.thingiverse.com/thing:3071464)
+1. Download this [calibration model fromthingiverse.com/thing:3405991](https://www.thingiverse.com/thing:3405991) or from [github.com/gregsaun/.../test/cube](https://github.com/gregsaun/bear_extruder_and_x_axis/tree/master/test/cube))
 2. Use theses settings in Prusa Slicer
 
 |Key|Value|
@@ -30,9 +30,9 @@
 
 6. adjust extrusion multiplier in slicer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTEyMDQxOCwtNTY5MTYxNzYsLTE3MD
-AyNjM3NzMsLTE1MDAxODMwNzYsLTE1MTkwMTAwNDYsLTg4MjIy
-MjEwMiwtMTE5MDY4MjQ3NywxNTMyNjIwOTc1LC0xNDgwOTY0OD
-IsLTI2OTEwNjU2OCwtMTYyNTMyOTkzMSwxOTQ1OTkwNTU0XX0=
-
+eyJoaXN0b3J5IjpbLTE2MDczOTExOTMsLTc3NTEyMDQxOCwtNT
+Y5MTYxNzYsLTE3MDAyNjM3NzMsLTE1MDAxODMwNzYsLTE1MTkw
+MTAwNDYsLTg4MjIyMjEwMiwtMTE5MDY4MjQ3NywxNTMyNjIwOT
+c1LC0xNDgwOTY0ODIsLTI2OTEwNjU2OCwtMTYyNTMyOTkzMSwx
+OTQ1OTkwNTU0XX0=
 -->
