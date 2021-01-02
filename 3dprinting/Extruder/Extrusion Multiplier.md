@@ -2,15 +2,15 @@
 1. Download this [calibration model](https://www.thingiverse.com/thing:3405991)
 2. Use theses settings in Prusa Slicer
 
-|Key|Value|
-|--|--|
+|Key|Value|Note|
+|--|--|--|
 |Print Settings Profile|0.2mm Quality|
-|Perimiters|1|
+|Spiral vase|Check|Accepts the defaults|
+|Perimeters|1|
 |top layers|0|
 |bottom layers|0|
 |infill|0|
 |default extrusion width|0.45|
-|Spiral Vase Mode|True|
 |Filament Gcode|Comment out K values|
 |extrusion multiplier|1|
 
@@ -30,9 +30,9 @@
 
 6. adjust extrusion multiplier in slicer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTI4MDUwNCwtNzc1MTIwNDE4LC01Nj
-kxNjE3NiwtMTcwMDI2Mzc3MywtMTUwMDE4MzA3NiwtMTUxOTAx
-MDA0NiwtODgyMjIyMTAyLC0xMTkwNjgyNDc3LDE1MzI2MjA5Nz
-UsLTE0ODA5NjQ4MiwtMjY5MTA2NTY4LC0xNjI1MzI5OTMxLDE5
-NDU5OTA1NTRdfQ==
+eyJoaXN0b3J5IjpbMTQ5NTUwNzA5LC03NzUxMjA0MTgsLTU2OT
+E2MTc2LC0xNzAwMjYzNzczLC0xNTAwMTgzMDc2LC0xNTE5MDEw
+MDQ2LC04ODIyMjIxMDIsLTExOTA2ODI0NzcsMTUzMjYyMDk3NS
+wtMTQ4MDk2NDgyLC0yNjkxMDY1NjgsLTE2MjUzMjk5MzEsMTk0
+NTk5MDU1NF19
 -->
