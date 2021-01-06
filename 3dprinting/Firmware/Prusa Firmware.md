@@ -21,7 +21,7 @@
 	5. Select the MK3S variant (Firmware/variants/1_75mm_MK3S-EINSy10a-E3Dv6full.h) (6)
 	6. Select English Only (2)
 	7.  Set DEV_STATUS to gold (1)
-5. Bin will be in PF-Build-Hex directory named *.hex
+5. Bin will be in PF-Build-hex directory named *.hex
 6. Flash using prusa slicer (or octopi)
 
 ## Updating
@@ -32,9 +32,9 @@ git chechout
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5MzA5MDUyLDE0Mjk1MTgwMzksLTE3OT
-gyNTg0ODQsMTMxMzc3MDg0Niw0MTc5ODEzNTksNzIxNjAwMjQs
-MjA2NjU4NjMxMSwtMTQ1Nzg5ODQxMSwtNjUxMjAzODU5LDE2Mj
-A2MTE4MzIsLTQxMjcyNjE4NiwtNTg2MjA3MzM0LDgwMTQ3Mzc2
-NSwtMzk2NTkzNTk4LDY5ODExMzI2MV19
+eyJoaXN0b3J5IjpbMjA1Njk0MjU1Niw5MzkzMDkwNTIsMTQyOT
+UxODAzOSwtMTc5ODI1ODQ4NCwxMzEzNzcwODQ2LDQxNzk4MTM1
+OSw3MjE2MDAyNCwyMDY2NTg2MzExLC0xNDU3ODk4NDExLC02NT
+EyMDM4NTksMTYyMDYxMTgzMiwtNDEyNzI2MTg2LC01ODYyMDcz
+MzQsODAxNDczNzY1LC0zOTY1OTM1OTgsNjk4MTEzMjYxXX0=
 -->
