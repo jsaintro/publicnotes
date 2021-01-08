@@ -1,6 +1,6 @@
 # Comprehensive UBL Guide for Marlin
 
-## Marling Config
+## Marlin Config
 ```
 #define AUTO_BED_LEVELING_UBL
 #define FILAMENT_LOAD_UNLOAD_GCODES
@@ -220,9 +220,9 @@ G29 J
 7. Pick your favorite color gradient from the `preview`
 8. https://docs.google.com/spreadsheets/d/1WF8kYfMVYWN_IpiTHB8em2YmuksSIS8FBM72myk9gHE/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODM1OTI0OTIsMTQ3NTAyMTUxNSwtND
-I4MzUwOSwtMTQ4NzIwMTIxMiw2MjU5ODQ4NDksLTE3MTI5MDcw
-NywtMTQ1OTU4MDIxMSwtMTA3NDIyNDYyLDE5MTE2MjM1MTAsLT
-ExNTY0OTk1MjYsLTEwMTU1ODQ0MjgsLTEzMjI5NTQ1NjddfQ==
-
+eyJoaXN0b3J5IjpbNjA3MjI0NjM5LC0xMDgzNTkyNDkyLDE0Nz
+UwMjE1MTUsLTQyODM1MDksLTE0ODcyMDEyMTIsNjI1OTg0ODQ5
+LC0xNzEyOTA3MDcsLTE0NTk1ODAyMTEsLTEwNzQyMjQ2MiwxOT
+ExNjIzNTEwLC0xMTU2NDk5NTI2LC0xMDE1NTg0NDI4LC0xMzIy
+OTU0NTY3XX0=
 -->
