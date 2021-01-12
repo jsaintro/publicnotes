@@ -5,7 +5,7 @@
 	4. Try and apply similar pressure when measuring
 	5. Ideally you want to use a micrometer like a (Mitutoyo 102-301)
 2. Download this [calibration model](https://www.thingiverse.com/thing:3405991)
-    Note: Stored in 3Dprinter/calibration/extcoeff/low_cube.stl and low_cubeGen1.5.3mf
+    Note: Stored in 3dPrinter/calibration/extcoeff/low_cube.stl and low_cubeGen15.3mf or low_cubeGen2.3mf
 4. Use theses settings in Prusa Slicer
 
 |Key|Value|Note|
@@ -36,10 +36,10 @@
 
 6. adjust extrusion multiplier in slicer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjU3NjY1MiwxMjg4NzkzMDQwLDk5ND
-A3ODE0OSwtMTY5NzIzNDE0LC03NzUxMjA0MTgsLTU2OTE2MTc2
-LC0xNzAwMjYzNzczLC0xNTAwMTgzMDc2LC0xNTE5MDEwMDQ2LC
-04ODIyMjIxMDIsLTExOTA2ODI0NzcsMTUzMjYyMDk3NSwtMTQ4
-MDk2NDgyLC0yNjkxMDY1NjgsLTE2MjUzMjk5MzEsMTk0NTk5MD
-U1NF19
+eyJoaXN0b3J5IjpbMTkyMjkyNTY4MSwxNzI2NTc2NjUyLDEyOD
+g3OTMwNDAsOTk0MDc4MTQ5LC0xNjk3MjM0MTQsLTc3NTEyMDQx
+OCwtNTY5MTYxNzYsLTE3MDAyNjM3NzMsLTE1MDAxODMwNzYsLT
+E1MTkwMTAwNDYsLTg4MjIyMjEwMiwtMTE5MDY4MjQ3NywxNTMy
+NjIwOTc1LC0xNDgwOTY0ODIsLTI2OTEwNjU2OCwtMTYyNTMyOT
+kzMSwxOTQ1OTkwNTU0XX0=
 -->
