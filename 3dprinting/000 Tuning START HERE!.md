@@ -27,17 +27,15 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 
 ### Per Filament Calibrations
 1. 1st layer Calibration
-2. Extruder/Extruder Stepper calibration (Only do Extrusion Multiplier)
-3. Stepper Calibration/XYZ Steps calibration (Skip this)
+2. Extruder/Extrusion Multiplier
 4. Stepper Calibration/Linear Advance Calibration
 5. Extruder/Extrusion Multiplier
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTUzNzk3OSwxNjI5OTE3NjIxLDE0Mj
-k0MDE0MSwxOTYxNjAwMjczLC00Mjg3MTg2OTAsLTEwODExOTY3
-ODUsMTExNzc4NjYwNiw1MjYxMDAzNjIsMTY0NjIwODQ5LC0xMT
-QwMTUzNSwtNzY5NDcyNzU3LC03MjkzNzQwNjQsNTEwNDcwMDYx
-LDgxOTY2MjIwNCw1OTY5NjUwODYsOTAxNDM3MDc2LDY1MDY2OT
-Q3OSwxMDAyNDQzMiwxNDc0ODA0MTI1LC02OTI4MDkwMDldfQ==
-
+eyJoaXN0b3J5IjpbNzQ4MTY1MjQ4LC0yMjk1Mzc5NzksMTYyOT
+kxNzYyMSwxNDI5NDAxNDEsMTk2MTYwMDI3MywtNDI4NzE4Njkw
+LC0xMDgxMTk2Nzg1LDExMTc3ODY2MDYsNTI2MTAwMzYyLDE2ND
+YyMDg0OSwtMTE0MDE1MzUsLTc2OTQ3Mjc1NywtNzI5Mzc0MDY0
+LDUxMDQ3MDA2MSw4MTk2NjIyMDQsNTk2OTY1MDg2LDkwMTQzNz
+A3Niw2NTA2Njk0NzksMTAwMjQ0MzIsMTQ3NDgwNDEyNV19
 -->
