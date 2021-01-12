@@ -29,10 +29,10 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 1. 1st layer Calibration
 2. Extruder/Extrusion Multiplier
 4. Stepper Calibration/Linear Advance Calibration
-5. 
+5. Retraction tuning https://teachingtechyt.github.io/calibration.html#retraction
 6. Temperature Calibration/Extruder Temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzYxNzcwLC0yMjk1Mzc5NzksMTYyOT
+eyJoaXN0b3J5IjpbMTc0MDg1NzI0LC0yMjk1Mzc5NzksMTYyOT
 kxNzYyMSwxNDI5NDAxNDEsMTk2MTYwMDI3MywtNDI4NzE4Njkw
 LC0xMDgxMTk2Nzg1LDExMTc3ODY2MDYsNTI2MTAwMzYyLDE2ND
 YyMDg0OSwtMTE0MDE1MzUsLTc2OTQ3Mjc1NywtNzI5Mzc0MDY0
