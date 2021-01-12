@@ -5,7 +5,8 @@
 	4. Try and apply similar pressure when measuring
 	5. Ideally you want to use a micrometer like a (Mitutoyo 102-301)
 2. Download this [calibration model](https://www.thingiverse.com/thing:3405991)
-3. Use theses settings in Prusa Slicer
+    Note: 
+4. Use theses settings in Prusa Slicer
 
 |Key|Value|Note|
 |--|--|--|
@@ -35,9 +36,9 @@
 
 6. adjust extrusion multiplier in slicer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTA1ODgxLDk5NDA3ODE0OSwtMTY5Nz
-IzNDE0LC03NzUxMjA0MTgsLTU2OTE2MTc2LC0xNzAwMjYzNzcz
-LC0xNTAwMTgzMDc2LC0xNTE5MDEwMDQ2LC04ODIyMjIxMDIsLT
-ExOTA2ODI0NzcsMTUzMjYyMDk3NSwtMTQ4MDk2NDgyLC0yNjkx
-MDY1NjgsLTE2MjUzMjk5MzEsMTk0NTk5MDU1NF19
+eyJoaXN0b3J5IjpbMTI4ODc5MzA0MCw5OTQwNzgxNDksLTE2OT
+cyMzQxNCwtNzc1MTIwNDE4LC01NjkxNjE3NiwtMTcwMDI2Mzc3
+MywtMTUwMDE4MzA3NiwtMTUxOTAxMDA0NiwtODgyMjIyMTAyLC
+0xMTkwNjgyNDc3LDE1MzI2MjA5NzUsLTE0ODA5NjQ4MiwtMjY5
+MTA2NTY4LC0xNjI1MzI5OTMxLDE5NDU5OTA1NTRdfQ==
 -->
