@@ -42,7 +42,7 @@ Edit the start gcode for the printer profile
 ## Tune your hotend
 Note: Hotend should should be at room temp before starting this  
 1. You will be testing a full range of temps
-   XXX = 180,190,210,220,230,240,250,260,270
+   XXX = 180,1,0,20,20,20,240,250,260,270
    
 4. Run the following gcode
 ```
@@ -84,11 +84,45 @@ Edit the start gcode for the printer profile
     ```
     Note: Replace the XXXs with our actual PID values that are output from the previous step
 
+## Tune your heatbed  
 
+2. You will be testing a full range bed temps
+   XXX = 55,65,75,85,95,105,115
+1. Run the following gcode
+```
+M303 E-1 S65 C8
+Recv:  Classic PID
+Recv:  Kp: 122.48
+Recv:  Ki: 7.31
+Recv:  Kd: 513.35
+```
+ This will heat the heat bed (E-1), and cycle around the target temperature 8 times (C8) at the given temperature (S65) ,65 C, and return values for P I and D
+  
+ 3. Add the results to your slicer config
+Edit the start gcode for the printer profile
+    ```
+    ```
+    {if bed_temperature[0]>=110 && bed_temperature[0]<120}
+    M304 PXXX IXXX DXXX
+    {elsif bed_temperature[0]>100}
+    M304 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>90}
+    M304 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>80}
+    M304 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>70}
+    M304 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>60}
+    M304 PXXX IXXX DXXX
+    {elsif first_layer_temperature[0]>50}
+    M304 PXXX IXXX DXXX
+    {endif}
+    ``` 
+      Note: Replace the XXXs with our actual PID values that are output from the previous step
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODk5NTc2LC0yMDg0MjY3OTU2LC05NT
-EwNzY1MiwtNDA1NTA0NzE0LC0yOTE5OTE0MTksMTAxMzU4MjM2
-MywtNDA0MjU1NTU0LDk5NjY2Njk1OCwtMTc1ODMyNDM3MSw3OT
-Y2NDM1MTIsLTY2MDEyNTU3NywxNjMwNDgzMTkxLDYzNjcxNDAx
-OSwtMTMwODI5NzAxNF19
+eyJoaXN0b3J5IjpbMTY0NjA1OTAsLTkxODk5NTc2LC0yMDg0Mj
+Y3OTU2LC05NTEwNzY1MiwtNDA1NTA0NzE0LC0yOTE5OTE0MTks
+MTAxMzU4MjM2MywtNDA0MjU1NTU0LDk5NjY2Njk1OCwtMTc1OD
+MyNDM3MSw3OTY2NDM1MTIsLTY2MDEyNTU3NywxNjMwNDgzMTkx
+LDYzNjcxNDAxOSwtMTMwODI5NzAxNF19
 -->
