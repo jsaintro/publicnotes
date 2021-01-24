@@ -1,9 +1,9 @@
 ## Checklist
 1. bontech gears free of plastic
-2. filament spool on holder
-3. no kinks in filament
-4. end of filament prepped for loading
-5. Check wiring (Frayed too tight/broken cable management
+. filament spool on holder
+. no kinks in filament
+. end of filament prepped for loading
+. Check wiring (Frayed too tight/broken cable management
 	6. Make sure wiring loom on back of hotend is tight! (MK3 design)
 6. Home all axis, especially z
 7. Do 1st layer calibration if this is a new filament
@@ -24,6 +24,7 @@ Note: Oil from last print/removal process can contaminate bed
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzg0MDY3NiwxMTA0OTEzNjE5LDE3Mz
-Y0MDQ2OTEsMjA0NjU1Njk4MCwtMjIzODAzNDcyXX0=
+eyJoaXN0b3J5IjpbMTQ4NTg3NDAzOCwxNzAzODQwNjc2LDExMD
+Q5MTM2MTksMTczNjQwNDY5MSwyMDQ2NTU2OTgwLC0yMjM4MDM0
+NzJdfQ==
 -->
