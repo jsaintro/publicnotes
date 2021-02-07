@@ -6,6 +6,8 @@
 ```
 
 2. Print current holding/running values
+3. M913
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjI3MzM1OSwxNTI1MzA4Mzc2XX0=
+eyJoaXN0b3J5IjpbNDE2NjE2MTgsMTUyNTMwODM3Nl19
 -->
