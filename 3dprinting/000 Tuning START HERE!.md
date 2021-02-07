@@ -12,6 +12,7 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 7. PRONTERFACE
 
 ### Initial printer calibration
+1. Go through the wizard t
 1. Steps calculators https://blog.prusaprinters.org/calculator_3416/ (Also other useful calculators)
 1. [See Teaching Tech's Frame Check](https://teachingtechyt.github.io/calibration.html#frame)
 2. Temperature Calibration/PID Tuning
@@ -32,10 +33,11 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 5. Retraction tuning https://teachingtechyt.github.io/calibration.html#retraction
 6. Follow this guide https://teachingtechyt.github.io/calibration.html#temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzgzOTkzNCwxNzQwODU3MjQsLTIyOT
-UzNzk3OSwxNjI5OTE3NjIxLDE0Mjk0MDE0MSwxOTYxNjAwMjcz
-LC00Mjg3MTg2OTAsLTEwODExOTY3ODUsMTExNzc4NjYwNiw1Mj
-YxMDAzNjIsMTY0NjIwODQ5LC0xMTQwMTUzNSwtNzY5NDcyNzU3
-LC03MjkzNzQwNjQsNTEwNDcwMDYxLDgxOTY2MjIwNCw1OTY5Nj
-UwODYsOTAxNDM3MDc2LDY1MDY2OTQ3OSwxMDAyNDQzMl19
+eyJoaXN0b3J5IjpbNTMwMDQ3OTU0LC04MTc4Mzk5MzQsMTc0MD
+g1NzI0LC0yMjk1Mzc5NzksMTYyOTkxNzYyMSwxNDI5NDAxNDEs
+MTk2MTYwMDI3MywtNDI4NzE4NjkwLC0xMDgxMTk2Nzg1LDExMT
+c3ODY2MDYsNTI2MTAwMzYyLDE2NDYyMDg0OSwtMTE0MDE1MzUs
+LTc2OTQ3Mjc1NywtNzI5Mzc0MDY0LDUxMDQ3MDA2MSw4MTk2Nj
+IyMDQsNTk2OTY1MDg2LDkwMTQzNzA3Niw2NTA2Njk0NzldfQ==
+
 -->
