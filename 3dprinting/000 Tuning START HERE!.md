@@ -15,7 +15,7 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 1. Go through the wizard to start with (Prusa FW only)
 2. Do [temperature calibration](https://help.prusa3d.com/en/article/temperature-calibration_133266) 
 	1. With enclosure door open
-	2. This takes forever!! Probably about 1 hour. 70c takes particularly long time.
+	2. This takes forever!! Probably about 1 hour. 70c takes particularly long time. Eventually with BLtouch or SuperPinda you won't need to do this.
 3. Steps calculators https://blog.prusaprinters.org/calculator_3416/ (Also other useful calculators)
 4. [See Teaching Tech's Frame Check](https://teachingtechyt.github.io/calibration.html#frame)
 5. Temperature Calibration/PID Tuning
@@ -36,11 +36,11 @@ Note: Try https://teachingtechyt.github.io/calibration.html calibration guide. L
 5. Retraction tuning https://teachingtechyt.github.io/calibration.html#retraction
 6. Follow this guide https://teachingtechyt.github.io/calibration.html#temp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDIxMTcwLDEwMzUzNjYyNzQsLTgxNz
-gzOTkzNCwxNzQwODU3MjQsLTIyOTUzNzk3OSwxNjI5OTE3NjIx
-LDE0Mjk0MDE0MSwxOTYxNjAwMjczLC00Mjg3MTg2OTAsLTEwOD
-ExOTY3ODUsMTExNzc4NjYwNiw1MjYxMDAzNjIsMTY0NjIwODQ5
-LC0xMTQwMTUzNSwtNzY5NDcyNzU3LC03MjkzNzQwNjQsNTEwND
-cwMDYxLDgxOTY2MjIwNCw1OTY5NjUwODYsOTAxNDM3MDc2XX0=
+eyJoaXN0b3J5IjpbMTExOTIyNDA4LC0yNjAyMTE3MCwxMDM1Mz
+Y2Mjc0LC04MTc4Mzk5MzQsMTc0MDg1NzI0LC0yMjk1Mzc5Nzks
+MTYyOTkxNzYyMSwxNDI5NDAxNDEsMTk2MTYwMDI3MywtNDI4Nz
+E4NjkwLC0xMDgxMTk2Nzg1LDExMTc3ODY2MDYsNTI2MTAwMzYy
+LDE2NDYyMDg0OSwtMTE0MDE1MzUsLTc2OTQ3Mjc1NywtNzI5Mz
+c0MDY0LDUxMDQ3MDA2MSw4MTk2NjIyMDQsNTk2OTY1MDg2XX0=
 
 -->
