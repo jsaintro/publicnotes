@@ -1,8 +1,14 @@
 # GIT
 ## Creating a branch
+### Create the branch in the local copy
 ```
 git checkout -b <<branchname>>
 ```
+Note this is the combination of `git branch` and `git checkout`
+### Commit to github
+```
+git push 
+
 ## Resync Branch with Master
 
 git checkout master
@@ -30,6 +36,6 @@ Host gitjsaintrocc
 Replace github.com with gitjsaintrocc
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTI3NDk5NjUsLTYyMzQ3ODI1LC0xMT
-A5MzE5NjAsMjgwMjM5NDExLDE5NjU4NzkwODldfQ==
+eyJoaXN0b3J5IjpbMTU1OTI2OTAzNywtNjIzNDc4MjUsLTExMD
+kzMTk2MCwyODAyMzk0MTEsMTk2NTg3OTA4OV19
 -->
