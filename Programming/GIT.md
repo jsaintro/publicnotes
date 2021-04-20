@@ -7,7 +7,7 @@ git checkout -b <<branchname>>
 Note this is the combination of `git branch` and `git checkout`
 ### Commit to github
 ```
-git push 
+git push -u origin <<branchname>>
 
 ## Resync Branch with Master
 
@@ -36,6 +36,6 @@ Host gitjsaintrocc
 Replace github.com with gitjsaintrocc
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTI2OTAzNywtNjIzNDc4MjUsLTExMD
-kzMTk2MCwyODAyMzk0MTEsMTk2NTg3OTA4OV19
+eyJoaXN0b3J5IjpbNTU1NjM0NTkwLC02MjM0NzgyNSwtMTEwOT
+MxOTYwLDI4MDIzOTQxMSwxOTY1ODc5MDg5XX0=
 -->
