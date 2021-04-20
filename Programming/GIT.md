@@ -1,4 +1,8 @@
 # GIT
+## Creating a branch
+```
+git checkout -b <<branchname>>
+```
 ## Resync Branch with Master
 
 git checkout master
@@ -26,6 +30,6 @@ Host gitjsaintrocc
 Replace github.com with gitjsaintrocc
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzQ3ODI1LC0xMTA5MzE5NjAsMjgwMj
-M5NDExLDE5NjU4NzkwODldfQ==
+eyJoaXN0b3J5IjpbLTIwOTI3NDk5NjUsLTYyMzQ3ODI1LC0xMT
+A5MzE5NjAsMjgwMjM5NDExLDE5NjU4NzkwODldfQ==
 -->
